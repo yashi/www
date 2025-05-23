@@ -2,3 +2,6 @@
 
 # Quick Start:
 ## Run ```zola serve``` 
+
+## Credits
+Inspired by Zola and the [Duckquill](https://www.getzola.org/themes/duckquill/) template.
