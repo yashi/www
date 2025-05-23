@@ -1,0 +1,42 @@
+.section-title-block {
+  background-size: cover;
+  background-position: center;
+  padding: 4em 2rem;
+  margin-bottom: -20rem;
+  position: relative;
+  z-index: 1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em; 
+}
+
+.section-title-content {
+  text-align: left;
+  max-width: 800px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-title-content h1 {
+  color: white;
+  margin: 0;
+}
+
+.section-title-content h3 {
+  color: rgb(190, 190, 190);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.section-title-content p {
+  color: rgb(190, 190, 190);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.section-title-divider {
+  background-color: orange;
+  height: 3px;
+  width: 20%;
+  margin-top: 1em;
+}

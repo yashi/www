@@ -1,0 +1,64 @@
+base_url = "spacecubics.com"
+title = "Space Cubics"
+description = "Drinking beer on the moon."
+default_language = "ja"
+
+compile_sass = true
+minify_html = true
+build_search_index = false
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+
+smart_punctuation = true
+bottom_footnotes = true
+
+[languages.en]
+title = "SpaceCubics"
+description = "English site"
+
+[extra]
+default_theme = "dark"
+accent_color = "#ff7800"
+accent_color_dark = "#ffa348"   
+
+show_copy_button = true
+show_reading_time = true
+show_share_button = true
+show_backlinks = true
+
+contact_url = "contact"
+source_url = "https://github.com/spacecubics/www"
+
+csp = [
+    { directive = "font-src", domains = ["'self'"] },
+    { directive = "img-src", domains = ["'self'", "https:", "data:"] },
+    { directive = "media-src", domains = ["'self'", "https:"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'", "'unsafe-inline'"] },
+    { directive = "frame-src", domains = ["https://player.vimeo.com", "https://www.youtube-nocookie.com", "https://toot.community"] },
+    { directive = "connect-src", domains = ["https://toot.community"] },
+    { directive = "base-uri", domains = ["'none'"] },
+    { directive = "form-action", domains = ["'none'"] }
+]
+
+[extra.nav]
+show_feed = true
+show_repo = true
+auto_hide = false
+links = [
+    { url = "@/about_us/_index.md", name = "About us" },
+    { url = "@/products/_index.md", name = "Products" },
+    { url = "@/news/_index.md", name = "News" },
+    { url = "@/recruit/_index.md", name = "Recruit" }
+]
+
+[extra.footer]
+socials = [
+    { url = "https://github.com/spacecubics", name = "GitHub", icon = "..." },
+    { url = "https://www.linkedin.com/company/spacecubics", name = "Linkedin", icon = "..." },
+    { url = "https://www.youtube.com/channel/UCcTXF6z-D5B2xkDamlPzSzg", name = "YouTube", icon = "..." },
+    { url = "https://x.com/SpaceCubics", name = "X", icon = "..." }
+]
+show_source = false

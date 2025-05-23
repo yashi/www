@@ -1,0 +1,39 @@
+<div class="section" style="background: {{ bg | default(value="transparent") }};">
+  <div class="columns">
+    <!-- Left Card -->
+    <div class="column">
+      <div class="two-card left-card" style="background-image: url('{{ left_card_image }}');">
+        <div class="card-content">
+          <h2 class="card-header">{{ left_title }}</h2>
+          <p class="card-subheader">{{ left_subtitle }}</p>
+          <div class="divider-bar"></div>
+        </div>
+        <div class="card-footer-text">
+          <p>{{ left_footer_1 }}</p>
+          <p>{{ left_footer_2 }}</p>
+        </div>
+        <div class="btn-container">
+          <a href="{{ left_link }}" class="circle-btn" aria-label="{{ left_title }} link"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Card -->
+    <div class="column">
+      <div class="two-card right-card" style="background-image: url('{{ right_card_image }}');">
+        <div class="card-content">
+          <h2 class="card-header">{{ right_title }}</h2>
+          <p class="card-subheader">{{ right_subtitle }}</p>
+          <div class="divider-bar"></div>
+        </div>
+        <div class="card-footer-text">
+          <p>{{ right_footer_1 }}</p>
+          <p>{{ right_footer_2 }}</p>
+        </div>
+        <div class="btn-container">
+          <a href="{{ right_link }}" class="circle-btn" aria-label="{{ right_title }} link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

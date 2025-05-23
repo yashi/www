@@ -1,0 +1,88 @@
+.unique-threecard-section {
+  background-color: transparent !important;
+  padding: 3rem;
+  position: relative;
+}
+
+.unique-threecard-section__header-text {
+  background-color: transparent !important;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.unique-threecard-section__header-text__main-title,
+.unique-threecard-section__header-text__main-subtitle {
+  background-color: transparent !important;
+  padding: 2rem;
+}
+
+.unique-threecard-section__header-text__main-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em; 
+}
+
+.unique-threecard-section__header-text__main-subtitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em; 
+}
+
+.unique-threecard-section__columns {
+  display: flex;
+  gap: 3rem;
+  align-items: stretch;
+}
+
+.unique-threecard-section__columns__column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.unique-threecard-section__columns__card-left,
+.unique-threecard-section__columns__card-middle,
+.unique-threecard-section__columns__card-right {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+.unique-threecard-section__columns__card-left__content,
+.unique-threecard-section__columns__card-middle__content,
+.unique-threecard-section__columns__card-right__content {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em; 
+}
+
+.unique-threecard-section__columns__card-left__content h2,
+.unique-threecard-section__columns__card-middle__content h2,
+.unique-threecard-section__columns__card-right__content h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em; 
+  text-align: center;
+}
+
+.unique-threecard-section__columns__card-left__content p,
+.unique-threecard-section__columns__card-middle__content p,
+.unique-threecard-section__columns__card-right__content p,
+.unique-threecard-section__columns__card-left__content div,
+.unique-threecard-section__columns__card-middle__content div,
+.unique-threecard-section__columns__card-right__content div {
+  color: white;
+  opacity: 0.85;
+  line-height: 1.2;
+  white-space: pre-line;
+  text-align: center;
+}

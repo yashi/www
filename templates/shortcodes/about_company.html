@@ -1,0 +1,21 @@
+<div class="about-company-block" style="background-image: url('/{{ bg }}'); background-size: cover; padding: 2rem; color: white;">
+  <div class="about-company-left">
+    {% if title %}
+      <h2 class="about-company-left__title">{{ title }}</h2>
+    {% endif %}
+    {% if subtitle %}
+      <p class="about-company-left__subtitle">{{ subtitle }}</p>
+    {% endif %}
+    <div class="about-company-left__divider"></div>
+  </div>
+
+  <div class="about-company-right">
+    {% set lines = body | split(pat="\n") %}
+    {% for line in lines %}
+      <div class="about-company-right-line">
+        <p>{{ line }}</p>
+        <div class="about-company-divider-bar"></div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
