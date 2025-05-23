@@ -5,12 +5,12 @@
 
 ## Downlaod the source repo
 ```bash
-    git clone https://github.com/spacecubics/www.git
-    cd www
+git clone https://github.com/spacecubics/www.git
+cd www
 ```
 ## Build site and serve locally
 ```bash
-    zola serve
+zola serve
 ```
 
 ## 🚧 Under Construction 🚧
