@@ -2,8 +2,16 @@
 
 
 # Quick Start:
-## Run ```zola serve``` 
 
+## Downlaod the source repo
+```bash
+    git clone https://github.com/spacecubics/www.git
+    cd www
+```
+## Build site and serve locally
+```bash
+    zola serve
+```
 
 ## 🚧 Under Construction 🚧
 
