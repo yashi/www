@@ -5,7 +5,7 @@ title = ""
 
 {% threecard(
   title="Space Cubics は...",
-  subtitle="低価格な宇宙用コンピュータと宇宙開発に関するトータルサポートを提供することで、宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します",
+  subtitle="低価格な宇宙用コンピュータと宇宙開発に関するトータルサポートを提供することで、<br><br>宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。",
   left_card_image="dark_earth.png",
   middle_card_image="Mars_solis_lacus.PNG",
   right_card_image="Messier.jpeg",
