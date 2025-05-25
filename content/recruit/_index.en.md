@@ -4,10 +4,12 @@ sort_by = "date"
 template = "recruit_list.html"
 +++
 
-english 
-一緒に働くメンバーを常に募集しています。少しでもご興味のある方はアプリケーションフォームからご連絡下さい。
-Space Cubics は、宇宙とコンピューターの仕事を通じて出会ったエンジニア達が作った会社です。エンジニアリングを心から楽しみ、より過酷で極限の環境である宇宙でも使えるコンピュータを設計、開発しています。
+We are always looking for team members to work with us. If you have even the slightest interest, please contact us through the application form.
 
-ある人は宇宙に詳しく、ある人はコンピューターアーキテクチャやロジック、またある人はソフトウェア開発が得意だったりと、自分の領域には絶対の自信がある人達です。しかし、どうしても1人では達成できない問題が山程あり、その問題に取り組むために、信頼できる仲間と一緒に問題解決に日々取り組んでいます。そこには、だれが偉くてだれが部下だという気持ちは無く、唯一無二の仲間達がいるからこそ、達成しえる、日々研鑽できるという思いだけがあります。
+Space Cubics was founded by engineers who met through their shared passion for space and computing. We genuinely enjoy engineering and design and develop computers that can operate in the harsh and extreme environment of space.
 
-今の Space Cubics はまだまだ小さくて、大きな仕事を自分達だけで完結できる力がありません。コンピューター、通信、推進、構造、熱流体、システムエンジニアリングなど、宇宙機を設計、製造、販売する事に興味がある人、地上で動くコンピューターなど普通すぎてツマラナク感じている人や、色々な理由で思い通りのモノが作ることが出来ていない人は、ご連絡ください。他人の仕事にケチばかり付けて代替案を提案できない人、他人を貶める人は、たとえ優秀でもご遠慮ください。 
+Some of us are experts in space, others excel in computer architecture and logic, and some are skilled in software development — each confident in their own domain. However, many challenges cannot be solved alone. That’s why we tackle these problems daily with trusted colleagues. Here, there is no hierarchy or boss-subordinate relationship; we are a unique group of peers driven by a shared commitment to achievement and continuous improvement.
+
+Space Cubics is still a small company and does not yet have the capacity to complete large projects on our own. If you are interested in designing, manufacturing, and selling spacecraft—whether in computing, communications, propulsion, structures, thermal fluids, or systems engineering—or if you find working with conventional computers on the ground mundane or have struggled to create what you truly want for various reasons, please reach out to us.
+
+However, if you tend to criticize others’ work without offering alternatives or if you demean others, even if you are talented, please refrain from applying.
