@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "Space Cubics"
 +++
 
 {% splash() %}
