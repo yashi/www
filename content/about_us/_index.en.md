@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "About us"
 +++
 
 {% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="", slogan="私たちについて") %}
