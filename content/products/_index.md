@@ -54,7 +54,7 @@ SC-OBC Module A1が組み込まれた人工衛星。
 {% end %}
 
 {% twocard(
-  left_card_image="earth.png", 
+  left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 
   left_title="RECRUIT",
