@@ -7,7 +7,10 @@ title = "About us"
 {% end %}
 
 {% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="about.png") %}
-誰もが月に行ける時代
+私たちspace cubicsは <br>
+「誰もが月に行ける時代」を目指し、<br>
+安価で信頼性の高い宇宙用コンピュータを開発する<br>
+JAXAのベンチャーです。
 {% end %}
 
 {% threecard(
