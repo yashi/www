@@ -2,7 +2,6 @@
 title = "Products"
 +++
 
-
 {% threecard(
   title="What Space Cubics Offers...",
   subtitle="By providing affordable space-grade computers and comprehensive support for space development,
@@ -15,7 +14,7 @@ title = "Products"
   right_card_image="Messier.jpeg",
   left_card_title="Cost Reduction & Reliability",
   left_card_subtitle="In spacecraft development, limited budgets often lead to the use of inexpensive general-purpose computers. 
-  
+
   However, these may lack the reliability needed to function in the highly radioactive space environment.
   
   <br><br>
