@@ -23,9 +23,9 @@
     .footer-logo {
 		flex-shrink: 0;
 		display: flex;
-		flex-direction: column; /* stack children vertically */
+		flex-direction: column; 
 		justify-content: center;
-		align-items: flex-start; /* align to the left under logo */
+		align-items: flex-start; 
 		margin-right: auto;
 		padding-left: 7rem;
 		gap: 1rem;

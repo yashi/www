@@ -58,7 +58,7 @@ TEL｜050-7112-6213
 {% end %}
 
 {% twocard(
-  left_card_image="earth.png", 
+  left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 
   left_title="RECRUIT",
