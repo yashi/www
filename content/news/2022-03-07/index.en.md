@@ -5,6 +5,6 @@ date = 2022-03-07
 banner = "products_banner2.jpeg"
 +++
 
-弊社の製品と活動について、日刊工業新聞社の「ニュースイッチ」にディープテック特集記事として掲載されました。
+### Our products and activities were featured in a deep tech special article by Newswitch, published by The Nikkan Kogyo Shimbun.
 
-[article link](https://newswitch.jp/p/31131)
+## [article link](https://newswitch.jp/p/31131)

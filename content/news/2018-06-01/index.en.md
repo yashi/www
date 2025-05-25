@@ -5,8 +5,6 @@ date = 2018-06-01
 banner = "products_banner2.jpeg"
 +++
 
-合同会社Space Cubicsを設立。JAXA職員と民間企業出身のメンバーで共同設立した初めてのJAXAベンチャー企業となります。 
-
-
+### Space Cubics LLC was established as the first JAXA venture company, founded jointly by JAXA employees and members of the private sector.
 
 

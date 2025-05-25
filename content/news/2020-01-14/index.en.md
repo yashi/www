@@ -5,7 +5,8 @@ date = 2020-01-14
 banner = "products_banner2.jpeg"
 +++
 
-日本を代表する技術系ベンチャーとして「J-TECH STARTUP 2019」に認定されました。2020年2月26日（水）に開催される認定式に登壇予定です。
-[article link](https://www.tepweb.jp/event/j-techstartup2019/)  
+### We were recognized as one of Japan’s leading technology startups through the 'J-TECH STARTUP 2019' program. We are scheduled to appear at the certification ceremony on Wednesday, February 26, 2020.
+
+## [article link](https://www.tepweb.jp/event/j-techstartup2019/)  
 
 
