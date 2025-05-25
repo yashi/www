@@ -1,5 +1,5 @@
 +++
-title = "SPACE CUBICS の 最新情報"
+title = "Space Cubics の 最新情報"
 sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"
