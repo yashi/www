@@ -15,7 +15,10 @@ title = "Space Cubics"
 {% end %}
 
 {% twocol(title="SC-OBC Module A1", img="product1.png", alt="Diagram", link="products", link_text="Read More", img_link="product1.png", bg="") %}
-Space Computer Modules <br>
+Space Computer Modules 
+
+<br>
+
 for Small Satellites
 {% end %}
 
@@ -24,9 +27,18 @@ for Small Satellites
 {% end %}
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-At Space Cubics,<br>
-we aim to make space travel accessible to everyone,<br>
-by developing affordable and reliable space computers.<br>
+At Space Cubics,
+
+<br>
+
+we aim to make space travel accessible to everyone,
+
+<br>
+
+by developing affordable and reliable space computers.
+
+<br>
+
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="PARTNERS", subtitle="Our mission is to support", slogan="SPACE COMPUTING") %}
@@ -34,10 +46,18 @@ by developing affordable and reliable space computers.<br>
 {% end %}
 
 {% twocol(title="", img="partners.png", alt="Diagram", link="https://sii.or.jp/space02/decision.html", link_text="Read More", img_link="partners.png", bg="") %}
-We are proud to partner with ventures<br>
-leading the way in space and technological innovation.<br>
+We are proud to partner with ventures
+
 <br>
-By working with companies that pioneer breakthrough ideas,<br>
+
+leading the way in space and technological innovation.
+
+<br><br>
+
+By working with companies that pioneer breakthrough ideas,
+
+<br>
+
 we aim to foster sustainable growth together.
 {% end %}
 
@@ -46,8 +66,14 @@ we aim to foster sustainable growth together.
 {% end %}
 
 {% twocol(title="", img="", alt="", link="news", link_text="Read More", img_link="", bg="bw_pcb.jpg") %}
-Bringing you the latest in space computing.<br>
-Our team is dedicated to advancing the technologies<br>
+Bringing you the latest in space computing.
+
+<br>
+
+Our team is dedicated to advancing the technologies
+
+<br>
+
 that power space exploration.
 {% end %}
 

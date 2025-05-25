@@ -5,26 +5,156 @@ title = "About us"
 
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-At Space Cubics,<br>
-we aim to make space travel accessible to everyone,<br>
-by developing affordable and reliable space computers.<br>
+At Space Cubics,
+
+<br>
+
+we aim to make space travel accessible to everyone,
+
+<br>
+
+by developing affordable and reliable space computers.
+
+<br>
 {% end %}
 
 {% threecard(
   title="To drink beer on the moon.",
-  subtitle="We are Space Cubics, a JAXA-affiliated venture<br><br>developing affordable and reliable space computers<br><br>with the goal of making space travel to the Moon accessible to all.",
+
+  subtitle="We are Space Cubics, a JAXA-affiliated venture
+  
+  <br><br>
+  
+  developing affordable and reliable space computers
+  
+  <br><br>
+  
+  with the goal of making space travel to the Moon accessible to all.",
+
   left_card_image="dark_earth.png",
   middle_card_image="Mars_solis_lacus.PNG",
   right_card_image="Messier.jpeg",
   left_card_title="More Affordable",
-  left_card_subtitle="Compared to terrestrial devices,<br><br>space-grade equipment requires not only high performance,<br><br>but also stringent safety and reliability testing,<br><br>which makes development costs extremely high.<br><br><br><br>At Space Cubics,<br><br>we combine the expertise of engineers<br><br>with experience designing commercial computers<br><br>that have proven track records in space,<br><br>with JAXA engineers who bring extensive design validation know-how.<br><br>As a 'JAXA Venture', we provide<br><br>highly reliable space computers at an affordable cost.",
+  
+  left_card_subtitle="Compared to terrestrial devices,
+  
+  <br><br>
+  
+  space-grade equipment requires not only high performance,
+  
+  <br><br>
+  
+  but also stringent safety and reliability testing,
+  
+  <br><br>
+  
+  which makes development costs extremely high.
+  
+  <br><br><br><br>
+  
+  At Space Cubics,
+  
+  <br><br>
+  
+  we combine the expertise of engineers
+  
+  <br><br>
+  
+  with experience designing commercial computers
+  
+  <br><br>
+  
+  that have proven track records in space,
+  
+  <br><br>
+  
+  with JAXA engineers who bring extensive design validation know-how.
+  
+  <br><br>
+  
+  As a 'JAXA Venture', we provide
+  
+  <br><br>
+  
+  highly reliable space computers at an affordable cost.",
   middle_card_title="More Accessible",
-  middle_card_subtitle="Even with excellent technology,<br><br>space development is not easy<br><br>for companies and organizations without prior experience.<br><br><br><br>Many have an interest in space<br><br>but don’t know where to start,<br><br>and often give up during the planning stage.<br><br><br><br>Space Cubics provides end-to-end support<br><br>to help companies and organizations interested in space<br><br>easily enter the field of space development.",
+
+  middle_card_subtitle="Even with excellent technology,
+  
+  <br><br>
+  
+  space development is not easy
+  
+  <br><br>
+  
+  for companies and organizations without prior experience.
+  
+  <br><br><br><br>
+  
+  Many have an interest in space
+  
+  <br><br>
+  
+  but don’t know where to start,
+  
+  <br><br>
+  
+  and often give up during the planning stage.
+  
+  <br><br><br><br>
+  
+  Space Cubics provides end-to-end support
+  
+  <br><br>
+  
+  to help companies and organizations interested in space
+  
+  <br><br>
+  
+  easily enter the field of space development.",
   right_card_title="Space for Everyone",
-  right_card_subtitle="By offering affordable space-grade equipment<br><br>and comprehensive support,<br><br>Space Cubics lowers the barrier to entering space development<br><br>and contributes to the growth of the private space industry,<br><br>not only in Japan but throughout Asia.<br><br><br><br>With more companies, organizations, and even individuals<br><br>participating in space development,<br><br>the demand for space will expand dramatically,<br><br>giving rise to new industries.<br><br>That is the founding vision of Space Cubics.",
+
+  right_card_subtitle="By offering affordable space-grade equipment
+  
+  <br><br>
+  
+  and comprehensive support,
+  
+  <br><br>
+  
+  Space Cubics lowers the barrier to entering space development
+  
+  <br><br>
+  
+  and contributes to the growth of the private space industry,
+  
+  <br><br>
+  
+  not only in Japan but throughout Asia.
+  
+  <br><br><br><br>
+  
+  With more companies, organizations, and even individuals
+  
+  <br><br>
+  
+  participating in space development,
+  
+  <br><br>
+  
+  the demand for space will expand dramatically,
+  
+  <br><br>
+  
+  giving rise to new industries.
+  
+  <br><br>
+  
+  That is the founding vision of Space Cubics.",
   left_card_subtitle_style="font-size: 30px;",
   middle_card_subtitle_style="font-size: 30px;",
   right_card_subtitle_style="font-size: 30px;",
+
   bg=""
 ) %}
 ~render~

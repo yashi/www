@@ -6,5 +6,5 @@ page_template = "article.html"
 paginate_by = 8
 +++
 
-englishスペースキュービクスの最新情報をお届けします。
-宇宙コンピューティングの進歩から、戦略的パートナーシップやミッションのマイルストーンまで、このページは会社のニュースや技術的進歩の信頼できる情報源として役立ちます。
+Stay updated with the latest from Space Cubics.
+From advances in space computing to strategic partnerships and mission milestones, this page serves as your trusted source for company news and technological progress.

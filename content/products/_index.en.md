@@ -4,17 +4,58 @@ title = "Products"
 
 
 {% threecard(
-  title="Space Cubics は...",
-  subtitle="低価格な宇宙用コンピュータと宇宙開発に関するトータルサポートを提供することで、 english<br><br>宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。",
+  title="What Space Cubics Offers...",
+  subtitle="By providing affordable space-grade computers and comprehensive support for space development,
+  
+  <br><br>
+  
+  we make entering the space industry more accessible and contribute to the growth of private space enterprises, particularly in Japan and across Asia.",
   left_card_image="dark_earth.png",
   middle_card_image="Mars_solis_lacus.PNG",
   right_card_image="Messier.jpeg",
-  left_card_title="コスト削減と信頼性",
-  left_card_subtitle="宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません<br><br>信頼性を高めるためには、放射線耐性が高い部品が搭載されたコンピュータを採用する選択肢がありますが、これらの製品は高価格であり、かつ製品を購入するだけでは宇宙でのミッションで起こる全てのトラブルを解決できるわけではありません。<br><br>Space Cubicsは、低コストでありながら、宇宙機器に必要な高い信頼性を持つ製品を提供します。",
-  middle_card_title="耐障害性",
-  middle_card_subtitle="一般に、ほとんどの高信頼性コンピュータには耐障害性機能が標準で備わっていません。<br><br>たとえ放射線耐性が高い部品が搭載されているコンピュータでも、強い放射線によって引き起こされる障害（記憶されているデータが化けてしまうなど）が起こることがあります。<br><br> 宇宙機器の場合、ハードウェアに障害が発生しても部品交換はできず、またソフトウェアの問題でも地上から復旧は困難です。<br><br> Space Cubicsの製品は障害は必ず起こるものだという前提のもと、障害からの速やかな復旧が重要だという考えに基づき、多くの耐障害性機能を備えています。<br><br> 例えば、コンピュータを複数台同時に稼働・連携することで冗長性を持たせたり、データ異常が発生することを想定して同じデータを複数個所に保存し、多数決でデータの正当性を判定する機能を備えているので、障害が発生したコンピュータやデータを自動で復旧することができます。<br><br>",
-  right_card_title="使いやすさ",
-  right_card_subtitle="Space Cubicsの製品の最も良いところは、ユーザーがミッションに必要な機能の開発だけに専念することができることです。<br><br>我々の製品には、耐障害性機能以外にも、宇宙機器でよく使用されるミドルウェアやプロトコル(ISS互換ネットワークプロトコル、TTEthernet、cFSなど)や、宇宙以外の分野でよく使われているROS(Robot Operating System)などもサポートします。<br><br>また、ソフトウェアやハードウェア(CPUボード、FPGA)のカスタム開発やコンサルティングも承ります。",
+  left_card_title="Cost Reduction & Reliability",
+  left_card_subtitle="In spacecraft development, limited budgets often lead to the use of inexpensive general-purpose computers. 
+  
+  However, these may lack the reliability needed to function in the highly radioactive space environment.
+  
+  <br><br>
+  
+  To improve reliability, one option is to use computers with radiation-hardened components, but such systems are expensive—and simply purchasing them does not guarantee a trouble-free mission.
+  
+  <br><br>
+  
+  Space Cubics offers products that combine low cost with the high reliability required for space equipment.",
+  
+  middle_card_title="Fault Tolerance",
+  middle_card_subtitle="Most high-reliability computers do not come standard with fault-tolerance features.
+  
+  <br><br>
+  
+  Even if a computer is built with radiation-resistant components, strong radiation can still cause issues like data corruption.
+  
+  <br><br>
+  
+  In spacecraft, hardware failures can't be fixed by replacing parts, and even software issues are difficult to recover from remotely.
+  
+  <br><br>
+  
+  Space Cubics assumes that failures will occur and focuses on fast recovery, equipping our products with many fault-tolerant features.
+  
+  <br><br>
+  
+  For example, our systems can run multiple computers in parallel for redundancy, or store duplicate copies of critical data and use majority voting to determine correctness—automatically recovering from hardware or data faults.",
+
+  right_card_title="Ease of Use",
+  right_card_subtitle="What sets Space Cubics products apart is that users can focus solely on developing mission-specific functionality.
+  
+  <br><br>
+  
+  Beyond fault tolerance, our products also support commonly used middleware and protocols in space applications (such as ISS-compatible network protocols, TTEthernet, and cFS), as well as widely used frameworks outside the space industry like ROS (Robot Operating System).
+  
+  <br><br>
+  
+  We also offer custom development and consulting for both software and hardware (CPU boards, FPGA).",
+
   left_card_subtitle_style="font-size: 30px;",
   middle_card_subtitle_style="font-size: 30px;",
   right_card_subtitle_style="font-size: 30px;",
@@ -23,34 +64,60 @@ title = "Products"
 ~render~
 {% end %}
 
+
 {% section_title(bg="", title="Onboard Computer", subtitle="(OBC)", slogan="Command & Data Handling") %}
 ~render~
 {% end %}
 
-{% twocol(title="SC-OBC Module A1", img="sc_obcpic.png", alt="Diagram", link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", link_text="Read More", img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", bg="") %}
-<br> <br> 
-JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。
-<br> <br> 
-Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
-<br> 
+{% twocol(
+  title="SC-OBC Module A1",
+  img="sc_obcpic.png",
+  alt="Diagram",
+  link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  link_text="Read More",
+  img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  bg=""
+) %}
+
+<br><br>
+
+This is a space-grade computer optimized for CubeSats, based on the reliability design technologies developed by JAXA for the International Space Station.
+
+<br><br>
+
+It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
+It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
+
+<br>
+
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="使用例", subtitle="Current projects", slogan="") %}
+{% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
 ~render~
 {% end %}
 
 {% twocol(title="", img="ex_img_1.webp", alt="", link="", link_text="", img_link="", bg="") %}
-弊社人工衛星に搭載するため、<br>
-PC104形状に合わせたインタフェースボードの上に
+To be mounted on our company’s satellite,
+
 <br>
-SC-OBC Module A1を搭載した形態。
+
+the SC-OBC Module A1 is installed
+
+<br>
+
+on an interface board shaped to fit the PC104 form factor.
 {% end %}
 
 {% twocol(title="", img="ex_img_2.png", alt="", link="", link_text="", img_link="", bg="") %}
-インタフェースボードに搭載した
+A satellite integrating the
+
 <br>
-SC-OBC Module A1が組み込まれた人工衛星。
-<br>（写真は開発中のもの）
+
+SC-OBC Module A1 mounted on the interface board.
+
+<br>
+
+(Photo shows a prototype under development)
 {% end %}
 
 {% twocard(
@@ -58,15 +125,15 @@ SC-OBC Module A1が組み込まれた人工衛星。
   right_card_image="ide.webp",
 
   left_title="RECRUIT",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
+  left_subtitle="Career opportunities",
+  left_footer_1="We are always looking for new members to join our team.",
+  left_footer_2="Take a look at our open positions.",
   left_link="/recruit",
 
   right_title="CONTACT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
+  right_subtitle="Make an inquiry",
+  right_footer_1="Please feel free to contact us.",
+  right_footer_2="We will try to get back to you promptly.",
   right_link="/contact",
 
   bg=""
