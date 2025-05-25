@@ -2,10 +2,6 @@
 title = "About us"
 +++
 
-{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="", slogan="私たちについて") %}
-~render~
-{% end %}
-
 {% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="about.png") %}
 私たちspace cubicsは <br>
 「誰もが月に行ける時代」を目指し、<br>

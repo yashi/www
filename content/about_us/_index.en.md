@@ -2,29 +2,26 @@
 title = "About us"
 +++
 
-{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="", slogan="私たちについて") %}
-~render~
-{% end %}
 
-{% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="about.png") %}
-私たちspace cubicsは <br>
-「誰もが月に行ける時代」を目指し、<br>
-安価で信頼性の高い宇宙用コンピュータを開発する<br>
-JAXAのベンチャーです。
+
+{% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
+At Space Cubics,<br>
+we aim to make space travel accessible to everyone,<br>
+by developing affordable and reliable space computers.<br>
 {% end %}
 
 {% threecard(
   title="To drink beer on the moon.",
-  subtitle="私たちspace cubicsは「誰もが月に行ける時代」を目指し,<br><br>安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。",
+  subtitle="We are Space Cubics, a JAXA-affiliated venture<br><br>developing affordable and reliable space computers<br><br>with the goal of making space travel to the Moon accessible to all.",
   left_card_image="dark_earth.png",
   middle_card_image="Mars_solis_lacus.PNG",
   right_card_image="Messier.jpeg",
-  left_card_title="もっと安く",
-  left_card_subtitle="宇宙用の機器は地上用に比べて、<br><br>性能に加えて安全性や<br><br>信頼性検証などの要求事項が多く、<br><br>適合させるための開発コストが非常に高くなります。<br><br><br><br>Space Cubicsは、<br><br>これまで多くの宇宙での使用実績のある<br><br>民生コンピューターの設計者と、<br><br>宇宙開発の経験から培った<br><br>多くの設計検証ノウハウを持つ<br><br>JAXAエンジニアがタッグを組み、<br><br>「JAXAベンチャー」として信頼性の高い<br><br>宇宙用コンピューターを安価に提供します。",
-  middle_card_title="もっと手軽に",
-  middle_card_subtitle="たとえ優れた技術があったとしても、<br><br>宇宙開発の経験がない企業・団体にとって<br><br>宇宙開発は簡単なものではありません。<br><br><br><br>宇宙開発に興味はあっても、<br><br>どこから手を付けて良いのか分からず、<br><br>企画段階で頓挫してしまうケースが<br><br>多く見受けられます。<br><br><br><br>Space Cubicsは、<br><br>宇宙に興味のある企業・団体が<br><br>手軽に宇宙開発に参入できるように<br><br>宇宙開発のトータルサポートを提供します。",
-  right_card_title="誰でも宇宙へ",
-  right_card_subtitle="Space Cubicsは低価格な宇宙用の機器と<br><br>トータルサポートを提供することで、<br><br>宇宙開発への参入を手軽にし、<br><br>日本はもとよりアジアを中心とした<br><br>民間の宇宙産業発展に貢献します。<br><br><br><br>多くの企業や団体そして個人までも<br><br>が宇宙開発に参入することにより、<br><br>宇宙に対するニーズが飛躍的に拡大して<br><br>新たな産業が生まれ育っていくこと、<br><br>それがSpace Cubicsの設立目的です。",
+  left_card_title="More Affordable",
+  left_card_subtitle="Compared to terrestrial devices,<br><br>space-grade equipment requires not only high performance,<br><br>but also stringent safety and reliability testing,<br><br>which makes development costs extremely high.<br><br><br><br>At Space Cubics,<br><br>we combine the expertise of engineers<br><br>with experience designing commercial computers<br><br>that have proven track records in space,<br><br>with JAXA engineers who bring extensive design validation know-how.<br><br>As a 'JAXA Venture', we provide<br><br>highly reliable space computers at an affordable cost.",
+  middle_card_title="More Accessible",
+  middle_card_subtitle="Even with excellent technology,<br><br>space development is not easy<br><br>for companies and organizations without prior experience.<br><br><br><br>Many have an interest in space<br><br>but don’t know where to start,<br><br>and often give up during the planning stage.<br><br><br><br>Space Cubics provides end-to-end support<br><br>to help companies and organizations interested in space<br><br>easily enter the field of space development.",
+  right_card_title="Space for Everyone",
+  right_card_subtitle="By offering affordable space-grade equipment<br><br>and comprehensive support,<br><br>Space Cubics lowers the barrier to entering space development<br><br>and contributes to the growth of the private space industry,<br><br>not only in Japan but throughout Asia.<br><br><br><br>With more companies, organizations, and even individuals<br><br>participating in space development,<br><br>the demand for space will expand dramatically,<br><br>giving rise to new industries.<br><br>That is the founding vision of Space Cubics.",
   left_card_subtitle_style="font-size: 30px;",
   middle_card_subtitle_style="font-size: 30px;",
   right_card_subtitle_style="font-size: 30px;",
@@ -37,27 +34,28 @@ JAXAのベンチャーです。
   title="COMPANY",
   subtitle="Space Cubics Overview",
   link="/space",
-  link_text="詳細を見る",
+  link_text="See Details",
   bg="images/space-bg.jpg"
 ) %}
-company name｜合同会社Space Cubics
-設立｜2018年
-資本金｜百億円  
-代表者｜荘司 靖 (Yasushi Shoji) 
-住所｜〒060-0053 北海道札幌市中央区南3条東2丁目1番地 ベンチャースクエア301 
-TEL｜050-7112-6213 
+Company Name｜Space Cubics LLC  
+Established｜2018  
+Capital｜10 billion yen  
+Representative｜Yasushi Shoji  
+Address｜Venture Square 301, 1 Minami 3-jo Higashi 2-chome, Chuo-ku, Sapporo, Hokkaido 060-0053, Japan  
+TEL｜050-7112-6213  
 {% end %}
+
 
 {% board_members (
   title="EXECUTIVES",
   subtitle="Our leadership team"
 ) %}
-荘司 靖 (Yasushi Shoji)｜CEO｜Software Engineer｜2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。
-佐々木 大輔 (Daisuke Sasaki)｜CTO｜LSI Logic Engineer｜2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。
-森島 史仁 (Fumito Morishima)｜CFO｜Sales, Finance Control｜2000年より16年間、組み込みCPUボードメーカーにて開発・営業・マーケティング・経営に携わり、幅広いビジネススキルを習得。また東南アジアで事業を興しており、アジアにコネクションを持つ。
-佐々木 拓也 (Takuya Sasaki)｜CAO｜Software Engineer, Sales｜1998年より国内電機メーカーのソフトウェアエンジニアとして主に官公庁向けのネットワーク管理システムの開発に従事。2013年から組み込みCPUボードメーカーのFAEとして、数多くの顧客の開発、量産をサポートしてきた。
-波塚 朋広 (Tomohiro Namitsuka)｜CPO｜Electronics Engineer｜2002年より組み込みCPUボードメーカーのハードウェアエンジニアとして、多くの基板開発を担当。耐環境性・信頼性が要求される産業用途向け製品の回路設計から量産製造までの幅広い知識と経験を活かし、安価で安心して使える宇宙機の提供を目指す。
-後藤 雅享 (Masayuki Goto)｜Founding Member｜Space System Engineer｜2002年よりJAXAにて有人宇宙開発に従事。国際宇宙ステーションに搭載する数々の機器開発プロジェクトを担当し、広い分野での開発・打上げ・運用経験を持つ。JAXAと民間の両面から宇宙開発の発展を目指す。
+Yasushi Shoji｜CEO｜Software Engineer｜Graduated from Salem State University, MA, USA in 2000. Engaged in embedded CPU board development since 2002. Leveraging broad knowledge and experience, led software development for the space drone "Int-Ball" in 2016.  
+Daisuke Sasaki｜CTO｜LSI Logic Engineer｜Spent 11 years from 2001 at a domestic semiconductor company, gaining experience across a wide range of LSI development stages. Since 2013, has worked on embedded CPU boards using self-designed LSIs and expanded his expertise into software.  
+Fumito Morishima｜CFO｜Sales, Finance Control｜From 2000, spent 16 years at an embedded CPU board manufacturer involved in development, sales, marketing, and management. Acquired extensive business skills. Founded ventures in Southeast Asia and maintains business ties across Asia.  
+Takuya Sasaki｜CAO｜Software Engineer, Sales｜Since 1998, worked as a software engineer at a Japanese electronics manufacturer, mainly developing network management systems for government agencies. Since 2013, served as an FAE at an embedded CPU board maker, supporting customer development and mass production.  
+Tomohiro Namitsuka｜CPO｜Electronics Engineer｜Since 2002, worked as a hardware engineer at an embedded CPU board company, developing many circuit boards. Brings broad experience in circuit design and mass production for industrial-grade products requiring environmental resistance and reliability, aiming to provide affordable, dependable spacecraft hardware.  
+Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in manned space development at JAXA. Led numerous equipment development projects for the International Space Station, gaining experience in development, launch, and operations. Aims to advance space development from both the JAXA and private sector perspectives.  
 {% end %}
 
 {% twocard(
@@ -65,15 +63,15 @@ TEL｜050-7112-6213
   right_card_image="ide.webp",
 
   left_title="RECRUIT",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
+  left_subtitle="Career opportunities",
+  left_footer_1="We are always looking for new members to join our team.",
+  left_footer_2="Take a look at our open positions.",
   left_link="/recruit",
 
   right_title="CONTACT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
+  right_subtitle="Make an inquiry",
+  right_footer_1="Please feel free to contact us.",
+  right_footer_2="We will try to get back to you promptly.",
   right_link="/contact",
 
   bg=""
