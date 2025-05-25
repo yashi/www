@@ -15,8 +15,8 @@ title = "Space Cubics"
 {% end %}
 
 {% twocol(title="SC-OBC Module A1", img="product1.png", alt="Diagram", link="products", link_text="Read More", img_link="product1.png", bg="") %}
-小型衛星向け <br>
-宇宙用コンピュータモジュール English
+Space Computer Modules <br>
+for Small Satellites
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="To drink beer", slogan="ON THE MOON") %}
@@ -24,10 +24,9 @@ title = "Space Cubics"
 {% end %}
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-私たちspace cubicsは <br>
-「誰もが月に行ける時代」を目指し、<br>
-安価で信頼性の高い宇宙用コンピュータを開発する<br>
-JAXAのベンチャーです。
+At Space Cubics,<br>
+we aim to make space travel accessible to everyone,<br>
+by developing affordable and reliable space computers.<br>
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="PARTNERS", subtitle="Our mission is to support", slogan="SPACE COMPUTING") %}
@@ -35,12 +34,11 @@ JAXAのベンチャーです。
 {% end %}
 
 {% twocol(title="", img="partners.png", alt="Diagram", link="https://sii.or.jp/space02/decision.html", link_text="Read More", img_link="partners.png", bg="") %}
-私たちは、これからの未来を切り拓く <br>
-宇宙事業やテクノロジーといった <br>
-ベンチャー企業の皆様と共に歩んでいます。 <br>
+We are proud to partner with ventures<br>
+leading the way in space and technological innovation.<br>
 <br>
-革新的な技術や最先端のアイデアを持つ企業と協力し、 <br>
-持続可能な成長を支援することが 私たちの使命です。<br>
+By working with companies that pioneer breakthrough ideas,<br>
+we aim to foster sustainable growth together.
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="NEWS", subtitle="Our advancements in space computing are", slogan="REGULARLY UPDATED") %}
@@ -48,9 +46,9 @@ JAXAのベンチャーです。
 {% end %}
 
 {% twocol(title="", img="", alt="", link="news", link_text="Read More", img_link="", bg="bw_pcb.jpg") %}
-スペースコンピューティングの最新情報をお届けします！ <br>
-私たちのチームは、宇宙探査に力を与える <br>
-技術の進歩に専念しています。<br>
+Bringing you the latest in space computing.<br>
+Our team is dedicated to advancing the technologies<br>
+that power space exploration.
 {% end %}
 
 {% twocard(
@@ -58,15 +56,15 @@ JAXAのベンチャーです。
   right_card_image="ide.webp",
 
   left_title="RECRUIT",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
+  left_subtitle="Career opportunities",
+  left_footer_1="We are always looking for new members to join our team.",
+  left_footer_2="Take a look at our open positions.",
   left_link="/recruit",
 
   right_title="CONTACT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
+  right_subtitle="Make an inquiry",
+  right_footer_1="Please feel free to contact us.",
+  right_footer_2="We will try to get back to you promptly.",
   right_link="/contact",
 
   bg=""
