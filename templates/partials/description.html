@@ -1,9 +1,4 @@
-{#- Taken from https://codeberg.org/daudix/duckquill-#}
-
-{%- if page.description -%}
-	{{- page.description }}
-{%- elif section.description -%}
-	{{- section.description }}
-{%- else -%}
-	{{- config.description -}}
-{%- endif -%}
+{%- set meta_description = page.description 
+    or section.description 
+    or config.description -%}
+{{ meta_description }}
