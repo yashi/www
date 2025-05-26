@@ -1,6 +1,6 @@
 +++
 title = "Hardware Engineer"
-description = "募集中"
+description = "Now Hiring"
 date = 2023-08-31
 updated = "2024-06-21"
 +++

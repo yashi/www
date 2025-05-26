@@ -1,6 +1,6 @@
 +++
 title = "Propulsion Engineer"
-description = "募集中"
+description = "Now Hiring"
 date = 2023-08-31
 +++
 
