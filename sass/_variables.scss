@@ -1,6 +1,6 @@
 @mixin theme-variables {
 	:root {
-		@content ("dark");
+		@content ("light");
 	}
 
 	[data-theme="dark"] {
