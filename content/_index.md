@@ -1,5 +1,5 @@
 +++
-title = "Space Cubics"
+title = "Space Cubics Inc."
 +++
 
 {% splash() %}
@@ -24,7 +24,7 @@ title = "Space Cubics"
 {% end %}
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-私たちspace cubicsは <br>
+私たち株式会社 Space Cubics は <br>
 「誰もが月に行ける時代」を目指し、<br>
 安価で信頼性の高い宇宙用コンピュータを開発する<br>
 JAXAのベンチャーです。

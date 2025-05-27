@@ -3,7 +3,7 @@ title = "Products"
 +++
 
 {% threecard(
-  title="What Space Cubics Offers...",
+  title="What Space Cubics Inc. Offers...",
   subtitle="By providing affordable space-grade computers and comprehensive support for space development,
   
   <br><br>
@@ -23,7 +23,7 @@ title = "Products"
   
   <br><br>
   
-  Space Cubics offers products that combine low cost with the high reliability required for space equipment.",
+  Space Cubics Inc. offers products that combine low cost with the high reliability required for space equipment.",
   
   middle_card_title="Fault Tolerance",
   middle_card_subtitle="Most high-reliability computers do not come standard with fault-tolerance features.
@@ -38,14 +38,14 @@ title = "Products"
   
   <br><br>
   
-  Space Cubics assumes that failures will occur and focuses on fast recovery, equipping our products with many fault-tolerant features.
+  Space Cubics Inc. assumes that failures will occur and focuses on fast recovery, equipping our products with many fault-tolerant features.
   
   <br><br>
   
   For example, our systems can run multiple computers in parallel for redundancy, or store duplicate copies of critical data and use majority voting to determine correctness—automatically recovering from hardware or data faults.",
 
   right_card_title="Ease of Use",
-  right_card_subtitle="What sets Space Cubics products apart is that users can focus solely on developing mission-specific functionality.
+  right_card_subtitle="What sets Space Cubics Inc. products apart is that users can focus solely on developing mission-specific functionality.
   
   <br><br>
   

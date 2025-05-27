@@ -5,7 +5,7 @@ title = "About us"
 
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-At Space Cubics,
+At Space Cubics Inc.,
 
 <br>
 
@@ -21,7 +21,7 @@ by developing affordable and reliable space computers.
 {% threecard(
   title="To drink beer on the moon.",
 
-  subtitle="We are Space Cubics, a JAXA-affiliated venture
+  subtitle="We are Space Cubics Inc., a JAXA-affiliated venture
   
   <br><br>
   
@@ -52,7 +52,7 @@ by developing affordable and reliable space computers.
   
   <br><br><br><br>
   
-  At Space Cubics,
+  At Space Cubics Inc.,
   
   <br><br>
   
@@ -103,7 +103,7 @@ by developing affordable and reliable space computers.
   
   <br><br><br><br>
   
-  Space Cubics provides end-to-end support
+  Space Cubics Inc. provides end-to-end support
   
   <br><br>
   
@@ -122,7 +122,7 @@ by developing affordable and reliable space computers.
   
   <br><br>
   
-  Space Cubics lowers the barrier to entering space development
+  Space Cubics Inc. lowers the barrier to entering space development
   
   <br><br>
   
@@ -150,7 +150,7 @@ by developing affordable and reliable space computers.
   
   <br><br>
   
-  That is the founding vision of Space Cubics.",
+  That is the founding vision of Space Cubics Inc.",
   left_card_subtitle_style="font-size: 30px;",
   middle_card_subtitle_style="font-size: 30px;",
   right_card_subtitle_style="font-size: 30px;",
@@ -162,12 +162,12 @@ by developing affordable and reliable space computers.
 
 {% about_company (
   title="COMPANY",
-  subtitle="Space Cubics Overview",
+  subtitle="Space Cubics Inc. Overview",
   link="/space",
   link_text="See Details",
   bg="images/space-bg.jpg"
 ) %}
-Company Name｜Space Cubics LLC  
+Company Name｜Space Cubics Inc.  
 Established｜2018  
 Capital｜10 billion yen  
 Representative｜Yasushi Shoji  

@@ -1,5 +1,5 @@
 +++
-title = "Space Cubics"
+title = "Space Cubics Inc."
 +++
 
 {% splash() %}
@@ -27,7 +27,7 @@ for Small Satellites
 {% end %}
 
 {% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-At Space Cubics,
+At Space Cubics Inc.,
 
 <br>
 

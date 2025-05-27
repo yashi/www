@@ -1,5 +1,5 @@
 +++
-title = "JAXA's first jointly established venture: Space Cubics"
+title = "JAXA's first jointly established venture: Space Cubics Inc."
 date = 2018-09-25
 [extra]
 banner = "products_banner2.jpeg"

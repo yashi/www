@@ -1,5 +1,5 @@
 +++
-title = "JAXA初の共同設立ベンチャー「Space Cubics」誕生"
+title = "JAXA初の共同設立ベンチャー「株式会社 Space Cubics」誕生"
 date = 2018-09-25
 [extra]
 banner = "products_banner2.jpeg"
