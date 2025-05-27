@@ -16,7 +16,7 @@
         <meta name="fediverse:creator" content="@{{ config.extra.comments.user }}@{{ config.extra.comments.host }}" />
 	{%- endif %}
 
-	{%- include "partials/favicon.html" %}
+	{%- include "partials/site_icon.html" %}
 
 	{%- if config.generate_feeds and config.feed_filenames %}
 		{% for feed in config.feed_filenames %}
