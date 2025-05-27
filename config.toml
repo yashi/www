@@ -1,4 +1,4 @@
-base_url = "https://[netlify_deploy_name].netlify.app"
+base_url = "https://spacecubics.pages.dev/"
 title = "Space Cubics"
 description = "Drinking beer on the moon."
 default_language = "ja"
