@@ -1,61 +1,61 @@
-<div class="unique-threecard-section" style="background-color: {{ bg | default(value='transparent') }}">
+<div class="threecard" style="background-color: {{ bg | default(value='transparent') }}">
   <!-- Title & Subtitle -->
-  <div class="unique-threecard-section__header-text">
-    <h1 class="unique-threecard-section__header-text__main-title">{{ title }}</h1>
-    <div class="unique-threecard-section__header-text__main-subtitle" style="white-space: normal;">
+  <div>
+    <h1 class="threecard-title">{{ title }}</h1>
+    <div class="threecard-subtitle">
       {{ subtitle | safe }}
     </div>
   </div>
 
   <!-- Cards Container -->
-  <div class="unique-threecard-section__columns">
+  <div class="threecard-container">
 
     <!-- Left Card -->
-    <div class="unique-threecard-section__columns__column">
-      <div class="unique-threecard-section__columns__card-left" style="background-image: url('{{ left_card_image }}');">
-        <div class="unique-threecard-section__columns__card-left__content">
+    <div class="threecard-column">
+      <div class="threecard-cardleft" style="background-image: url('{{ left_card_image }}');">
+        <div class="threecard-cardleft-content">
           <h2>{{ left_card_title }}</h2>
           <div style="{{ left_card_subtitle_style | default(value='') }}">
             {{ left_card_subtitle | safe }}
           </div>
         </div>
         {% if left_card_link and left_card_link_text %}
-          <div class="unique-threecard-section__columns__card-left__btn-container">
-            <a href="{{ left_card_link }}" class="unique-threecard-link-btn">{{ left_card_link_text }}</a>
+          <div class="threecard-leftbtn-container">
+            <a href="{{ left_card_link }}" class="threecard-leftlink-btn">{{ left_card_link_text }}</a>
           </div>
         {% endif %}
       </div>
     </div>
 
     <!-- Middle Card -->
-    <div class="unique-threecard-section__columns__column">
-      <div class="unique-threecard-section__columns__card-middle" style="background-image: url('{{ middle_card_image }}');">
-        <div class="unique-threecard-section__columns__card-middle__content">
+    <div class="threecard-column">
+      <div class="threecard-cardmiddle" style="background-image: url('{{ middle_card_image }}');">
+        <div class="threecard-cardmiddle-content">
           <h2>{{ middle_card_title }}</h2>
           <div style="{{ middle_card_subtitle_style | default(value='') }}">
             {{ middle_card_subtitle | safe }}
           </div>
         </div>
         {% if middle_card_link and middle_card_link_text %}
-          <div class="unique-threecard-section__columns__card-middle__btn-container">
-            <a href="{{ middle_card_link }}" class="unique-threecard-link-btn">{{ middle_card_link_text }}</a>
+          <div class="threecard-middlebtn-container">
+            <a href="{{ middle_card_link }}" class="threecard-middlelink-btn">{{ middle_card_link_text }}</a>
           </div>
         {% endif %}
       </div>
     </div>
 
     <!-- Right Card -->
-    <div class="unique-threecard-section__columns__column">
-      <div class="unique-threecard-section__columns__card-right" style="background-image: url('{{ right_card_image }}');">
-        <div class="unique-threecard-section__columns__card-right__content">
+    <div class="threecard-column">
+      <div class="threecard-cardright" style="background-image: url('{{ right_card_image }}');">
+        <div class="threecard-cardright-content">
           <h2>{{ right_card_title }}</h2>
           <div style="{{ right_card_subtitle_style | default(value='') }}">
             {{ right_card_subtitle | safe }}
           </div>
         </div>
         {% if right_card_link and right_card_link_text %}
-          <div class="unique-threecard-section__columns__card-right__btn-container">
-            <a href="{{ right_card_link }}" class="unique-threecard-link-btn">{{ right_card_link_text }}</a>
+          <div class="threecard-rightbtn-container">
+            <a href="{{ right_card_link }}" class="threecard-rightlink-btn">{{ right_card_link_text }}</a>
           </div>
         {% endif %}
       </div>

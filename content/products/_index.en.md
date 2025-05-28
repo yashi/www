@@ -55,9 +55,6 @@ title = "Products"
   
   We also offer custom development and consulting for both software and hardware (CPU boards, FPGA).",
 
-  left_card_subtitle_style="font-size: 30px;",
-  middle_card_subtitle_style="font-size: 30px;",
-  right_card_subtitle_style="font-size: 30px;",
   bg=""
 ) %}
 ~render~

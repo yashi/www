@@ -151,9 +151,6 @@ by developing affordable and reliable space computers.
   <br><br>
   
   That is the founding vision of Space Cubics Inc.",
-  left_card_subtitle_style="font-size: 30px;",
-  middle_card_subtitle_style="font-size: 30px;",
-  right_card_subtitle_style="font-size: 30px;",
 
   bg=""
 ) %}

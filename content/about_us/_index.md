@@ -21,9 +21,6 @@ JAXAのベンチャーです。
   middle_card_subtitle="たとえ優れた技術があったとしても、<br><br>宇宙開発の経験がない企業・団体にとって<br><br>宇宙開発は簡単なものではありません。<br><br><br><br>宇宙開発に興味はあっても、<br><br>どこから手を付けて良いのか分からず、<br><br>企画段階で頓挫してしまうケースが<br><br>多く見受けられます。<br><br><br><br>株式会社 Space Cubicsは、<br><br>宇宙に興味のある企業・団体が<br><br>手軽に宇宙開発に参入できるように<br><br>宇宙開発のトータルサポートを提供します。",
   right_card_title="誰でも宇宙へ",
   right_card_subtitle="株式会社 Space Cubicsは低価格な宇宙用の機器と<br><br>トータルサポートを提供することで、<br><br>宇宙開発への参入を手軽にし、<br><br>日本はもとよりアジアを中心とした<br><br>民間の宇宙産業発展に貢献します。<br><br><br><br>多くの企業や団体そして個人までも<br><br>が宇宙開発に参入することにより、<br><br>宇宙に対するニーズが飛躍的に拡大して<br><br>新たな産業が生まれ育っていくこと、<br><br>それが株式会社 Space Cubicsの設立目的です。",
-  left_card_subtitle_style="font-size: 30px;",
-  middle_card_subtitle_style="font-size: 30px;",
-  right_card_subtitle_style="font-size: 30px;",
   bg=""
 ) %}
 ~render~
