@@ -100,20 +100,17 @@
   }
 }
 
-/* Responsive styling */
-
-/* Wide screens (≥1200px) */
-/* Wide screens (≥1200px) */
-@media (min-width: 1200px) {
+/* Large screens (< 1200px) */
+@media (max-width: 1199px) {
   .board-members {
     padding: 3rem 4vw;
 
     &__title {
-      font-size: 3.5em;  /* smaller than 5.5em */
+      font-size: 3.5em;
     }
 
     &__subtitle {
-      font-size: 1.75em; /* smaller than 2.5em */
+      font-size: 1.75em;
     }
   }
 
@@ -122,14 +119,13 @@
     &__title,
     &__role,
     &__bio {
-      font-size: 1.2em;  /* smaller than 1.75em */
+      font-size: 1.2em;
     }
   }
 }
 
-
-/* Tablets (768px to 991px) */
-@media (max-width: 991px) and (min-width: 768px) {
+/* Tablets (< 992px) */
+@media (max-width: 991px) {
   .board-members {
     flex-wrap: wrap;
     padding: 2rem 3vw;
@@ -167,8 +163,8 @@
   }
 }
 
-/* Mobile (480px to 767px) */
-@media (max-width: 767px) and (min-width: 480px) {
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
   .board-members {
     flex-direction: column;
     padding: 1.5rem 2vw;
@@ -207,7 +203,7 @@
   }
 }
 
-/* Small mobile (<480px) */
+/* Small mobile (< 480px) */
 @media (max-width: 479px) {
   .board-members {
     padding: 1rem 1.5vw;
