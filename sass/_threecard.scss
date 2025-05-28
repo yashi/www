@@ -12,16 +12,16 @@
 
   &-subtitle {
     font-size: 1rem;
-    color: #ccc; 
+    color: #ccc;
     margin-bottom: 2rem;
   }
 
   &-container {
     display: flex;
     gap: 1rem;
-    flex-wrap: nowrap;  
+    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: stretch; 
+    align-items: stretch;
   }
 
   &-column {
@@ -47,7 +47,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     border: 1px solid white;
-    height: 100%;   
+    height: 100%;
   }
 
   &-cardleft-content,
@@ -55,14 +55,14 @@
   &-cardright-content {
     h2 {
       font-size: 1.5rem;
-      font-weight: 700;     
+      font-weight: 700;
       margin-bottom: 2rem;
       color: white;
     }
 
     div {
-      font-size: 1rem;     
-      font-weight: 400;     
+      font-size: 1rem;
+      font-weight: 400;
       line-height: 1.3;
       color: white;
     }
@@ -93,8 +93,8 @@
     }
   }
 
-  // Desktop & large screens (1025px and up)
-  @media (min-width: 1025px) {
+  // Desktop and larger
+  @media (width >= 1025px) {
     padding: 3rem 4rem;
 
     &-title {
@@ -107,6 +107,7 @@
 
     &-container {
       flex-wrap: nowrap;
+      flex-direction: row;
       gap: 1rem;
     }
 
@@ -136,8 +137,8 @@
     }
   }
 
-  // Tablet (max-width: 1024px)
-  @media (max-width: 1024px) and (min-width: 769px) {
+  // Tablet
+  @media (width <= 1024px) {
     padding: 2rem 3rem;
 
     &-title {
@@ -150,13 +151,13 @@
     }
 
     &-container {
-      flex-wrap: wrap;
+      flex-direction: column;
       gap: 1.5rem;
     }
 
     &-column {
-      flex: 1 1 45%;
-      min-width: unset; // allow columns to shrink on smaller screens
+      flex: 1 1 100%;
+      min-width: unset;
     }
 
     &-cardleft-content,
@@ -171,10 +172,17 @@
         font-size: 1.1rem;
       }
     }
+
+    &-leftlink-btn,
+    &-middlelink-btn,
+    &-rightlink-btn {
+      font-size: 0.95rem;
+      padding: 0.4rem 0.85rem;
+    }
   }
 
-  // Mobile (max-width: 768px)
-  @media (max-width: 768px) and (min-width: 481px) {
+  // Mobile
+  @media (width <= 768px) {
     padding: 1.5rem 2rem;
 
     &-title {
@@ -217,9 +225,9 @@
     }
   }
 
-  // Small mobile (max-width: 480px)
-  @media (max-width: 480px) {
-    padding: 1rem 1rem;
+  // Small mobile
+  @media (width <= 480px) {
+    padding: 1rem;
 
     &-title {
       font-size: 1.5rem;
@@ -232,6 +240,11 @@
 
     &-container {
       gap: 1rem;
+    }
+
+    &-column {
+      flex: 1 1 100%;
+      min-width: unset;
     }
 
     &-cardleft-content,
