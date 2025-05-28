@@ -7,44 +7,44 @@
   padding: 2rem 2vw;
   box-sizing: border-box;
   background-color: transparent;
-}
 
-.board-members-left {
-  flex: 0 0 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+  &-left {
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-.board-members__title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 4em; 
-  margin: 0;
-}
+  &__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 0;
+  }
 
-.board-members__subtitle {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(190, 190, 190);
-  font-size: 2em; 
-  margin: 0.6rem 0;
-}
+  &__subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(190, 190, 190);
+    font-size: 2em;
+    margin: 0.6rem 0;
+  }
 
-.board-members__divider {
-  width: 90px;
-  height: 5px;
-  background-color: orange;
-  border-radius: 3px;
-  margin-top: 0.5rem;
-}
+  &__divider {
+    width: 90px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+  }
 
-.board-members-right {
-  flex: 1 1 65%;
-}
+  &-right {
+    flex: 1 1 65%;
+  }
 
-.board-members-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.8rem;
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+  }
 }
 
 .board-card {
@@ -55,45 +55,185 @@
   text-align: center;
   backdrop-filter: blur(10px);
   color: white;
+
+  &__image {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.7rem;
+  }
+
+  &:not(.has-image) &__image {
+    display: none;
+  }
+
+  &__name,
+  &__title,
+  &__role,
+  &__bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 0.3rem 0;
+  }
+
+  &__name {
+    margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+
+  &__title {
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  &__role {
+    opacity: 0.9;
+  }
+
+  &__bio {
+    opacity: 0.85;
+    line-height: 1.5;
+    margin-top: 0.6rem;
+    text-align: left;
+  }
 }
 
-.board-card__image {
-  display: block;
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 0.7rem;
+/* Responsive styling */
+
+/* Wide screens (≥1200px) */
+/* Wide screens (≥1200px) */
+@media (min-width: 1200px) {
+  .board-members {
+    padding: 3rem 4vw;
+
+    &__title {
+      font-size: 3.5em;  /* smaller than 5.5em */
+    }
+
+    &__subtitle {
+      font-size: 1.75em; /* smaller than 2.5em */
+    }
+  }
+
+  .board-card {
+    &__name,
+    &__title,
+    &__role,
+    &__bio {
+      font-size: 1.2em;  /* smaller than 1.75em */
+    }
+  }
 }
 
-.board-card:not(.has-image) .board-card__image {
-  display: none;
+
+/* Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .board-members {
+    flex-wrap: wrap;
+    padding: 2rem 3vw;
+
+    &-left {
+      flex: 1 1 40%;
+      margin-bottom: 2rem;
+    }
+
+    &-right {
+      flex: 1 1 55%;
+    }
+  }
+
+  .board-members-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .board-members__title {
+    font-size: 3.5em;
+  }
+
+  .board-members__subtitle {
+    font-size: 1.75em;
+  }
+
+  .board-card {
+    &__name,
+    &__title,
+    &__role,
+    &__bio {
+      font-size: 1.4em;
+    }
+  }
 }
 
-.board-card__name {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em; 
-  margin: 0.6rem 0 0.3rem;
+/* Mobile (480px to 767px) */
+@media (max-width: 767px) and (min-width: 480px) {
+  .board-members {
+    flex-direction: column;
+    padding: 1.5rem 2vw;
+
+    &-left,
+    &-right {
+      flex: 1 1 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .board-members-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .board-members__title {
+    font-size: 2.5em;
+  }
+
+  .board-members__subtitle {
+    font-size: 1.25em;
+  }
+
+  .board-card {
+    &__name,
+    &__title,
+    &__role,
+    &__bio {
+      font-size: 1.2em;
+    }
+
+    &__bio {
+      text-align: left;
+    }
+  }
 }
 
-.board-card__title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em; 
-  margin: 0.2rem 0 0.4rem;
-}
+/* Small mobile (<480px) */
+@media (max-width: 479px) {
+  .board-members {
+    padding: 1rem 1.5vw;
 
-.board-card__role {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em; 
-  opacity: 0.9;
-  margin: 0.3rem 0;
-}
+    &-left,
+    &-right {
+      margin-bottom: 1rem;
+    }
+  }
 
-.board-card__bio {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em; 
-  opacity: 0.85;
-  line-height: 1.5;
-  margin-top: 0.6rem;
-  text-align: left;
+  .board-members__title {
+    font-size: 1.8em;
+  }
+
+  .board-members__subtitle {
+    font-size: 1em;
+  }
+
+  .board-card {
+    padding: 1rem;
+
+    &__name,
+    &__title,
+    &__role,
+    &__bio {
+      font-size: 1em;
+    }
+  }
 }
