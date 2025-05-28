@@ -93,10 +93,8 @@
     }
   }
 
-  // Responsive styles
-
-  // Wide screens (desktop large)
-  @media (min-width: 1200px) {
+  // Desktop & large screens (1025px and up)
+  @media (min-width: 1025px) {
     padding: 3rem 4rem;
 
     &-title {
@@ -105,6 +103,16 @@
 
     &-subtitle {
       font-size: 1.25rem;
+    }
+
+    &-container {
+      flex-wrap: nowrap;
+      gap: 1rem;
+    }
+
+    &-column {
+      flex: 1 1 30%;
+      min-width: 250px;
     }
 
     &-cardleft-content,
@@ -128,19 +136,9 @@
     }
   }
 
-  // Tablets (medium screens)
-  @media (max-width: 991px) and (min-width: 768px) {
+  // Tablet (max-width: 1024px)
+  @media (max-width: 1024px) and (min-width: 769px) {
     padding: 2rem 3rem;
-
-    &-container {
-      flex-wrap: wrap;
-      gap: 1.5rem;
-    }
-
-    &-column {
-      flex: 1 1 45%;
-      min-width: unset;
-    }
 
     &-title {
       font-size: 2rem;
@@ -149,6 +147,16 @@
     &-subtitle {
       font-size: 1.1rem;
       margin-bottom: 1.5rem;
+    }
+
+    &-container {
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    &-column {
+      flex: 1 1 45%;
+      min-width: unset; // allow columns to shrink on smaller screens
     }
 
     &-cardleft-content,
@@ -165,9 +173,18 @@
     }
   }
 
-  // Mobile (small screens)
-  @media (max-width: 767px) and (min-width: 480px) {
+  // Mobile (max-width: 768px)
+  @media (max-width: 768px) and (min-width: 481px) {
     padding: 1.5rem 2rem;
+
+    &-title {
+      font-size: 1.75rem;
+    }
+
+    &-subtitle {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
 
     &-container {
       flex-direction: column;
@@ -177,15 +194,6 @@
     &-column {
       flex: 1 1 100%;
       min-width: unset;
-    }
-
-    &-title {
-      font-size: 1.75rem;
-    }
-
-    &-subtitle {
-      font-size: 1rem;
-      margin-bottom: 1rem;
     }
 
     &-cardleft-content,
@@ -209,8 +217,8 @@
     }
   }
 
-  // Small mobile (very small screens)
-  @media (max-width: 479px) {
+  // Small mobile (max-width: 480px)
+  @media (max-width: 480px) {
     padding: 1rem 1rem;
 
     &-title {
@@ -220,6 +228,10 @@
     &-subtitle {
       font-size: 0.9rem;
       margin-bottom: 0.8rem;
+    }
+
+    &-container {
+      gap: 1rem;
     }
 
     &-cardleft-content,
