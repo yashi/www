@@ -5,22 +5,16 @@
 {%- endif %}
 <header id="site-nav">
   <nav>
-    <a href="#main-content" tabindex="0">
-      {{ macros_translate::translate(key="skip_to_content", default="Skip to Main Content", language_strings=language_strings) }}
-    </a>
     <ul>
-      <!--home-->
       <li id="home">
         <a href="{{ get_url(path='/', lang=lang) }}"
           {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="/", lang=lang) | trim_end_matches(pat='/') | safe -%}
             class="active"
           {%- endif -%}>
-          <!-- Replace the icon with the logo image -->
           <img class="company-logo" src="{{ get_url(path='logo_white.webp') }}" alt="Company Logo" />
         </a>
       </li>
       <li class="divider"></li>
-
       {%- for link in config.extra.nav.links %}
         {%- if link.menu and link.menu | length > 0 -%}
           <li>
@@ -65,15 +59,6 @@
           </li>
         {%- endif %}
       {%- endfor -%}
-
-      {%- if config.build_search_index %}
-        <li id="search">
-          <button id="search-toggle" class="circle" title="{{ macros_translate::translate(key='search', default='Search', language_strings=language_strings) }}">
-            <i class="icon"></i>
-          </button>
-        </li>
-      {%- endif %}
-
       {%- if config.languages | length > 0 %}
         {%- include "partials/language_switcher.html" %}
       {%- endif %}
@@ -129,16 +114,4 @@
       {%- endif %}
     </ul>
   </nav>
-
-  {%- if config.build_search_index %}
-    <div id="search-container">
-      <label for="search-bar" class="visually-hidden">
-        {{- macros_translate::translate(key="search", default="Search", language_strings=language_strings) -}}
-      </label>
-      <input id="search-bar" placeholder="{{ macros_translate::translate(key='search_for', default='Search for', language_strings=language_strings) }}…" autocomplete="off" type="search" disabled>
-      <div id="search-results-container">
-        <div id="search-results"></div>
-      </div>
-    </div>
-  {%- endif %}
 </header>
