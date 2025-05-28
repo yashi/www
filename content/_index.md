@@ -34,7 +34,7 @@ JAXAのベンチャーです。
 ~render~
 {% end %}
 
-{% twocol(title="", img="partners.png", alt="Diagram", link="https://sii.or.jp/space02/decision.html", link_text="Read More", img_link="partners.png", bg="") %}
+{% twocol(title="", img="partners.png", alt="", link="https://sii.or.jp/space02/decision.html", link_text="Read More", img_link="", bg="") %}
 私たちは、これからの未来を切り拓く <br>
 宇宙事業やテクノロジーといった <br>
 ベンチャー企業の皆様と共に歩んでいます。 <br>
