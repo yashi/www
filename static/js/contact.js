@@ -14,17 +14,22 @@ document.addEventListener("DOMContentLoaded", () => {
       message: formData.get("message"),
     };
 
-    const response = await fetch("/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
+    try {
+      const response = await fetch("/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
 
-    if (response.ok) {
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`);
+      }
+
       alert("Message sent!");
       form.reset();
-    } else {
-      alert("Failed to send message.");
+    } catch (err) {
+      console.error("❌ Failed to submit form:", err);
+      alert("Failed to send message. Please try again.");
     }
   });
 });

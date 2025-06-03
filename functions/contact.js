@@ -1,23 +1,39 @@
-export const onRequestPost = async ({ request }) => {
-  const body = await request.json();
+export const onRequestPost = async ({ request, env }) => {
+  try {
+    const body = await request.json();
 
-  const message = {
-    text: `📬 *New Contact Form Submission:*
-*Name:* ${body.name}
-*Email:* ${body.email}
-*Role:* ${body.role?.join(", ")}
-*Message:* ${body.message}`
-  };
+    const { name, email, role, message } = body;
 
-  const slackWebhook = env.SLACK_WEBHOOK;
+    if (!name || !email || !role || !message) {
+      return new Response("Missing required fields", { status: 400 });
+    }
 
-  const response = await fetch(slackWebhook, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(message),
-  });
+    const slackMessage = {
+      text: `📬 *New Contact Form Submission:*
+*Name:* ${name}
+*Email:* ${email}
+*Role:* ${Array.isArray(role) ? role.join(", ") : role}
+*Message:* ${message}`
+    };
 
-  return response.ok
-    ? new Response("Message sent to Slack", { status: 200 })
-    : new Response("Failed to send to Slack", { status: 500 });
+    const webhookUrl = env.SLACK_WEBHOOK;
+    if (!webhookUrl) {
+      return new Response("Missing Slack webhook", { status: 500 });
+    }
+
+    const slackResponse = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(slackMessage),
+    });
+
+    if (!slackResponse.ok) {
+      const errText = await slackResponse.text();
+      return new Response(`Slack error: ${errText}`, { status: 500 });
+    }
+
+    return new Response("Message sent to Slack", { status: 200 });
+  } catch (error) {
+    return new Response(`Server error: ${error.message}`, { status: 500 });
+  }
 };
