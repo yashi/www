@@ -30,7 +30,7 @@ Zolaと[Duckquill](https://www.getzola.org/themes/duckquill/)テンプレート�
 English Version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Quick Start:
+# Simple local test:
 
 ## Downlaod the source repo
 ```bash
@@ -49,6 +49,11 @@ Some parts of this site are still in progress:
 - **Contact Form**
 - **Mobile Optimization**
 
+# Local test with wrangler (for testing cloudflare environment, webhooks, etc.):
+
+```bash
+zola build && wrangler pages dev public
+```
 
 ## Credits
 Inspired by Zola and the [Duckquill](https://www.getzola.org/themes/duckquill/) template.
