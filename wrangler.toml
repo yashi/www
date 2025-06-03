@@ -1,0 +1,6 @@
+name = "www-webhook-worker"
+main = "functions/contact.js"
+compatibility_date = "2025-06-02"
+
+[vars]
+SLACK_WEBHOOK = "https://hooks.slack.com/services/XXX/YYY/ZZZ" 

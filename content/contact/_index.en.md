@@ -1,4 +1,7 @@
 +++
 title = "Contact"
+template = "contact.html"
 +++
- contact form here english
+{% contact_form() %}
+~render~
+{% end %}
