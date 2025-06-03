@@ -3,4 +3,4 @@ main = "functions/contact.js"
 compatibility_date = "2025-06-02"
 
 [vars]
-SLACK_WEBHOOK = "https://hooks.slack.com/services/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" 
+SLACK_WEBHOOK = "cant_add_here" 
