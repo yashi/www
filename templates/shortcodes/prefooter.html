@@ -36,4 +36,22 @@
       </div>
     </div>
   </div>
+
+
+  {% if bottom_card_image %}
+  <div class="bottom-card" style="background-image: url('{{ bottom_card_image }}');">
+    <div class="card-content">
+      <h2 class="card-header">{{ bottom_title }}</h2>
+      <p class="card-subheader">{{ bottom_subtitle }}</p>
+      <div class="divider-bar"></div>
+    </div>
+    <div class="card-footer-text">
+      <p>{{ bottom_footer_1 }}</p>
+      <p>{{ bottom_footer_2 }}</p>
+    </div>
+    <div class="btn-container">
+      <a href="{{ bottom_link }}" class="circle-btn" aria-label="{{ bottom_title }} link"></a>
+    </div>
+  </div>
+  {% endif %}
 </div>

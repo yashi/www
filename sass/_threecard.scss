@@ -226,7 +226,7 @@
   }
 
   // Small mobile
-  @media (width <= 480px) {
+  @media (max-width: 479px) {
     padding: 1rem;
 
     &-title {

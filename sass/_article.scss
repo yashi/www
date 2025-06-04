@@ -8,7 +8,7 @@
 	inset-block-start: 0;
 	inset-inline-start: 0;
 	width: 100%;
-	height: 30vh; // ✅ reduced from aspect-ratio to fixed height
+	height: 30vh; 
 	user-select: none;
 
 	#banner {
@@ -20,12 +20,12 @@
 	}
 
 	& + #heading {
-		margin-block-start: 30vh; // ✅ simplified from calc(50vw - 7rem)
+		margin-block-start: 30vh; 
 	}
 
-	@media only screen and (max-width: 480px) {
+	@media only screen and (max-width: 479px) {
 		body:has(&) #site-nav:not(#handle + #site-nav) {
-			margin-block-start: calc(30vh + 1rem); // ✅ adjusted from 50vw
+			margin-block-start: calc(30vh + 1rem); 
 		}
 	}
 }
