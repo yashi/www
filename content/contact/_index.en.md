@@ -3,13 +3,13 @@ title = "Contact"
 template = "contact.html"
 +++
 {% contact_form(
-  title="Get in Touch",
-  subtitle="We're here to help you.",
-  name_field="Your name here please",
-  email_field="Enter your email address",
-  role_field="What is your role?",
-  message_field="Your message here please",
-  button_label="Send Message"
+  title="JOIN OUR TEAM",
+  subtitle="We are always looking for team members to work with us.",
+  name_field="Name",
+  email_field="Email address",
+  role_field="Desired role?",
+  message_field="Message",
+  button_label="Send"
 ) %}
 ~render~
 {% end %}
