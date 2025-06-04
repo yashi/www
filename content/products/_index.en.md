@@ -112,7 +112,7 @@ SC-OBC Module A1 mounted on the interface board.
 (Photo shows a prototype under development)
 {% end %}
 
-{% twocard(
+{% prefooter(
   left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 

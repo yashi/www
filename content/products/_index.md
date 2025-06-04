@@ -50,7 +50,7 @@ SC-OBC Module A1が組み込まれた人工衛星。
 <br>（写真は開発中のもの）
 {% end %}
 
-{% twocard(
+{% prefooter(
   left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 

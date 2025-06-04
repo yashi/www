@@ -185,7 +185,7 @@ Tomohiro Namitsuka｜CPO｜Electronics Engineer｜Since 2002, worked as a hardwa
 Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in manned space development at JAXA. Led numerous equipment development projects for the International Space Station, gaining experience in development, launch, and operations. Aims to advance space development from both the JAXA and private sector perspectives.  
 {% end %}
 
-{% twocard(
+{% prefooter(
   left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 

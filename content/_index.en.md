@@ -77,7 +77,7 @@ Our team is dedicated to advancing the technologies
 that power space exploration.
 {% end %}
 
-{% twocard(
+{% prefooter(
   left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 

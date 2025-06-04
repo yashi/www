@@ -53,7 +53,7 @@ TEL｜050-7112-6213
 後藤 雅享 (Masayuki Goto)｜Founding Member｜Space System Engineer｜2002年よりJAXAにて有人宇宙開発に従事。国際宇宙ステーションに搭載する数々の機器開発プロジェクトを担当し、広い分野での開発・打上げ・運用経験を持つ。JAXAと民間の両面から宇宙開発の発展を目指す。
 {% end %}
 
-{% twocard(
+{% prefooter(
   left_card_image="dark_earth.png", 
   right_card_image="ide.webp",
 
