@@ -7,7 +7,7 @@ template = "contact.html"
   subtitle="We are always looking for team members to work with us.",
   name_field="Name",
   email_field="Email address",
-  role_field="Desired role?",
+  role_field="Desired role",
   message_field="Message",
   button_label="Send"
 ) %}
