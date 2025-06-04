@@ -1,33 +1,46 @@
-<section class="contact-form">
-  <h1>Contact Us</h1>
-  <form id="contactForm">
-    <p>
-      <label>
-        Your Name:
-        <input type="text" name="name" required />
+<section class="z-contact-form">
+  <div class="z-contact-form__header">
+    {% if title %}
+      <h2 class="z-contact-form__title">{{ title }}</h2>
+    {% endif %}
+    {% if subtitle %}
+      <p class="z-contact-form__subtitle">{{ subtitle }}</p>
+    {% endif %}
+  </div>
+
+  <form id="contactForm" class="z-contact-form__form">
+    <p class="z-contact-form__field">
+      <label class="z-contact-form__label">
+        {{ name_field | default(value="Your Name") }}:
+        <input type="text" name="name" required class="z-contact-form__input" />
       </label>
     </p>
-    <p>
-      <label>
-        Your Email:
-        <input type="email" name="email" required />
+
+    <p class="z-contact-form__field">
+      <label class="z-contact-form__label">
+        {{ email_field | default(value="Your Email") }}:
+        <input type="email" name="email" required class="z-contact-form__input" />
       </label>
     </p>
-    <p>
-      <label>
-        Your Role:
-        <textarea name="role" required></textarea>
-        </select>
+
+    <p class="z-contact-form__field">
+      <label class="z-contact-form__label">
+        {{ role_field | default(value="Your Role") }}:
+        <textarea name="role" required class="z-contact-form__textarea"></textarea>
       </label>
     </p>
-    <p>
-      <label>
-        Message:
-        <textarea name="message" required></textarea>
+
+    <p class="z-contact-form__field">
+      <label class="z-contact-form__label">
+        {{ message_field | default(value="Message") }}:
+        <textarea name="message" required class="z-contact-form__textarea"></textarea>
       </label>
     </p>
-    <p>
-      <button type="submit">Send</button>
+
+    <p class="z-contact-form__field">
+      <button type="submit" class="z-contact-form__button">
+        {{ button_label | default(value="Send") }}
+      </button>
     </p>
   </form>
 </section>
