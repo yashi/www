@@ -224,6 +224,12 @@
 					}
 				}
 			}
+
+			@media (max-width: 320px) {
+				&:has(summary:not(.circle)) ul {
+					top: 2.75rem;
+				}
+			}
 		}
 
 		#feed .icon {
@@ -250,7 +256,7 @@
 .company-logo {
 	all: unset;
 	display: block;
-	width: clamp(100px, 0vw, 150px);
+	width: clamp(100px, 30vw, 150px);
 	height: auto;
 	pointer-events: auto;
 	box-shadow: none;
