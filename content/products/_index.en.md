@@ -38,11 +38,7 @@ title = "Products"
   
   <br><br>
   
-  Space Cubics Inc. assumes that failures will occur and focuses on fast recovery, equipping our products with many fault-tolerant features.
-  
-  <br><br>
-  
-  For example, our systems can run multiple computers in parallel for redundancy, or store duplicate copies of critical data and use majority voting to determine correctness—automatically recovering from hardware or data faults.",
+  Space Cubics Inc. assumes that failures will occur and focuses on fast recovery, equipping our products with many fault-tolerant features.",
 
   right_card_title="Ease of Use",
   right_card_subtitle="What sets Space Cubics Inc. products apart is that users can focus solely on developing mission-specific functionality.
