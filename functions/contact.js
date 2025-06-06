@@ -2,14 +2,18 @@ export const onRequestPost = async ({ request, env }) => {
   try {
     const body = await request.json();
 
-    const { name, email, role, message } = body;
+    const { name, email, role, message, website } = body;
+
+    if (website && website.trim() !== "") {
+      return new Response("Bot detected (honeypot)", { status: 400 });
+    }
 
     if (!name || !email || !role || !message) {
       return new Response("Missing required fields", { status: 400 });
     }
 
     const slackMessage = {
-      text: `📬 *New Contact Form Submission:*
+      text: `*New Contact Form Submission:*
 *Name:* ${name}
 *Email:* ${email}
 *Role:* ${Array.isArray(role) ? role.join(", ") : role}

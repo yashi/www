@@ -7,11 +7,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const formData = new FormData(form);
 
+    const honeypot = formData.get("website");
+    if (honeypot) {
+      console.warn("Bot detected via honeypot field");
+      return;
+    }
+
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
       role: formData.getAll("role"),
       message: formData.get("message"),
+      website: honeypot,
     };
 
     try {
