@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="PRODUCT", subtitle="Make the impossible", slogan="POSSIBLE") %}
+{% section_title(bg="images/bg.jpg", title="PRODUCTS", subtitle="Make the impossible", slogan="POSSIBLE") %}
 ~render~
 {% end %}
 
