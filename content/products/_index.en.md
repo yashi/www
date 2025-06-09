@@ -1,6 +1,9 @@
 +++
-title = "Products"
 +++
+
+{% section_title(bg="images/bg.jpg", title="PRODUCT", subtitle="Make the impossible", slogan="POSSIBLE") %}
+~render~
+{% end %}
 
 {% threecard(
   title="What Space Cubics Inc. Offers...",
