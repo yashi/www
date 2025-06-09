@@ -1,6 +1,9 @@
 +++
-title = "About us"
 +++
+
+{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="To drink beer", slogan="ON THE MOON") %}
+~render~
+{% end %}
 
 {% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="about.png") %}
 私たち株式会社 Space Cubicsは <br>
