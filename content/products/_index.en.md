@@ -5,6 +5,10 @@
 ~render~
 {% end %}
 
+{% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="white_pcb.png") %}
+Space Cubics Inc.
+{% end %}
+
 {% threecard(
   title="What Space Cubics Inc. Offers...",
   subtitle="By providing affordable space-grade computers and comprehensive support for space development,
