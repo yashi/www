@@ -78,7 +78,8 @@
 
 .card-header {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 3em;
+  font-size: 3.3em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   margin: 0;
 
   @media (max-width: 1024px) {
@@ -97,8 +98,8 @@
 
 .card-subheader {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em;
-  margin: 0.5rem 0;
+  font-size: 1.7em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
   @media (max-width: 768px) {
     font-size: 1.3em;
@@ -132,7 +133,8 @@
 
 .card-footer-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2em;
+  font-size: 1.4em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   line-height: 1.8;
   margin-top: auto;
   margin-bottom: 90px;
