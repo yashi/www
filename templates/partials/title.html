@@ -28,7 +28,7 @@
 	{#- List of tags -#}
 	{%- set prefix = macros_translate::translate(key=taxonomy.name, language_strings=language_strings) | capitalize -%}
 {% else %}
-	{%- set prefix = "404" %}
+	{%- set prefix = "" -%}
 {%- endif -%}
 
 {#- Return the final concatenated string -#}
