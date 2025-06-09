@@ -203,6 +203,13 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   right_footer_2="We will try to get back to you promptly.",
   right_link="/contact",
 
+  bottom_card_image="placeholder.jpg",
+  bottom_title="JOIN US",
+  bottom_subtitle="Be part of something bigger",
+  bottom_footer_1="We believe in collaboration, creativity, and community.",
+  bottom_footer_2="Start your journey with us today.",
+  bottom_link="/join",
+
   bg=""
 ) %}
 ~render~
