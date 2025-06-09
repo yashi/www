@@ -55,7 +55,7 @@ JAXAのベンチャーです。
 
 {% prefooter(
   left_card_image="white_pcb.png", 
-  right_card_image="earth.webp",
+  right_card_image="earth.png",
 
   left_title="RECRUIT",
   left_subtitle="採用情報",
