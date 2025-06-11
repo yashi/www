@@ -15,7 +15,7 @@ export const onRequestPost = async ({ request, env }) => {
     }
 
     // Validate Turnstile CAPTCHA
-    const secretKey = env.TURNSTILE_SECRET_KEY;
+    const secretKey = env.CAPTCHA_SECRET_KEY;
     const remoteIp = request.headers.get("CF-Connecting-IP") || "";
 
     const formData = new FormData();
