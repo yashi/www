@@ -1,12 +1,17 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="PRODUCTS", subtitle="Make the impossible", slogan="POSSIBLE") %}
+{% section_title(bg="", title="PRODUCTS", subtitle="Make the impossible", slogan="POSSIBLE") %}
 ~render~
 {% end %}
 
 {% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="white_pcb.png") %}
 Space Cubics Inc.
+{% end %}
+
+{% twocol(title="SC-OBC Module A1", img="product1.png", alt="Diagram", link="products", link_text="Read More", img_link="product1.png", bg="") %}
+小型衛星向け <br>
+宇宙用コンピュータモジュール 
 {% end %}
 
 {% threecard(
@@ -31,7 +36,7 @@ Space Cubics Inc.
 ~render~
 {% end %}
 
-{% twocol(title="SC-OBC Module A1", img="sc_obcpic.png", alt="Diagram", link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", link_text="Read More", img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", bg="") %}
+{% twocol(title="SC-OBC Module A1", img="sq_sc-obc_module_a1.png", alt="Diagram", link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", link_text="Read More", img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", bg="") %}
 <br> <br> 
 JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。
 <br> <br> 
@@ -43,18 +48,22 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 ~render~
 {% end %}
 
-{% twocol(title="", img="ex_img_1.webp", alt="", link="", link_text="", img_link="", bg="") %}
-弊社人工衛星に搭載するため、<br>
-PC104形状に合わせたインタフェースボードの上に
-<br>
-SC-OBC Module A1を搭載した形態。
-{% end %}
-
-{% twocol(title="", img="ex_img_2.png", alt="", link="", link_text="", img_link="", bg="") %}
-インタフェースボードに搭載した
-<br>
-SC-OBC Module A1が組み込まれた人工衛星。
-<br>（写真は開発中のもの）
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="interface.jpg",
+  right_card_image="satellite.jpg",
+  
+  left_card_title="",
+  left_card_subtitle="弊社人工衛星に搭載するため、PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
+  
+  right_card_title="",
+  right_card_subtitle="インタフェースボードに搭載したSC-OBC Module A1が組み込まれた人工衛星。（写真は開発中のもの）",
+  
+  bg=""
+) %}
+~render~
 {% end %}
 
 {% prefooter(
