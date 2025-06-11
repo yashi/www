@@ -31,7 +31,7 @@ show_backlinks = true
 contact_url = "contact"
 source_url = "https://github.com/spacecubics/www"
 
-captcha_site_key = "$CAPTCHA_SITE_KEY"
+captcha_site_key = "CAPTCHA_SITE_KEY_PLACEHOLDER"
 
 [extra.nav]
 show_feed = true
