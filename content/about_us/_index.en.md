@@ -191,24 +191,24 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   left_card_image="white_pcb.png", 
   right_card_image="earth.png",
 
-  left_title="PRODUCTS",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
-  left_link="/recruit",
+  left_title = "PRODUCTS"
+  left_subtitle = "Our PCBs and Services"
+  left_footer_1 = "We offer affordable and reliable space-grade computers..."
+  left_footer_2 = "making space development more accessible."
+  left_link = "/en/products"
 
   right_title="RECRUIT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
-  right_link="/contact",
+  right_subtitle="Career opportunities",
+  right_footer_1="We are always looking for new members to join our team.",
+  right_footer_2="Take a look at our open positions.",
+  right_link="/en/recruit",
 
   bottom_card_image="placeholder.jpg",
   bottom_title="CONTACT",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/join",
+  bottom_subtitle="Make an inquiry",
+  bottom_footer_1="Please feel free to contact us.",
+  bottom_footer_2="We will try to get back to you promptly.",
+  bottom_link="/en/contact",
 
   bg=""
 ) %}

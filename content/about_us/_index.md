@@ -60,24 +60,24 @@ TEL｜050-7112-6213
   left_card_image="white_pcb.png", 
   right_card_image="earth.png",
 
-  left_title="PRODUCTS",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
-  left_link="/recruit",
+  left_title = "PRODUCTS"
+  left_subtitle = "製品紹介"
+  left_footer_1 = "信頼性の高い製品を提供し、"
+  left_footer_2 = "宇宙開発をサポートします。"
+  left_link = "/products"
 
   right_title="RECRUIT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
-  right_link="/contact",
+  right_subtitle="採用情報",
+  right_footer_1="一緒に働くメンバーを常に募集しています。",
+  right_footer_2="ご興味のある方はご連絡ください。",
+  right_link="/recruit",
 
   bottom_card_image="placeholder.jpg",
   bottom_title="CONTACT",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/join",
+  bottom_subtitle="お問い合わせ",
+  bottom_footer_1="お気軽にお問い合わせください。",
+  bottom_footer_2="担当者よりご返信いたします",
+  bottom_link="/contact",
 
   bg=""
 ) %}
