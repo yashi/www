@@ -1,43 +1,64 @@
 export const onRequestPost = async ({ request, env }) => {
   try {
+    // Read and parse incoming JSON request
     const body = await request.json();
+    const { name, email, role, message, website, captcha } = body;
 
-    const { name, email, role, message, website } = body;
-
+    // Honeypot anti-spam check
     if (website && website.trim() !== "") {
       return new Response("Bot detected (honeypot)", { status: 400 });
     }
 
+    // Required field validation
     if (!name || !email || !role || !message) {
       return new Response("Missing required fields", { status: 400 });
     }
 
+    // Validate Turnstile CAPTCHA
+    const secretKey = env.TURNSTILE_SECRET_KEY;
+    const remoteIp = request.headers.get("CF-Connecting-IP") || "";
+
+    const formData = new FormData();
+    formData.append("secret", secretKey);
+    formData.append("response", captcha);
+    formData.append("remoteip", remoteIp);
+
+    const verifyRes = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    const verifyJson = await verifyRes.json();
+
+
+    // Prepare Slack message
     const slackMessage = {
-      text: `*New Contact Form Submission:*
-*Name:* ${name}
-*Email:* ${email}
-*Role:* ${Array.isArray(role) ? role.join(", ") : role}
-*Message:* ${message}`
+      text: `📬 *New Contact Form Submission:*\n*Name:* ${name}\n*Email:* ${email}\n*Role:* ${Array.isArray(role) ? role.join(", ") : role}\n*Message:* ${message}`,
     };
 
-    const webhookUrl = env.SLACK_WEBHOOK;
-    if (!webhookUrl) {
+    const slackWebhook = env.SLACK_WEBHOOK;
+    if (!slackWebhook) {
       return new Response("Missing Slack webhook", { status: 500 });
     }
 
-    const slackResponse = await fetch(webhookUrl, {
+    const slackRes = await fetch(slackWebhook, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(slackMessage),
     });
 
-    if (!slackResponse.ok) {
-      const errText = await slackResponse.text();
-      return new Response(`Slack error: ${errText}`, { status: 500 });
+    if (!slackRes.ok) {
+      const err = await slackRes.text();
+      return new Response(`Slack error: ${err}`, { status: 500 });
     }
 
     return new Response("Message sent to Slack", { status: 200 });
-  } catch (error) {
-    return new Response(`Server error: ${error.message}`, { status: 500 });
+
+  } catch (err) {
+    console.error("Server error:", err);
+    return new Response(`Server error: ${err.message}`, { status: 500 });
   }
 };

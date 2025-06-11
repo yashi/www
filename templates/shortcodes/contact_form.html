@@ -44,10 +44,24 @@
       </label>
     </p>
 
+    <!-- Turnstile widget -->
     <p class="z-contact-form__field">
-      <button type="submit" class="z-contact-form__button">
+      <div
+        class="cf-turnstile"
+        data-sitekey="0x4AAAAAABgQfioe_DBympXS"
+        data-callback="onTurnstileSuccess"
+        data-theme="light"
+      ></div>
+    </p>
+
+    <p class="z-contact-form__field">
+      <button type="submit" class="z-contact-form__button" disabled id="submitBtn">
         {{ button_label | default(value="Send") }}
       </button>
     </p>
   </form>
 </section>
+
+<!-- Load Turnstile and custom script -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="/js/contact.js" defer></script>
