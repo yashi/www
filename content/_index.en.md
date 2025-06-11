@@ -79,26 +79,26 @@ that power space exploration.
 
 {% prefooter(
   left_card_image="white_pcb.png", 
-  right_card_image="earth.png",
+  right_card_image="earth.webp",
 
   left_title="RECRUIT",
   left_subtitle="Career opportunities",
   left_footer_1="We are always looking for new members to join our team.",
   left_footer_2="Take a look at our open positions.",
-  left_link="/recruit",
+  left_link="/en/recruit",
 
   right_title="CONTACT",
   right_subtitle="Make an inquiry",
   right_footer_1="Please feel free to contact us.",
   right_footer_2="We will try to get back to you promptly.",
-  right_link="/contact",
+  right_link="/en/contact",
 
   bottom_card_image="placeholder.jpg",
-  bottom_title="JOIN US",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/join",
+  bottom_title = "NEWS"
+  bottom_subtitle = "Latest Updates from Space Cubics"
+  bottom_footer_1 = "From strategic partnerships and technical innovations to mission milestones,"
+  bottom_footer_2 = "stay up to date with the latest news from Space Cubics here."
+  bottom_link = "/en/news"
 
   bg=""
 ) %}

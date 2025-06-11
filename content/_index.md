@@ -69,16 +69,15 @@ JAXAのベンチャーです。
   right_footer_2="担当者よりご返信いたします",
   right_link="/contact",
 
-  bottom_card_image="placeholder.jpg",
-  bottom_title="JOIN US",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/join",
+  bottom_card_image = "placeholder.jpeg"
+  bottom_title = "NEWS"
+  bottom_subtitle = "最新情報"
+  bottom_footer_1 = "戦略的パートナーシップ、技術革新、ミッションの進展など、"
+  bottom_footer_2 = "スペースキュービクスの最新ニュースはこちらからご覧いただけます。"
+  bottom_link = "/news"
 
   bg=""
 ) %}
 ~render~
 {% end %}
-
 
