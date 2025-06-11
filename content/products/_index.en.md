@@ -70,7 +70,7 @@ Space Cubics Inc.
 
 {% twocol(
   title="SC-OBC Module A1",
-  img="sc_obcpic.png",
+  img="sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
   link_text="Read More",
@@ -95,28 +95,22 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 ~render~
 {% end %}
 
-{% twocol(title="", img="ex_img_1.webp", alt="", link="", link_text="", img_link="", bg="") %}
-To be mounted on our company’s satellite,
-
-<br>
-
-the SC-OBC Module A1 is installed
-
-<br>
-
-on an interface board shaped to fit the PC104 form factor.
-{% end %}
-
-{% twocol(title="", img="ex_img_2.png", alt="", link="", link_text="", img_link="", bg="") %}
-A satellite integrating the
-
-<br>
-
-SC-OBC Module A1 mounted on the interface board.
-
-<br>
-
-(Photo shows a prototype under development)
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="interface.jpg",
+  right_card_image="satellite.jpg",
+  
+  left_card_title="",
+  left_card_subtitle="For mounting on our satellite, the SC-OBC Module A1 is installed on an interface board shaped to fit the PC104 form factor.",
+  
+  right_card_title="",
+  right_card_subtitle="A satellite integrating the SC-OBC Module A1 mounted on the interface board. (Photo shows a prototype under development)",
+  
+  bg=""
+) %}
+~render~
 {% end %}
 
 {% prefooter(
