@@ -9,7 +9,7 @@
   img="img.jpg",
   alt="",
   link="about_us",
-  link_text="Read More",
+  link_text="",
   img_link="img.jpg"
 ) %}
 私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、

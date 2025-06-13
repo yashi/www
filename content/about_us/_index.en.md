@@ -10,7 +10,7 @@
   img="img.jpg",
   alt="",
   link="about_us",
-  link_text="Read More",
+  link_text="",
   img_link="img.jpg"
 ) %}
 At Space Cubics Inc.,
