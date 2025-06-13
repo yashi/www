@@ -116,15 +116,15 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   right_card_image="ide.webp",
 
   left_title="ABOUT US",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
+  left_subtitle="Recruitment Information",
+  left_footer_1="We are always looking for people to work with us.",
+  left_footer_2="If you're interested, please contact us.",
   left_link="/recruit",
 
   right_title="RECRUIT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
+  right_subtitle="Contact Us",
+  right_footer_1="Feel free to contact us.",
+  right_footer_2="We will get back to you soon.",
   right_link="/contact",
 
   bottom_card_image="earth.png",
@@ -138,3 +138,4 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 ) %}
 ~render~
 {% end %}
+
