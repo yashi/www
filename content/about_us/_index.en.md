@@ -1,24 +1,25 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="To drink beer", slogan="ON THE MOON") %}
-~render~
-{% end %}
 
-
-{% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
+{% twocoltwo(
+  bg="about.png",
+  title="ABOUT US",
+  subtitle="To drink beer",
+  slogan="ON THE MOON",
+  img="img.jpg",
+  alt="",
+  link="about_us",
+  link_text="Read More",
+  img_link="img.jpg"
+) %}
 At Space Cubics Inc.,
-
 <br>
-
 we aim to make space travel accessible to everyone,
-
 <br>
-
 by developing affordable and reliable space computers.
-
-<br>
 {% end %}
+
 
 {% threecard(
   title="To drink beer on the moon.",
