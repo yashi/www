@@ -10,48 +10,73 @@ title = "Space Cubics Inc."
 ~render~
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="PRODUCT", subtitle="Make the impossible", slogan="POSSIBLE") %}
-~render~
-{% end %}
 
-{% twocol(title="SC-OBC Module A1", img="product1.png", alt="Diagram", link="products", link_text="Read More", img_link="product1.png", bg="") %}
-小型衛星向け <br>
+{% twocoltwo(
+  title="SC-OBC Module A1",
+  img="sq_sc-obc_module_a1.png",
+  alt="Diagram",
+  link="products",
+  link_text="Read More",
+  img_link="product1.png",
+  bg="no_img.png",
+  subtitle="Make the impossible",
+  slogan="POSSIBLE"
+) %}
+小型衛星向け 
+<br><br>
 宇宙用コンピュータモジュール 
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="To drink beer", slogan="ON THE MOON") %}
-~render~
+{% twocoltwo(
+  bg="about.png",
+  title="ABOUT US",
+  subtitle="To drink beer",
+  slogan="ON THE MOON",
+  img="img.jpg",
+  alt="",
+  link="about_us",
+  link_text="Read More",
+  img_link="img.jpg"
+) %}
+私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
+<br><br>
+安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。
 {% end %}
 
-{% twocol(title="", img="", alt="", link="about_us", link_text="Read More", img_link="", bg="about.png") %}
-私たち株式会社 Space Cubics は <br>
-「誰もが月に行ける時代」を目指し、<br>
-安価で信頼性の高い宇宙用コンピュータを開発する<br>
-JAXAのベンチャーです。
+
+{% twocoltwo(
+  bg="images/bg.jpg",
+  title="PARTNERS",
+  subtitle="Our mission is to support",
+  slogan="SPACE COMPUTING",
+  img="partners.png",
+  alt="",
+  link="https://sii.or.jp/space02/decision.html",
+  link_text="Read More",
+  img_link=""
+) %}
+私たちは、これからの未来を切り拓く宇宙事業やテクノロジーといったベンチャー企業の皆様と共に歩んでいます。
+<br><br>
+革新的な技術や最先端のアイデアを持つ企業と協力し、持続可能な成長を支援することが 私たちの使命です。
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="PARTNERS", subtitle="Our mission is to support", slogan="SPACE COMPUTING") %}
-~render~
+
+{% twocoltwo(
+  bg="bw_pcb.jpg",
+  title="NEWS",
+  subtitle="Our advancements in space computing are",
+  slogan="REGULARLY UPDATED",
+  img="",
+  alt="",
+  link="news",
+  link_text="Read More",
+  img_link=""
+) %}
+スペースコンピューティングの最新情報をお届けします！ 
+<br><br>
+私たちのチームは、宇宙探査に力を与える技術の進歩に専念しています。
 {% end %}
 
-{% twocol(title="", img="partners.png", alt="", link="https://sii.or.jp/space02/decision.html", link_text="Read More", img_link="", bg="") %}
-私たちは、これからの未来を切り拓く <br>
-宇宙事業やテクノロジーといった <br>
-ベンチャー企業の皆様と共に歩んでいます。 <br>
-<br>
-革新的な技術や最先端のアイデアを持つ企業と協力し、 <br>
-持続可能な成長を支援することが 私たちの使命です。<br>
-{% end %}
-
-{% section_title(bg="images/bg.jpg", title="NEWS", subtitle="Our advancements in space computing are", slogan="REGULARLY UPDATED") %}
-~render~
-{% end %}
-
-{% twocol(title="", img="", alt="", link="news", link_text="Read More", img_link="", bg="bw_pcb.jpg") %}
-スペースコンピューティングの最新情報をお届けします！ <br>
-私たちのチームは、宇宙探査に力を与える <br>
-技術の進歩に専念しています。<br>
-{% end %}
 
 {% prefooter(
   left_card_image="ide.webp", 

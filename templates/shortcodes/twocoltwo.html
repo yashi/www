@@ -1,0 +1,31 @@
+<div class="hero-section" style="background-image: url('/{{ bg }}');">
+  <div class="section-title-block">
+    <div class="section-title-content">
+      <h1>{{ title }}</h1>
+      <h3>{{ subtitle }}</h3>
+      <p>{{ slogan }}</p>
+      <div class="section-title-divider"></div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <p>{{ body | safe }}</p>
+      {% if link and link_text %}
+        <div class="link-wrapper">
+          <a href="{{ link }}" class="hero-link">Read More</a>
+        </div>
+      {% endif %}
+    </div>
+    
+    <div class="hero-image-container">
+      {% if img_link %}
+        <a href="{{ img_link }}">
+          <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
+        </a>
+      {% else %}
+        <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
+      {% endif %}
+    </div>
+  </div>
+</div>
