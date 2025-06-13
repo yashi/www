@@ -119,20 +119,20 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   left_subtitle="Company Details",
   left_footer_1="We are always looking for people to work with us.",
   left_footer_2="If you're interested, please contact us.",
-  left_link="/recruit",
+  left_link="/en/about_us",
 
   right_title="RECRUIT",
   right_subtitle="Work With Us",
   right_footer_1="Feel free to contact us.",
   right_footer_2="We will get back to you soon.",
-  right_link="/contact",
+  right_link="/en/recruit",
 
   bottom_card_image="earth.png",
   bottom_title="CONTACT",
   bottom_subtitle="Send Us a Message",
   bottom_footer_1="We believe in collaboration, creativity, and community.",
   bottom_footer_2="Start your journey with us today.",
-  bottom_link="/join",
+  bottom_link="/en/contact",
 
   bg=""
 ) %}
