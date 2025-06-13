@@ -189,7 +189,7 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
 
 {% prefooter(
   left_card_image="white_pcb.png", 
-  right_card_image="earth.png",
+  right_card_image="ide.webp",
 
   left_title = "PRODUCTS"
   left_subtitle = "Our PCBs and Services"
@@ -203,7 +203,7 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   right_footer_2="Take a look at our open positions.",
   right_link="/en/recruit",
 
-  bottom_card_image="placeholder.jpg",
+  bottom_card_image="earth.png",
   bottom_title="CONTACT",
   bottom_subtitle="Make an inquiry",
   bottom_footer_1="Please feel free to contact us.",

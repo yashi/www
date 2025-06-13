@@ -16,7 +16,7 @@ template = "contact.html"
 
 {% prefooter(
   left_card_image="about.png", 
-  right_card_image="earth.png",
+  right_card_image="ide.webp",
 
   left_title="ABOUT US",
   left_subtitle="採用情報",

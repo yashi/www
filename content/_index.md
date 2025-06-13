@@ -54,7 +54,7 @@ JAXAのベンチャーです。
 {% end %}
 
 {% prefooter(
-  left_card_image="white_pcb.png", 
+  left_card_image="ide.webp", 
   right_card_image="earth.png",
 
   left_title="RECRUIT",
@@ -69,7 +69,7 @@ JAXAのベンチャーです。
   right_footer_2="担当者よりご返信いたします",
   right_link="/contact",
 
-  bottom_card_image = "placeholder.jpeg"
+  bottom_card_image = "bw_pcb.jpg"
   bottom_title = "NEWS"
   bottom_subtitle = "最新情報"
   bottom_footer_1 = "戦略的パートナーシップ、技術革新、ミッションの進展など、"

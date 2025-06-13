@@ -63,7 +63,7 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 
 {% prefooter(
   left_card_image="about.png", 
-  right_card_image="earth.png",
+  right_card_image="ide.webp",
 
   left_title="ABOUT US",
   left_subtitle="採用情報",
@@ -77,7 +77,7 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
   right_footer_2="担当者よりご返信いたします",
   right_link="/contact",
 
-  bottom_card_image="placeholder.jpg",
+  bottom_card_image="earth.png",
   bottom_title="CONTACT",
   bottom_subtitle="Be part of something bigger",
   bottom_footer_1="We believe in collaboration, creativity, and community.",

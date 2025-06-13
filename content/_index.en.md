@@ -78,7 +78,7 @@ that power space exploration.
 {% end %}
 
 {% prefooter(
-  left_card_image="white_pcb.png", 
+  left_card_image="ide.webp", 
   right_card_image="earth.png",
 
   left_title="RECRUIT",
@@ -93,7 +93,7 @@ that power space exploration.
   right_footer_2="We will try to get back to you promptly.",
   right_link="/en/contact",
 
-  bottom_card_image="placeholder.jpg",
+  bottom_card_image="bw_pcb.jpg",
   bottom_title = "NEWS"
   bottom_subtitle = "Latest Updates from Space Cubics"
   bottom_footer_1 = "From strategic partnerships and technical innovations to mission milestones,"
