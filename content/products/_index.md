@@ -1,12 +1,20 @@
 +++
 +++
 
-{% section_title(bg="", title="PRODUCTS", subtitle="Make the impossible", slogan="POSSIBLE") %}
-~render~
-{% end %}
-
-{% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="white_pcb.png") %}
-Space Cubics Inc.
+{% twocoltwo(
+  title="PRODUCTS",
+  img="",
+  alt="",
+  link="",
+  link_text="",
+  img_link="",
+  bg="white_pcb.png",
+  subtitle="",
+  slogan=""
+) %}
+小型衛星向け 
+<br><br>
+宇宙用コンピュータモジュール 
 {% end %}
 
 {% threecard(
@@ -16,7 +24,7 @@ Space Cubics Inc.
   middle_card_image="Mars_solis_lacus.PNG",
   right_card_image="Messier.jpeg",
   left_card_title="コスト削減と信頼性",
-  left_card_subtitle="宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません<br><br>信頼性を高めるためには、放射線耐性が高い部品が搭載されたコンピュータを採用する選択肢がありますが、これらの製品は高価格であり、かつ製品を購入するだけでは宇宙でのミッションで起こる全てのトラブルを解決できるわけではありません。<br><br>株式会社 Space Cubicsは、低コストでありながら、宇宙機器に必要な高い信頼性を持つ製品を提供します。",
+  left_card_subtitle="宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません。<br><br>信頼性を高めるためには、放射線耐性が高い部品が搭載されたコンピュータを採用する選択肢がありますが、これらの製品は高価格であり、かつ製品を購入するだけでは宇宙でのミッションで起こる全てのトラブルを解決できるわけではありません。<br><br>株式会社 Space Cubicsは、低コストでありながら、宇宙機器に必要な高い信頼性を持つ製品を提供します。",
   middle_card_title="耐障害性",
   middle_card_subtitle="一般に、ほとんどの高信頼性コンピュータには耐障害性機能が標準で備わっていません。<br><br>たとえ放射線耐性が高い部品が搭載されているコンピュータでも、強い放射線によって引き起こされる障害（記憶されているデータが化けてしまうなど）が起こることがあります。<br><br> 宇宙機器の場合、ハードウェアに障害が発生しても部品交換はできず、またソフトウェアの問題でも地上から復旧は困難です。<br><br> 株式会社 Space Cubicsの製品は障害は必ず起こるものだという前提のもと、障害からの速やかな復旧が重要だという考えに基づき、多くの耐障害性機能を備えています。",
   right_card_title="使いやすさ",
@@ -27,17 +35,26 @@ Space Cubics Inc.
 ~render~
 {% end %}
 
-{% section_title(bg="", title="Onboard Computer", subtitle="(OBC)", slogan="Command & Data Handling") %}
-~render~
-{% end %}
 
-{% twocol(title="SC-OBC Module A1", img="sq_sc-obc_module_a1.png", alt="Diagram", link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", link_text="Read More", img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/", bg="") %}
-<br> <br> 
+{% twocoltwo(
+  title="Onboard Computer",
+  img="sq_sc-obc_module_a1.png",
+  alt="Diagram",
+  link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  link_text="Read More",
+  img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  bg="no_img.png",
+  subtitle="(OBC)",
+  slogan="Command & Data Handling"
+) %}
 JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。
 <br> <br> 
 Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
 <br> 
+宇宙用コンピュータモジュール 
 {% end %}
+
+
 
 {% section_title(bg="images/bg.jpg", title="使用例", subtitle="Current projects", slogan="") %}
 ~render~
@@ -51,10 +68,10 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
   right_card_image="satellite.jpg",
   
   left_card_title="",
-  left_card_subtitle="弊社人工衛星に搭載するため、PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
+  left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
   
   right_card_title="",
-  right_card_subtitle="インタフェースボードに搭載したSC-OBC Module A1が組み込まれた人工衛星。（写真は開発中のもの）",
+  right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
   
   bg=""
 ) %}

@@ -1,15 +1,20 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="ABOUT US", subtitle="To drink beer", slogan="ON THE MOON") %}
-~render~
-{% end %}
-
-{% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="about.png") %}
-私たち株式会社 Space Cubicsは <br>
-「誰もが月に行ける時代」を目指し、<br>
-安価で信頼性の高い宇宙用コンピュータを開発する<br>
-JAXAのベンチャーです。
+{% twocoltwo(
+  bg="about.png",
+  title="ABOUT US",
+  subtitle="To drink beer",
+  slogan="ON THE MOON",
+  img="img.jpg",
+  alt="",
+  link="about_us",
+  link_text="Read More",
+  img_link="img.jpg"
+) %}
+私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
+<br><br>
+安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。
 {% end %}
 
 {% threecard(
