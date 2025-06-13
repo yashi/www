@@ -1,9 +1,26 @@
 +++
-title = "Contact"
 template = "contact.html"
 +++
+
+{% twocoltwo(
+  title="CONTACT",
+  img="",
+  alt="",
+  link="products",
+  link_text="",
+  img_link="product1.png",
+  bg="earth.png",
+  subtitle="Be part of something bigger",
+  slogan=""
+) %}
+お気軽に<br>お問い合わせ<br>ください。
+<br><br>
+担当者より<br>ご返信いたします
+{% end %}
+
+
 {% contact_form(
-  title="JOIN OUR TEAM",
+  title="お問い合わせ",
   subtitle="一緒に働くメンバーを常に募集しています。",
   name_field="お名前"
   email_field="メールアドレス"

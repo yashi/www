@@ -1,7 +1,24 @@
 +++
-title = "Contact"
 template = "contact.html"
 +++
+
+{% twocoltwo(
+  title="CONTACT",
+  img="",
+  alt="",
+  link="products",
+  link_text="",
+  img_link="product1.png",
+  bg="earth.png",
+  subtitle="Be part of something bigger",
+  slogan=""
+) %}
+Feel free to reach out.
+<br><br>
+We will get back to you soon.
+{% end %}
+
+
 {% contact_form(
   title="JOIN OUR TEAM",
   subtitle="We are always looking for team members to work with us.",
