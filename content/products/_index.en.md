@@ -101,10 +101,10 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   right_card_image="satellite.jpg",
   
   left_card_title="",
-  left_card_subtitle="For mounting on our satellite, the SC-OBC Module A1 is installed on an interface board shaped to fit the PC104 form factor.",
+  left_card_subtitle="For mounting on our satellite, <br><br> the SC-OBC Module A1 is installed on an interface board shaped to fit the PC104 form factor.",
   
   right_card_title="",
-  right_card_subtitle="A satellite integrating the SC-OBC Module A1 mounted on the interface board. (Photo shows a prototype under development)",
+  right_card_subtitle="A satellite integrating the SC-OBC Module A1 mounted on the interface board. <br><br> (Photo shows a prototype under development)",
   
   bg=""
 ) %}
