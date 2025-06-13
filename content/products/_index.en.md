@@ -1,13 +1,20 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="PRODUCTS", subtitle="Make the impossible", slogan="POSSIBLE") %}
-~render~
-{% end %}
-
-{% twocol(title="", img="", alt="", link="", link_text="Read More", img_link="", bg="white_pcb.png") %}
+{% twocoltwo(
+  title="PRODUCTS",
+  img="",
+  alt="",
+  link="",
+  link_text="",
+  img_link="",
+  bg="white_pcb.png",
+  subtitle="",
+  slogan=""
+) %}
 Space Cubics Inc.
 {% end %}
+
 
 {% threecard(
   title="What Space Cubics Inc. Offers...",
@@ -63,33 +70,24 @@ Space Cubics Inc.
 ~render~
 {% end %}
 
-
-{% section_title(bg="", title="Onboard Computer", subtitle="(OBC)", slogan="Command & Data Handling") %}
-~render~
-{% end %}
-
-{% twocol(
+{% twocoltwo(
   title="SC-OBC Module A1",
   img="sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  link_text="Read More",
+  link_text="",
   img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  bg=""
+  bg="no_img.png",
+  subtitle="(OBC)",
+  slogan="Command & Data Handling"
 ) %}
-
-<br><br>
-
 This is a space-grade computer optimized for CubeSats, based on the reliability design technologies developed by JAXA for the International Space Station.
-
 <br><br>
-
 It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
+<br><br>
 It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
-
-<br>
-
 {% end %}
+
 
 {% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
 ~render~
