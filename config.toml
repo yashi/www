@@ -41,7 +41,7 @@ links = [
     { url = "@/about_us/_index.md", name = "About us" },
     { url = "@/products/_index.md", name = "Products" },
     { url = "@/news/_index.md", name = "News" },
-    { url = "@/ir_relations/_index.md", name = "IR Relations" },
+    { url = "@/ir_relations/_index.md", name = "IR relations" },
     { url = "@/recruit/_index.md", name = "Recruit" }
 ]
 
