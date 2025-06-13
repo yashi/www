@@ -37,11 +37,11 @@
 
 
 {% twocoltwo(
-  title="Onboard Computer",
+  title="SC-OBC Module A1",
   img="sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  link_text="Read More",
+  link_text="",
   img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
   bg="no_img.png",
   subtitle="(OBC)",
@@ -54,6 +54,10 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 宇宙用コンピュータモジュール 
 {% end %}
 
+
+<!--TODO: Add product specs element -->
+
+<!--TODO: add links -->
 
 
 {% section_title(bg="images/bg.jpg", title="使用例", subtitle="Current projects", slogan="") %}
