@@ -9,7 +9,7 @@
 
 {% twocoltwo(
   title="商品概要",
-  img="/sq_sc-obc_module_a1.png",
+  img="sq_sc-obc_module_a1.png",
   alt="",
   link="",
   link_text="",
@@ -33,8 +33,8 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   title="",
   subtitle="",
   
-  left_card_image="/interface.jpg",
-  right_card_image="/satellite.jpg",
+  left_card_image="interface.jpg",
+  right_card_image="satellite.jpg",
   
   left_card_title="",
   left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
@@ -61,7 +61,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   right_subtitle="お問い合わせ",
   right_footer_1="お気軽にお問い合わせください。",
   right_footer_2="担当者よりご返信いたします",
-  right_link="/recruit",
+  right_link="recruit",
 
   bottom_card_image="earth.png",
   bottom_title="CONTACT",
