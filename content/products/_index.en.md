@@ -72,8 +72,8 @@ Space Cubics Inc.
 
 {% twocoltwo(
   title="SC-OBC Module A1",
-  img="sq_sc-obc_module_a1.png",
-  alt="Diagram",
+  img="/sq_sc-obc_module_a1.png",
+  alt="",
   link="/en/sc_obc",
   link_text="Read More",
   img_link="/en/sc_obc",
@@ -89,8 +89,8 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 {% end %}
 
 {% prefooter(
-  left_card_image="about.png", 
-  right_card_image="ide.webp",
+  left_card_image="/about.png", 
+  right_card_image="/ide.webp",
 
   left_title="ABOUT US",
   left_subtitle="Company Details",
@@ -104,7 +104,7 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   right_footer_2="We will get back to you soon.",
   right_link="/en/recruit",
 
-  bottom_card_image="earth.png",
+  bottom_card_image="/earth.png",
   bottom_title="CONTACT",
   bottom_subtitle="Send Us a Message",
   bottom_footer_1="We believe in collaboration, creativity, and community.",
