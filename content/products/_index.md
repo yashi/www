@@ -35,14 +35,15 @@
 ~render~
 {% end %}
 
+<!--TODO: Make new shortcode for product display element -->
 
 {% twocoltwo(
   title="SC-OBC Module A1",
   img="sq_sc-obc_module_a1.png",
   alt="Diagram",
-  link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  link_text="",
-  img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  link="/sc_obc",
+  link_text="Read More",
+  img_link="/sc_obc",
   bg="no_img.png",
   subtitle="(OBC)",
   slogan="Command & Data Handling"
@@ -54,33 +55,6 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 宇宙用コンピュータモジュール 
 {% end %}
 
-
-<!--TODO: Add product specs element -->
-
-<!--TODO: add links -->
-
-
-{% section_title(bg="images/bg.jpg", title="使用例", subtitle="Current projects", slogan="") %}
-~render~
-{% end %}
-
-{% twocard(
-  title="",
-  subtitle="",
-  
-  left_card_image="interface.jpg",
-  right_card_image="satellite.jpg",
-  
-  left_card_title="",
-  left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
-  
-  right_card_title="",
-  right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
-  
-  bg=""
-) %}
-~render~
-{% end %}
 
 {% prefooter(
   left_card_image="about.png", 

@@ -74,9 +74,9 @@ Space Cubics Inc.
   title="SC-OBC Module A1",
   img="sq_sc-obc_module_a1.png",
   alt="Diagram",
-  link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  link_text="",
-  img_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  link="/en/sc_obc",
+  link_text="Read More",
+  img_link="/en/sc_obc",
   bg="no_img.png",
   subtitle="(OBC)",
   slogan="Command & Data Handling"
@@ -86,29 +86,6 @@ This is a space-grade computer optimized for CubeSats, based on the reliability 
 It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
 <br><br>
 It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
-{% end %}
-
-
-{% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
-~render~
-{% end %}
-
-{% twocard(
-  title="",
-  subtitle="",
-  
-  left_card_image="interface.jpg",
-  right_card_image="satellite.jpg",
-  
-  left_card_title="",
-  left_card_subtitle="For mounting on our satellite, <br><br> the SC-OBC Module A1 is installed on an interface board shaped to fit the PC104 form factor.",
-  
-  right_card_title="",
-  right_card_subtitle="A satellite integrating the SC-OBC Module A1 mounted on the interface board. <br><br> (Photo shows a prototype under development)",
-  
-  bg=""
-) %}
-~render~
 {% end %}
 
 {% prefooter(
