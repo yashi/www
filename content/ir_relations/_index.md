@@ -2,7 +2,7 @@
 +++
 
 {% twocoltwo(
-  bg="sq_ir_img.jpg",
+  bg="sq_ir.png",
   title="IR",
   subtitle="Space Cubics",
   slogan="INVESTOR RELATIONS",
