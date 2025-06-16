@@ -18,7 +18,7 @@ title = "Space Cubics Inc."
   link="products",
   link_text="Read More",
   img_link="product1.png",
-  bg="no_img.png",
+  bg="",
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
@@ -26,15 +26,15 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 {% end %}
 
 {% twocoltwo(
-  bg="/about.png",
+  bg="about.png",
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="img.jpg",
+  img="",
   alt="",
   link="about_us",
   link_text="Read More",
-  img_link="img.jpg"
+  img_link=""
 ) %}
 私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
 <br><br>
@@ -43,11 +43,11 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 
 
 {% twocoltwo(
-  bg="images/bg.jpg",
+  bg="",
   title="PARTNERS",
   subtitle="Our mission is to support",
   slogan="SPACE COMPUTING",
-  img="/partners.png",
+  img="partners.png",
   alt="",
   link="https://sii.or.jp/space02/decision.html",
   link_text="Read More",

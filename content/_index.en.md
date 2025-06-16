@@ -13,12 +13,12 @@ title = "Space Cubics Inc."
 
 {% twocoltwo(
   title="SC-OBC Module A1",
-  img="/sq_sc-obc_module_a1.png",
+  img="sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
   link_text="Read More",
   img_link="product1.png",
-  bg="no_img.png",
+  bg="",
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
@@ -31,11 +31,11 @@ This is a space computer optimally designed for CubeSat based on the reliability
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="img.jpg",
+  img="",
   alt="",
   link="about_us",
   link_text="Read More",
-  img_link="img.jpg"
+  img_link=""
 ) %}
 At Space Cubics Inc.,
 <br>
@@ -62,7 +62,7 @@ By working with companies that pioneer breakthrough ideas, we aim to foster sust
 
 
 {% twocoltwo(
-  bg="/bw_pcb.jpg",
+  bg="bw_pcb.jpg",
   title="NEWS",
   subtitle="Our advancements in space computing are",
   slogan="REGULARLY UPDATED",
@@ -81,8 +81,8 @@ that power space exploration.
 
 
 {% prefooter(
-  left_card_image="/ide.webp", 
-  right_card_image="/earth.png",
+  left_card_image="ide.webp", 
+  right_card_image="earth.png",
 
   left_title="RECRUIT",
   left_subtitle="Career opportunities",
