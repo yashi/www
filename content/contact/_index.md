@@ -6,16 +6,14 @@ template = "contact.html"
   title="CONTACT",
   img="",
   alt="",
-  link="products",
+  link="",
   link_text="",
-  img_link="product1.png",
+  img_link="",
   bg="earth.png",
   subtitle="Be part of something bigger",
   slogan=""
 ) %}
-お気軽に<br>お問い合わせ<br>ください。
-<br><br>
-担当者より<br>ご返信いたします
+<!-- no text -->
 {% end %}
 
 

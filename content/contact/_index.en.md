@@ -6,16 +6,14 @@ template = "contact.html"
   title="CONTACT",
   img="",
   alt="",
-  link="products",
+  link="",
   link_text="",
-  img_link="product1.png",
+  img_link="",
   bg="earth.png",
   subtitle="Be part of something bigger",
   slogan=""
 ) %}
-Feel free to reach out.
-<br><br>
-We will get back to you soon.
+<!-- no text -->
 {% end %}
 
 
