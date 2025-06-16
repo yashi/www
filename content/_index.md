@@ -13,7 +13,7 @@ title = "Space Cubics Inc."
 
 {% twocoltwo(
   title="SC-OBC Module A1",
-  img="sq_sc-obc_module_a1.png",
+  img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
   link_text="Read More",
@@ -26,7 +26,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 {% end %}
 
 {% twocoltwo(
-  bg="about.png",
+  bg="/about.png",
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
@@ -47,7 +47,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   title="PARTNERS",
   subtitle="Our mission is to support",
   slogan="SPACE COMPUTING",
-  img="partners.png",
+  img="/partners.png",
   alt="",
   link="https://sii.or.jp/space02/decision.html",
   link_text="Read More",
