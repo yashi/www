@@ -9,7 +9,7 @@
 
 {% twocoltwo(
   title="商品概要",
-  img="sq_sc-obc_module_a1.png",
+  img="/sq_sc-obc_module_a1.png",
   alt="",
   link="",
   link_text="",
