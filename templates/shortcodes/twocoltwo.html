@@ -18,14 +18,16 @@
       {% endif %}
     </div>
     
-    <div class="hero-image-container">
-      {% if img_link %}
-        <a href="{{ img_link }}">
+    {% if img and img | length > 0 %}
+      <div class="hero-image-container">
+        {% if img_link %}
+          <a href="{{ img_link }}">
+            <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
+          </a>
+        {% else %}
           <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
-        </a>
-      {% else %}
-        <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
-      {% endif %}
-    </div>
+        {% endif %}
+      </div>
+    {% endif %}
   </div>
 </div>
