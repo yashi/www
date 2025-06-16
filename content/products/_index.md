@@ -8,7 +8,7 @@
   link="",
   link_text="",
   img_link="",
-  bg="/images/white_pcb.png",
+  bg="/static/images/white_pcb.png",
   subtitle="",
   slogan=""
 ) %}
