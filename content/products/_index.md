@@ -12,9 +12,7 @@
   subtitle="",
   slogan=""
 ) %}
-小型衛星向け 
-<br><br>
-宇宙用コンピュータモジュール 
+<!-- no text -->
 {% end %}
 
 {% threecard(

@@ -6,13 +6,13 @@
   title="IR",
   subtitle="Space Cubics",
   slogan="INVESTOR RELATIONS",
-  img="img.jpg",
+  img="",
   alt="",
   link="",
   link_text="",
-  img_link="img.jpg"
+  img_link=""
 ) %}
-Invest in us.
+<!-- no text -->
 {% end %}
 
 {% about_company (
@@ -20,7 +20,7 @@ Invest in us.
   subtitle="",
   link="/space",
   link_text="詳細を見る",
-  bg="images/space-bg.jpg"
+  bg=""
 ) %}
 2025.12.31｜Third injection of funds
 2025.11.31｜Second injection of funds

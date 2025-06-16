@@ -12,7 +12,7 @@
   subtitle="",
   slogan=""
 ) %}
-Space Cubics Inc.
+<!-- no text -->
 {% end %}
 
 
