@@ -61,6 +61,22 @@ TEL｜050-7112-6213
 後藤 雅享 (Masayuki Goto)｜Founding Member｜Space System Engineer｜2002年よりJAXAにて有人宇宙開発に従事。国際宇宙ステーションに搭載する数々の機器開発プロジェクトを担当し、広い分野での開発・打上げ・運用経験を持つ。JAXAと民間の両面から宇宙開発の発展を目指す。
 {% end %}
 
+{% twocoltwo(
+  title="PARTNERS",
+  img="space_one_logo.png",
+  alt="",
+  link="products",
+  link_text="Read More",
+  img_link="",
+  bg="no_img.png",
+  subtitle="Other teams who",
+  slogan="WORK WITH US"
+) %}
+スペースワン株式会社
+<br>
+経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。超小型宇宙利用プラットフォーム確立へ向け、スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。
+{% end %}
+
 {% prefooter(
   left_card_image="white_pcb.png", 
   right_card_image="ide.webp",

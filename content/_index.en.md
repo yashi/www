@@ -22,9 +22,7 @@ title = "Space Cubics Inc."
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
-Space Computer Modules 
-<br>
-for Small Satellites
+This is a space computer optimally designed for CubeSat based on the reliability design technology cultivated by JAXA for the International Space Station, and uses Xilinx Artix-7 FPGAs, allowing the type and number of interfaces to be flexibly adjusted for each user. It can be used for spacecraft other than cubesats and for industrial applications on the ground.
 {% end %}
 
 

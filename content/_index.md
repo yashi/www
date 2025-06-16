@@ -22,9 +22,7 @@ title = "Space Cubics Inc."
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
-小型衛星向け 
-<br><br>
-宇宙用コンピュータモジュール 
+JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
 {% end %}
 
 {% twocoltwo(

@@ -14,7 +14,7 @@
     margin: 0 auto;
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: flex-start; // prevent image from stretching with text
     justify-content: space-between;
     flex-wrap: nowrap;
   }
@@ -129,17 +129,16 @@
       flex-direction: row;
       align-items: center;
       gap: 1rem;
-      justify-content: center; 
+      justify-content: center;
 
       @media (max-width: 768px) {
         flex-direction: column;
-        align-items: center;
       }
     }
 
     .link-text {
       margin: 0;
-      text-align: center; 
+      text-align: center;
 
       @media (max-width: 768px) {
         text-align: center;
@@ -157,25 +156,15 @@
       transition: background-color 0.3s ease;
       font-size: 1em;
       white-space: nowrap;
-      position: static !important; 
-      margin-top: 1rem; 
+      margin-top: 1rem;
       display: inline-block;
 
       &:hover {
         background-color: #ea580c;
       }
 
-      @media (min-width: 769px) {
-        position: static !important;
-        top: auto;
-        right: auto;
-        margin-top: 1rem;
-      }
-
       @media (max-width: 768px) {
         margin-top: 0.5rem;
-        display: inline-block;
-        position: static !important;
       }
     }
 
@@ -190,14 +179,7 @@
       width: 100%;
       margin-left: 0;
       font-size: 1.2em;
-      position: static;
       text-align: center;
-
-      .hero-link {
-        position: static !important;
-        margin-top: 1rem;
-        display: inline-block;
-      }
     }
 
     @media (max-width: 479px) {
@@ -206,50 +188,45 @@
     }
   }
 
-  .hero-image-container {
-    flex: 0 0 65%;
-    max-width: 65%;
-    text-align: center;
-    min-height: 600px;
-    margin-left: 3rem;
+.hero-image-container {
+  flex: 0 0 50%;
+  max-width: 50%;
+  text-align: center;
+  align-self: flex-start;
+  padding: 1rem;
+
+  // Make background transparent
+  background-color: transparent !important;
+
+  img {
+    width: 100%;
+    max-width: 600px; // Limit width
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+
+  @media (max-width: 1024px) {
+    flex: 0 0 60%;
+    max-width: 60%;
 
     img {
-      width: 80%;
-      height: auto;
-      border-radius: 8px;
-      display: block;
-      margin: 0 auto;
-      max-width: none;
-    }
-
-    @media (max-width: 1024px) {
-      flex: 0 0 60%;
-      max-width: 60%;
-      margin-left: 2rem;
-
-      img {
-        width: 105%;
-      }
-    }
-
-    @media (max-width: 768px) {
-      flex: none;
-      width: 100%;
-      max-width: 100%;
-      min-height: auto;
-      margin-left: 0;
-
-      img {
-        width: 80%;
-      }
+      max-width: 440px;
     }
   }
 
   @media (max-width: 768px) {
-    padding-bottom: 2rem;
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 0;
 
-    .hero-content {
-      flex-wrap: wrap;
+    img {
+      max-width: 80%;
     }
   }
+}
+
 }
