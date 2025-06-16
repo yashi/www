@@ -188,6 +188,22 @@ Tomohiro Namitsuka｜CPO｜Electronics Engineer｜Since 2002, worked as a hardwa
 Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in manned space development at JAXA. Led numerous equipment development projects for the International Space Station, gaining experience in development, launch, and operations. Aims to advance space development from both the JAXA and private sector perspectives.  
 {% end %}
 
+{% twocoltwo(
+  title="PARTNERS",
+  img="space_one_logo.png",
+  alt="",
+  link="products",
+  link_text="Read More",
+  img_link="",
+  bg="no_img.png",
+  subtitle="Other teams who",
+  slogan="WORK WITH US"
+) %}
+Space One Co., Ltd.
+<br>
+Jointly selected for the “FY2020 Subsidy for Industrial Technology Development Project for Practical Application” by the Ministry of Economy, Trade and Industry (METI). The project aims to establish a nano-space utilization platform by launching a nano-satellite by Space One's small rocket “KAIROS,” and to conduct a space demonstration of a satellite equipped with a space computer manufactured by Space Cubics.
+{% end %}
+
 {% prefooter(
   left_card_image="white_pcb.png", 
   right_card_image="ide.webp",
