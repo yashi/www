@@ -45,7 +45,7 @@ by developing affordable and reliable space computers.
 {% end %}
 
 {% twocoltwo(
-  bg="images/bg.jpg",
+  bg="",
   title="PARTNERS",
   subtitle="Our mission is to support",
   slogan="SPACE COMPUTING",
