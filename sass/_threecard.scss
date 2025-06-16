@@ -1,7 +1,7 @@
 .threecard {
   background-color: transparent;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
@@ -32,6 +32,34 @@
     flex-direction: column;
   }
 
+  &-label {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem; // wider spacing between Vision and number
+    margin-bottom: 1.25rem;
+    text-shadow: none;
+
+    .label-prefix {
+      font-size: 1.4rem;
+      color: #aaa;
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .label-number {
+      font-size: 8rem;
+      font-weight: 300;
+      color: #bbb;
+      line-height: 0.75;
+      height: 4rem;
+      overflow: hidden;
+      display: inline-block;
+      font-family: 'Arial Narrow', sans-serif;
+      user-select: none;
+    }
+  }
+
   &-cardleft,
   &-cardmiddle,
   &-cardright {
@@ -46,7 +74,7 @@
     padding: 1.25rem;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
     border: 1px solid white;
     height: 100%;
   }
@@ -54,11 +82,17 @@
   &-cardleft-content,
   &-cardmiddle-content,
   &-cardright-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
     h2 {
       font-size: 1.5rem;
       font-weight: 700;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       color: white;
+      text-align: left;
+      user-select: none;
     }
 
     div {
@@ -66,6 +100,8 @@
       font-weight: 400;
       line-height: 1.3;
       color: white;
+      text-align: left;
+      user-select: none;
     }
   }
 
@@ -73,7 +109,7 @@
   &-middlebtn-container,
   &-rightbtn-container {
     margin-top: auto;
-    text-align: center;
+    text-align: left;
   }
 
   &-leftlink-btn,
@@ -94,27 +130,19 @@
     }
   }
 
-  // Desktop and larger
+  // Responsive media queries
+
   @media (width >= 1025px) {
     padding: 3rem 4rem;
 
     &-title {
       font-size: 2.25rem;
+      text-align: center;  // Center header title
     }
 
     &-subtitle {
       font-size: 1.25rem;
-    }
-
-    &-container {
-      flex-wrap: nowrap;
-      flex-direction: row;
-      gap: 1rem;
-    }
-
-    &-column {
-      flex: 1 1 30%;
-      min-width: 250px;
+      text-align: center;  // Center header subtitle
     }
 
     &-cardleft-content,
@@ -122,7 +150,7 @@
     &-cardright-content {
       h2 {
         font-size: 2rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.25rem;
       }
 
       div {
@@ -138,114 +166,51 @@
     }
   }
 
-  // Tablet
   @media (width <= 1024px) {
     padding: 2rem 3rem;
-
-    &-title {
-      font-size: 2rem;
-    }
-
-    &-subtitle {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
-    }
-
     &-container {
       flex-direction: column;
       gap: 1.5rem;
     }
-
     &-column {
       flex: 1 1 100%;
-      min-width: unset;
     }
-
-    &-cardleft-content,
-    &-cardmiddle-content,
-    &-cardright-content {
-      h2 {
-        font-size: 1.75rem;
-        margin-bottom: 1.5rem;
-      }
-
-      div {
-        font-size: 1.1rem;
-      }
-    }
-
-    &-leftlink-btn,
-    &-middlelink-btn,
-    &-rightlink-btn {
-      font-size: 0.95rem;
-      padding: 0.4rem 0.85rem;
-    }
-  }
-
-  // Mobile
-  @media (width <= 768px) {
-    padding: 1.5rem 2rem;
 
     &-title {
-      font-size: 1.75rem;
+      text-align: center;
     }
 
     &-subtitle {
-      font-size: 1rem;
-      margin-bottom: 1rem;
+      text-align: center;
     }
+  }
 
+  @media (width <= 768px) {
+    padding: 1.5rem 2rem;
     &-container {
-      flex-direction: column;
       gap: 2rem;
     }
-
-    &-column {
-      flex: 1 1 100%;
-      min-width: unset;
-    }
-
     &-cardleft-content,
     &-cardmiddle-content,
     &-cardright-content {
       h2 {
         font-size: 1.5rem;
-        margin-bottom: 1rem;
       }
 
       div {
         font-size: 1rem;
       }
     }
-
-    &-leftlink-btn,
-    &-middlelink-btn,
-    &-rightlink-btn {
-      font-size: 0.9rem;
-      padding: 0.4rem 0.75rem;
-    }
   }
 
-  // Small mobile
   @media (max-width: 479px) {
     padding: 1rem;
-
     &-title {
       font-size: 1.5rem;
     }
 
     &-subtitle {
       font-size: 0.9rem;
-      margin-bottom: 0.8rem;
-    }
-
-    &-container {
-      gap: 1rem;
-    }
-
-    &-column {
-      flex: 1 1 100%;
-      min-width: unset;
     }
 
     &-cardleft-content,
@@ -253,19 +218,11 @@
     &-cardright-content {
       h2 {
         font-size: 1.25rem;
-        margin-bottom: 0.75rem;
       }
 
       div {
         font-size: 0.9rem;
       }
-    }
-
-    &-leftlink-btn,
-    &-middlelink-btn,
-    &-rightlink-btn {
-      font-size: 0.8rem;
-      padding: 0.3rem 0.6rem;
     }
   }
 }

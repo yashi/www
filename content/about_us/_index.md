@@ -20,9 +20,9 @@
 {% threecard(
   title="To drink beer on the moon.",
   subtitle="私たち株式会社 Space Cubicsは「誰もが月に行ける時代」を目指し,<br><br>安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。",
-  left_card_image="dark_earth.png",
-  middle_card_image="Mars_solis_lacus.PNG",
-  right_card_image="Messier.jpeg",
+  left_card_image="",
+  middle_card_image="",
+  right_card_image="",
   left_card_title="もっと安く",
   left_card_subtitle="宇宙用の機器は地上用に比べて、<br><br>性能に加えて安全性や<br><br>信頼性検証などの要求事項が多く、<br><br>適合させるための開発コストが非常に高くなります。<br><br><br><br>株式会社 Space Cubicsは、<br><br>これまで多くの宇宙での使用実績のある<br><br>民生コンピューターの設計者と、<br><br>宇宙開発の経験から培った<br><br>多くの設計検証ノウハウを持つ<br><br>JAXAエンジニアがタッグを組み、<br><br>「JAXAベンチャー」として信頼性の高い<br><br>宇宙用コンピューターを安価に提供します。",
   middle_card_title="もっと手軽に",

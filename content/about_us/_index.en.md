@@ -34,9 +34,9 @@ by developing affordable and reliable space computers.
   
   with the goal of making space travel to the Moon accessible to all.",
 
-  left_card_image="dark_earth.png",
-  middle_card_image="Mars_solis_lacus.PNG",
-  right_card_image="Messier.jpeg",
+  left_card_image="",
+  middle_card_image="",
+  right_card_image="",
   left_card_title="More Affordable",
   
   left_card_subtitle="Compared to terrestrial devices,

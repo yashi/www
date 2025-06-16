@@ -23,9 +23,9 @@ Space Cubics Inc.
   <br><br>
   
   we make entering the space industry more accessible and contribute to the growth of private space enterprises, particularly in Japan and across Asia.",
-  left_card_image="dark_earth.png",
-  middle_card_image="Mars_solis_lacus.PNG",
-  right_card_image="Messier.jpeg",
+  left_card_image="",
+  middle_card_image="",
+  right_card_image="",
   left_card_title="Cost Reduction & Reliability",
   left_card_subtitle="In spacecraft development, limited budgets often lead to the use of inexpensive general-purpose computers. 
 

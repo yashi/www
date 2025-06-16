@@ -20,9 +20,9 @@
 {% threecard(
   title="株式会社 Space Cubics は...",
   subtitle="低価格な宇宙用コンピュータと宇宙開発に関するトータルサポートを提供することで、<br><br>宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。",
-  left_card_image="dark_earth.png",
-  middle_card_image="Mars_solis_lacus.PNG",
-  right_card_image="Messier.jpeg",
+  left_card_image="",
+  middle_card_image="",
+  right_card_image="",
   left_card_title="コスト削減と信頼性",
   left_card_subtitle="宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません。<br><br>信頼性を高めるためには、放射線耐性が高い部品が搭載されたコンピュータを採用する選択肢がありますが、これらの製品は高価格であり、かつ製品を購入するだけでは宇宙でのミッションで起こる全てのトラブルを解決できるわけではありません。<br><br>株式会社 Space Cubicsは、低コストでありながら、宇宙機器に必要な高い信頼性を持つ製品を提供します。",
   middle_card_title="耐障害性",
