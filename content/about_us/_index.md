@@ -12,9 +12,7 @@
   link_text="",
   img_link=""
 ) %}
-私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
-<br><br>
-安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。
+<!-- no text -->
 {% end %}
 
 {% threecard(

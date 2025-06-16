@@ -10,15 +10,11 @@ paginate_by = 8
   title="NEWS",
   subtitle="Our advancements in space computing are",
   slogan="REGULARLY UPDATED",
-  img="pcb_product.png",
+  img="",
   alt="",
   link="news",
   link_text="",
   img_link=""
 ) %}
-Bringing you the latest in space computing.
-<br>
-Our team is dedicated to advancing the technologies
-<br>
-that power space exploration.
+<!-- no text -->
 {% end %}

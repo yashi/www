@@ -13,11 +13,7 @@
   link_text="",
   img_link=""
 ) %}
-At Space Cubics Inc.,
-<br>
-we aim to make space travel accessible to everyone,
-<br>
-by developing affordable and reliable space computers.
+<!-- no text -->
 {% end %}
 
 

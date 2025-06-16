@@ -10,14 +10,13 @@ paginate_by = 8
   title="NEWS",
   subtitle="Our advancements in space computing are",
   slogan="REGULARLY UPDATED",
-  img="pcb_product.png",
+  img="",
   alt="",
   link="news",
   link_text="",
   img_link=""
 ) %}
-スペースコンピューティングの最新情報をお届けします！ 
-<br><br>
-私たちのチームは、宇宙探査に力を与える技術の進歩に専念しています。
+<!-- no text -->
+
 {% end %}
 
