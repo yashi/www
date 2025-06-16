@@ -8,7 +8,7 @@
   link="",
   link_text="",
   img_link="",
-  bg="/white_pcb.png",
+  bg="white_pcb.png",
   subtitle="",
   slogan=""
 ) %}
@@ -39,12 +39,12 @@
 
 {% twocoltwo(
   title="SC-OBC Module A1",
-  img="/sq_sc-obc_module_a1.png",
+  img="sq_sc-obc_module_a1.png",
   alt="",
   link="/sc_obc",
   link_text="Read More",
   img_link="/sc_obc",
-  bg="no_img.png",
+  bg="",
   subtitle="(OBC)",
   slogan="Command & Data Handling"
 ) %}
@@ -57,8 +57,8 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 
 
 {% prefooter(
-  left_card_image="/about.png", 
-  right_card_image="/ide.webp",
+  left_card_image="about.png", 
+  right_card_image="ide.webp",
 
   left_title="ABOUT US",
   left_subtitle="採用情報",
@@ -72,7 +72,7 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
   right_footer_2="担当者よりご返信いたします",
   right_link="/recruit",
 
-  bottom_card_image="/earth.png",
+  bottom_card_image="earth.png",
   bottom_title="CONTACT",
   bottom_subtitle="Be part of something bigger",
   bottom_footer_1="We believe in collaboration, creativity, and community.",
