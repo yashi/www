@@ -7,11 +7,11 @@
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="img.jpg",
+  img="",
   alt="",
   link="about_us",
   link_text="",
-  img_link="img.jpg"
+  img_link=""
 ) %}
 At Space Cubics Inc.,
 <br>
@@ -165,7 +165,7 @@ by developing affordable and reliable space computers.
   subtitle="Space Cubics Inc. Overview",
   link="/space",
   link_text="See Details",
-  bg="images/space-bg.jpg"
+  bg=""
 ) %}
 Company Name｜Space Cubics Inc.  
 Established｜2018  
@@ -195,7 +195,7 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   link="products",
   link_text="Read More",
   img_link="",
-  bg="no_img.png",
+  bg="",
   subtitle="Other teams who",
   slogan="WORK WITH US"
 ) %}

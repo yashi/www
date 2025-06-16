@@ -6,11 +6,11 @@
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="img.jpg",
+  img="",
   alt="",
   link="about_us",
   link_text="",
-  img_link="img.jpg"
+  img_link=""
 ) %}
 私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
 <br><br>
@@ -39,7 +39,7 @@
   subtitle="株式会社 Space Cubics Overview",
   link="/space",
   link_text="詳細を見る",
-  bg="images/space-bg.jpg"
+  bg=""
 ) %}
 会社名｜株式会社 Space Cubics
 設立｜2018年
@@ -68,7 +68,7 @@ TEL｜050-7112-6213
   link="products",
   link_text="Read More",
   img_link="",
-  bg="no_img.png",
+  bg="",
   subtitle="Other teams who",
   slogan="WORK WITH US"
 ) %}
