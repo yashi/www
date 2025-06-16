@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 1rem; // wider spacing between Vision and number
+    gap: 1rem; 
     margin-bottom: 1.25rem;
     text-shadow: none;
 
@@ -130,19 +130,18 @@
     }
   }
 
-  // Responsive media queries
 
   @media (width >= 1025px) {
     padding: 3rem 4rem;
 
     &-title {
       font-size: 2.25rem;
-      text-align: center;  // Center header title
+      text-align: center;  
     }
 
     &-subtitle {
       font-size: 1.25rem;
-      text-align: center;  // Center header subtitle
+      text-align: center; 
     }
 
     &-cardleft-content,
