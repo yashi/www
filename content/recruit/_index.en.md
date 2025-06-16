@@ -5,12 +5,12 @@ template = "recruit_list.html"
 
 {% twocoltwo(
   title="RECRUIT",
-  img="/pcb_product.png",
+  img="pcb_product.png",
   alt="",
   link="products",
   link_text="",
-  img_link="/product1.png",
-  bg="/ide.webp",
+  img_link="",
+  bg="ide.webp",
   subtitle="",
   slogan="採用情報"
 ) %}
