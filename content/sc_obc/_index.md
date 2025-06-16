@@ -33,8 +33,8 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   title="",
   subtitle="",
   
-  left_card_image="interface.jpg",
-  right_card_image="satellite.jpg",
+  left_card_image="/interface.jpg",
+  right_card_image="/satellite.jpg",
   
   left_card_title="",
   left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
