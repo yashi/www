@@ -14,7 +14,7 @@
   link="",
   link_text="",
   img_link="",
-  bg="no_img.png",
+  bg="",
   subtitle="(OBC)",
   slogan="SC-OBC Module A1"
 ) %}
