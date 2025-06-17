@@ -1,0 +1,158 @@
+.product-display {
+  display: flex;
+  align-items: stretch;
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 4px;
+      background-color: transparent;
+    }
+  }
+
+  .product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+
+    @media (max-width: 768px) {
+      padding-left: 0;
+      margin-top: 1.5rem;
+      justify-content: flex-start;
+    }
+
+    .product-text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .product-id-label {
+        font-weight: bold;
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #555555;
+      }
+
+      .product-pre-title {
+        font-size: 2rem;
+        color: #dddddd;
+      }
+
+      .product-title {
+        font-size: 4.5rem;
+        color: #ffffff;
+      }
+
+      .product-subtitle {
+        font-size: 2rem;
+        color: #cccccc;
+        line-height: 1.4;
+      }
+
+      .product-divider {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        margin: 1.5rem 0;
+
+        .divider-line {
+          width: 3px;
+          height: 60px;
+          background: #ffffff;
+          opacity: 0.7;
+        }
+      }
+
+      .product-meta {
+        font-size: 1.75rem;
+        color: #ffffff;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      }
+    }
+
+    .product-downloads {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+
+      .download-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: orange;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.5rem;
+        white-space: nowrap;
+
+        &:hover {
+          text-decoration: underline;
+          color: darkorange;
+        }
+
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    .product-details {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 2rem;
+
+      a.details-button {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darkorange;
+        }
+
+        svg {
+          width: 24px;
+          height: 24px;
+          stroke: white;
+          fill: none;
+          stroke-width: 2;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<div class="product-display" style="background-image: url('{{ bg }}');">
+  {% if img %}
+    <div class="product-image-container">
+      {% if img_link %}
+        <a href="{{ img_link }}">
+          <img src="{{ img }}" alt="{{ alt | default(value="image") }}" />
+        </a>
+      {% else %}
+        <img src="{{ img }}" alt="{{ alt | default(value="image") }}" />
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="product-info">
+    <div class="product-text-block">
+      <div class="product-id-label">
+        {{ product_id_label | default(value="Product 01") }}
+      </div>
+
+      {% if pre_title %}
+        <div class="product-pre-title">{{ pre_title }}</div>
+      {% endif %}
+
+      {% if title %}
+        <h1 class="product-title">{{ title }}</h1>
+      {% endif %}
+
+      {% if subtitle %}
+        <p class="product-subtitle">{{ subtitle }}</p>
+      {% endif %}
+
+      {% if text1_a and text1_b %}
+        <div class="product-meta">{{ text1_a }} | {{ text1_b }}</div>
+      {% endif %}
+      {% if text2_a and text2_b %}
+        <div class="product-meta">{{ text2_a }} | {{ text2_b }}</div>
+      {% endif %}
+      {% if text3_a and text3_b %}
+        <div class="product-meta">{{ text3_a }} | {{ text3_b }}</div>
+      {% endif %}
+    </div> <!-- /.product-text-block -->
+
+    <div class="product-downloads">
+      {% if download_1_link and download_1_label %}
+        <a href="{{ download_1_link }}" class="download-link">
+          <span>{{ download_1_label }}</span>
+          <img src="/icons/download.svg" alt="Download" />
+        </a>
+      {% endif %}
+      {% if download_2_link and download_2_label %}
+        <a href="{{ download_2_link }}" class="download-link">
+          <span>{{ download_2_label }}</span>
+          <img src="/icons/download.svg" alt="Download" />
+        </a>
+      {% endif %}
+      {% if download_3_link and download_3_label %}
+        <a href="{{ download_3_link }}" class="download-link">
+          <span>{{ download_3_label }}</span>
+          <img src="/icons/download.svg" alt="Download" />
+        </a>
+      {% endif %}
+    </div>
+
+    {% if details_link %}
+      <div class="product-details">
+        Details
+        <a href="{{ details_link }}" class="details-button" aria-label="View details">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <path d="M9 6l6 6-6 6" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>

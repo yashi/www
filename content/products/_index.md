@@ -33,24 +33,30 @@
 ~render~
 {% end %}
 
-<!--TODO: Make new shortcode for product display element -->
-
-{% twocoltwo(
-  title="SC-OBC Module A1",
+{% product_display(
+  product_id_label="Product 01",
+  bg="images/bg.jpg",
   img="sq_sc-obc_module_a1.png",
+  img_link="",
   alt="",
-  link="/sc_obc",
-  link_text="Read More",
-  img_link="/sc_obc",
-  bg="",
-  subtitle="(OBC)",
-  slogan="Command & Data Handling"
+  pre_title="衛星用超小型スペース・コンピュータ・モジュール",
+  title="SC-OBC Module A1",
+  subtitle="Built for performance, engineered for durability.",
+  text1_a="Main Processor",
+  text1_b="Xilinx Artix-7",
+  text2_a="CPU",
+  text2_b="Cortex M3 / MicroBlaze-V",
+  text3_a="Operating System",
+  text3_b="Zephyr RTOS",
+  download_1_link="https://github.com/spacecubics/scobc-product-manual/blob/main/product_manual.org",
+  download_1_label="ユーザーマニュアル",
+  download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  download_2_label="FPGAハードウェアマニュアル",
+  download_3_link="/downloads/specsheet.pdf",
+  download_3_label="GitHub  ",
+  details_link="https://github.com/spacecubics"
 ) %}
-JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。
-<br> <br> 
-Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
-<br> 
-宇宙用コンピュータモジュール 
+<!-- no text -->
 {% end %}
 
 

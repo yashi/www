@@ -70,22 +70,30 @@
 ~render~
 {% end %}
 
-{% twocoltwo(
-  title="SC-OBC Module A1",
-  img="/sq_sc-obc_module_a1.png",
+{% product_display(
+  product_id_label="Product 01",
+  bg="images/bg.jpg",
+  img="sq_sc-obc_module_a1.png",
+  img_link="",
   alt="",
-  link="/en/sc_obc",
-  link_text="Read More",
-  img_link="/en/sc_obc",
-  bg="",
-  subtitle="(OBC)",
-  slogan="Command & Data Handling"
+  pre_title="Ultra-small space computer module for satellites",
+  title="SC-OBC Module A1",
+  subtitle="Built for performance, engineered for durability.",
+  text1_a="Main Processor",
+  text1_b="Xilinx Artix-7",
+  text2_a="CPU",
+  text2_b="Cortex M3 / MicroBlaze-V",
+  text3_a="Operating System",
+  text3_b="Zephyr RTOS",
+  download_1_link="https://github.com/spacecubics/scobc-product-manual/blob/main/product_manual.org",
+  download_1_label="User Manual",
+  download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
+  download_2_label="FPGA Hardware Manual",
+  download_3_link="/downloads/specsheet.pdf",
+  download_3_label="GitHub  ",
+  details_link="https://github.com/spacecubics"
 ) %}
-This is a space-grade computer optimized for CubeSats, based on the reliability design technologies developed by JAXA for the International Space Station.
-<br><br>
-It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
-<br><br>
-It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
+<!-- no text -->
 {% end %}
 
 {% prefooter(
