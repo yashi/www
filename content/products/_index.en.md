@@ -91,7 +91,7 @@
   download_2_label="FPGA Hardware Manual",
   download_3_link="https://github.com/spacecubics",
   download_3_label="GitHub  ",
-  details_link="/sc_obc"
+  details_link="/en/sc_obc"
 ) %}
 <!-- no text -->
 {% end %}
