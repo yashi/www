@@ -5,7 +5,7 @@
 ~render~
 {% end %}
 
-<!--TODO: add doc lnk bar -->
+<!--TODO: add doc link bar -->
 
 {% twocoltwo(
   title="商品概要",

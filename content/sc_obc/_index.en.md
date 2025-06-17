@@ -5,7 +5,7 @@
 ~render~
 {% end %}
 
-<!--TODO: add doc lnk bar -->
+<!--TODO: add doc link bar -->
 
 {% twocoltwo(
   title="Product Overview",
@@ -25,6 +25,7 @@ It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interf
 It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
 {% end %}
 
+<!--TODO: Add product specs element -->
 
 {% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
 ~render~
