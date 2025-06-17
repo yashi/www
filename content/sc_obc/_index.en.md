@@ -6,11 +6,11 @@
 {% end %}
 
 {% quick_jump(
-  title1="Product Overview", scroll_y1=300,
-  title2="使用実績", scroll_y2=1200,
-  title3="Dev Kits / Product Options", scroll_y3=2700,
-  title4="製品スペック", scroll_y4=3000,
-  title5="ドキュメントとリソース", scroll_y5=3500
+  title1="Product overview", scroll_y1=300,
+  title2="Use cases", scroll_y2=1200,
+  title3="Dev kits / Product options", scroll_y3=2700,
+  title4="Specifications", scroll_y4=3000,
+  title5="Docs / Resources", scroll_y5=3500
 ) %}
 ~render~
 {% end %}
@@ -33,31 +33,7 @@ It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interf
 It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="Dev Kits / Product Options", subtitle="", slogan="") %}
-~render~
-{% end %}
-
-{% twocard(
-  title="",
-  subtitle="",
-  
-  left_card_image="under_construction.jpeg",
-  right_card_image="under_construction.jpeg",
-  
-  left_card_title="開発セット",
-  left_card_subtitle="coming soon",
-  
-  right_card_title="オプション製品",
-  right_card_subtitle="coming soon",
-  
-  bg=""
-) %}
-~render~
-{% end %}
-
-<!--TODO: Add product specs element -->
-
-{% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
+{% section_title(bg="images/bg.jpg", title="Use cases", subtitle="Current projects", slogan="") %}
 ~render~
 {% end %}
 
@@ -78,6 +54,30 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 ) %}
 ~render~
 {% end %}
+
+{% section_title(bg="images/bg.jpg", title="Dev kits / Product options", subtitle="", slogan="") %}
+~render~
+{% end %}
+
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="under_construction.jpeg",
+  right_card_image="under_construction.jpeg",
+  
+  left_card_title="Dev kit",
+  left_card_subtitle="coming soon",
+  
+  right_card_title="Product options",
+  right_card_subtitle="coming soon",
+  
+  bg=""
+) %}
+~render~
+{% end %}
+
+<!--TODO: Add product specs element -->
 
 {% prefooter(
   left_card_image="about.png", 
