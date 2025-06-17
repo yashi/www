@@ -5,7 +5,16 @@
 ~render~
 {% end %}
 
-<!--TODO: add doc link bar -->
+{% quick_jump(
+  title1="商品概要", scroll_y1=300,
+  title2="使用実績", scroll_y2=1200,
+  title3="開発セット・オプション製品", scroll_y3=2700,
+  title4="製品スペック", scroll_y4=3000,
+  title5="ドキュメントとリソース", scroll_y5=3500
+) %}
+~render~
+{% end %}
+
 
 {% twocoltwo(
   title="商品概要",
@@ -25,7 +34,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 <!--TODO: Add product specs element -->
 
 
-{% section_title(bg="images/bg.jpg", title="使用例", subtitle="Current projects", slogan="") %}
+{% section_title(bg="images/bg.jpg", title="使用実績", subtitle="", slogan="") %}
 ~render~
 {% end %}
 
@@ -41,6 +50,28 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   
   right_card_title="",
   right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
+  
+  bg=""
+) %}
+~render~
+{% end %}
+
+{% section_title(bg="images/bg.jpg", title="開発セット・オプション製品", subtitle="", slogan="") %}
+~render~
+{% end %}
+
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="under_construction.jpeg",
+  right_card_image="under_construction.jpeg",
+  
+  left_card_title="開発セット",
+  left_card_subtitle="coming soon",
+  
+  right_card_title="オプション製品",
+  right_card_subtitle="coming soon",
   
   bg=""
 ) %}
