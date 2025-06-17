@@ -89,9 +89,9 @@
   download_1_label="User Manual",
   download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
   download_2_label="FPGA Hardware Manual",
-  download_3_link="/downloads/specsheet.pdf",
+  download_3_link="https://github.com/spacecubics",
   download_3_label="GitHub  ",
-  details_link="https://github.com/spacecubics"
+  details_link="/sc_obc"
 ) %}
 <!-- no text -->
 {% end %}
