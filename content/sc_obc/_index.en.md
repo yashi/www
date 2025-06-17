@@ -1,11 +1,19 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="Current projects", slogan="") %}
+{% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="", slogan="") %}
 ~render~
 {% end %}
 
-<!--TODO: add doc link bar -->
+{% quick_jump(
+  title1="Product Overview", scroll_y1=300,
+  title2="使用実績", scroll_y2=1200,
+  title3="Dev Kits / Product Options", scroll_y3=2700,
+  title4="製品スペック", scroll_y4=3000,
+  title5="ドキュメントとリソース", scroll_y5=3500
+) %}
+~render~
+{% end %}
 
 {% twocoltwo(
   title="Product Overview",
@@ -23,6 +31,28 @@ This is a space-grade computer optimized for CubeSats, based on the reliability 
 It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
 <br><br>
 It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
+{% end %}
+
+{% section_title(bg="images/bg.jpg", title="Dev Kits / Product Options", subtitle="", slogan="") %}
+~render~
+{% end %}
+
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="under_construction.jpeg",
+  right_card_image="under_construction.jpeg",
+  
+  left_card_title="開発セット",
+  left_card_subtitle="coming soon",
+  
+  right_card_title="オプション製品",
+  right_card_subtitle="coming soon",
+  
+  bg=""
+) %}
+~render~
 {% end %}
 
 <!--TODO: Add product specs element -->
