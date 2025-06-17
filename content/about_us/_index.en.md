@@ -153,7 +153,7 @@
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% about_company (
@@ -225,5 +225,5 @@ Jointly selected for the “FY2020 Subsidy for Industrial Technology Development
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

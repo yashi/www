@@ -26,7 +26,7 @@ template = "contact.html"
   message_field="メッセージを入力してください"
   button_label="送信"
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% prefooter(
@@ -54,5 +54,5 @@ template = "contact.html"
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

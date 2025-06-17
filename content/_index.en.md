@@ -3,11 +3,11 @@ title = "Space Cubics Inc."
 +++
 
 {% splash() %}
-~render~
+<!--display element -->
 {% end %}
 
 {% sitename_banner() %}
-~render~
+<!--display element -->
 {% end %}
 
 
@@ -105,6 +105,6 @@ that power space exploration.
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 

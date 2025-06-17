@@ -29,7 +29,7 @@
   right_card_subtitle="株式会社 Space Cubicsは低価格な宇宙用の機器と<br><br>トータルサポートを提供することで、<br><br>宇宙開発への参入を手軽にし、<br><br>日本はもとよりアジアを中心とした<br><br>民間の宇宙産業発展に貢献します。<br><br><br><br>多くの企業や団体そして個人までも<br><br>が宇宙開発に参入することにより、<br><br>宇宙に対するニーズが飛躍的に拡大して<br><br>新たな産業が生まれ育っていくこと、<br><br>それが株式会社 Space Cubicsの設立目的です。",
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% about_company (
@@ -100,5 +100,5 @@ TEL｜050-7112-6213
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

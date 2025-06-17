@@ -30,7 +30,7 @@
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% product_display(
@@ -85,5 +85,5 @@
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

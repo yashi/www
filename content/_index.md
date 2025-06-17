@@ -3,11 +3,11 @@ title = "Space Cubics Inc."
 +++
 
 {% splash() %}
-~render~
+<!--display element -->
 {% end %}
 
 {% sitename_banner() %}
-~render~
+<!--display element -->
 {% end %}
 
 
@@ -101,6 +101,6 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 

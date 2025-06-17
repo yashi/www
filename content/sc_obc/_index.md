@@ -2,7 +2,7 @@
 +++
 
 {% section_title(bg="images/bg.jpg", title="SC-OBC Module A1", subtitle="", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% quick_jump(
@@ -12,7 +12,7 @@
   title4="製品スペック", scroll_y4=3000,
   title5="ドキュメントとリソース", scroll_y5=3500
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 
@@ -35,7 +35,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 
 
 {% section_title(bg="images/bg.jpg", title="使用実績", subtitle="", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% twocard(
@@ -53,11 +53,11 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="開発セット・オプション製品", subtitle="", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% twocard(
@@ -75,7 +75,7 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% prefooter(
@@ -103,5 +103,5 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

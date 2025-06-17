@@ -26,7 +26,7 @@ template = "contact.html"
   message_field="Message",
   button_label="Send"
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% prefooter(
@@ -54,5 +54,5 @@ template = "contact.html"
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}

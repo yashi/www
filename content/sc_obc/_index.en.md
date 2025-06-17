@@ -2,7 +2,7 @@
 +++
 
 {% section_title(bg="images/bg.jpg", title="Use Cases", subtitle="", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% quick_jump(
@@ -12,7 +12,7 @@
   title4="Specifications", scroll_y4=3000,
   title5="Docs / Resources", scroll_y5=3500
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% twocoltwo(
@@ -34,7 +34,7 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="Use cases", subtitle="Current projects", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% twocard(
@@ -52,11 +52,11 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 {% section_title(bg="images/bg.jpg", title="Dev kits / Product options", subtitle="", slogan="") %}
-~render~
+<!--display element -->
 {% end %}
 
 {% twocard(
@@ -74,7 +74,7 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
   
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
 <!--TODO: Add product specs element -->
@@ -104,6 +104,6 @@ It is also suitable for use in spacecraft beyond CubeSats, as well as in terrest
 
   bg=""
 ) %}
-~render~
+<!--display element -->
 {% end %}
 
