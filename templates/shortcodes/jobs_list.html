@@ -15,22 +15,23 @@
       {% for line in lines %}
         {% set parts = line | split(pat="|") %}
         {% set job_title = parts[0] | trim %}
-
         {% if parts | length > 1 %}
           {% set job_link = parts[1] | trim %}
         {% else %}
           {% set job_link = "" %}
         {% endif %}
 
-        <div class="job-card">
-          {% if job_link != "" %}
-            <a href="{{ job_link }}" class="job-card__title-link">
+        {% if job_title != "" %}
+          <div class="job-card">
+            {% if job_link != "" %}
+              <a href="{{ job_link }}" class="job-card__link">
+                <h3 class="job-card__title">{{ job_title }}</h3>
+              </a>
+            {% else %}
               <h3 class="job-card__title">{{ job_title }}</h3>
-            </a>
-          {% else %}
-            <h3 class="job-card__title">{{ job_title }}</h3>
-          {% endif %}
-        </div>
+            {% endif %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
