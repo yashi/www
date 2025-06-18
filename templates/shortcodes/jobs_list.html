@@ -1,0 +1,37 @@
+<div class="jobs-list">
+  <div class="jobs-list-left">
+    {% if title %}
+      <h2 class="jobs-list__title">{{ title }}</h2>
+    {% endif %}
+    {% if subtitle %}
+      <p class="jobs-list__subtitle">{{ subtitle }}</p>
+    {% endif %}
+    <div class="jobs-list__divider"></div>
+  </div>
+
+  <div class="jobs-list-right">
+    <div class="jobs-list-grid">
+      {% set lines = jobs | split(pat="\n") %}
+      {% for line in lines %}
+        {% set parts = line | split(pat="|") %}
+        {% set job_title = parts[0] | trim %}
+
+        {% if parts | length > 1 %}
+          {% set job_link = parts[1] | trim %}
+        {% else %}
+          {% set job_link = "" %}
+        {% endif %}
+
+        <div class="job-card">
+          {% if job_link != "" %}
+            <a href="{{ job_link }}" class="job-card__title-link">
+              <h3 class="job-card__title">{{ job_title }}</h3>
+            </a>
+          {% else %}
+            <h3 class="job-card__title">{{ job_title }}</h3>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

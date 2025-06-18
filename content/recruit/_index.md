@@ -1,6 +1,5 @@
 +++
 sort_by = "date"
-template = "recruit_list.html"
 +++
 
 {% twocoltwo(
@@ -27,4 +26,43 @@ template = "recruit_list.html"
 今の 株式会社 Space Cubicsはまだまだ小さくて、大きな仕事を自分達だけで完結できる力がありません。コンピューター、通信、推進、構造、熱流体、システムエンジニアリングなど、宇宙機を設計、製造、販売する事に興味がある人、地上で動くコンピューターなど普通すぎてツマラナク感じている人や、色々な理由で思い通りのモノが作ることが出来ていない人は、ご連絡ください。他人の仕事にケチばかり付けて代替案を提案できない人、他人を貶める人は、たとえ優秀でもご遠慮ください。 "
 ) %}
 <!-- no text -->
+{% end %}
+
+{% jobs_list(
+  title = "募集中",
+  subtitle = "Current positions",
+  jobs = "
+通信エンジニア| /recruit/communications-engineer/
+ハードウェアエンジニア|/jobs/hardware-engineer
+プロダクトマネージャー|/jobs/product-manager"
+) %}
+<!-- no text -->
+{% end %}
+
+{% prefooter(
+  left_card_image="about.png", 
+  right_card_image="ide.webp",
+
+  left_title="ABOUT US",
+  left_subtitle="採用情報",
+  left_footer_1="一緒に働くメンバーを常に募集しています。",
+  left_footer_2="ご興味のある方はご連絡ください。",
+  left_link="/about_us",
+
+  right_title="RECRUIT",
+  right_subtitle="お問い合わせ",
+  right_footer_1="お気軽にお問い合わせください。",
+  right_footer_2="担当者よりご返信いたします",
+  right_link="/recruit",
+
+  bottom_card_image="white_pcb.png",
+  bottom_title="PRODUCTS",
+  bottom_subtitle="Be part of something bigger",
+  bottom_footer_1="We believe in collaboration, creativity, and community.",
+  bottom_footer_2="Start your journey with us today.",
+  bottom_link="/products",
+
+  bg=""
+) %}
+<!--display element -->
 {% end %}

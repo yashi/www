@@ -1,6 +1,5 @@
 +++
 sort_by = "date"
-template = "recruit_list.html"
 +++
 
 {% twocoltwo(
@@ -27,4 +26,43 @@ template = "recruit_list.html"
 Space Cubics Inc. is a growing company seeking collaborators passionate about designing, manufacturing, and selling spacecraft components (computers, communications, propulsion, structures, thermal systems, and systems engineering). If you find conventional computing uninspiring or face challenges realizing your vision, we invite you to connect with us. Please note, we value constructive teamwork and do not engage with those who criticize without offering solutions or undermine others, regardless of their expertise."
 ) %}
 <!-- no text -->
+{% end %}
+
+{% jobs_list(
+  title = "募集中",
+  subtitle = "Current positions",
+  jobs = "
+通信エンジニア| /recruit/communications-engineer/
+ハードウェアエンジニア|/jobs/hardware-engineer
+プロダクトマネージャー|/jobs/product-manager"
+) %}
+<!-- no text -->
+{% end %}
+
+{% prefooter(
+  left_card_image="about.png", 
+  right_card_image="ide.webp",
+
+  left_title="ABOUT US",
+  left_subtitle="Company Details",
+  left_footer_1="We are always looking for people to work with us.",
+  left_footer_2="If you're interested, please contact us.",
+  left_link="/en/about_us",
+
+  right_title="RECRUIT",
+  right_subtitle="Work With Us",
+  right_footer_1="Feel free to contact us.",
+  right_footer_2="We will get back to you soon.",
+  right_link="/en/recruit",
+
+  bottom_card_image="white_pcb.png",
+  bottom_title="PRODUCTS",
+  bottom_subtitle="Be part of something bigger",
+  bottom_footer_1="We believe in collaboration, creativity, and community.",
+  bottom_footer_2="Start your journey with us today.",
+  bottom_link="/en/products",
+
+  bg=""
+) %}
+<!--display element -->
 {% end %}
