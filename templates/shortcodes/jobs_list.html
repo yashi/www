@@ -13,30 +13,37 @@
   </div>
 
   <div class="jobs-list-right">
-    <div class="jobs-list-grid">
-      {% set lines = jobs | split(pat="\n") %}
-      {% for line in lines %}
-        {% set line = line | trim %}
-        {% if line != "" %}
-          {% set parts = line | split(pat="|") %}
-          {% set job_title = parts[0] | trim %}
-          {% if parts | length > 1 %}
-            {% set job_link = parts[1] | trim %}
-          {% else %}
-            {% set job_link = "" %}
-          {% endif %}
-
-          <div class="job-card">
-            {% if job_link != "" %}
-              <a href="{{ job_link }}" class="job-card__link">
-                <h3 class="job-card__title">{{ job_title }}</h3>
-              </a>
+    <div class="jobs-list-right-content">
+      <div class="jobs-list-grid">
+        {% set lines = jobs | split(pat="\n") %}
+        {% for line in lines %}
+          {% set line = line | trim %}
+          {% if line != "" %}
+            {% set parts = line | split(pat="|") %}
+            {% set job_title = parts[0] | trim %}
+            {% if parts | length > 1 %}
+              {% set job_link = parts[1] | trim %}
             {% else %}
-              <h3 class="job-card__title">{{ job_title }}</h3>
+              {% set job_link = "" %}
             {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
+            <div class="job-card">
+              {% if job_link != "" %}
+                <a href="{{ job_link }}" class="job-card__link">
+                  <h3 class="job-card__title">{{ job_title }}</h3>
+                </a>
+              {% else %}
+                <h3 class="job-card__title">{{ job_title }}</h3>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="jobs-list__bottom-divider"></div>
+
+      {% if jobs_note %}
+        <p class="jobs-list__bottom-text">{{ jobs_note | safe }}</p>
+      {% endif %}
     </div>
   </div>
 </div>

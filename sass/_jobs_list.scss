@@ -44,45 +44,74 @@
 
   &-right {
     flex: 2;
-    display: flex;
-    align-items: flex-start;
+    display: flex;  // Keep original horizontal flex container
+
+    .jobs-list-right-content {
+      display: flex;
+      flex-direction: column;
+      width: 100%; // Full width inside jobs-list-right
+    }
 
     .jobs-list-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
       width: 100%;
+    }
 
-      .job-card {
-        background: transparent;
-        border: 1px solid white;
-        border-radius: 8px;
-        padding: 2rem 1.5rem;
-        color: white;
-        text-align: center;
-        font-weight: 500;
-        font-size: 1.3rem;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        cursor: pointer;
+    .job-card {
+      background: transparent;
+      border: 1px solid white;
+      border-radius: 8px;
+      padding: 2rem 1.5rem;
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      font-size: 1.3rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
 
-        &:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
-        }
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+      }
 
-        .job-card__link {
-          text-decoration: none;
-          color: inherit;
-
-          .job-card__title {
-            margin: 0.5rem 0;
-          }
-        }
+      .job-card__link {
+        text-decoration: none;
+        color: inherit;
 
         .job-card__title {
           margin: 0.5rem 0;
         }
       }
+
+      .job-card__title {
+        margin: 0.5rem 0;
+      }
+    }
+
+    .jobs-list__bottom-divider {
+      width: 100%; // Same width as grid container
+      height: 3px;
+      margin-top: 2rem;
+      border-radius: 2px;
+      background: linear-gradient(
+        to right,
+        orange 0%,
+        orange 20%,
+        gray 20%,
+        gray 100%
+      );
+    }
+
+    .jobs-list__bottom-text {
+      width: 100%; // Matches divider & grid width
+      margin-top: 1rem;
+      color: #ddd;
+      font-size: 1rem;
+      line-height: 1.4;
+      text-align: left;
+      white-space: pre-wrap;
     }
   }
 
@@ -109,6 +138,10 @@
     }
 
     &-right {
+      .jobs-list-right-content {
+        /* no special styles needed */
+      }
+
       .jobs-list-grid {
         grid-template-columns: 1fr;
 

@@ -32,6 +32,7 @@ sort_by = "date"
   title = "募集中",
   subtitle = "Current available",
   slogan = "POSITIONS",
+  jobs_note = "特記事項：募集中以外の職種に関しては、お問合せフォームよりお問合せ願います。",
   jobs = "
 通信エンジニア | /recruit/communications-engineer/
 資金調達担当 | /recruit/financial-worker/
