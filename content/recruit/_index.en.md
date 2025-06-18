@@ -32,10 +32,16 @@ Space Cubics Inc. is a growing company seeking collaborators passionate about de
   title = "募集中",
   subtitle = "Current positions",
   jobs = "
-通信エンジニア| /recruit/communications-engineer/
-ハードウェアエンジニア|/jobs/hardware-engineer
-プロダクトマネージャー|/jobs/product-manager"
-) %}
+Communication Engineer | /en/recruit/communications-engineer/
+Financial Strategist | /en/recruit/financial-worker/
+FPGA Engineer | /en/recruit/fpga-engineer/
+Hardware Engineer | /en/recruit/hardware-engineer/
+Propulsion Engineer | /en/recruit/propulsion-engineer/
+Business Development | /en/recruit/sales-position/
+Structural Engineer | /en/recruit/structural-engineer/
+System Engineer | /en/recruit/system-engineer/
+Thermal Systems Engineer | /en/recruit/thermal-systems-engineer/
+") %}
 <!-- no text -->
 {% end %}
 
