@@ -7,10 +7,10 @@
 
 {% quick_jump(
   title1="Product overview", scroll_y1=300,
-  title2="Use cases", scroll_y2=1200,
+  title2="Use cases", scroll_y2=1500,
   title3="Dev kits / Product options", scroll_y3=2700,
-  title4="Specifications", scroll_y4=3000,
-  title5="Docs / Resources", scroll_y5=3500
+  title4="Specifications", scroll_y4=3900,
+  title5="Docs / Resources", scroll_y5=4800
 ) %}
 <!--display element -->
 {% end %}

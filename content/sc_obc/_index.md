@@ -6,11 +6,11 @@
 {% end %}
 
 {% quick_jump(
-  title1="商品概要", scroll_y1=300,
-  title2="使用実績", scroll_y2=1200,
+  title1="商品概要", scroll_y1=500,
+  title2="使用実績", scroll_y2=1500,
   title3="開発セット・オプション製品", scroll_y3=2700,
-  title4="製品スペック", scroll_y4=3000,
-  title5="ドキュメントとリソース", scroll_y5=3500
+  title4="製品スペック", scroll_y4=3900,
+  title5="ドキュメントとリソース", scroll_y5=4800
 ) %}
 <!--display element -->
 {% end %}
