@@ -63,7 +63,7 @@ FPGAエンジニア | /recruit/fpga-engineer/
 
 {% prefooter(
   left_card_image="about.png", 
-  right_card_image="ide.webp",
+  right_card_image="earth.png",
 
   left_title="ABOUT US",
   left_subtitle="採用情報",
@@ -71,17 +71,17 @@ FPGAエンジニア | /recruit/fpga-engineer/
   left_footer_2="ご興味のある方はご連絡ください。",
   left_link="/about_us",
 
-  right_title="RECRUIT",
+  right_title="CONTACT",
   right_subtitle="お問い合わせ",
   right_footer_1="お気軽にお問い合わせください。",
   right_footer_2="担当者よりご返信いたします",
-  right_link="/recruit",
+  right_link="/contact",
 
   bottom_card_image="white_pcb.png",
   bottom_title="PRODUCTS",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
+  bottom_subtitle="製品紹介",
+  bottom_footer_1="信頼性の高い製品を提供し、",
+  bottom_footer_2="宇宙開発をサポートします。",
   bottom_link="/products",
 
   bg=""
