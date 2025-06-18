@@ -29,7 +29,7 @@ Space Cubics Inc. is a growing company seeking collaborators passionate about de
 {% end %}
 
 {% jobs_list(
-  title = "募集中",
+  title = "Job Openings",
   subtitle = "Current positions",
   jobs = "
 Communication Engineer | /en/recruit/communications-engineer/
