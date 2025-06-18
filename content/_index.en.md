@@ -12,7 +12,7 @@ title = "Space Cubics Inc."
 
 
 {% twocoltwo(
-  title="SC-OBC Module A1",
+  title="PRODUCTS",
   img="sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
@@ -22,7 +22,10 @@ title = "Space Cubics Inc."
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
-This is a space computer optimally designed for CubeSat based on the reliability design technology cultivated by JAXA for the International Space Station, and uses Xilinx Artix-7 FPGAs, allowing the type and number of interfaces to be flexibly adjusted for each user. It can be used for spacecraft other than cubesats and for industrial applications on the ground.
+We design space computers optimally designed for use in CubeSats 
+<br><br> based on the reliability design technology cultivated by JAXA for the International Space Station.
+<br><br> Our products use Xilinx Artix-7 FPGAs, allowing for the type and number of interfaces to be flexibly adjusted. 
+<br><br> These modules can be used for devices in space and industrial applications on Earth.
 {% end %}
 
 
@@ -38,10 +41,12 @@ This is a space computer optimally designed for CubeSat based on the reliability
   img_link=""
 ) %}
 At Space Cubics Inc.,
-<br>
+<br><br>
 we aim to make space travel accessible to everyone,
-<br>
-by developing affordable and reliable space computers.
+<br><br>
+by developing affordable and reliable
+<br><br>
+ space computers.
 {% end %}
 
 {% twocoltwo(

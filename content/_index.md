@@ -12,7 +12,7 @@ title = "Space Cubics Inc."
 
 
 {% twocoltwo(
-  title="SC-OBC Module A1",
+  title="PRODUCTS",
   img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
@@ -22,7 +22,11 @@ title = "Space Cubics Inc."
   subtitle="Make the impossible",
   slogan="POSSIBLE"
 ) %}
-JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
+衛星用超小型
+<br><br>
+スペースコンピュータモジュール
+<br><br>
+SC OBC Module A1
 {% end %}
 
 {% twocoltwo(
@@ -36,9 +40,10 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
   link_text="Read More",
   img_link=""
 ) %}
-私たち株式会社 Space Cubics は「誰もが月に行ける時代」を目指し、
-<br><br>
-安価で信頼性の高い宇宙用コンピュータを開発するJAXAのベンチャーです。
+私たち株式会社Space Cubics は
+<br><br>「誰もが月に行ける時代」を目指し、
+<br><br>安価で信頼性の高い宇宙用コンピュータを開発する
+<br><br>JAXAのベンチャーです。
 {% end %}
 
 
