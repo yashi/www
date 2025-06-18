@@ -102,9 +102,9 @@ Mass | 130 g
   subtitle="",
   slogan=""
 ) %}
-ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | /downloads/user-manual.pdf
-FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | /downloads/fpga-manual.pdf
-GitHub | その他、様々な技術情報はこちらを参照ください。 | https://github.com/your-org/your-project
+ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
+FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
+GitHub | その他、様々な技術情報はこちらを参照ください。 | https://github.com/spacecubics
 {% end %}
 
 {% prefooter(
