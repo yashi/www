@@ -46,6 +46,15 @@ Thermal Systems Engineer | /en/recruit/thermal-systems-engineer/
 <!-- no text -->
 {% end %}
 
+{% application_form(
+  title = "Apply Now",
+  subtitle = "Join Our Team",
+  slogan = "We're hiring passionate innovators",
+  description = "Use the form to apply.\nWe look forward to hearing from you!"
+) %}
+<!-- no text -->
+{% end %}
+
 {% prefooter(
   left_card_image="about.png", 
   right_card_image="ide.webp",
