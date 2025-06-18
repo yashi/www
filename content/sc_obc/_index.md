@@ -30,32 +30,6 @@
 JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
 {% end %}
 
-{% spec_sheet(
-  bg="",
-  title="製品スペック",
-  subtitle="",
-  slogan=""
-) %}
-Main Processor | Xilinx Artix-7
-Communication Interface | CAN, I2C, UART
-Main CPU | Cortex-M3 / MicroBlaze-V
-FPGA User I/O | 38 pin
-Preinstalled OS | Zephyr RTOS
-PIC User I/O | 3 pin
-Clock Generator | 24 MHz x 2
-Watchdog timer | 1 (IP Core)
-PIC (anomaly detection / system recovery) | 8 bit PIC MCU
-Interface Connector | 80 pin / 0.5 mm pitch
-On-chip SRAM | 64 KByte FPGA Block RAM
-Supply Voltage | DC 5.0 V ± 10%
-On-board SRAM | 4 MBytes
-Power Consumption | 2.0 W (Max)
-NOR Flash Memory (configurable) | 32 MBytes x 2
-External Dimensions | 70 x 70 x 9.6 mm
-FeRAM | 512 KBytes x 2
-Mass | 130 g
-{% end %}
-
 {% section_title(bg="images/bg.jpg", title="使用実績", subtitle="", slogan="") %}
 <!--display element -->
 {% end %}
@@ -95,6 +69,34 @@ Mass | 130 g
 ) %}
 <!--display element -->
 {% end %}
+
+{% spec_sheet(
+  bg="",
+  title="製品スペック",
+  subtitle="",
+  slogan=""
+) %}
+Main Processor | Xilinx Artix-7
+Communication Interface | CAN, I2C, UART
+Main CPU | Cortex-M3 / MicroBlaze-V
+FPGA User I/O | 38 pin
+Preinstalled OS | Zephyr RTOS
+PIC User I/O | 3 pin
+Clock Generator | 24 MHz x 2
+Watchdog timer | 1 (IP Core)
+PIC (anomaly detection / system recovery) | 8 bit PIC MCU
+Interface Connector | 80 pin / 0.5 mm pitch
+On-chip SRAM | 64 KByte FPGA Block RAM
+Supply Voltage | DC 5.0 V ± 10%
+On-board SRAM | 4 MBytes
+Power Consumption | 2.0 W (Max)
+NOR Flash Memory (configurable) | 32 MBytes x 2
+External Dimensions | 70 x 70 x 9.6 mm
+FeRAM | 512 KBytes x 2
+Mass | 130 g
+{% end %}
+
+<!--TODO: documents/resources -->
 
 {% prefooter(
   left_card_image="about.png", 

@@ -103,9 +103,7 @@ FeRAM | 512 KBytes x 2
 Mass | 130 g
 {% end %}
 
-{% section_title(bg="images/bg.jpg", title="使用実績", subtitle="", slogan="") %}
-<!--display element -->
-{% end %}
+<!--TODO: documents/resources -->
 
 {% prefooter(
   left_card_image="about.png", 
