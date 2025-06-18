@@ -196,8 +196,9 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   slogan="WORK WITH US"
 ) %}
 Space One Co., Ltd.
-<br>
-Jointly selected for the “FY2020 Subsidy for Industrial Technology Development Project for Practical Application” by the Ministry of Economy, Trade and Industry (METI). The project aims to establish a nano-space utilization platform by launching a nano-satellite by Space One's small rocket “KAIROS,” and to conduct a space demonstration of a satellite equipped with a space computer manufactured by Space Cubics.
+<br><br>Jointly selected for the “FY2020 Subsidy for Industrial Technology Development Project for Practical Application” by the Ministry of Economy, Trade and Industry (METI). 
+<br><br>The project aims to establish a nano-space utilization platform by launching a nano-satellite by Space One's small rocket “KAIROS,” 
+<br><br>and to conduct a space demonstration of a satellite equipped with a space computer manufactured by Space Cubics.
 {% end %}
 
 {% prefooter(

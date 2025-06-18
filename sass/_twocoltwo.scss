@@ -29,6 +29,10 @@
         max-width: 100%;
         padding-left: 1rem;
         text-align: left;
+
+        .link-wrapper {
+          justify-content: flex-start;
+        }
       }
     }
   }
@@ -58,7 +62,7 @@
       }
 
       p {
-        color: white; /* Slogan white */
+        color: white;
       }
     }
 
@@ -143,8 +147,6 @@
       background-color: transparent;
     }
   }
-
-  /* --- Responsive Breakpoints --- */
 
   @media (min-width: 1025px) {
     .section-title-block {
