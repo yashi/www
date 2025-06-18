@@ -1,0 +1,122 @@
+.spec-columns {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.spec-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* On small screens, stack columns vertically */
+@media (max-width: 600px) {
+  .spec-columns {
+    flex-direction: column;
+  }
+
+  .spec-column {
+    min-width: auto;
+  }
+}
+
+.spec-row {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+  /* Removed border-bottom to avoid double dividers */
+}
+
+/* Title (left side) */
+.spec-left {
+  font-weight: 600;
+  color: #fff; /* whiter text */
+  flex-shrink: 0;
+  margin-right: 0.25rem; /* close gap after title */
+  width: 45%; /* fixed width */
+  font-size: 1.125rem; /* slightly bigger */
+}
+
+/* Content (right side) */
+.spec-right {
+  flex-grow: 1;
+  text-align: left;
+  color: #aaa; /* gray text */
+  font-weight: 400;
+  font-size: 1.125rem; /* slightly bigger */
+}
+
+/* Divider bar — removed visible '|' */
+.spec-divider {
+  margin-right: 0.75rem;
+  user-select: none;
+  color: #999;
+  flex-shrink: 0;
+  display: none; /* hide since you don’t want to show pipe */
+}
+
+/* Divider line below each row */
+.spec-row-divider {
+  border: none;
+  border-bottom: 1px solid #666; /* orange/gray color for divider */
+  margin: 0.5rem 0;
+}
+
+/* Smaller font sizes and adjusted spacing on tablets */
+@media (max-width: 900px) and (min-width: 601px) {
+  .spec-left,
+  .spec-right {
+    font-size: 1rem;
+  }
+
+  .spec-divider {
+    margin-right: 0.5rem;
+  }
+}
+
+/* Mobile: stack each row vertically, adjust font sizes */
+@media (max-width: 600px) {
+  .spec-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+  }
+
+  .spec-left {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: #fff; /* keep white on mobile */
+  }
+
+  .spec-right {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: left;
+    color: #aaa; /* gray */
+  }
+
+  .spec-divider {
+    display: none;
+  }
+
+  /* Adjust divider line for mobile if needed */
+  .spec-row-divider {
+    border-bottom: 1px solid #666;
+  }
+}
+
+.section-title-divider {
+  border-bottom: 1px solid #ccc;
+  margin: 0.5rem 0;
+}
+
+.spec-sheet-grid {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
