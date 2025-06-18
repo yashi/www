@@ -1,0 +1,134 @@
+.docs-resources-column {
+  max-width: 80vw; /* rows width set */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Rows */
+.spec-row {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+
+/* Left side: title (larger and white) */
+.spec-left {
+  font-weight: 600;
+  color: #fff;
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+  width: 45%;
+  font-size: 1.6rem;
+}
+
+/* Right side: content (smaller and gray) */
+.spec-right {
+  flex-grow: 1;
+  text-align: left;
+  color: #aaa;
+  font-weight: 400;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* space between text and icon */
+}
+
+/* Divider line below each row */
+.spec-row-divider {
+  border: none;
+  border-bottom: 1px solid #666;
+  margin: 0.5rem 0;
+}
+
+/* Download link styles */
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.download-link:hover {
+  color: #ff7f00; /* orange highlight on hover */
+}
+
+/* Download icon styles */
+.download-icon {
+  background-color: #ff7f00; /* orange */
+  color: white;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  box-shadow: 0 0 5px rgba(255, 127, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover .download-icon {
+  background-color: #e67300; /* darker orange on hover */
+}
+
+/* Responsive adjustments */
+
+/* Tablets (601px to 900px) */
+@media (max-width: 900px) and (min-width: 601px) {
+  .spec-left {
+    font-size: 1.4rem;
+  }
+  
+  .spec-right {
+    font-size: 1.15rem;
+    gap: 0.6rem;
+  }
+
+  .download-icon {
+    width: 1.55rem;
+    height: 1.55rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* Smartphones (600px and below) */
+@media (max-width: 600px) {
+  .spec-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+  }
+
+  .spec-left {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    color: #fff;
+  }
+
+  .spec-right {
+    width: 100%;
+    font-size: 1.3rem;
+    gap: 0.5rem;
+  }
+
+  .download-link {
+    font-size: 1.3rem;
+  }
+
+  .download-icon {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 1.2rem;
+  }
+
+  .spec-row-divider {
+    border-bottom: 1px solid #666;
+  }
+}

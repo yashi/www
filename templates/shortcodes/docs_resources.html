@@ -1,0 +1,30 @@
+<div class="section-title-block" style="background-image: url('/{{ bg }}');">
+  <div class="section-title-content">
+    <h1>{{ title }}</h1>
+    <h3>{{ subtitle }}</h3>
+    <p>{{ slogan }}</p>
+    <div class="section-title-divider"></div>
+  </div>
+</div>
+
+{% set all_lines = body | split(pat="\n") %}
+
+<div class="docs-resources-column">
+  {% for line in all_lines %}
+    {% if line | trim != "" %}
+      {% set parts = line | split(pat="|") %}
+      <div class="spec-row">
+        <div class="spec-left">{{ parts[0] | trim }}</div>
+        <div class="spec-right">
+          {{ parts[1] | trim }}
+          {% if parts | length > 1 %}
+            <a href="{{ parts[1] | trim }}" class="download-link" target="_blank" rel="noopener noreferrer" aria-label="Download">
+              <span class="download-icon">&#x2B07;</span>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+      <hr class="spec-row-divider" />
+    {% endif %}
+  {% endfor %}
+</div>

@@ -10,7 +10,6 @@
   min-width: 300px;
 }
 
-/* On small screens, stack columns vertically */
 @media (max-width: 600px) {
   .spec-columns {
     flex-direction: column;
@@ -25,45 +24,39 @@
   display: flex;
   align-items: center;
   padding: 0.75rem 0;
-  /* Removed border-bottom to avoid double dividers */
 }
 
-/* Title (left side) */
 .spec-left {
   font-weight: 600;
-  color: #fff; /* whiter text */
+  color: #fff; 
   flex-shrink: 0;
-  margin-right: 0.25rem; /* close gap after title */
-  width: 45%; /* fixed width */
-  font-size: 1.125rem; /* slightly bigger */
+  margin-right: 0.25rem; 
+  width: 45%; 
+  font-size: 1.125rem; 
 }
 
-/* Content (right side) */
 .spec-right {
   flex-grow: 1;
   text-align: left;
-  color: #aaa; /* gray text */
+  color: #aaa; 
   font-weight: 400;
-  font-size: 1.125rem; /* slightly bigger */
+  font-size: 1.125rem; 
 }
 
-/* Divider bar — removed visible '|' */
 .spec-divider {
   margin-right: 0.75rem;
   user-select: none;
   color: #999;
   flex-shrink: 0;
-  display: none; /* hide since you don’t want to show pipe */
+  display: none;
 }
 
-/* Divider line below each row */
 .spec-row-divider {
   border: none;
-  border-bottom: 1px solid #666; /* orange/gray color for divider */
+  border-bottom: 1px solid #666; 
   margin: 0.5rem 0;
 }
 
-/* Smaller font sizes and adjusted spacing on tablets */
 @media (max-width: 900px) and (min-width: 601px) {
   .spec-left,
   .spec-right {
@@ -75,7 +68,6 @@
   }
 }
 
-/* Mobile: stack each row vertically, adjust font sizes */
 @media (max-width: 600px) {
   .spec-row {
     flex-direction: column;
@@ -88,21 +80,20 @@
     margin-right: 0;
     font-size: 1.1rem;
     margin-bottom: 0.25rem;
-    color: #fff; /* keep white on mobile */
+    color: #fff; 
   }
 
   .spec-right {
     width: 100%;
     font-size: 1.1rem;
     text-align: left;
-    color: #aaa; /* gray */
+    color: #aaa;
   }
 
   .spec-divider {
     display: none;
   }
 
-  /* Adjust divider line for mobile if needed */
   .spec-row-divider {
     border-bottom: 1px solid #666;
   }
