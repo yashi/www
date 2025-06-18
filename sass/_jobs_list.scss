@@ -11,19 +11,19 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 0.5rem;
 
     .jobs-list__title {
       color: #fff;
       text-align: left;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 0.25rem;
     }
 
     .jobs-list__subtitle {
       color: #aaa;
       text-align: left;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin: 0;
     }
 
@@ -43,56 +43,61 @@
     .jobs-list-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.25rem;
+      gap: 1.5rem;
 
       .job-card {
         background: transparent;
-        padding: 1rem;
-        border-radius: 8px;
-        color: #ccc;
-        box-shadow: none;
+        padding: 2rem;
+        min-height: 150px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        border: 1px solid #fff;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
 
         &:hover {
           transform: translateY(-4px);
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
         }
 
         .job-card__link {
           text-decoration: none;
 
           .job-card__title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #f90;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #fff;
             margin: 0;
           }
         }
 
         .job-card__title {
-          font-size: 1.2rem;
-          font-weight: bold;
-          color: #f90;
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: #fff;
           margin: 0;
         }
       }
     }
   }
 
-  // Responsive: 1 column on tablets and smaller
   @media (max-width: 768px) {
     flex-direction: column;
     width: 90vw;
 
     &-left {
       margin-bottom: 1rem;
+      padding-top: 0;
 
       .jobs-list__title {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
       }
 
       .jobs-list__subtitle {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
       }
 
       .jobs-list__divider {
@@ -107,10 +112,11 @@
         gap: 1rem;
 
         .job-card {
-          padding: 0.75rem;
+          padding: 1.5rem;
+          min-height: 120px;
 
           .job-card__title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
           }
         }
       }
@@ -122,11 +128,11 @@
 
     &-left {
       .jobs-list__title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
       }
 
       .jobs-list__subtitle {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
 
       .jobs-list__divider {
