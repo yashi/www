@@ -18,13 +18,13 @@ template = "recruit_list.html"
 {% end %}
 
 {% recruit_intro(
-  title = "一緒に働くメンバーを常に募集しています。<br><br> 少しでもご興味のある方はアプリケーションフォームからご連絡下さい。",
+  title = "We are always looking for members to work with us.<br><br>  If you are interested in our open positions, please contact us below.",
   body_text = "
- 株式会社 Space Cubicsは、宇宙とコンピューターの仕事を通じて出会ったエンジニア達が作った会社です。エンジニアリングを心から楽しみ、より過酷で極限の環境である宇宙でも使えるコンピュータを設計、開発しています。
+ Space Cubics Inc. is founded by a team of engineers with extensive experience in aerospace and computing. We specialize in designing and developing robust computer systems engineered to operate reliably in the most demanding and extreme environments of space. Our passion for innovative engineering drives us to deliver cutting-edge solutions that meet the highest standards of performance and durability.
  <br><br>
- ある人は宇宙に詳しく、ある人はコンピューターアーキテクチャやロジック、またある人はソフトウェア開発が得意だったりと、自分の領域には絶対の自信がある人達です。しかし、どうしても1人では達成できない問題が山程あり、その問題に取り組むために、信頼できる仲間と一緒に問題解決に日々取り組んでいます。そこには、だれが偉くてだれが部下だという気持ちは無く、唯一無二の仲間達がいるからこそ、達成しえる、日々研鑽できるという思いだけがあります。
+ Our team consists of experts confident in their fields—whether space, computer architecture, or software development. Recognizing that complex challenges require collaboration, we work closely as trusted colleagues without hierarchy. United by a shared commitment, we continuously improve and achieve together as one team.
  <br><br>
-今の 株式会社 Space Cubicsはまだまだ小さくて、大きな仕事を自分達だけで完結できる力がありません。コンピューター、通信、推進、構造、熱流体、システムエンジニアリングなど、宇宙機を設計、製造、販売する事に興味がある人、地上で動くコンピューターなど普通すぎてツマラナク感じている人や、色々な理由で思い通りのモノが作ることが出来ていない人は、ご連絡ください。他人の仕事にケチばかり付けて代替案を提案できない人、他人を貶める人は、たとえ優秀でもご遠慮ください。 "
+Space Cubics Inc. is a growing company seeking collaborators passionate about designing, manufacturing, and selling spacecraft components (computers, communications, propulsion, structures, thermal systems, and systems engineering). If you find conventional computing uninspiring or face challenges realizing your vision, we invite you to connect with us. Please note, we value constructive teamwork and do not engage with those who criticize without offering solutions or undermine others, regardless of their expertise."
 ) %}
 <!-- no text -->
 {% end %}
