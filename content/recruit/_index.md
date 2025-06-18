@@ -32,10 +32,16 @@ sort_by = "date"
   title = "募集中",
   subtitle = "Current positions",
   jobs = "
-通信エンジニア| /recruit/communications-engineer/
-ハードウェアエンジニア|/jobs/hardware-engineer
-プロダクトマネージャー|/jobs/product-manager"
-) %}
+通信エンジニア | /recruit/communications-engineer/
+資金調達担当 | /recruit/financial-worker/
+FPGAエンジニア | /recruit/fpga-engineer/
+ハードウェアエンジニア | /recruit/hardware-engineer/
+推進系エンジニア | /recruit/propulsion-engineer/
+営業 | /recruit/sales-position/
+構造系エンジニア | /recruit/structural-engineer/
+システムエンジニア | /recruit/system-engineer/
+熱流体系エンジニア | /recruit/thermal-systems-engineer/
+") %}
 <!-- no text -->
 {% end %}
 
