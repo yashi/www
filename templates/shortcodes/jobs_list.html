@@ -6,6 +6,9 @@
     {% if subtitle %}
       <p class="jobs-list__subtitle">{{ subtitle }}</p>
     {% endif %}
+    {% if slogan %}
+      <p class="jobs-list__slogan">{{ slogan }}</p>
+    {% endif %}
     <div class="jobs-list__divider"></div>
   </div>
 
@@ -13,15 +16,16 @@
     <div class="jobs-list-grid">
       {% set lines = jobs | split(pat="\n") %}
       {% for line in lines %}
-        {% set parts = line | split(pat="|") %}
-        {% set job_title = parts[0] | trim %}
-        {% if parts | length > 1 %}
-          {% set job_link = parts[1] | trim %}
-        {% else %}
-          {% set job_link = "" %}
-        {% endif %}
+        {% set line = line | trim %}
+        {% if line != "" %}
+          {% set parts = line | split(pat="|") %}
+          {% set job_title = parts[0] | trim %}
+          {% if parts | length > 1 %}
+            {% set job_link = parts[1] | trim %}
+          {% else %}
+            {% set job_link = "" %}
+          {% endif %}
 
-        {% if job_title != "" %}
           <div class="job-card">
             {% if job_link != "" %}
               <a href="{{ job_link }}" class="job-card__link">

@@ -30,7 +30,8 @@ sort_by = "date"
 
 {% jobs_list(
   title = "募集中",
-  subtitle = "Current positions",
+  subtitle = "Current available",
+  slogan = "POSITIONS",
   jobs = "
 通信エンジニア | /recruit/communications-engineer/
 資金調達担当 | /recruit/financial-worker/

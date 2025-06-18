@@ -30,7 +30,8 @@ Space Cubics Inc. is a growing company seeking collaborators passionate about de
 
 {% jobs_list(
   title = "Job Openings",
-  subtitle = "Current positions",
+  subtitle = "Current available",
+  slogan = "POSITIONS",
   jobs = "
 Communication Engineer | /en/recruit/communications-engineer/
 Financial Strategist | /en/recruit/financial-worker/
