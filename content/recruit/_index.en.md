@@ -47,10 +47,11 @@ Thermal Systems Engineer | /en/recruit/thermal-systems-engineer/
 {% end %}
 
 {% application_form(
-  title = "Apply Now",
-  subtitle = "Join Our Team",
-  slogan = "We're hiring passionate innovators",
-  description = "Use the form to apply.\nWe look forward to hearing from you!"
+  title = "CONTACT FORM",
+  subtitle = "Join us",
+  slogan = "SPACE CUBICS",
+
+  description = "Please fill out the form to the right.<br><br>Be sure to fill in all the fields so we can get back to you soon."
 ) %}
 <!-- no text -->
 {% end %}
