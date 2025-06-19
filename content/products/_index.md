@@ -9,8 +9,8 @@
   link_text="",
   img_link="",
   bg="bright_white_pcb.jpg",
-  subtitle="SC-OBC Module A1",
-  slogan="Onboard Computer (OBC)"
+  subtitle="",
+  slogan=""
 ) %}
 <!-- no text -->
 {% end %}
