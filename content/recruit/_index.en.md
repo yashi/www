@@ -65,20 +65,20 @@ Thermal Systems Engineer | /en/recruit/thermal-systems-engineer/
   left_subtitle="Company Details",
   left_footer_1="We are always looking for people to work with us.",
   left_footer_2="If you're interested, please contact us.",
-  left_link="/about_us",
+  left_link="/en/about_us",
 
   right_title="CONTACT",
   right_subtitle="Make an inquiry",
   right_footer_1="Please feel free to contact us.",
   right_footer_2="We will try to get back to you promptly.",
-  right_link="/contact",
+  right_link="/en/contact",
 
   bottom_card_image="white_pcb.png",
   bottom_title="PRODUCTS",
   bottom_subtitle="Our PCBs and Services",
   bottom_footer_1="We offer affordable and reliable space-grade computers...",
   bottom_footer_2="making space development more accessible.",
-  bottom_link="/products",
+  bottom_link="/en/products",
 
   bg=""
 ) %}
