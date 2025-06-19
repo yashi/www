@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.quick-jump-button').forEach(button => {
+  document.querySelectorAll('.jump-button').forEach(button => {
     button.addEventListener('click', () => {
-      const y = parseInt(button.dataset.scrollY, 10);
-      if (!isNaN(y)) {
-        window.scrollTo({ top: y, behavior: 'smooth' });
+      const targetId = button.dataset.targetId;
+      if (!targetId) return;
+
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.warn(`No element found with id: ${targetId}`);
       }
     });
   });

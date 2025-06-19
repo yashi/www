@@ -35,7 +35,7 @@
 
 {% product_display(
   product_id_label="Product 01",
-  bg="images/bg.jpg",
+  bg="",
   img="sq_sc-obc_module_a1.png",
   img_link="",
   alt="",

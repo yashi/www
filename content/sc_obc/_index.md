@@ -1,60 +1,65 @@
 +++
 +++
 
-{% section_title(bg="images/bg.jpg", title="SC-OBC Module A1", subtitle="", slogan="") %}
+{% section_title(bg="", title="SC-OBC Module A1", subtitle="", slogan="") %}
 <!--display element -->
 {% end %}
 
 {% quick_jump(
-  title1="商品概要", scroll_y1=500,
-  title2="使用実績", scroll_y2=1500,
-  title3="開発セット", scroll_y3=2700,
-  title4="製品スペック", scroll_y4=3900,
-  title5="ドキュメントとリソース", scroll_y5=4800
+  title1="商品概要", id1="section-summary",
+  title2="使用実績", id2="section-usage",
+  title3="開発セット", id3="section-devkit",
+  title4="製品スペック", id4="section-specs",
+  title5="ドキュメントとリソース", id5="section-docs"
 ) %}
 <!--display element -->
 {% end %}
 
+<section id="section-summary">
+  {% twocoltwo(
+    title="商品概要",
+    img="sq_sc-obc_module_a1.png",
+    alt="",
+    link="",
+    link_text="",
+    img_link="",
+    bg="",
+    subtitle="",
+    slogan="SC-OBC Module A1"
+  ) %}
+  JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
+  {% end %}
 
-{% twocoltwo(
-  title="商品概要",
-  img="sq_sc-obc_module_a1.png",
-  alt="",
-  link="",
-  link_text="",
-  img_link="",
-  bg="",
-  subtitle="",
-  slogan="SC-OBC Module A1"
-) %}
-JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
-{% end %}
+  {% section_title(bg="", title="使用実績", subtitle="", slogan="") %}
+  <!--display element -->
+  {% end %}
+</section>
 
-{% section_title(bg="images/bg.jpg", title="使用実績", subtitle="", slogan="") %}
-<!--display element -->
-{% end %}
+<section id="section-usage">
+  {% twocard(
+    title="",
+    subtitle="",
+    
+    left_card_image="interface.jpg",
+    right_card_image="satellite.jpg",
+    
+    left_card_title="",
+    left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
+    
+    right_card_title="",
+    right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
+    
+    bg=""
+  ) %}
+  <!--display element -->
+  {% end %}
+</section>
 
-{% twocard(
-  title="",
-  subtitle="",
-  
-  left_card_image="interface.jpg",
-  right_card_image="satellite.jpg",
-  
-  left_card_title="",
-  left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
-  
-  right_card_title="",
-  right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
-  
-  bg=""
-) %}
-<!--display element -->
-{% end %}
-
-{% section_title(bg="images/bg.jpg", title="開発セット・オプション製品", subtitle="", slogan="") %}
-<!--display element -->
-{% end %}
+<section id="section-devkit">
+  {% section_title(bg="", title="開発セット・オプション製品", subtitle="", slogan="") %}
+  <!--display element -->
+  {% end %}
+</section>
 
 {% twocard(
   title="",
@@ -70,67 +75,71 @@ JAXAが国際宇宙ステーションで培った信頼性設計技術を基に�
 <!--display element -->
 {% end %}
 
-{% spec_sheet(
-  bg="",
-  title="製品スペック",
-  subtitle="",
-  slogan=""
-) %}
-Main Processor | Xilinx Artix-7
-Communication Interface | CAN, I2C, UART
-Main CPU | Cortex-M3 / MicroBlaze-V
-FPGA User I/O | 38 pin
-Preinstalled OS | Zephyr RTOS
-PIC User I/O | 3 pin
-Clock Generator | 24 MHz x 2
-Watchdog timer | 1 (IP Core)
-PIC (anomaly detection / system recovery) | 8 bit PIC MCU
-Interface Connector | 80 pin / 0.5 mm pitch
-On-chip SRAM | 64 KByte FPGA Block RAM
-Supply Voltage | DC 5.0 V ± 10%
-On-board SRAM | 4 MBytes
-Power Consumption | 2.0 W (Max)
-NOR Flash Memory (configurable) | 32 MBytes x 2
-External Dimensions | 70 x 70 x 9.6 mm
-FeRAM | 512 KBytes x 2
-Mass | 130 g
-{% end %}
+<section id="section-specs">
+  {% spec_sheet(
+    bg="",
+    title="製品スペック",
+    subtitle="",
+    slogan=""
+  ) %}
+  Main Processor | Xilinx Artix-7
+  Communication Interface | CAN, I2C, UART
+  Main CPU | Cortex-M3 / MicroBlaze-V
+  FPGA User I/O | 38 pin
+  Preinstalled OS | Zephyr RTOS
+  PIC User I/O | 3 pin
+  Clock Generator | 24 MHz x 2
+  Watchdog timer | 1 (IP Core)
+  PIC (anomaly detection / system recovery) | 8 bit PIC MCU
+  Interface Connector | 80 pin / 0.5 mm pitch
+  On-chip SRAM | 64 KByte FPGA Block RAM
+  Supply Voltage | DC 5.0 V ± 10%
+  On-board SRAM | 4 MBytes
+  Power Consumption | 2.0 W (Max)
+  NOR Flash Memory (configurable) | 32 MBytes x 2
+  External Dimensions | 70 x 70 x 9.6 mm
+  FeRAM | 512 KBytes x 2
+  Mass | 130 g
+  {% end %}
+</section>
 
-{% docs_resources(
-  bg="",
-  title="ドキュメントとリソース",
-  subtitle="",
-  slogan=""
-) %}
-ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
-FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
-GitHub | その他、様々な技術情報はこちらを参照ください。 | https://github.com/spacecubics
-{% end %}
+<section id="section-docs">
+  {% docs_resources(
+    bg="",
+    title="ドキュメントとリソース",
+    subtitle="",
+    slogan=""
+  ) %}
+  ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
+  FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
+  GitHub | その他、様々な技術情報はこちらを参照ください。 | https://github.com/spacecubics
+  {% end %}
 
-{% prefooter(
-  left_card_image="about.png", 
-  right_card_image="ide.webp",
+  {% prefooter(
+    left_card_image="about.png", 
+    right_card_image="ide.webp",
 
-  left_title="ABOUT US",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
-  left_link="/about_us",
+    left_title="ABOUT US",
+    left_subtitle="採用情報",
+    left_footer_1="一緒に働くメンバーを常に募集しています。",
+    left_footer_2="ご興味のある方はご連絡ください。",
+    left_link="/about_us",
 
-  right_title="RECRUIT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
-  right_link="/recruit",
+    right_title="RECRUIT",
+    right_subtitle="お問い合わせ",
+    right_footer_1="お気軽にお問い合わせください。",
+    right_footer_2="担当者よりご返信いたします",
+    right_link="/recruit",
 
-  bottom_card_image="earth.png",
-  bottom_title="CONTACT",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/contact",
+    bottom_card_image="earth.png",
+    bottom_title="CONTACT",
+    bottom_subtitle="Be part of something bigger",
+    bottom_footer_1="We believe in collaboration, creativity, and community.",
+    bottom_footer_2="Start your journey with us today.",
+    bottom_link="/contact",
 
-  bg=""
-) %}
-<!--display element -->
-{% end %}
+    bg=""
+  ) %}
+  <!--display element -->
+  {% end %}
+</section>
