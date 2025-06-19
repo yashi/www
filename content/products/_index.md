@@ -71,7 +71,7 @@
   left_link="/about_us",
 
   right_title="RECRUIT",
-  right_subtitle="一緒に働きませんか？",
+  right_subtitle="採用情報",
   right_footer_1="一緒に働くメンバーを常に募集しています。",
   right_footer_2="ご興味のある方はご連絡ください。",
   right_link="/recruit",
