@@ -48,7 +48,7 @@
   text2_b="Cortex M3 / MicroBlaze-V",
   text3_a="Operating System",
   text3_b="Zephyr RTOS",
-  download_1_link="https://github.com/spacecubics/scobc-product-manual/blob/main/product_manual.org",
+  download_1_link="https://github.com/spacecubics/scobc-a1-product-manual",
   download_1_label="ユーザーマニュアル",
   download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
   download_2_label="FPGAハードウェアマニュアル",

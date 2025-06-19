@@ -9,6 +9,7 @@
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
+    padding: 1.5rem;
   }
 
   .product-image-container {
@@ -37,41 +38,61 @@
       padding-left: 0;
       margin-top: 1.5rem;
       justify-content: flex-start;
+      align-items: center;
     }
 
     .product-text-block {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 1.25rem;
+      word-break: break-word;
+      max-width: 100%;
 
       .product-id-label {
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-transform: uppercase;
         color: #555555;
+
+        @media (max-width: 768px) {
+          font-size: 1.8rem;
+        }
       }
 
       .product-pre-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: #dddddd;
+
+        @media (max-width: 768px) {
+          font-size: 1.3rem;
+        }
       }
 
       .product-title {
-        font-size: 4.5rem;
+        font-size: 4rem;
         color: #ffffff;
+
+        @media (max-width: 768px) {
+          font-size: 2.5rem;
+        }
       }
 
       .product-subtitle {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #cccccc;
         line-height: 1.4;
+
+        @media (max-width: 768px) {
+          font-size: 1.3rem;
+        }
       }
 
       .product-divider {
         display: flex;
-        gap: 1.5rem;
+        gap: 1.25rem;
         align-items: center;
-        margin: 1.5rem 0;
+        justify-content: center;
+        margin: 1.25rem 0;
 
         .divider-line {
           width: 3px;
@@ -82,54 +103,68 @@
       }
 
       .product-meta {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         color: #ffffff;
         padding-bottom: 0.75rem;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      }
-    }
 
-    .product-downloads {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      margin-top: 2rem;
-
-      .download-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        color: #f77d06;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 1.5rem;
-        white-space: nowrap;
-
-        &:hover {
-          text-decoration: underline;
-          color: darkorange;
-        }
-
-        img {
-          width: 20px;
-          height: 20px;
+        @media (max-width: 768px) {
+          font-size: 1.2rem;
         }
       }
     }
+
+.product-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  justify-content: center;
+
+    .download-link {
+      display: inline-flex;
+      align-items: center;
+      color: #f77d06;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.3rem;
+      white-space: nowrap;
+
+      &:hover {
+        text-decoration: underline;
+        color: darkorange;
+      }
+
+      &:not(:last-child)::after {
+        content: '|';
+        color: #ccc;
+        margin-left: 0.75rem;
+        margin-right: 0.25rem;
+        font-weight: normal;
+      }
+    }
+  }
+
 
     .product-details {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 1.5rem;
-      font-size: 2.25rem;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-size: 2rem;
       font-weight: 700;
       color: #ffffff;
       margin-top: 2rem;
 
+      @media (max-width: 768px) {
+        justify-content: center;
+        font-size: 1.5rem;
+      }
+
       a.details-button {
-        width: 56px;
-        height: 56px;
+        width: 48px;
+        height: 48px;
         border-radius: 50%;
         background-color: #f77d06;
         display: flex;
@@ -144,8 +179,8 @@
         }
 
         svg {
-          width: 24px;
-          height: 24px;
+          width: 20px;
+          height: 20px;
           stroke: white;
           fill: none;
           stroke-width: 2;
