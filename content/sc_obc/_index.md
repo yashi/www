@@ -121,7 +121,7 @@ GitHub | その他、様々な技術情報はこちらを参照ください。 |
   right_subtitle="お問い合わせ",
   right_footer_1="お気軽にお問い合わせください。",
   right_footer_2="担当者よりご返信いたします",
-  right_link="recruit",
+  right_link="/recruit",
 
   bottom_card_image="earth.png",
   bottom_title="CONTACT",
