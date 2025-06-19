@@ -19,7 +19,6 @@
   margin-left: 25%;
   padding: 0;
 
-  /* Small screens: stack vertically and add bottom padding for scroll hint */
   @media only screen and (max-width: 479px) {
     margin-left: 0;
     flex-direction: column;
@@ -32,14 +31,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end; /* Right-align the content */
-  width: 300px; /* Adjusted width to give more space */
+  align-items: flex-end; 
+  width: 300px; 
   margin-right: 3rem;
   height: 45vh;
-  text-align: right; /* Right-align text inside the container */
-  flex-shrink: 0; /* Prevent shrinking */
+  text-align: right; 
+  flex-shrink: 0; 
 
-  /* Responsive adjustments */
   @media only screen and (max-width: 899px) {
     width: 200px;
     margin-right: 2rem;
@@ -55,7 +53,7 @@
 }
 
 .small-element {
-  text-align: right; /* Ensures text is right-aligned within each element */
+  text-align: right; 
   width: 100%;
 
   @media only screen and (max-width: 479px) {
@@ -90,7 +88,7 @@
 .big-text {
   font-size: 20rem;
   font-weight: bold;
-  font-style: italic; /* keep this for true italic glyphs */
+  font-style: italic; 
   font-family: 'Arial', sans-serif;
   color: black;
   white-space: nowrap;
@@ -104,9 +102,8 @@
   overflow: hidden;
   text-overflow: clip;
 
-  transform: skew(-15deg); /* add skew for stronger slant */
+  transform: skew(-15deg); 
 
-  /* Responsive font size */
   @media only screen and (max-width: 1200px) {
     font-size: 12rem;
   }
@@ -136,7 +133,6 @@
   top: 0;
 }
 
-/* Scroll Hint Styles */
 .scroll-hint {
   position: absolute;
   left: 10rem;
@@ -148,12 +144,10 @@
   z-index: 10;
   animation: floatDown 2s ease-in-out infinite;
 
-  /* Medium screens: push it closer to left */
   @media only screen and (max-width: 899px) and (min-width: 480px) {
     left: 5rem;
   }
 
-  /* Small screens: make scroll hint flow normally and avoid overlap */
   @media only screen and (max-width: 479px) {
     position: relative;
     left: auto;
@@ -175,7 +169,6 @@
   font-size: 2rem;
 }
 
-/* Optional floating animation */
 @keyframes floatDown {
   0%, 100% {
     transform: translateY(0);

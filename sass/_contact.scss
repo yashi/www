@@ -1,6 +1,6 @@
 // _contact.scss
 
-$orange: #f97316;
+$orange: #f77d06;
 $input-bg: rgba(255, 255, 255, 0.1);
 $text-color: #fff;
 
@@ -62,10 +62,8 @@ section.contact-form {
         border: 2px solid $orange;
         border-radius: 4px;
         padding: 0.5rem;
-        min-height: 8rem; // Adjust to fit all options
+        min-height: 8rem; 
         overflow-y: auto;
-
-        // Remove arrow by overriding background-image
         background-image: none;
         }
   }

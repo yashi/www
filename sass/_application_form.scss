@@ -31,11 +31,24 @@
     }
 
     .application-form__divider {
-      height: 3px;
+      position: relative;
+      height: 4px;
       width: 100px;
-      background: linear-gradient(90deg, orange, gray);
+      background-color: gray;
       margin: 1rem 0;
       border-radius: 2px;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+        background-color: #f77d06;
+        border-radius: 2px 0 0 2px;
+      }
     }
 
     .application-form__description {
@@ -86,7 +99,7 @@
         }
         .z-contact-form__button {
           padding: 0.75rem;
-          background: orange;
+          background: #f77d06;
           color: #ffffff;
           border: none;
           border-radius: 4px;

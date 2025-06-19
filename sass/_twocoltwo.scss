@@ -67,10 +67,11 @@
     }
 
     .section-title-divider {
-      background-color: orange;
-      height: 3px;
+      background-color: #f77d06;
+      height: 4px;
       width: 20%;
       margin-top: 1em;
+      border: none;
     }
   }
 
@@ -109,7 +110,7 @@
     }
 
     .hero-link {
-      background-color: #f97316;
+      background-color: #f77d06;
       color: white;
       padding: 0.5rem 1rem;
       border-radius: 9999px;
@@ -123,7 +124,7 @@
       display: inline-block;
 
       &:hover {
-        background-color: #ea580c;
+        background-color: #f77d06;
       }
     }
   }

@@ -1,5 +1,5 @@
 +++
-title = "Space Cubics Inc. Established。"
+title = "Space Cubics Inc. established"
 date = 2018-06-01
 [extra]
 banner = "products_banner2.jpeg"

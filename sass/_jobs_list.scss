@@ -33,23 +33,50 @@
     }
 
     .jobs-list__divider {
-      height: 3px;
+      position: relative;
+      height: 4px;
       width: 100px;
-      background: linear-gradient(90deg, orange, gray);
+      background-color: gray;
       margin-top: 0.5rem;
       border-radius: 2px;
       align-self: flex-start;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+        background-color: #f77d06;
+      }
+    }
+
+    .jobs-list__description {
+      margin-top: 1rem;
+      font-size: 1rem;
+      line-height: 1.4;
+      color: #ddd;
+      text-align: left;
+      white-space: pre-wrap;
+    }
+
+    .jobs-list__divider {
+      width: 80px;
+      height: 2.5px;
+      background-color: gray; // 80% base
     }
   }
 
   &-right {
     flex: 2;
-    display: flex;  // Keep original horizontal flex container
+    display: flex;  
 
     .jobs-list-right-content {
       display: flex;
       flex-direction: column;
-      width: 100%; // Full width inside jobs-list-right
+      width: 100%; 
     }
 
     .jobs-list-grid {
@@ -91,21 +118,28 @@
     }
 
     .jobs-list__bottom-divider {
-      width: 100%; // Same width as grid container
-      height: 3px;
+      position: relative;
+      width: 100%;
+      height: 4px;
       margin-top: 2rem;
       border-radius: 2px;
-      background: linear-gradient(
-        to right,
-        orange 0%,
-        orange 20%,
-        gray 20%,
-        gray 100%
-      );
+      background-color: gray; // 80% base
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10%;
+        height: 100%;
+        background-color: #f77d06; // dark orange
+      }
     }
 
+
     .jobs-list__bottom-text {
-      width: 100%; // Matches divider & grid width
+      width: 100%; 
       margin-top: 1rem;
       color: #ddd;
       font-size: 1rem;
