@@ -26,6 +26,7 @@
         {% endif %}
       </div>
 
+      <!-- Form with white border -->
       <form id="contactForm" class="z-contact-form__form">
         <p class="z-contact-form__field">
           <label class="z-contact-form__label">
@@ -63,23 +64,25 @@
         </p>
 
         <p class="z-contact-form__field">
-          <div
-            class="cf-turnstile"
-            data-sitekey="{{ config.extra.captcha_site_key }}"
-            data-callback="onTurnstileSuccess"
-            data-theme="light"
-          ></div>
-        </p>
-
-        <p class="z-contact-form__field">
           <button type="submit" class="z-contact-form__button" disabled id="submitBtn">
             {{ button_label | default(value="Send") }}
           </button>
         </p>
       </form>
+
+      <!-- Turnstile box outside the border -->
+      <div class="z-contact-form__turnstile-wrapper">
+        <div
+          class="cf-turnstile"
+          data-sitekey="{{ config.extra.captcha_site_key }}"
+          data-callback="onTurnstileSuccess"
+          data-theme="light"
+        ></div>
+      </div>
     </section>
   </div>
 </div>
 
+<!-- Scripts -->
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script src="/js/contact.js" defer></script>
