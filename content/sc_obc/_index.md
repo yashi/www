@@ -30,30 +30,29 @@
   JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。
   {% end %}
 
+<section id="section-usage">
   {% section_title(bg="", title="使用実績", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
 
-<section id="section-usage">
-  {% twocard(
-    title="",
-    subtitle="",
-    
-    left_card_image="interface.jpg",
-    right_card_image="satellite.jpg",
-    
-    left_card_title="",
-    left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
-    
-    right_card_title="",
-    right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
-    
-    bg=""
-  ) %}
-  <!--display element -->
-  {% end %}
-</section>
+{% twocard(
+  title="",
+  subtitle="",
+  
+  left_card_image="interface.jpg",
+  right_card_image="satellite.jpg",
+  
+  left_card_title="",
+  left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。",
+  
+  right_card_title="",
+  right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星。<br> <br> （写真は開発中のもの）",
+  
+  bg=""
+) %}
+<!--display element -->
+{% end %}
 
 <section id="section-devkit">
   {% section_title(bg="", title="開発セット・オプション製品", subtitle="", slogan="") %}
