@@ -10,7 +10,6 @@ title = "Space Cubics Inc."
 <!--display element -->
 {% end %}
 
-
 {% twocoltwo(
   title="PRODUCTS",
   img="/sq_sc-obc_module_a1.png",
@@ -46,7 +45,6 @@ SC OBC Module A1
 <br><br>JAXAのベンチャーです。
 {% end %}
 
-
 {% twocoltwo(
   bg="",
   title="PARTNERS",
@@ -63,7 +61,6 @@ SC OBC Module A1
 革新的な技術や最先端のアイデアを持つ企業と協力し、持続可能な成長を支援することが 私たちの使命です。
 {% end %}
 
-
 {% twocoltwo(
   bg="bw_pcb.jpg",
   title="NEWS",
@@ -79,7 +76,6 @@ SC OBC Module A1
 <br><br>
 私たちのチームは、宇宙探査に力を与える技術の進歩に専念しています。
 {% end %}
-
 
 {% prefooter(
   left_card_image="ide.webp", 
