@@ -188,7 +188,7 @@ Masayuki Goto｜Founding Member｜Space System Engineer｜Since 2002, engaged in
   title="PARTNERS",
   img="space_one_logo.png",
   alt="",
-  link="products",
+  link="https://www.space-one.co.jp/",
   link_text="Read More",
   img_link="",
   bg="",

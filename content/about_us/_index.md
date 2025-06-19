@@ -63,7 +63,7 @@ TEL｜050-7112-6213
   title="PARTNERS",
   img="space_one_logo.png",
   alt="",
-  link="products",
+  link="https://www.space-one.co.jp/",
   link_text="Read More",
   img_link="",
   bg="",
