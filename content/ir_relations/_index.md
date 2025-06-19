@@ -46,9 +46,9 @@
 
   bottom_card_image="white_pcb.png",
   bottom_title="PRODUCTS",
-  bottom_subtitle="Be part of something bigger",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
+  bottom_subtitle="製品紹介",
+  bottom_footer_1="信頼性の高い製品を提供し、",
+  bottom_footer_2="宇宙開発をサポートします。",
   bottom_link="/products",
 
   bg=""
