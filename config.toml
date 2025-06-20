@@ -1,6 +1,6 @@
 base_url = "https://spacecubics.pages.dev/"
 title = "Space Cubics Inc."
-description = "Drinking beer on the moon."
+description = "To drink beer on the moon."
 default_language = "ja"
 
 compile_sass = true
