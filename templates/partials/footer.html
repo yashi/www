@@ -8,11 +8,19 @@
         <img src="{{ get_url(path='logo_black.webp') }}" alt="{{ config.title }} Logo" />
       </a>
       <div class="company-info">
-        <div class="company-name">株式会社 Space Cubics</div>
-        <div class="company-address">
-          〒060-0053 北海道札幌市中央区南3条東2丁目1番地<br>
-          ベンチャースクエア301
-        </div>
+        {%- if lang == "en" %}
+          <div class="company-name">Space Cubics Inc.</div>
+          <div class="company-address">
+            Venture Square #301<br>
+            1 Minami 3-jo Higashi 2-chome, Chuo-ku, Sapporo, Hokkaido 060-0053
+          </div>
+        {%- else %}
+          <div class="company-name">株式会社 Space Cubics</div>
+          <div class="company-address">
+            〒060-0053 北海道札幌市中央区南3条東2丁目1番地<br>
+            ベンチャースクエア301
+          </div>
+        {%- endif %}
       </div>
     </div>
 
