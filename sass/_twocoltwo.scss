@@ -1,26 +1,31 @@
 .hero-section {
   width: 100vw;
+  min-height: 100px;
   margin-left: calc(-50vw + 50%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 0.7em;  
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+  font-size: 1em;
+  padding: 2rem 1rem 4rem 1rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  overflow: hidden;
 
   .hero-content {
     max-width: 90vw;
     margin: 0 auto;
     display: flex;
-    gap: 1rem;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    overflow: hidden;
   }
 
   &.no-image {
+    min-height: 700px;
+
     .hero-content {
       justify-content: flex-start;
 
@@ -41,7 +46,7 @@
     padding: 2em 1rem;
     position: relative;
     z-index: 1;
-    font-size: 1em; 
+    font-size: 1.2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     width: 100%;
 
@@ -50,14 +55,15 @@
       padding-left: 10rem;
 
       h1 {
-        color: white; 
+        color: white;
         margin: 0;
+        font-size: 2.4em;
       }
 
       h3,
       p {
         color: rgb(218, 218, 218);
-        font-size: 1em;
+        font-size: 1.3em;
         margin: 0.5em 0;
       }
 
@@ -76,32 +82,34 @@
   }
 
   .hero-text {
-    position: relative;
-    flex: 0 0 38%;
-    font-size: 1em; 
-    padding-left: 1.5rem;
-    width: 80vw;
+    flex: 1 1 40%;
+    max-width: 100%;
+    font-size: 1.2em;
     text-align: left;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
     color: rgb(225, 225, 225);
 
     h2 {
       margin-bottom: 1rem;
-      font-size: 1.5em;
+      font-size: 2em;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
     p {
       margin: 1rem 0;
-      font-size: 1em;
+      font-size: 1.2em;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
     .link-wrapper {
       display: flex;
-      flex-direction: row;
+      flex-wrap: wrap;
       align-items: center;
       gap: 1rem;
-      justify-content: center;
+      justify-content: flex-start;
+      width: 100%;
     }
 
     .link-text {
@@ -112,14 +120,17 @@
     .hero-link {
       background-color: #f77d06;
       color: white;
-      padding: 0.5rem 1rem;
+      padding: 0.7rem 1.4rem;
       border-radius: 9999px;
       font-weight: 600;
       text-decoration: none;
       font-family: Georgia, 'Times New Roman', Times, serif;
       transition: background-color 0.3s ease;
-      font-size: 1em;
+      font-size: 1.1em;
       white-space: nowrap;
+      max-width: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
       margin-top: 1rem;
       display: inline-block;
 
@@ -130,69 +141,85 @@
   }
 
   .hero-image-container {
-    flex: 0 0 50%;
-    max-width: 50%;
-    text-align: center;
-    align-self: flex-start;
-    padding: 1rem;
-    background-color: transparent !important;
+    flex: 1 1 50%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      width: 100%;
       max-width: 600px;
+      width: 100%;
       height: auto;
       object-fit: contain;
       border-radius: 12px;
       display: block;
-      margin: 0 auto;
       background-color: transparent;
     }
   }
 
-  @media (min-width: 1025px) {
-    .section-title-block {
-      font-size: 2em;
+  @media (min-width: 1440px) {
+    &.no-image {
+      min-height: 700px;
     }
 
-    .hero-text {
-      font-size: 1.5em;
+    font-size: 1.2em;
+  }
 
-      h2 {
-        font-size: 2em;
-      }
-
-      p {
-        font-size: 1.2em;
-      }
-
-      .hero-link {
-        font-size: 1.1em;
-        padding: 0.6rem 1.2rem;
-      }
+  @media (min-width: 1025px) and (max-width: 1439px) {
+    &.no-image {
+      min-height: 600px;
     }
+
+    font-size: 1.1em;
   }
 
   @media (max-width: 1024px) {
+    &.no-image {
+      min-height: 500px;
+    }
+
+    font-size: 1em;
+
     .section-title-block {
-      font-size: 1.3em;
+      font-size: 1.1em;
       padding: 2em 1rem;
 
       .section-title-content {
         padding-left: 5rem;
-      }
-    }
 
-    .hero-content {
-      flex-direction: row;
-      flex-wrap: wrap;
+        h1 {
+          font-size: 2em;
+        }
+
+        h3,
+        p {
+          font-size: 1.1em;
+        }
+      }
     }
 
     .hero-text {
       flex: 0 0 100%;
       max-width: 100%;
-      font-size: 1.3em;
+      font-size: 1.1em;
       text-align: center;
-      padding-left: 0;
+      padding: 1rem;
+
+      h2 {
+        font-size: 1.6em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      .hero-link {
+        font-size: 1em;
+      }
     }
 
     .hero-image-container {
@@ -206,10 +233,15 @@
   }
 
   @media (max-width: 768px) {
+    &.no-image {
+      min-height: 450px;
+    }
+
+    font-size: 0.95em;
     padding: 2rem 1.5rem;
 
     .section-title-block {
-      font-size: 1.2em;
+      font-size: 1em;
 
       .section-title-content {
         padding-left: 2rem;
@@ -223,7 +255,19 @@
 
     .hero-text {
       width: 100%;
-      font-size: 1.2em;
+      font-size: 1em;
+
+      h2 {
+        font-size: 1.4em;
+      }
+
+      p {
+        font-size: 0.95em;
+      }
+
+      .hero-link {
+        font-size: 0.95em;
+      }
     }
 
     .hero-image-container {
@@ -241,10 +285,15 @@
   }
 
   @media (max-width: 479px) {
+    &.no-image {
+      min-height: 400px;
+    }
+
+    font-size: 0.9em;
     padding: 1.5rem 1rem;
 
     .section-title-block {
-      font-size: 1em;
+      font-size: 0.95em;
 
       .section-title-content {
         padding-left: 0.5rem;
@@ -261,11 +310,11 @@
     }
 
     .hero-text {
-      font-size: 1em;
+      font-size: 0.9em;
       padding-left: 0;
 
       h2 {
-        font-size: 1.1em;
+        font-size: 1.2em;
       }
 
       p {
@@ -273,7 +322,7 @@
       }
 
       .hero-link {
-        font-size: 0.95em;
+        font-size: 0.9em;
       }
     }
   }
