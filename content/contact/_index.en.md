@@ -1,5 +1,4 @@
 +++
-template = "contact.html"
 +++
 
 {% twocoltwo(
