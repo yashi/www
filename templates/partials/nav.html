@@ -4,17 +4,28 @@
   <div id="handle"></div>
 {%- endif %}
 <header id="site-nav">
-  <nav>
-    <ul>
-      <li id="home">
-        <a href="{{ get_url(path='/', lang=lang) }}"
-          {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="/", lang=lang) | trim_end_matches(pat='/') | safe -%}
-            class="active"
-          {%- endif -%}>
-          <img class="company-logo" src="{{ get_url(path='logo_white.webp') }}" alt="Company Logo" />
-        </a>
-      </li>
+  <nav role="navigation" aria-label="Main navigation">
+
+    <!-- Logo + Hamburger wrapper -->
+    <div class="nav-header">
+      <a id="home" href="{{ get_url(path='/', lang=lang) }}"
+        {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="/", lang=lang) | trim_end_matches(pat='/') | safe -%}
+          class="active"
+        {%- endif -%}>
+        <img class="company-logo" src="{{ get_url(path='logo_white.webp') }}" alt="Company Logo" />
+      </a>
+
+      <button class="hamburger" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Collapsible nav list -->
+    <ul id="main-nav-list">
       <li class="divider"></li>
+
       {%- for link in config.extra.nav.links %}
         {%- if link.menu and link.menu | length > 0 -%}
           <li>
@@ -58,13 +69,13 @@
             </a>
           </li>
         {%- endif %}
-      {%- endfor -%}
+      {%- endfor %}
+
       {%- if config.languages | length > 0 %}
         {%- include "partials/language_switcher.html" %}
       {%- endif %}
 
       {%- if config.extra.default_theme or config.extra.nav.show_theme_switcher  %}
-        <!--contact-->
         <li id="contact">
           <a href="{{ get_url(path='contact', lang=lang) }}"
             {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="contact", lang=lang) | trim_end_matches(pat='/') | safe -%}
