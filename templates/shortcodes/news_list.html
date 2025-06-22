@@ -1,0 +1,50 @@
+<div class="news-list-parent">
+  <div class="news-list">
+    <div class="news-list-content">
+      <div class="news-list-grid">
+        {% set lines = news | split(pat="\n") %}
+        {% for line in lines %}
+          {% set line = line | trim %}
+          {% if line != "" %}
+            {% set parts = line | split(pat="|") %}
+            {% set news_title = parts[0] | trim %}
+
+            {% if parts | length > 1 %}
+              {% set news_link = parts[1] | trim %}
+            {% else %}
+              {% set news_link = "" %}
+            {% endif %}
+
+            {% if parts | length > 2 %}
+              {% set news_date = parts[2] | trim %}
+            {% else %}
+              {% set news_date = "" %}
+            {% endif %}
+
+            <div class="news-card">
+              {% if news_link != "" %}
+                <a href="{{ news_link }}" class="news-card__link">
+                  <h3 class="news-card__title">{{ news_title }}</h3>
+                  {% if news_date != "" %}
+                    <p class="news-card__date">{{ news_date }}</p>
+                  {% endif %}
+                </a>
+              {% else %}
+                <h3 class="news-card__title">{{ news_title }}</h3>
+                {% if news_date != "" %}
+                  <p class="news-card__date">{{ news_date }}</p>
+                {% endif %}
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="news-list__bottom-divider"></div>
+
+      {% if news_note %}
+        <p class="news-list__bottom-text">{{ news_note | safe }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
