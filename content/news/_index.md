@@ -1,6 +1,4 @@
 +++
-sort_by = "date"
-paginate_by = 8
 +++
 
 {% twocoltwo(
@@ -18,7 +16,7 @@ paginate_by = 8
 {% end %}
 
 {% news_list(
-  news_note = "note here",
+  news_note = "",
   news = "
 組織変更のお知らせ | /news/2025-04-09/ | 2025-04-09
 【ディープテックを追え】 宇宙用コンピューターの価格低減でビジネス振興 | /news/2022-03-07/ | 2022-03-07
