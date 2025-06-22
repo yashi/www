@@ -31,29 +31,28 @@ JAXA venture certification | /news/2018-05-29/ | 2018-05-29
 <!-- no text -->
 {% end %}
 
-
 {% prefooter(
   left_card_image="about.png", 
   right_card_image="earth.png",
 
   left_title="ABOUT US",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
-  left_footer_2="ご興味のある方はご連絡ください。",
-  left_link="/about_us",
+  left_subtitle="Company Details",
+  left_footer_1="We are always looking for people to work with us.",
+  left_footer_2="If you're interested, please contact us.",
+  left_link="/en/about_us",
 
   right_title="CONTACT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
-  right_link="/contact",
+  right_subtitle="Make an inquiry",
+  right_footer_1="Please feel free to contact us.",
+  right_footer_2="We will try to get back to you promptly.",
+  right_link="/en/contact",
 
   bottom_card_image="white_pcb.png",
   bottom_title="PRODUCTS",
-  bottom_subtitle="製品紹介",
-  bottom_footer_1="信頼性の高い製品を提供し、",
-  bottom_footer_2="宇宙開発をサポートします。",
-  bottom_link="/products",
+  bottom_subtitle="Our PCBs and Services",
+  bottom_footer_1="We offer affordable and reliable space-grade computers...",
+  bottom_footer_2="making space development more accessible.",
+  bottom_link="/en/products",
 
   bg=""
 ) %}
