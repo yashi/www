@@ -29,7 +29,6 @@
   nav {
     padding: 0.5rem;
 
-    /* NEW: flex container to hold logo + nav list */
     .nav-content {
       display: flex;
       align-items: center;
@@ -50,7 +49,6 @@
       gap: 1rem;
       margin-bottom: 0.5rem;
 
-      /* Logo flex: don't shrink */
       #home {
         flex: 0 0 auto;
 
@@ -90,17 +88,16 @@
       }
     }
 
-    /* UPDATED: Nav list now flex-grow to fill remaining space */
     ul#main-nav-list {
       display: flex;
-      flex-wrap: nowrap; /* prevent wrapping on wide */
-      justify-content: flex-end; /* push links right */
+      flex-wrap: nowrap; 
+      justify-content: flex-end; 
       align-items: center;
-      gap: 0.5rem; /* slightly bigger gap */
+      gap: 0.5rem; 
       margin: 0;
       padding: 0;
       list-style: none;
-      flex: 1 1 auto; /* flex-grow so takes leftover space */
+      flex: 1 1 auto; 
 
       @media (max-width: 720px) {
         display: none;
