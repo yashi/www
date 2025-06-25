@@ -75,12 +75,11 @@
           {%- include "partials/language_switcher.html" %}
         {%- endif %}
 
-        {%- if config.extra.default_theme or config.extra.nav.show_theme_switcher  %}
+        {%- if config.extra.default_theme or config.extra.nav.show_theme_switcher %}
           <li id="contact">
             <a href="{{ get_url(path='contact', lang=lang) }}"
               {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="contact", lang=lang) | trim_end_matches(pat='/') | safe -%}
               {%- endif -%}>
-              <i class="icon"></i>
               {{ macros_translate::translate(key="contact", default="Contact", language_strings=language_strings) }}
             </a>
           </li>
