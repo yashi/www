@@ -1,7 +1,6 @@
 #site-nav {
   position: sticky;
   top: 1rem;
-  z-index: 999;
   grid-area: nav;
   margin: 1rem auto 0;
   border-radius: 1.625rem;
@@ -12,18 +11,6 @@
     position: relative;
     margin: 0 auto;
     top: 0;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    border-radius: 1.625rem;
-    background-color: var(--glass-bg);
-    backdrop-filter: var(--blur);
-    -webkit-backdrop-filter: var(--blur);
-    box-shadow: var(--edge-highlight), var(--shadow-glass);
   }
 
   nav {
