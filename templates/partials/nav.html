@@ -10,7 +10,6 @@
     <div class="nav-header">
       <a id="home" href="{{ get_url(path='/', lang=lang) }}"
         {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="/", lang=lang) | trim_end_matches(pat='/') | safe -%}
-          class="active"
         {%- endif -%}>
         <img class="company-logo" src="{{ get_url(path='logo_white.webp') }}" alt="Company Logo" />
       </a>
@@ -43,7 +42,6 @@
                     <li>
                       <a href="{{ get_url(path=sublink.url, lang=lang) }}"
                         {%- if current_url | default(value='/') | trim_end_matches(pat='/') | safe == get_url(path=sublink.url, lang=lang) | trim_end_matches(pat='/') | safe -%}
-                          class="active"
                         {%- endif -%}>
                         {{- macros_translate::translate(key=sublink.name, default=sublink.name, language_strings=language_strings) -}}
                       </a>
@@ -63,7 +61,6 @@
           <li>
             <a href="{{ get_url(path=link.url, lang=lang) }}"
               {%- if current_url | default(value='/') | trim_end_matches(pat='/') | safe == get_url(path=link.url, lang=lang) | trim_end_matches(pat='/') | safe -%}
-                class="active"
               {%- endif -%}>
               {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
             </a>
@@ -79,7 +76,6 @@
         <li id="contact">
           <a href="{{ get_url(path='contact', lang=lang) }}"
             {%- if current_url | default(value="/") | trim_end_matches(pat="/") | safe == get_url(path="contact", lang=lang) | trim_end_matches(pat='/') | safe -%}
-              class="active"
             {%- endif -%}>
             <i class="icon"></i>
             {{ macros_translate::translate(key="contact", default="Contact", language_strings=language_strings) }}
@@ -111,14 +107,6 @@
       {%- elif config.feed_filenames is defined and config.generate_feeds and config.extra.nav.show_feed %}
         <li id="feed">
           <a class="circle" href="{{ get_url(path=config.feed_filenames[0], lang=lang) }}" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
-            <i class="icon"></i>
-          </a>
-        </li>
-      {%- endif %}
-
-      {%- if config.extra.contact_url and config.extra.nav.show_repo %}
-        <li id="repo">
-          <a class="circle" href="{{ config.extra.source_url }}" title="{{ macros_translate::translate(key='repo', default='Repository', language_strings=language_strings) }}">
             <i class="icon"></i>
           </a>
         </li>

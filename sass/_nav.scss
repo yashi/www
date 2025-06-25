@@ -29,7 +29,6 @@
   nav {
     padding: 0.5rem;
 
-    /* Nav header: logo + hamburger button */
     .nav-header {
       display: flex;
       justify-content: space-between;
@@ -76,7 +75,6 @@
       }
     }
 
-    /* Hide the main nav list on mobile by default */
     ul#main-nav-list {
       display: flex;
       flex-wrap: wrap;
@@ -87,7 +85,6 @@
       padding: 0;
       list-style: none;
 
-      /* Mobile styles */
       @media (max-width: 720px) {
         display: none;
         flex-direction: column;
@@ -100,7 +97,7 @@
         box-shadow: var(--edge-highlight), var(--shadow-glass);
         padding: 0.5rem 1rem;
         position: absolute;
-        top: 3.5rem; /* below nav-header */
+        top: 3.5rem;
         left: 0;
         right: 0;
         z-index: 10;
@@ -142,21 +139,6 @@
         background-color: var(--fg-muted-1);
         box-shadow: var(--edge-highlight);
       }
-
-      &:active {
-        transform: var(--active);
-      }
-    }
-
-    a.active {
-      background-color: var(--accent-color-alpha);
-      box-shadow: var(--edge-highlight);
-      color: var(--accent-color);
-
-      &:hover {
-        background-color: var(--accent-color);
-        color: var(--contrast-color);
-      }
     }
 
     #home a,
@@ -166,14 +148,6 @@
 
       &:hover {
         color: var(--fg-color);
-      }
-
-      &.active {
-        color: var(--accent-color);
-
-        &:hover {
-          color: var(--contrast-color);
-        }
       }
     }
 
@@ -280,11 +254,6 @@
       }
     }
 
-    #repo .icon {
-      mask-image: var(--icon-git);
-      -webkit-mask-image: var(--icon-git);
-    }
-
     #language-switcher .icon {
       mask-image: var(--icon-languages);
       -webkit-mask-image: var(--icon-languages);
@@ -300,11 +269,16 @@
   pointer-events: auto;
   box-shadow: none;
   border: none;
+  filter: none;
+  opacity: 1;
+  background: transparent;
   transition: none;
+  mix-blend-mode: normal;
 }
 
 #home .company-logo:hover {
   box-shadow: none;
   transform: none;
   transition: none;
+  filter: none;
 }
