@@ -6,10 +6,22 @@
   background-position: center;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     flex-direction: column;
+    padding: 1rem;
     text-align: center;
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    flex-direction: column;
     padding: 1.5rem;
+    text-align: center;
+  }
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+    padding: 2rem;
+    text-align: left;
   }
 
   .product-image-container {
@@ -41,6 +53,10 @@
       align-items: center;
     }
 
+    @media (max-width: 480px) {
+      margin-top: 1rem;
+    }
+
     .product-text-block {
       display: flex;
       flex-direction: column;
@@ -57,6 +73,10 @@
         @media (max-width: 768px) {
           font-size: 1.8rem;
         }
+
+        @media (max-width: 480px) {
+          font-size: 1.6rem;
+        }
       }
 
       .product-pre-title {
@@ -65,6 +85,10 @@
 
         @media (max-width: 768px) {
           font-size: 1.3rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 1.1rem;
         }
       }
 
@@ -75,6 +99,10 @@
         @media (max-width: 768px) {
           font-size: 2.5rem;
         }
+
+        @media (max-width: 480px) {
+          font-size: 2rem;
+        }
       }
 
       .product-subtitle {
@@ -84,6 +112,10 @@
 
         @media (max-width: 768px) {
           font-size: 1.3rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 1.1rem;
         }
       }
 
@@ -99,6 +131,10 @@
           height: 60px;
           background: #ffffff;
           opacity: 0.7;
+
+          @media (max-width: 480px) {
+            height: 40px;
+          }
         }
       }
 
@@ -111,39 +147,62 @@
         @media (max-width: 768px) {
           font-size: 1.2rem;
         }
+
+        @media (max-width: 480px) {
+          font-size: 1rem;
+        }
       }
     }
 
-.product-downloads {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-top: 2rem;
-  justify-content: center;
+      .product-downloads {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.25rem;
+        margin-top: 2rem;
+        justify-content: center;
+        overflow-x: auto;
+        max-width: 100%;
 
-    .download-link {
-      display: inline-flex;
-      align-items: center;
-      color: #f77d06;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 1.3rem;
-      white-space: nowrap;
+        .download-link {
+          display: inline-flex;
+          align-items: center;
+          color: #f77d06;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 1.3rem;
+          white-space: nowrap;
+          flex-shrink: 0;
 
-      &:hover {
-        text-decoration: underline;
-        color: darkorange;
+          &:hover {
+            text-decoration: underline;
+            color: darkorange;
+          }
+
+          @media (max-width: 480px) {
+            font-size: 1.1rem;
+          }
+        }
+
+        .download-divider {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+          pointer-events: none;
+
+          svg {
+            display: block;
+            width: 16px;
+            height: 16px;
+            fill: #f77d06;
+          }
+        }
+
+        @media (max-width: 768px) {
+          flex-wrap: wrap;
+          overflow-x: visible;
+          justify-content: center;
+        }
       }
-
-      &:not(:last-child)::after {
-        content: '|';
-        color: #ccc;
-        margin-left: 0.75rem;
-        margin-right: 0.25rem;
-        font-weight: normal;
-      }
-    }
-  }
 
 
     .product-details {
@@ -160,6 +219,11 @@
       @media (max-width: 768px) {
         justify-content: center;
         font-size: 1.5rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1.2rem;
+        gap: 1rem;
       }
 
       a.details-button {
