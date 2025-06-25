@@ -77,14 +77,14 @@
 
     ul#main-nav-list {
       display: flex;
-      flex-wrap: nowrap; 
-      justify-content: flex-end; 
+      flex-wrap: nowrap;
+      justify-content: flex-end;
       align-items: center;
-      gap: 0.5rem; 
+      gap: 0.5rem;
       margin: 0;
       padding: 0;
       list-style: none;
-      flex: 1 1 auto; 
+      flex: 1 1 auto;
 
       @media (max-width: 720px) {
         display: none;
@@ -95,7 +95,7 @@
         backdrop-filter: var(--blur);
         -webkit-backdrop-filter: var(--blur);
         border-radius: calc(var(--rounded-corner) + 0.25rem);
-        box-shadow: var(--edge-highlight), var(--shadow-glass);
+        box-shadow: none;
         padding: 0.5rem 1rem;
         position: absolute;
         top: 3.5rem;
@@ -138,12 +138,11 @@
       &:hover {
         color: var(--fg-muted-5);
         background-color: var(--fg-muted-1);
-        box-shadow: var(--edge-highlight);
+        box-shadow: none;
       }
     }
 
-    #home a,
-    #contact a {
+    #home a {
       color: var(--fg-muted-5);
       font-weight: 800;
 
@@ -152,12 +151,28 @@
       }
     }
 
-    #contact .icon {
-      mask-image: var(--icon-feed);
-      -webkit-mask-image: var(--icon-feed);
-      vertical-align: -0.125em;
-      margin-inline-end: 0.25rem;
-      transition: var(--transition);
+    #contact a {
+      color: black !important;
+      background-color: #f77d06;
+      padding: 0.5rem 1.5rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      box-shadow: none;
+
+      .icon {
+        display: none !important;
+      }
+
+      &:hover {
+        background-color: darkorange;
+        color: black;
+        box-shadow: none;
+      }
     }
 
     .divider {
@@ -226,7 +241,7 @@
         background-color: var(--glass-bg);
         backdrop-filter: var(--blur);
         -webkit-backdrop-filter: var(--blur);
-        box-shadow: var(--edge-highlight), var(--shadow-glass);
+        box-shadow: none;
 
         li {
           width: 100%;
