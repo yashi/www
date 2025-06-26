@@ -2,16 +2,17 @@
   background-color: transparent;
   padding: 2rem;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.25rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
   &-title {
-    font-size: 1.75rem;
+    font-size: 2.4em;
     margin-bottom: 0.5rem;
   }
 
   &-subtitle {
-    font-size: 1rem;
+    font-size: 2em;
     color: #ccc;
     margin-bottom: 2rem;
   }
@@ -40,21 +41,20 @@
     text-shadow: none;
 
     .label-prefix {
-      font-size: 1.4rem;
+      font-size: 1.5em;
       color: #aaa;
       font-weight: 600;
       user-select: none;
     }
 
     .label-number {
-      font-size: 8rem;
+      font-size: 5em;
       font-weight: 300;
       color: #bbb;
-      line-height: 0.75;
-      height: 4rem;
+      line-height: 1;
+      height: auto;
       overflow: hidden;
       display: inline-block;
-      font-family: 'Arial Narrow', sans-serif;
       user-select: none;
     }
   }
@@ -86,7 +86,7 @@
     flex-direction: column;
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.75em;
       font-weight: 700;
       margin-bottom: 1rem;
       color: white;
@@ -95,7 +95,7 @@
     }
 
     div {
-      font-size: 1rem;
+      font-size: 1.25em;
       font-weight: 400;
       line-height: 1.3;
       color: white;
@@ -121,7 +121,7 @@
     border-radius: 0.375rem;
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.875rem;
+    font-size: 1em;
     transition: background-color 0.3s ease;
 
     &:hover {
@@ -129,17 +129,16 @@
     }
   }
 
-
   @media (width >= 1025px) {
     padding: 3rem 4rem;
 
     &-title {
-      font-size: 2.25rem;
+      font-size: 2.5em;
       text-align: center;  
     }
 
     &-subtitle {
-      font-size: 1.25rem;
+      font-size: 2em;
       text-align: center; 
     }
 
@@ -147,37 +146,36 @@
     &-cardmiddle-content,
     &-cardright-content {
       h2 {
-        font-size: 2rem;
+        font-size: 2em;
         margin-bottom: 1.25rem;
       }
 
       div {
-        font-size: 1.25rem;
+        font-size: 1.5em;
       }
     }
 
     &-leftlink-btn,
     &-middlelink-btn,
     &-rightlink-btn {
-      font-size: 1rem;
+      font-size: 1.2em;
       padding: 0.5rem 1rem;
     }
   }
 
   @media (width <= 1024px) {
     padding: 2rem 3rem;
+
     &-container {
       flex-direction: column;
       gap: 1.5rem;
     }
+
     &-column {
       flex: 1 1 100%;
     }
 
-    &-title {
-      text-align: center;
-    }
-
+    &-title,
     &-subtitle {
       text-align: center;
     }
@@ -185,41 +183,44 @@
 
   @media (width <= 768px) {
     padding: 1.5rem 2rem;
+
     &-container {
       gap: 2rem;
     }
+
     &-cardleft-content,
     &-cardmiddle-content,
     &-cardright-content {
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.5em;
       }
 
       div {
-        font-size: 1rem;
+        font-size: 1.1em;
       }
     }
   }
 
   @media (max-width: 479px) {
     padding: 1rem;
+
     &-title {
-      font-size: 1.5rem;
+      font-size: 1.75em;
     }
 
     &-subtitle {
-      font-size: 0.9rem;
+      font-size: 1.25em;
     }
 
     &-cardleft-content,
     &-cardmiddle-content,
     &-cardright-content {
       h2 {
-        font-size: 1.25rem;
+        font-size: 1.25em;
       }
 
       div {
-        font-size: 0.9rem;
+        font-size: 1em;
       }
     }
   }

@@ -22,7 +22,7 @@ body {
 	min-height: 100vh;
 	color: var(--fg-color);
 	line-height: 1.5;
-	font-family: var(--font-system-ui), var(--font-emoji);
+	font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
 	overflow-wrap: break-word;
 
 	&:has(#sidebar) {

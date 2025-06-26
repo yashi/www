@@ -22,11 +22,11 @@
 
   subtitle="We are Space Cubics Inc., a JAXA-affiliated venture
   
-  <br><br>
+  <br>
   
   developing affordable and reliable space computers
   
-  <br><br>
+  <br>
   
   with the goal of making space travel to the Moon accessible to all.",
 
