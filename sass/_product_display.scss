@@ -6,22 +6,14 @@
   background-position: center;
   position: relative;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     flex-direction: column;
-    padding: 1rem;
     text-align: center;
-  }
-
-  @media (min-width: 481px) and (max-width: 768px) {
-    flex-direction: column;
     padding: 1.5rem;
-    text-align: center;
   }
 
-  @media (min-width: 769px) {
-    flex-direction: row;
-    padding: 2rem;
-    text-align: left;
+  @media (max-width: 480px) {
+    padding: 1rem;
   }
 
   .product-image-container {
@@ -35,7 +27,6 @@
       height: auto;
       object-fit: contain;
       border-radius: 4px;
-      background-color: transparent;
     }
   }
 
@@ -49,7 +40,6 @@
     @media (max-width: 768px) {
       padding-left: 0;
       margin-top: 1.5rem;
-      justify-content: flex-start;
       align-items: center;
     }
 
@@ -62,13 +52,13 @@
       flex-direction: column;
       gap: 1.25rem;
       word-break: break-word;
-      max-width: 100%;
+      width: 100%;
 
       .product-id-label {
         font-weight: bold;
         font-size: 2.5rem;
         text-transform: uppercase;
-        color: #555555;
+        color: #555;
 
         @media (max-width: 768px) {
           font-size: 1.8rem;
@@ -81,7 +71,7 @@
 
       .product-pre-title {
         font-size: 1.75rem;
-        color: #dddddd;
+        color: #ddd;
 
         @media (max-width: 768px) {
           font-size: 1.3rem;
@@ -94,7 +84,7 @@
 
       .product-title {
         font-size: 4rem;
-        color: #ffffff;
+        color: #fff;
 
         @media (max-width: 768px) {
           font-size: 2.5rem;
@@ -107,7 +97,7 @@
 
       .product-subtitle {
         font-size: 1.8rem;
-        color: #cccccc;
+        color: #ccc;
         line-height: 1.4;
 
         @media (max-width: 768px) {
@@ -119,28 +109,9 @@
         }
       }
 
-      .product-divider {
-        display: flex;
-        gap: 1.25rem;
-        align-items: center;
-        justify-content: center;
-        margin: 1.25rem 0;
-
-        .divider-line {
-          width: 3px;
-          height: 60px;
-          background: #ffffff;
-          opacity: 0.7;
-
-          @media (max-width: 480px) {
-            height: 40px;
-          }
-        }
-      }
-
       .product-meta {
         font-size: 1.5rem;
-        color: #ffffff;
+        color: #fff;
         padding-bottom: 0.75rem;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
@@ -154,56 +125,62 @@
       }
     }
 
-      .product-downloads {
+    .product-downloads {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 5rem; 
+      align-items: center;
+      justify-items: center;
+      margin-top: 2rem;
+      width: 100%;
+
+      .download-item {
         display: flex;
-        flex-wrap: nowrap;
-        gap: 1.25rem;
-        margin-top: 2rem;
-        justify-content: center;
-        overflow-x: auto;
-        max-width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 100%;
+      }
 
-        .download-link {
-          display: inline-flex;
-          align-items: center;
-          color: #f77d06;
-          text-decoration: none;
-          font-weight: 600;
-          font-size: 1.3rem;
-          white-space: nowrap;
-          flex-shrink: 0;
+      .download-label {
+        font-size: 1.3rem;
+        color: #f77d06;
+        white-space: nowrap;
 
-          &:hover {
-            text-decoration: underline;
-            color: darkorange;
-          }
-
-          @media (max-width: 480px) {
-            font-size: 1.1rem;
-          }
-        }
-
-        .download-divider {
-          display: flex;
-          align-items: center;
-          flex-shrink: 0;
-          pointer-events: none;
-
-          svg {
-            display: block;
-            width: 16px;
-            height: 16px;
-            fill: #f77d06;
-          }
-        }
-
-        @media (max-width: 768px) {
-          flex-wrap: wrap;
-          overflow-x: visible;
-          justify-content: center;
+        @media (max-width: 480px) {
+          font-size: 1.1rem;
         }
       }
 
+      .download-link {
+        display: inline-flex;
+        align-items: center;
+        color: #f77d06;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          color: darkorange;
+
+          svg {
+            fill: darkorange;
+          }
+        }
+
+        svg {
+          width: 28px;
+          height: 28px;
+          margin-left: 0.5rem;
+          fill: #f77d06;
+          transition: fill 0.3s ease;
+        }
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr; // stack all items vertically
+        gap: 1.25rem;
+      }
+    }
 
     .product-details {
       display: flex;
@@ -213,7 +190,7 @@
       gap: 1.25rem;
       font-size: 2rem;
       font-weight: 700;
-      color: #ffffff;
+      color: #fff;
       margin-top: 2rem;
 
       @media (max-width: 768px) {
@@ -226,7 +203,7 @@
         gap: 1rem;
       }
 
-      a.details-button {
+      .details-button {
         width: 48px;
         height: 48px;
         border-radius: 50%;
@@ -235,7 +212,6 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        text-decoration: none;
         transition: background-color 0.3s ease;
 
         &:hover {

@@ -25,13 +25,13 @@
 
 .left-card,
 .right-card {
-  width: 100%; /* Force cards to fill their grid column fully */
+  width: 100%; 
 }
 
 .two-card,
 .bottom-card {
   height: 400px;
-  border-radius: 20px;  /* less rounded */
+  border-radius: 20px; 
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

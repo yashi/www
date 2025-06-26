@@ -51,9 +51,9 @@
   download_1_link="https://github.com/spacecubics/scobc-a1-product-manual",
   download_1_label="ユーザーマニュアル",
   download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  download_2_label="FPGAハードウェアマニュアル",
+  download_2_label="FPGAマニュアル",
   download_3_link="https://github.com/spacecubics",
-  download_3_label="GitHub  ",
+  download_3_label="GitHub",
   details_link="/sc_obc"
 ) %}
 <!-- no text -->
