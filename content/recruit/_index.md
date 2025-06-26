@@ -34,15 +34,15 @@ sort_by = "date"
   slogan = "POSITIONS",
   jobs_note = "特記事項：募集中以外の職種に関しては、お問合せフォームよりお問合せ願います。",
   jobs = "
-通信エンジニア | /recruit/communications-engineer/
-資金調達担当 | /recruit/financial-worker/
-FPGAエンジニア | /recruit/fpga-engineer/
-ハードウェアエンジニア | /recruit/hardware-engineer/
-推進系エンジニア | /recruit/propulsion-engineer/
-営業 | /recruit/sales-position/
-構造系エンジニア | /recruit/structural-engineer/
-システムエンジニア | /recruit/system-engineer/
-熱流体系エンジニア | /recruit/thermal-systems-engineer/
+通信エンジニア |
+資金調達担当 | 
+FPGAエンジニア | 
+ハードウェアエンジニア | 
+推進系エンジニア | 
+営業 | 
+構造系エンジニア | 
+システムエンジニア |
+熱流体系エンジニア |
 ") %}
 <!-- no text -->
 {% end %}
