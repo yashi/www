@@ -4,8 +4,8 @@
   grid-area: nav;
   margin: 1rem auto 0;
   border-radius: 1.625rem;
-  width: clamp(280px, 90%, var(--container-width));
   inset-inline: 0;
+  font-size: 28px;
 
   @media (max-width: 720px) {
     position: relative;
@@ -15,6 +15,7 @@
 
   nav {
     padding: 0.5rem;
+    font-size: inherit;
 
     .nav-content {
       display: flex;
@@ -125,7 +126,7 @@
     a,
     .nav-summary {
       flex: 1;
-      padding: 0.625rem 0.75rem;
+      padding: 10px 12px;
       border-radius: 999px;
       font-weight: bold;
       text-align: center;
@@ -135,6 +136,7 @@
       line-height: 1;
       color: var(--fg-muted-4);
       cursor: pointer;
+      font-size: inherit;
 
       &:hover {
         color: var(--fg-muted-5);
@@ -156,7 +158,7 @@
       position: relative;
       color: black !important;
       background-color: #f77d06;
-      padding: 0.5rem 1.5rem;
+      padding: 8px 24px;
       border-radius: 999px;
       font-weight: 700;
       text-decoration: none;
@@ -165,6 +167,7 @@
       justify-content: center;
       gap: 20px;
       box-shadow: none;
+      font-size: inherit;
 
       .icon {
         display: none !important;
@@ -199,7 +202,7 @@
     }
 
     .circle {
-      padding: 0.625rem;
+      padding: 10px;
       line-height: 0;
 
       .icon {
@@ -215,7 +218,7 @@
     button {
       all: unset;
       cursor: pointer;
-      font-size: var(--font-size-medium);
+      font-size: inherit;
       border-radius: 999px;
       background-color: transparent;
       transition: var(--transition);
@@ -228,6 +231,7 @@
       padding: 0;
       border-radius: 0;
       background-color: transparent;
+      font-size: inherit;
 
       &[open] ul {
         animation: dropdown-open var(--transition);
@@ -262,6 +266,7 @@
           a {
             border-radius: var(--rounded-corner);
             text-align: left;
+            font-size: inherit;
           }
         }
       }
@@ -283,7 +288,7 @@
 .company-logo {
   all: unset;
   display: block;
-  width: clamp(100px, 30vw, 150px);
+  width: clamp(150px, 30vw, 300px);
   height: auto;
   pointer-events: auto;
   box-shadow: none;
