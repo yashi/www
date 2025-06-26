@@ -26,7 +26,6 @@
 
     <!-- Right container: Navigation + Socials -->
     <div class="footer-right">
-      <!-- Navigation Links from config.extra.nav.links -->
       {%- if config.extra.nav.links %}
         <nav>
           <ul>
@@ -37,22 +36,17 @@
                     <summary>{{ macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) }}</summary>
                     <ul>
                       {%- for sublink in link.menu %}
-                        {%- if sublink.url is matching('https?://') %}
-                          <li>
+                        <li>
+                          {%- if sublink.url is matching('https?://') %}
                             <a href="{{ sublink.url }}" rel="{{ rel_attributes }}" class="external">
                               {{ macros_translate::translate(key=sublink.name, default=sublink.name, language_strings=language_strings) }}
                             </a>
-                          </li>
-                        {%- else %}
-                          <li>
-                            <a href="{{ get_url(path=sublink.url, lang=lang) }}"
-                               {%- if current_url | default(value='/') | trim_end_matches(pat='/') == get_url(path=sublink.url, lang=lang) | trim_end_matches(pat='/') -%}
-                                 class="active"
-                               {%- endif -%}>
+                          {%- else %}
+                            <a href="{{ get_url(path=sublink.url, lang=lang) }}">
                               {{ macros_translate::translate(key=sublink.name, default=sublink.name, language_strings=language_strings) }}
                             </a>
-                          </li>
-                        {%- endif %}
+                          {%- endif %}
+                        </li>
                       {%- endfor %}
                     </ul>
                   </details>
@@ -64,10 +58,7 @@
                       {{ macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) }}
                     </a>
                   {%- else %}
-                    <a href="{{ get_url(path=link.url, lang=lang) }}"
-                       {%- if current_url | default(value='/') | trim_end_matches(pat='/') == get_url(path=link.url, lang=lang) | trim_end_matches(pat='/') -%}
-                         class="active"
-                       {%- endif -%}>
+                    <a href="{{ get_url(path=link.url, lang=lang) }}">
                       {{ macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) }}
                     </a>
                   {%- endif %}
@@ -96,12 +87,10 @@
 
   <div class="footer-divider"></div>
 
-  <!-- Copyright -->
   <p class="copyright-text">
     &copy; {{ config.title }}, {{ now() | date(format="%Y") }}
   </p>
 
-  <!-- Optional Copyright -->
   {%- if config.extra.footer.show_copyright %}
     {%- if config.extra.footer.copyright %}
       {{ config.extra.footer.copyright | markdown | safe }}
@@ -110,7 +99,6 @@
     {%- endif %}
   {%- endif %}
 
-  <!-- Optional Source Link -->
   {%- if config.extra.source_url and config.extra.footer.show_source %}
     <p>
       <a class="external" href="{{ config.extra.source_url }}" rel="{{ rel_attributes }}">
