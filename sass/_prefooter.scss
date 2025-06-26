@@ -1,3 +1,10 @@
+/* Global box-sizing to include padding and border in element width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .section {
   position: relative;
   top: 200px;
@@ -16,10 +23,15 @@
   }
 }
 
+.left-card,
+.right-card {
+  width: 100%; /* Force cards to fill their grid column fully */
+}
+
 .two-card,
 .bottom-card {
   height: 400px;
-  border-radius: 20px;  // Reduced from 50px to 20px
+  border-radius: 20px;  /* less rounded */
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -33,7 +45,7 @@
   @media (max-width: 1024px) {
     height: auto;
     padding: 40px;
-    border-radius: 16px;  // Adjusted for smaller screens accordingly
+    border-radius: 16px;
   }
 
   @media (max-width: 768px) {
