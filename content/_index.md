@@ -89,12 +89,12 @@ SC OBC Module A1
   right_footer_2="担当者よりご返信いたします",
   right_link="/contact",
 
-  bottom_card_image = "bw_pcb.jpg"
-  bottom_title = "NEWS"
-  bottom_subtitle = "最新情報"
-  bottom_footer_1 = "戦略的パートナーシップ、技術革新、ミッションの進展など、"
-  bottom_footer_2 = "スペースキュービクスの最新ニュースはこちらからご覧いただけます。"
-  bottom_link = "/news"
+  bottom_card_image = "<!--display element -->",
+  bottom_title = "NEWS",
+  bottom_subtitle = "最新情報",
+  bottom_footer_1 = "戦略的パートナーシップ、技術革新、ミッションの進展など、",
+  bottom_footer_2 = "スペースキュービクスの最新ニュースはこちらからご覧いただけます。",
+  bottom_link = "/news",
 
   bg=""
 ) %}

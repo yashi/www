@@ -217,7 +217,7 @@ Space One Co., Ltd.
   right_footer_2="Take a look at our open positions.",
   right_link="/en/recruit",
 
-  bottom_card_image="earth.png",
+  bottom_card_image = "<!--display element -->",
   bottom_title="CONTACT",
   bottom_subtitle="Make an inquiry",
   bottom_footer_1="Please feel free to contact us.",

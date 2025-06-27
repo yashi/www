@@ -96,12 +96,12 @@ that power space exploration.
   right_footer_2="We will try to get back to you promptly.",
   right_link="/en/contact",
 
-  bottom_card_image="bw_pcb.jpg",
-  bottom_title = "NEWS"
-  bottom_subtitle = "Latest Updates from Space Cubics"
-  bottom_footer_1 = "From strategic partnerships and technical innovations to mission milestones,"
-  bottom_footer_2 = "stay up to date with the latest news from Space Cubics here."
-  bottom_link = "/en/news"
+  bottom_card_image = "<!--display element -->",
+  bottom_title = "NEWS",
+  bottom_subtitle = "Latest Updates from Space Cubics",
+  bottom_footer_1 = "From strategic partnerships and technical innovations to mission milestones,",
+  bottom_footer_2 = "stay up to date with the latest news from Space Cubics here.",
+  bottom_link = "/en/news",
 
   bg=""
 ) %}
