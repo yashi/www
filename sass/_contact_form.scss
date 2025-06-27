@@ -50,23 +50,14 @@
     font-size: 1rem;
     border: 1px solid #f77d06;
     border-radius: 0.5rem;
-    background-color: transparent;
-    color: #fff;
+    background-color: white;
+    color: #000000;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
     font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
     font-weight: 400;
 
     &::placeholder {
       color: rgba(255, 255, 255, 0.7);
-      font-weight: 400;
-    }
-
-    &:focus {
-      border-color: #f77d06;
-      box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.25);
-      outline: none;
-      background-color: transparent;
-      color: #fff;
       font-weight: 400;
     }
   }
