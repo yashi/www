@@ -6,10 +6,6 @@ title = "Space Cubics Inc."
 <!--display element -->
 {% end %}
 
-{% sitename_banner() %}
-<!--display element -->
-{% end %}
-
 {% twocoltwo(
   title="PRODUCTS",
   img="/sq_sc-obc_module_a1.png",
