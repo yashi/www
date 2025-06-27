@@ -34,8 +34,8 @@
 
     .jobs-list__divider {
       position: relative;
-      height: 4px;
-      width: 100px;
+      height: 2.5px;
+      width: 80px;
       background-color: gray;
       margin-top: 0.5rem;
       border-radius: 2px;
@@ -61,22 +61,16 @@
       text-align: left;
       white-space: pre-wrap;
     }
-
-    .jobs-list__divider {
-      width: 80px;
-      height: 2.5px;
-      background-color: gray; // 80% base
-    }
   }
 
   &-right {
     flex: 2;
-    display: flex;  
+    display: flex;
 
     .jobs-list-right-content {
       display: flex;
       flex-direction: column;
-      width: 100%; 
+      width: 100%;
     }
 
     .jobs-list-grid {
@@ -91,29 +85,43 @@
       border: 1px solid white;
       border-radius: 8px;
       padding: 2rem 1.5rem;
-      color: white;
       text-align: center;
       font-weight: 500;
       font-size: 1.3rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
-      cursor: pointer;
 
-      &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+      &__title {
+        margin: 0.5rem 0;
       }
 
-      .job-card__link {
+      &__link {
         text-decoration: none;
         color: inherit;
+      }
 
-        .job-card__title {
-          margin: 0.5rem 0;
+      &__recruiting-label {
+        margin-top: 0.5rem;
+        color: #f77d06;
+        font-size: 0.9rem;
+        border-top: 1px solid #f77d06;
+        padding-top: 0.25rem;
+      }
+
+      &--active {
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
         }
       }
 
-      .job-card__title {
-        margin: 0.5rem 0;
+      &--inactive {
+        color: #aaa;
+        opacity: 0.5;
+        pointer-events: none;
+        cursor: default;
       }
     }
 
@@ -123,7 +131,7 @@
       height: 4px;
       margin-top: 2rem;
       border-radius: 2px;
-      background-color: gray; // 80% base
+      background-color: gray;
       overflow: hidden;
 
       &::before {
@@ -133,13 +141,12 @@
         left: 0;
         width: 10%;
         height: 100%;
-        background-color: #f77d06; // dark orange
+        background-color: #f77d06;
       }
     }
 
-
     .jobs-list__bottom-text {
-      width: 100%; 
+      width: 100%;
       margin-top: 1rem;
       color: #ddd;
       font-size: 1rem;
@@ -172,10 +179,6 @@
     }
 
     &-right {
-      .jobs-list-right-content {
-        /* no special styles needed */
-      }
-
       .jobs-list-grid {
         grid-template-columns: 1fr;
 

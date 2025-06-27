@@ -34,6 +34,7 @@ Space Cubics Inc. is a growing company seeking collaborators passionate about de
   slogan = "POSITIONS",
   jobs_note = "Note: Please use the contact form below for questions about positons not listed here.",
   jobs = "
+System Engineer |  system-engineer/ | active
 Communication Engineer | 
 Financial Strategist | 
 FPGA Engineer | 
@@ -41,7 +42,6 @@ Hardware Engineer |
 Propulsion Engineer | 
 Business Development | 
 Structural Engineer | 
-System Engineer | 
 Thermal Systems Engineer | 
 ") %}
 <!-- no text -->
