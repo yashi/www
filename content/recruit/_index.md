@@ -79,7 +79,7 @@ FPGAエンジニア |
   right_footer_2="担当者よりご返信いたします",
   right_link="/contact",
 
-  bottom_card_image="white_pcb.png",
+  bottom_card_image = "<!--display element -->",
   bottom_title="PRODUCTS",
   bottom_subtitle="製品紹介",
   bottom_footer_1="信頼性の高い製品を提供し、",

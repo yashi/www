@@ -140,7 +140,7 @@
   right_footer_2="We will get back to you soon.",
   right_link="/en/recruit",
 
-  bottom_card_image="earth.png",
+  bottom_card_image = "<!--display element -->",
   bottom_title="CONTACT",
   bottom_subtitle="Send Us a Message",
   bottom_footer_1="We believe in collaboration, creativity, and community.",

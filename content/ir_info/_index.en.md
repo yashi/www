@@ -44,7 +44,7 @@
   right_footer_2="We will get back to you soon.",
   right_link="/en/recruit",
 
-  bottom_card_image="white_pcb.png",
+  bottom_card_image = "<!--display element -->",
   bottom_title="PRODUCTS",
   bottom_subtitle="Be part of something bigger",
   bottom_footer_1="We believe in collaboration, creativity, and community.",

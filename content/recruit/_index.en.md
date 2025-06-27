@@ -73,7 +73,7 @@ Thermal Systems Engineer |
   right_footer_2="We will try to get back to you promptly.",
   right_link="/en/contact",
 
-  bottom_card_image="white_pcb.png",
+  bottom_card_image = "<!--display element -->",
   bottom_title="PRODUCTS",
   bottom_subtitle="Our PCBs and Services",
   bottom_footer_1="We offer affordable and reliable space-grade computers...",
