@@ -46,14 +46,7 @@ body {
 	color: var(--contrast-color);
 }
 
-:target:not(#main-content) {
-	transition:
-		all var(--transition),
-		scroll-margin-block-start 0s;
-	scroll-margin-block-start: 0vh;
-	color: var(--accent-color);
-	text-shadow: var(--text-shadow-glow);
-}
+
 
 :focus-visible {
 	animation: focus-in var(--transition);
