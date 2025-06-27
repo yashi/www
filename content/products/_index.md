@@ -1,8 +1,12 @@
 +++
 +++
 
-{% twocoltwo(
-  title="PRODUCTS",
+{% section_title(bg="", title="PRODUCTS", subtitle="製品情報", slogan="") %}
+<!--display element -->
+{% end %}
+
+{% twocol(
+  title="",
   img="",
   alt="",
   link="",

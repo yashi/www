@@ -1,10 +1,9 @@
-.hero-section {
+.hero-1-section {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   padding-top: 1rem;
   padding-bottom: 4rem;
   display: flex;
@@ -15,6 +14,10 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
     gap: 1.5rem;
   }
 
@@ -37,9 +40,9 @@
 
   @media (max-width: 768px) {
     flex: none;
-    width: 100%;
+    width: 90%;
     margin-left: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
   }
 
@@ -107,13 +110,20 @@
 
   @media (max-width: 768px) {
     flex: none;
-    width: 100%;
+    width: 90%;
+    min-height: auto;
   }
 }
 
 .hero-image-container img {
-  width: 80%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   display: block;
+  margin: 0 auto;
   border-radius: 8px;
+
+  @media (max-width: 479px) {
+    max-width: 90%;
+  }
 }
