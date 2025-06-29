@@ -195,9 +195,9 @@
 
 .scroll-hint span {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .scroll-hint .arrow {
@@ -221,6 +221,24 @@
   
   @media only screen and (max-width: 479px) {
     gap: 0.8rem;
+  }
+}
+
+.social-label {
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: white;
+  letter-spacing: 0.1em;
+  margin-right: 0.5rem;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    font-size: 1.1rem;
+    margin-right: 0.3rem;
   }
 }
 
