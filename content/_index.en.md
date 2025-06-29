@@ -8,19 +8,20 @@ title = "Space Cubics Inc."
 
 {% twocoltwo(
   title="PRODUCTS",
-  img="sq_sc-obc_module_a1.png",
+  img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
-  link_text="Read More",
-  img_link="product1.png",
+  link_text="Details",
+  img_link="",
   bg="",
   subtitle="Make the impossible",
-  slogan="POSSIBLE"
+  slogan="POSSIBLE",
+  bottom_title="SC-OBC Module A1"
 ) %}
-We design space computers optimally designed for use in CubeSats 
-<br><br> based on the reliability design technology cultivated by JAXA for the International Space Station.
-<br><br> Our products use Xilinx Artix-7 FPGAs, allowing for the type and number of interfaces to be flexibly adjusted. 
-<br><br> These modules can be used for devices in space and industrial applications on Earth.
+Ultra-small for satellites
+<br>
+Space computer module
+
 {% end %}
 
 
@@ -29,54 +30,48 @@ We design space computers optimally designed for use in CubeSats
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="",
+  img="empty_image.png",
   alt="",
   link="about_us",
-  link_text="Read More",
+  link_text="About us",
+  bottom_title="JAXA venture"
   img_link=""
 ) %}
-At Space Cubics Inc.,
-<br><br>
-we aim to make space travel accessible to everyone,
-<br><br>
-by developing affordable and reliable
-<br><br>
- space computers.
+We at Space Cubics Inc.
+<br>aim to make it possible for everyone to go to the moon,
+<br>and are developing affordable and reliable computers for space use.
 {% end %}
 
 {% twocoltwo(
   bg="",
-  title="PARTNERS",
+  title="OUR CUSTOMERS",
   subtitle="Our mission is to support",
-  slogan="SPACE COMPUTING",
+  slogan="SUSTAINABLE GROWTH",
   img="partners.png",
   alt="",
   link="https://sii.or.jp/space02/decision.html",
-  link_text="Read More",
+  link_text="Details",
   img_link=""
 ) %}
-We are proud to partner with ventures leading the way in space and technological innovation.
+We are walking alongside venture companies <br>in fields such as space and technology <br>that are pioneering the future.
 <br><br>
-By working with companies that pioneer breakthrough ideas, we aim to foster sustainable growth together.
+Our mission is to support <br>sustainable growth by collaborating <br>with companies that possess innovative technologies<br> and cutting-edge ideas.
 {% end %}
-
 
 {% twocoltwo(
   bg="bw_pcb.jpg",
   title="NEWS",
   subtitle="Our advancements in space computing are",
   slogan="REGULARLY UPDATED",
-  img="",
+  img="empty_image.png",
   alt="",
   link="news",
-  link_text="Read More",
+  link_text="View more",
   img_link=""
 ) %}
-Bringing you the latest in space computing.
-<br>
-Our team is dedicated to advancing the technologies
-<br>
-that power space exploration.
+Bringing you the latest in space computing!
+<br><br>
+Our team is dedicated to advancing technologies <br>that empower space exploration.
 {% end %}
 
 

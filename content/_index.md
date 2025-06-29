@@ -32,7 +32,7 @@ title = "Space Cubics Inc."
   img="empty_image.png",
   alt="",
   link="about_us",
-  link_text="Details",
+  link_text="About us",
   bottom_title="JAXAのベンチャーです"
   img_link=""
 ) %}
@@ -43,13 +43,13 @@ title = "Space Cubics Inc."
 
 {% twocoltwo(
   bg="",
-  title="PARTNERS",
+  title="OUR CUSTOMERS",
   subtitle="Our mission is to support",
-  slogan="SPACE COMPUTING",
+  slogan="SUSTAINABLE GROWTH",
   img="partners.png",
   alt="",
   link="https://sii.or.jp/space02/decision.html",
-  link_text="Read More",
+  link_text="Details",
   img_link=""
 ) %}
 私たちは、これからの未来を切り拓く<br>宇宙事業やテクノロジーといった<br>ベンチャー企業の皆様と共に歩んでいます。
@@ -62,10 +62,10 @@ title = "Space Cubics Inc."
   title="NEWS",
   subtitle="Our advancements in space computing are",
   slogan="REGULARLY UPDATED",
-  img="",
+  img="empty_image.png",
   alt="",
   link="news",
-  link_text="Read More",
+  link_text="View more",
   img_link=""
 ) %}
 スペースコンピューティングの最新情報をお届けします！ 
