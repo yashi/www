@@ -1,5 +1,6 @@
 .splash {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   position: relative;
@@ -31,23 +32,81 @@
 
 .splash-image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
+  min-height: 80vh;
   padding: 2rem;
   background-color: transparent;
+  margin-left: 40%;
 
   img {
-    max-width: 80%;
+    max-width: 95%;
     height: auto;
+    min-height: 70vh;
+    object-fit: contain;
+
+    @media only screen and (min-width: 1200px) {
+      max-width: 100%;
+      min-height: 80vh;
+    }
 
     @media only screen and (max-width: 768px) {
-      max-width: 90%;
+      max-width: 95%;
+      min-height: 60vh;
     }
 
-    @media only screen and (max-width: 479px) {
-      max-width: 100%;
+    @media only screen and (max-width: 430px) {
+      max-width: 140%;
+      min-height: 50vh;
+      margin-left: 0;
     }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    min-height: 50vh;
+    padding: 0;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    margin-left: 500px;
+    justify-content: flex-end;
+    min-height: 50vh;
+    padding: 0;
+  }
+}
+
+.splash-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  margin-left: 5%;
+  padding: 2rem 2rem 2rem 0;
+  background-color: transparent;
+  gap: 750px;
+  
+  @media only screen and (max-width: 1200px) {
+    width: 80%;
+    margin-left: 8%;
+    gap: 400px;
+    padding: 2rem 1.5rem 2rem 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    width: 85%;
+    margin-left: 10%;
+    gap: 200px;
+    padding: 2rem 1rem 2rem 0;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
   }
 }
 
@@ -57,12 +116,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  margin-top: 6rem;
 
   img {
     width: 120vw;
     height: auto;
     object-fit: contain;
+    transform: scale(1.8);
   }
 }
 
@@ -125,28 +186,11 @@
 }
 
 .scroll-hint {
-  position: absolute;
-  left: 10rem;
-  top: 50%;
-  transform: translateY(-50%);
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   z-index: 10;
   animation: floatDown 2s ease-in-out infinite;
-
-  @media only screen and (max-width: 899px) and (min-width: 480px) {
-    left: 5rem;
-  }
-
-  @media only screen and (max-width: 479px) {
-    position: relative;
-    left: auto;
-    top: auto;
-    transform: none;
-    margin: 2rem auto 0 auto;
-    max-width: 90vw;
-  }
 }
 
 .scroll-hint span {
@@ -160,11 +204,83 @@
   font-size: 2rem;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  
+  @media only screen and (max-width: 479px) {
+    gap: 0.8rem;
+  }
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  
+  @media only screen and (max-width: 479px) {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+.social-icons svg {
+  width: 100%;
+  height: 100%;
+}
+
 @keyframes floatDown {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(5px);
+  }
+}
+
+.vertical-text {
+  position: absolute;
+  left: 2rem;
+  top: 30%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.3em;
+  z-index: 999;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  
+  @media only screen and (min-width: 1200px) {
+    left: 3rem;
+    font-size: 1.7rem;
+  }
+  
+  @media only screen and (max-width: 1199px) and (min-width: 769px) {
+    left: 2.5rem;
+    font-size: 1.5rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    left: 1rem;
+    font-size: 1rem;
   }
 }
