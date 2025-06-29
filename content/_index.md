@@ -11,16 +11,16 @@ title = "Space Cubics Inc."
   img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
   link="products",
-  link_text="Read More",
+  link_text="Details",
   img_link="",
   bg="",
   subtitle="Make the impossible",
   slogan="POSSIBLE",
-  bottom_title="SC OBC Module A1"
+  bottom_title="SC-OBC Module A1"
 ) %}
 衛星用超小型
 <br>
-スペースコンピュータモジュール
+宇宙用コンピュータモジュール
 
 {% end %}
 
