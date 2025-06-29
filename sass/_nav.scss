@@ -7,10 +7,27 @@
   inset-inline: 0;
   font-size: 28px;
 
+  @media (max-width: 1200px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 850px) {
+    font-size: 18px;
+  }
+
   @media (max-width: 720px) {
     position: relative;
     margin: 0 auto;
     top: 0;
+    font-size: 16px;
   }
 
   nav {
@@ -81,11 +98,35 @@
       flex-wrap: nowrap;
       justify-content: flex-end;
       align-items: center;
-      gap: 0.5rem;
+      gap: 3rem;
       margin: 0;
       padding: 0;
       list-style: none;
       flex: 1 1 auto;
+
+      @media (max-width: 1200px) {
+        gap: 2rem;
+      }
+
+      @media (max-width: 1000px) {
+        gap: 1.8rem;
+      }
+
+      @media (max-width: 950px) {
+        gap: 1.6rem;
+      }
+
+      @media (max-width: 900px) {
+        gap: 1.5rem;
+      }
+
+      @media (max-width: 850px) {
+        gap: 1.2rem;
+      }
+
+      @media (max-width: 800px) {
+        gap: 1rem;
+      }
 
       @media (max-width: 720px) {
         display: none;
@@ -134,12 +175,12 @@
       background-color: transparent;
       transition: var(--transition);
       line-height: 1;
-      color: var(--fg-muted-4);
+      color: white;
       cursor: pointer;
       font-size: inherit;
 
       &:hover {
-        color: var(--fg-muted-5);
+        color: white;
         background-color: var(--fg-muted-1);
         box-shadow: none;
       }
@@ -156,18 +197,21 @@
 
     #contact a {
       position: relative;
-      color: black !important;
+      color: #444444 !important;
       background-color: #f77d06;
       padding: 8px 24px;
       border-radius: 999px;
-      font-weight: 700;
+      font-weight: 900;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 20px;
+      gap: 40px;
       box-shadow: none;
-      font-size: inherit;
+      font-size: 0.85em;
+      text-align: center;
+      line-height: 1;
+      min-height: 44px;
 
       .icon {
         display: none !important;
@@ -175,7 +219,7 @@
 
       &:hover {
         background-color: darkorange;
-        color: black;
+        color: #444444;
         box-shadow: none;
       }
 
@@ -184,9 +228,10 @@
         display: inline-block;
         width: 8px;
         height: 8px;
-        background-color: black;
+        background-color: #444444;
         border-radius: 50%;
-        margin-left: 8px;
+        margin-left: 0;
+        flex-shrink: 0;
       }
     }
 
