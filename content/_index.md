@@ -29,16 +29,16 @@ title = "Space Cubics Inc."
   title="ABOUT US",
   subtitle="To drink beer",
   slogan="ON THE MOON",
-  img="",
+  img="empty_image.png",
   alt="",
   link="about_us",
-  link_text="Read More",
+  link_text="Details",
+  bottom_title="JAXAのベンチャーです"
   img_link=""
 ) %}
 私たち株式会社Space Cubics は
-<br><br>「誰もが月に行ける時代」を目指し、
-<br><br>安価で信頼性の高い宇宙用コンピュータを開発する
-<br><br>JAXAのベンチャーです。
+<br>「誰もが月に行ける時代」を目指し、
+<br>安価で信頼性の高い宇宙用コンピュータを開発する
 {% end %}
 
 {% twocoltwo(
@@ -52,9 +52,9 @@ title = "Space Cubics Inc."
   link_text="Read More",
   img_link=""
 ) %}
-私たちは、これからの未来を切り拓く宇宙事業やテクノロジーといったベンチャー企業の皆様と共に歩んでいます。
+私たちは、これからの未来を切り拓く<br>宇宙事業やテクノロジーといった<br>ベンチャー企業の皆様と共に歩んでいます。
 <br><br>
-革新的な技術や最先端のアイデアを持つ企業と協力し、持続可能な成長を支援することが 私たちの使命です。
+革新的な技術や最先端のアイデアを持つ企業と協力し、<br>持続可能な成長を支援することが 私たちの使命です。
 {% end %}
 
 {% twocoltwo(
