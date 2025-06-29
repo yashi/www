@@ -8,26 +8,33 @@
     </div>
   </div>
 
-  <div class="hero-content">
-    <div class="hero-text">
-      <p>{{ body | safe }}</p>
-      {% if link and link_text %}
-        <div class="link-wrapper">
-          <a href="{{ link }}" class="hero-link">Read More</a>
+  <div class="hero-content-wrapper">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p>{{ body | safe }}</p>
+        {% if bottom_title %}
+          <div class="hero-bottom-title">
+            <h2>{{ bottom_title }}</h2>
+          </div>
+        {% endif %}
+        {% if link and link_text %}
+          <div class="link-wrapper">
+            <a href="{{ link }}" class="hero-link">Read More</a>
+          </div>
+        {% endif %}
+      </div>
+      
+      {% if img and img | length > 0 %}
+        <div class="hero-image-container">
+          {% if img_link %}
+            <a href="{{ img_link }}">
+              <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
+            </a>
+          {% else %}
+            <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
+          {% endif %}
         </div>
       {% endif %}
     </div>
-    
-    {% if img and img | length > 0 %}
-      <div class="hero-image-container">
-        {% if img_link %}
-          <a href="{{ img_link }}">
-            <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
-          </a>
-        {% else %}
-          <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />
-        {% endif %}
-      </div>
-    {% endif %}
   </div>
 </div>

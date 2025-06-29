@@ -12,16 +12,16 @@ title = "Space Cubics Inc."
   alt="Diagram",
   link="products",
   link_text="Read More",
-  img_link="product1.png",
+  img_link="",
   bg="",
   subtitle="Make the impossible",
-  slogan="POSSIBLE"
+  slogan="POSSIBLE",
+  bottom_title="SC OBC Module A1"
 ) %}
 衛星用超小型
-<br><br>
+<br>
 スペースコンピュータモジュール
-<br><br>
-SC OBC Module A1
+
 {% end %}
 
 {% twocoltwo(
