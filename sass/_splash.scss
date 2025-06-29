@@ -201,7 +201,16 @@
 }
 
 .scroll-hint .arrow {
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.scroll-hint .arrow svg {
+  width: 2rem;
+  height: 2rem;
+  animation: floatDown 2s ease-in-out infinite;
 }
 
 .social-icons {
