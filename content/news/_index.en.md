@@ -2,10 +2,10 @@
 +++
 
 {% twocoltwo(
-  bg="bw_pcb.jpg",
+  bg="empty_image.png",
   title="NEWS",
-  subtitle="Our advancements in space computing are",
-  slogan="REGULARLY UPDATED",
+  subtitle="recent updates from",
+  slogan="Space Cubics",
   img="",
   alt="",
   link="news",
@@ -18,14 +18,15 @@
 {% news_list(
   news_note = "",
   news = "
-Notice of Organizational Change | /news/2025-04-09/ | 2025-04-09
-[Pursuing Deep Tech] Business promotion through price reduction of space computers | /news/2022-03-07/ | 2022-03-07
-Notice of Organizational Change | /news/2020-08-18/ | 2020-08-18
-J-TECH STARTUP SUMMIT 2019 | /news/2020-01-14/ | 2020-01-14
-Come on, space entrepreneurs! JAXA launches a series of startups. | /news/2019-10-31/ | 2019-10-31
-JAXA's first jointly established venture: Space Cubics Inc. | /news/2018-09-25/ | 2018-09-25
-Space Cubics Inc. established | /news/2018-06-01/ | 2018-06-01
-JAXA venture certification | /news/2018-05-29/ | 2018-05-29
+Space Cubicsは合同会社から株式会社へ組織変更しました。 | /news/2025-06-01/ |  | 2025-06-01
+組織変更のお知らせ | /news/2025-04-09/ |  | 2025-04-09
+【ディープテックを追え】 宇宙用コンピューターの価格低減でビジネス振興 | /news/2022-03-07/ |  | 2022-03-07
+組織変更のお知らせ | /news/2020-08-18/ |  | 2020-08-18
+J-TECH STARTUP SUMMIT 2019（第4回　J-TECH STARTUP SUMMIT） | /news/2020-01-14/ |  | 2020-01-14
+いでよ宇宙起業家、JAXA発スタートアップ相次ぐ | /news/2019-10-31/ |  | 2019-10-31
+JAXA初の共同設立ベンチャー「株式会社 Space Cubics」誕生 | /news/2018-09-25/ |  | 2018-09-25
+株式会社 Space Cubicsを設立 | /news/2018-06-01/ |  | 2018-06-01
+「JAXAベンチャー」の認定 | /news/2018-05-29/ |  | 2018-05-29
 "
 ) %}
 <!-- no text -->

@@ -8,39 +8,41 @@
           {% if line != "" %}
             {% set parts = line | split(pat="|") %}
             {% set news_title = parts[0] | trim %}
-
             {% if parts | length > 1 %}
               {% set news_link = parts[1] | trim %}
             {% else %}
               {% set news_link = "" %}
             {% endif %}
-
             {% if parts | length > 2 %}
-              {% set news_date = parts[2] | trim %}
+              {% set news_img = parts[2] | trim %}
             {% else %}
-              {% set news_date = "" %}
+              {% set news_img = "" %}
             {% endif %}
-
-            <div class="news-card">
+            {% if parts | length > 3 %}
+              {% set news_summary = parts[3] | trim %}
+            {% else %}
+              {% set news_summary = "" %}
+            {% endif %}
+            <div class="carousel-card">
               {% if news_link != "" %}
-                <a href="{{ news_link }}" class="news-card__link">
-                  <h3 class="news-card__title">{{ news_title }}</h3>
-                  {% if news_date != "" %}
-                    <p class="news-card__date">{{ news_date }}</p>
-                  {% endif %}
-                </a>
-              {% else %}
-                <h3 class="news-card__title">{{ news_title }}</h3>
-                {% if news_date != "" %}
-                  <p class="news-card__date">{{ news_date }}</p>
+                <a href="{{ news_link }}">
+              {% endif %}
+                {% if news_img != "" %}
+                  <img src="{{ news_img }}" alt="{{ news_title }}">
                 {% endif %}
+                <div class="carousel-card-content" style="color: #fff;">
+                  {% if news_summary != "" %}
+                    <p style="color: #fff; font-weight: 400; margin-bottom: 0.5em;">{{ news_summary }}</p>
+                  {% endif %}
+                  <h3 style="color: #fff;">{{ news_title }}</h3>
+                </div>
+              {% if news_link != "" %}
+                </a>
               {% endif %}
             </div>
           {% endif %}
         {% endfor %}
       </div>
-
-      <div class="news-list__bottom-divider"></div>
 
       {% if news_note %}
         <p class="news-list__bottom-text">{{ news_note | safe }}</p>
