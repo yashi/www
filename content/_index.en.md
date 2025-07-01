@@ -6,7 +6,7 @@ title = "Space Cubics Inc."
 <!--display element -->
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   title="PRODUCTS",
   img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
@@ -25,7 +25,7 @@ Space computer module
 {% end %}
 
 
-{% twocoltwo(
+{% hero_element(
   bg="about.png",
   title="ABOUT US",
   subtitle="To drink beer",
@@ -42,7 +42,7 @@ We at Space Cubics Inc.
 <br>and are developing affordable and reliable computers for space use.
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   bg="",
   title="OUR CUSTOMERS",
   subtitle="Our mission is to support",

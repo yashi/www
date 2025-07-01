@@ -1,7 +1,7 @@
 +++
 +++
 
-{% twocoltwo(
+{% hero_element(
   bg="empty_image.png",
   title="NEWS",
   subtitle="recent updates from",

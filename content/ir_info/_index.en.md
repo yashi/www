@@ -1,11 +1,15 @@
 +++
 +++
 
-{% twocoltwo(
+{% section_title(bg="", title="IR INFO", subtitle="Investor information", slogan="") %}
+<!--display element -->
+{% end %}
+
+{% twocol(
   bg="sq_ir.png",
-  title="IR",
-  subtitle="Space Cubics",
-  slogan="INVESTOR RELATIONS",
+  title="",
+  subtitle="",
+  slogan="",
   img="",
   alt="",
   link="",

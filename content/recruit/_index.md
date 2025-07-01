@@ -2,16 +2,20 @@
 sort_by = "date"
 +++
 
-{% twocoltwo(
-  title="RECRUIT",
+{% section_title(bg="", title="RECRUIT", subtitle="採用情報", slogan="") %}
+<!--display element -->
+{% end %}
+
+{% twocol(
+  bg="earth.png",
+  title="",
+  subtitle="",
+  slogan="",
   img="",
   alt="",
-  link="products",
+  link="",
   link_text="",
-  img_link="",
-  bg="earth.png",
-  subtitle="",
-  slogan="採用情報"
+  img_link=""
 ) %}
 <!-- no text -->
 {% end %}

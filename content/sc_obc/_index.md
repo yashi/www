@@ -16,7 +16,7 @@
 {% end %}
 
 <section id="section-summary">
-  {% twocoltwo(
+  {% hero_element(
     title="商品概要",
     img="sq_sc-obc_module_a1.png",
     alt="",

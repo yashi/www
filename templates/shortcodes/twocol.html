@@ -1,15 +1,15 @@
-<div class="hero-1-section" style="background-image: url('/{{ bg }}');">
-  <div class="hero-text">
+<div class="twocol-1-section" style="background-image: url('/{{ bg }}');">
+  <div class="twocol-text">
     <p>{{ body | safe }}</p>
     <h2>{{ title }}</h2>
     {% if link and link_text %}
-      <a href="{{ link }}" class="hero-link">
+      <a href="{{ link }}" class="twocol-link">
         {{ link_text }}
       </a>
     {% endif %}
   </div>
   
-  <div class="hero-image-container">
+  <div class="twocol-image-container">
     {% if img_link %}
       <a href="{{ img_link }}">
         <img src="{{ img }}" alt="{{ alt | default(value='image') }}" />

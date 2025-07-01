@@ -1,7 +1,7 @@
 +++
 +++
 
-{% twocoltwo(
+{% hero_element(
   title="CONTACT",
   img="",
   alt="",

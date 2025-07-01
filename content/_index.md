@@ -6,7 +6,7 @@ title = "Space Cubics Inc."
 <!--display element -->
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   title="PRODUCTS",
   img="/sq_sc-obc_module_a1.png",
   alt="Diagram",
@@ -16,7 +16,8 @@ title = "Space Cubics Inc."
   bg="",
   subtitle="Make the impossible",
   slogan="POSSIBLE",
-  bottom_title="SC-OBC Module A1"
+  bottom_title="SC-OBC Module A1",
+  hero_footer="PRODUCT 01 <br> A descrition here"
 ) %}
 衛星用超小型
 <br>
@@ -24,7 +25,7 @@ title = "Space Cubics Inc."
 
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   bg="about.png",
   title="ABOUT US",
   subtitle="To drink beer",
@@ -41,15 +42,15 @@ title = "Space Cubics Inc."
 <br>安価で信頼性の高い宇宙用コンピュータを開発する
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   bg="",
   title="OUR CUSTOMERS",
   subtitle="Our mission is to support",
   slogan="SUSTAINABLE GROWTH",
   img="partners.png",
   alt="",
-  link="https://sii.or.jp/space02/decision.html",
-  link_text="Details",
+  link="",
+  link_text="",
   img_link=""
 ) %}
 私たちは、これからの未来を切り拓く<br>宇宙事業やテクノロジーといった<br>ベンチャー企業の皆様と共に歩んでいます。

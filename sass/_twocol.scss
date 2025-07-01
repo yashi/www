@@ -1,4 +1,4 @@
-.hero-1-section {
+.twocol-1-section {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   background-size: cover; 
@@ -23,7 +23,7 @@
 }
 
 
-.hero-text {
+.twocol-text {
   flex: 0 0 30%;
   min-width: 250px;
   margin-left: auto;
@@ -48,7 +48,7 @@
   }
 }
 
-.hero-text h2 {
+.twocol-text h2 {
   margin-bottom: 1rem;
   font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
   font-size: 1.5em;
@@ -62,7 +62,7 @@
   }
 }
 
-.hero-text p {
+.twocol-text p {
   margin-bottom: 1rem;
   font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
   font-size: 1em;
@@ -72,7 +72,7 @@
   }
 }
 
-.hero-link {
+.twocol-link {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.6rem 1.2rem;
@@ -95,11 +95,11 @@
   }
 }
 
-.hero-image-container {
+.twocol-image-container {
   flex: 0 0 60%;
   text-align: center;
   min-width: 100vw;
-  min-height: 600px;
+  min-height: 1000px;
 
   @media (max-width: 1024px) {
     flex: 0 0 55%;
@@ -112,7 +112,7 @@
   }
 }
 
-.hero-image-container img {
+.twocol-image-container img {
   height: auto;
   display:contents;
   border-radius: 8px;

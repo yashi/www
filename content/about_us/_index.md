@@ -1,14 +1,18 @@
 +++
 +++
 
-{% twocoltwo(
-  bg="about.png",
-  title="ABOUT US",
-  subtitle="To drink beer",
-  slogan="ON THE MOON",
+{% section_title(bg="", title="ABOUT US", subtitle="私たちについて", slogan="") %}
+<!--display element -->
+{% end %}
+
+{% twocol(
+  bg="sq_about_img.jpg",
+  title="",
+  subtitle="",
+  slogan="",
   img="",
   alt="",
-  link="about_us",
+  link="",
   link_text="",
   img_link=""
 ) %}
@@ -59,7 +63,7 @@ TEL｜050-7112-6213
 後藤 雅享 (Masayuki Goto)｜Founding Member｜Space System Engineer｜2002年よりJAXAにて有人宇宙開発に従事。国際宇宙ステーションに搭載する数々の機器開発プロジェクトを担当し、広い分野での開発・打上げ・運用経験を持つ。JAXAと民間の両面から宇宙開発の発展を目指す。
 {% end %}
 
-{% twocoltwo(
+{% hero_element(
   title="PARTNERS",
   img="space_one_logo.png",
   alt="",
