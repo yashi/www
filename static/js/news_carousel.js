@@ -1,5 +1,7 @@
 function newsCarouselScroll(btn, dir) {
-  const wrapper = btn.closest('.news-carousel').querySelector('.carousel-track-wrapper');
+  // Find the news-carousel section that contains this button
+  const carouselSection = btn.closest('.news-carousel-section');
+  const wrapper = carouselSection.querySelector('.carousel-track-wrapper');
   const track = wrapper.querySelector('.carousel-track');
   const card = track.querySelector('.carousel-card');
   if (!card) return;

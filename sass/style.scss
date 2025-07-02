@@ -88,10 +88,10 @@
   pointer-events: none;
 }
 .carousel-btn.left::before {
-  content: '\2039'; /* Unicode single left-pointing angle quotation mark (‹) */
+  content: '\203A'; /* Unicode single right-pointing angle quotation mark (›) */
 }
 .carousel-btn.right::before {
-  content: '\203A'; /* Unicode single right-pointing angle quotation mark (›) */
+  content: '\2039'; /* Unicode single left-pointing angle quotation mark (‹) */
 }
 .carousel-btn span {
   opacity: 0;

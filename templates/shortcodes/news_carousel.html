@@ -1,14 +1,19 @@
 <div class="news-carousel-section">
   <div class="section-title-block">
-    <div class="section-title-content">
-      <h1>{{ title }}</h1>
-      <h3>{{ subtitle }}</h3>
-      <p>{{ slogan }}</p>
-      <div class="section-title-divider"></div>
+    <div class="section-title-header">
+      <div class="section-title-content">
+        <h1>{{ title }}</h1>
+        <h3>{{ subtitle }}</h3>
+        <p>{{ slogan }}</p>
+        <div class="section-title-divider"></div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn left" onclick="newsCarouselScroll(this, 1)"></button>
+        <button class="carousel-btn right" onclick="newsCarouselScroll(this, -1)"></button>
+      </div>
     </div>
   </div>
   <div class="news-carousel">
-    <button class="carousel-btn left" onclick="newsCarouselScroll(this, -1)"></button>
     <div class="carousel-track-wrapper">
       <div class="carousel-track">
         {% set lines = items | split(pat="\n") %}
@@ -45,7 +50,6 @@
         {% endfor %}
       </div>
     </div>
-    <button class="carousel-btn right" onclick="newsCarouselScroll(this, 1)"></button>
     <div class="carousel-body">
       {{ body | safe }}
     </div>
