@@ -38,11 +38,23 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 14rem;
+      gap: 10rem;
       flex-wrap: wrap;
 
-      @media (max-width: 1000px) and (min-width: 721px) {
+      @media (max-width: 1400px) {
+        gap: 6rem;
+      }
+
+      @media (max-width: 1200px) {
         gap: 4rem;
+      }
+
+      @media (max-width: 1000px) {
+        gap: 3rem;
+      }
+
+      @media (max-width: 850px) {
+        gap: 2rem;
       }
 
       @media (max-width: 720px) {
