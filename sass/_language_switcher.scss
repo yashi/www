@@ -1,0 +1,115 @@
+// Language Switcher Styles
+// All language switcher styles use the "ls-" prefix for unique scoping
+
+.ls-container {
+  // Container styles
+  display: flex;
+  flex: 1;
+  position: relative;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: inherit;
+
+  // Dropdown animation
+  .ls-dropdown[open] .ls-menu {
+    animation: ls-dropdown-open var(--transition);
+  }
+
+  @keyframes ls-dropdown-open {
+    from {
+      transform: scale(0.5) translate(-50%, -1rem);
+      opacity: 0;
+    }
+  }
+}
+
+.ls-trigger {
+  // Trigger button styles
+  padding: 10px;
+  line-height: 0;
+  border-radius: 999px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  transition: var(--transition);
+  line-height: 1;
+  color: white;
+  cursor: pointer;
+  font-size: inherit;
+
+  &:hover {
+    color: white;
+    background-color: var(--fg-muted-1);
+    box-shadow: none;
+  }
+
+  &::before {
+    display: none;
+  }
+}
+
+.ls-icon {
+  // Icon styles
+  vertical-align: -0.125em;
+  transition: var(--transition);
+  mask-image: var(--icon-languages);
+  -webkit-mask-image: var(--icon-languages);
+  font-size: 2.25rem !important; // Increased icon size with higher specificity
+}
+
+.ls-menu {
+  // Dropdown menu styles
+  position: absolute;
+  top: 3.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: 0.25rem;
+  border-radius: calc(var(--rounded-corner) + 0.25rem);
+  background-color: var(--glass-bg);
+  backdrop-filter: var(--blur);
+  -webkit-backdrop-filter: var(--blur);
+  box-shadow: none;
+  margin: 0;
+  list-style: none;
+}
+
+.ls-item {
+  // Menu item styles
+  width: 100%;
+  white-space: nowrap;
+}
+
+.ls-link {
+  // Link styles
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: var(--rounded-corner);
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  background-color: transparent;
+  transition: var(--transition);
+  line-height: 1;
+  color: white;
+  cursor: pointer;
+  font-size: inherit;
+  display: block;
+
+  &:hover {
+    color: white;
+    background-color: var(--fg-muted-1);
+    box-shadow: none;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 430px) {
+  .ls-container:has(.ls-trigger:not(.circle)) .ls-menu {
+    top: 2.75rem;
+  }
+} 

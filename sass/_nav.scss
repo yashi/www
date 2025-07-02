@@ -323,10 +323,8 @@
       }
     }
 
-    #language-switcher .icon {
-      mask-image: var(--icon-languages);
-      -webkit-mask-image: var(--icon-languages);
-    }
+    // Language switcher styles moved to _language_switcher.scss
+    // Icon styles are now handled by .ls-icon class
   }
 }
 
