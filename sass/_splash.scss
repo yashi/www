@@ -125,8 +125,9 @@
     flex-direction: column;
     gap: 5rem;
     justify-content: center;
+    align-items: center;
     padding: 1rem 0.5rem;
-    margin-left: 11%;
+    margin-left: 0;
   }
 }
 
@@ -260,6 +261,7 @@
   z-index: 10;
   animation: floatDown 2s ease-in-out infinite;
   padding: 0.5rem;
+  order: 1;
   
   @media only screen and (max-width: 768px) {
     font-size: 0.9rem;
@@ -274,6 +276,7 @@
   @media only screen and (max-width: 430px) {
     font-size: 0.75rem;
     padding: 0.25rem;
+    order: 2;
   }
 }
 
@@ -354,6 +357,7 @@
   align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
+  order: 2;
   
   @media only screen and (max-width: 1200px) {
     gap: 1.2rem;
@@ -369,6 +373,7 @@
   
   @media only screen and (max-width: 430px) {
     gap: 0.6rem;
+    order: 1;
   }
 }
 
