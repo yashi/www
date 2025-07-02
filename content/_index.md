@@ -88,27 +88,27 @@ title = "Space Cubics Inc."
 {% end %}
 
 {% prefooter(
-  left_card_image="ide.webp", 
-  right_card_image="earth.png",
+  left_card_image="earth.png", 
+  right_card_image="sq_ir.png",
 
-  left_title="RECRUIT",
+ left_title="RECRUIT",
   left_subtitle="採用情報",
-  left_footer_1="一緒に働くメンバーを常に募集しています。",
+  left_footer_1="一緒に働く仲間を常に募集しています。。",
   left_footer_2="ご興味のある方はご連絡ください。",
   left_link="/recruit",
 
-  right_title="CONTACT",
-  right_subtitle="お問い合わせ",
-  right_footer_1="お気軽にお問い合わせください。",
-  right_footer_2="担当者よりご返信いたします",
-  right_link="/contact",
+  right_title="IR INFO",
+  right_subtitle="投資家情報",
+  right_footer_1="ステークホルダーの皆様に向けて",
+  right_footer_2="決算や適時開示情報などをご紹介しています。",
+  right_link="/ir_info",
 
   bottom_card_image = "<!--display element -->",
-  bottom_title = "NEWS",
-  bottom_subtitle = "最新情報",
-  bottom_footer_1 = "戦略的パートナーシップ、技術革新、ミッションの進展など、",
-  bottom_footer_2 = "スペースキュービクスの最新ニュースはこちらからご覧いただけます。",
-  bottom_link = "/news",
+  bottom_title = "CONTACT",
+  bottom_subtitle = "お問い合わせ",
+  bottom_footer_1 = "事業やサービスについてご相談・ご質問承ります。",
+  bottom_footer_2 = "お気軽にお問い合わせください。",
+  bottom_link = "/contact", 
 
   bg=""
 ) %}

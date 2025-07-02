@@ -82,8 +82,8 @@ TEL｜050-7112-6213
 {% end %}
 
 {% prefooter(
-  left_card_image="white_pcb.png", 
-  right_card_image="ide.webp",
+  left_card_image="pcb_gray_overlay.jpg", 
+  right_card_image="earth.png",
 
   left_title = "PRODUCTS"
   left_subtitle = "製品紹介"
@@ -93,15 +93,15 @@ TEL｜050-7112-6213
 
   right_title="RECRUIT",
   right_subtitle="採用情報",
-  right_footer_1="一緒に働くメンバーを常に募集しています。",
+  right_footer_1="一緒に働く仲間を常に募集しています。",
   right_footer_2="ご興味のある方はご連絡ください。",
   right_link="/recruit",
 
   bottom_card_image = "<!--display element -->",
   bottom_title="CONTACT",
   bottom_subtitle="お問い合わせ",
-  bottom_footer_1="お気軽にお問い合わせください。",
-  bottom_footer_2="担当者よりご返信いたします",
+  bottom_footer_1="事業やサービスについてご相談・ご質問承ります。",
+  bottom_footer_2="お気軽にお問い合わせください。",
   bottom_link="/contact",
 
   bg=""
