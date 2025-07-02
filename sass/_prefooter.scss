@@ -28,6 +28,18 @@
     padding-left: 0.25rem;
     padding-right: 0.25rem;
   }
+
+  // When only bottom card is present
+  &:has(.bottom-card:only-child) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  // Fallback for browsers that don't support :has()
+  &.single-bottom-card {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
 
 // Shared card styles
