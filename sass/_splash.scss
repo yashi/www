@@ -38,33 +38,39 @@
   min-height: 80vh;
   padding: 2rem;
   background-color: transparent;
+  overflow: visible;
 
   img {
-    max-width: 90%;
+    max-width: 110%;
     height: auto;
     min-height: 70vh;
     object-fit: contain;
+    margin-right: -35%;
 
     @media only screen and (min-width: 1200px) {
-      max-width: 85%;
+      max-width: 105%;
       min-height: 80vh;
+      margin-right: -45%;
     }
 
     @media only screen and (max-width: 768px) {
-      max-width: 90%;
+      max-width: 110%;
       min-height: 60vh;
+      margin-right: -30%;
     }
 
     @media only screen and (max-width: 480px) {
-      max-width: 110%;
+      max-width: 130%;
       min-height: 50vh;
       margin-left: 10%;
+      margin-right: -15%;
     }
 
     @media only screen and (max-width: 430px) {
-      max-width: 120%;
+      max-width: 140%;
       min-height: 50vh;
       margin-left: 15%;
+      margin-right: -8%;
     }
   }
   
@@ -94,28 +100,33 @@
   width: 100%;
   padding: 2rem;
   background-color: transparent;
-  gap: 3rem;
+  gap: 12rem;
+  margin-left: 25%;
   
   @media only screen and (max-width: 1200px) {
     padding: 2rem 1.5rem;
-    gap: 2.5rem;
+    gap: 10rem;
+    margin-left: 23%;
   }
   
   @media only screen and (max-width: 768px) {
     padding: 2rem 1rem;
-    gap: 2rem;
+    gap: 8rem;
+    margin-left: 20%;
   }
   
   @media only screen and (max-width: 480px) {
     padding: 1.5rem 0.8rem;
-    gap: 1.5rem;
+    gap: 6rem;
+    margin-left: 17%;
   }
   
   @media only screen and (max-width: 430px) {
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: center;
     padding: 1rem 0.5rem;
+    margin-left: 11%;
   }
 }
 
@@ -268,26 +279,26 @@
 
 .scroll-hint span {
   display: block;
-  font-size: 1.8rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   font-weight: normal;
   
   @media only screen and (max-width: 1200px) {
-    font-size: 1.6rem;
+    font-size: 0.9rem;
   }
   
   @media only screen and (max-width: 768px) {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
     margin-bottom: 0.4rem;
   }
   
   @media only screen and (max-width: 480px) {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     margin-bottom: 0.3rem;
   }
   
   @media only screen and (max-width: 430px) {
-    font-size: 1rem;
+    font-size: 0.6rem;
     margin-bottom: 0.25rem;
   }
 }
@@ -312,28 +323,28 @@
 }
 
 .scroll-hint .arrow svg {
-  width: 2rem;
-  height: 2rem;
+  width: 1.2rem;
+  height: 1.2rem;
   animation: floatDown 2s ease-in-out infinite;
   
   @media only screen and (max-width: 1200px) {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1rem;
+    height: 1rem;
   }
   
   @media only screen and (max-width: 768px) {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 0.9rem;
+    height: 0.9rem;
   }
   
   @media only screen and (max-width: 480px) {
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 0.8rem;
+    height: 0.8rem;
   }
   
   @media only screen and (max-width: 430px) {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 0.7rem;
+    height: 0.7rem;
   }
 }
 
@@ -363,29 +374,29 @@
 
 .social-label {
   font-family: Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: normal;
   color: white;
   letter-spacing: 0.1em;
   margin-right: 0.5rem;
   
   @media only screen and (max-width: 1200px) {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-right: 0.4rem;
   }
   
   @media only screen and (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-right: 0.3rem;
   }
   
   @media only screen and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-right: 0.3rem;
   }
   
   @media only screen and (max-width: 430px) {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin-right: 0.2rem;
   }
 }
@@ -394,30 +405,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
   color: white;
   text-decoration: none;
   transition: opacity 0.3s ease;
   
   @media only screen and (max-width: 1200px) {
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 1.6rem;
+    height: 1.6rem;
   }
   
   @media only screen and (max-width: 768px) {
-    width: 2rem;
-    height: 2rem;
+    width: 1.4rem;
+    height: 1.4rem;
   }
   
   @media only screen and (max-width: 480px) {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.2rem;
+    height: 1.2rem;
   }
   
   @media only screen and (max-width: 430px) {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1rem;
+    height: 1rem;
   }
 }
 
@@ -441,13 +452,13 @@
 
 .vertical-text {
   position: absolute;
-  left: 1rem;
+  left: 0.5rem;
   top: 25%;
   transform: translateY(-50%);
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: bold;
   color: white;
   letter-spacing: 0.2em;
@@ -456,27 +467,27 @@
   pointer-events: none;
   
   @media only screen and (min-width: 1200px) {
-    left: 2rem;
-    font-size: 1.4rem;
-  }
-  
-  @media only screen and (max-width: 1199px) and (min-width: 769px) {
-    left: 1.5rem;
-    font-size: 1.3rem;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    left: 0.8rem;
-    font-size: 1.1rem;
-  }
-  
-  @media only screen and (max-width: 480px) {
-    left: 0.5rem;
+    left: 1rem;
     font-size: 1rem;
   }
   
-  @media only screen and (max-width: 430px) {
-    left: 0.3rem;
+  @media only screen and (max-width: 1199px) and (min-width: 769px) {
+    left: 0.8rem;
     font-size: 0.9rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    left: 0.6rem;
+    font-size: 0.8rem;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    left: 0.3rem;
+    font-size: 0.7rem;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    left: 0.2rem;
+    font-size: 0.6rem;
   }
 }
