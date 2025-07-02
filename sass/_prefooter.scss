@@ -71,7 +71,6 @@
     font-weight: 900 !important;
     margin-bottom: 1rem;
     line-height: 1.1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5);
 
     @media (max-width: 1024px) {
       font-size: 3.2rem !important;
@@ -189,7 +188,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   position: relative;
 
