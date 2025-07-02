@@ -1,37 +1,27 @@
 <li id="language-switcher" class="ls-container">
-	<details class="ls-dropdown">
-		<summary class="ls-trigger" title="{{ macros_translate::translate(key='language', default='Language', language_strings=language_strings) }}">
-			JP/EN
-		</summary>
-		<ul class="ls-menu">
-			{%- for lcode, ldetails in config.languages -%}
-				{#- Skip the current language to avoid linking to the current page -#}
-				{%- if lang == lcode -%}
-					{%- continue -%}
-				{%- endif -%}
-				{#- Dynamically load the language strings for each language -#}
-				{%- set other_language_strings = load_data(path="i18n/" ~ lcode ~ ".toml", required=false) -%}
-				{#- Use the loaded language strings to get the language name -#}
-				{% set language_name = macros_translate::translate(key="language_name", default=lcode, language_strings=other_language_strings) %}
-				{#- Check if the language code matches the default language -#}
-				{%- if lcode == config.default_language -%}
-					{#- If it does, link to the root path (no language code in URL) -#}
-					<li class="ls-item">
-						<a class="ls-link" lang="{{ lcode }}" href="{{ current_url | replace(from='/' ~ lang ~ '/', to = '/') }}">{{ language_name }}</a>
-					</li>
-					{#- Check if the current language is the default language -#}
-					{#- If it is, append the language code to the base URL -#}
-				{%- elif lang == config.default_language -%}
-					<li class="ls-item">
-						<a class="ls-link" lang="{{ lcode }}" href="{{ config.base_url }}/{{ lcode }}{{ current_path | default(value="/") | safe }}">{{ language_name }}</a>
-					</li>
-				{%- else -%}
-					{#- If it's not, replace the current language code in the URL with the new one -#}
-					<li class="ls-item">
-						<a class="ls-link" lang="{{ lcode }}" href="{{ current_url | replace(from='/' ~ lang ~ '/', to='/' ~ lcode ~ '/') }}">{{ language_name }}</a>
-					</li>
-				{%- endif -%}
-			{%- endfor -%}
-		</ul>
-	</details>
+	{%- set current_lang = lang -%}
+	{%- if current_lang == "ja" -%}
+		{%- set target_lang = "en" -%}
+		{%- set button_text = "JA/EN" -%}
+	{%- else -%}
+		{%- set target_lang = "ja" -%}
+		{%- set button_text = "JA/EN" -%}
+	{%- endif -%}
+	
+	{%- if target_lang == config.default_language -%}
+		{#- If switching to default language, link to root path -#}
+		<a class="ls-trigger current-lang" href="{{ current_url | replace(from='/' ~ current_lang ~ '/', to = '/') }}" title="Switch to {{ target_lang | upper }}">
+			{{ button_text }}
+		</a>
+	{%- elif current_lang == config.default_language -%}
+		{#- If current is default, append target language to base URL -#}
+		<a class="ls-trigger current-lang" href="{{ config.base_url }}/{{ target_lang }}{{ current_path | default(value="/") | safe }}" title="Switch to {{ target_lang | upper }}">
+			{{ button_text }}
+		</a>
+	{%- else -%}
+		{#- Replace current language code with target language -#}
+		<a class="ls-trigger current-lang" href="{{ current_url | replace(from='/' ~ current_lang ~ '/', to='/' ~ target_lang ~ '/') }}" title="Switch to {{ target_lang | upper }}">
+			{{ button_text }}
+		</a>
+	{%- endif -%}
 </li>

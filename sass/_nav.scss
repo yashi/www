@@ -47,6 +47,28 @@
       }
     }
 
+    .nav-grid {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 0.5rem;
+      align-items: start;
+      flex: 1;
+    }
+
+    .nav-top-row {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 2rem;
+      padding-right: 17rem; 
+    }
+
+    .ls-top-cell {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
     .nav-header {
       display: flex;
       justify-content: space-between;
@@ -98,34 +120,36 @@
       flex-wrap: nowrap;
       justify-content: flex-end;
       align-items: center;
-      gap: 3rem;
+      gap: 2rem;
       margin: 0;
       padding: 0;
       list-style: none;
       flex: 1 1 auto;
+      white-space: nowrap;
+      overflow: hidden;
 
       @media (max-width: 1200px) {
-        gap: 2rem;
-      }
-
-      @media (max-width: 1000px) {
-        gap: 1.8rem;
-      }
-
-      @media (max-width: 950px) {
-        gap: 1.6rem;
-      }
-
-      @media (max-width: 900px) {
         gap: 1.5rem;
       }
 
-      @media (max-width: 850px) {
+      @media (max-width: 1000px) {
         gap: 1.2rem;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 950px) {
         gap: 1rem;
+      }
+
+      @media (max-width: 900px) {
+        gap: 0.8rem;
+      }
+
+      @media (max-width: 850px) {
+        gap: 0.6rem;
+      }
+
+      @media (max-width: 800px) {
+        gap: 0.5rem;
       }
 
       @media (max-width: 720px) {
@@ -166,8 +190,8 @@
 
     a,
     .nav-summary {
-      flex: 1;
-      padding: 10px 12px;
+      flex: 0 0 auto;
+      padding: 8px 10px;
       border-radius: 999px;
       font-weight: bold;
       text-align: center;
@@ -178,6 +202,9 @@
       color: white;
       cursor: pointer;
       font-size: inherit;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       &:hover {
         color: white;

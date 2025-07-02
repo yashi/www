@@ -1,48 +1,44 @@
 // Language Switcher Styles
-// All language switcher styles use the "ls-" prefix for unique scoping
+// Simple toggle button for language switching
 
 .ls-container {
-  // Container styles
-  display: flex;
-  flex: 1;
+  // Container styles for grid layout
   position: relative;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0;
   padding: 0;
-  border-radius: 0;
-  background-color: transparent;
-  font-size: inherit;
-
-  // Dropdown animation
-  .ls-dropdown[open] .ls-menu {
-    animation: ls-dropdown-open var(--transition);
-  }
-
-  @keyframes ls-dropdown-open {
-    from {
-      transform: scale(0.5) translate(-50%, -1rem);
-      opacity: 0;
-    }
-  }
+  display: block;
+  width: auto;
+  text-align: right;
 }
 
 .ls-trigger {
-  // Trigger button styles
-  padding: 10px;
-  line-height: 0;
-  border-radius: 999px;
-  font-weight: bold;
+  // Simple text button styles
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   background-color: transparent;
   transition: var(--transition);
   line-height: 1;
-  color: white;
+  color: var(--fg-muted-3);
   cursor: pointer;
-  font-size: inherit;
+  font-size: 0.65rem;
+  border: 1px solid transparent;
+  display: block;
 
   &:hover {
-    color: white;
+    color: var(--fg-muted-5);
     background-color: var(--fg-muted-1);
-    box-shadow: none;
+    border-color: var(--fg-muted-2);
+  }
+
+  // Current language is highlighted in white
+  &.current-lang {
+    color: white;
   }
 
   &::before {
@@ -50,87 +46,17 @@
   }
 }
 
-.ls-icon {
-  // Icon styles
-  vertical-align: -0.125em;
-  transition: var(--transition);
-  mask-image: var(--icon-languages);
-  -webkit-mask-image: var(--icon-languages);
-  font-size: 3.75rem !important; // Force larger icon size
-}
-
-// More specific selector to override classic-nav styles
-.ls-trigger.circle .ls-icon {
-  font-size: 2.75rem !important;
-}
-
-// Even more specific selector to override nav styles
-#language-switcher .ls-trigger.circle .ls-icon.icon {
-  font-size: 2.75rem !important;
-}
-
-// Most specific selector possible
-#language-switcher.ls-container .ls-dropdown .ls-trigger.circle .ls-icon.icon {
-  font-size: 2.5rem !important;
-  width: 2.5rem !important;
-  height: 2.5rem !important;
-  background-size: 2.5rem 2.5rem !important; // Larger mask image
-}
-
+// Hide any dropdown menus that might be created
 .ls-menu {
-  // Dropdown menu styles
-  position: absolute;
-  top: 3.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-  padding: 0.25rem;
-  border-radius: calc(var(--rounded-corner) + 0.25rem);
-  background-color: transparent !important; // Force remove background
-  backdrop-filter: none !important; // Force remove backdrop filter
-  -webkit-backdrop-filter: none !important; // Force remove webkit backdrop filter
-  box-shadow: none !important; // Force remove any box shadow
-  margin: 0;
-  list-style: none;
-}
-
-.ls-item {
-  // Menu item styles
-  width: 100%;
-  white-space: nowrap;
-  margin: 0.125rem 0; // Add small margin for spacing
-}
-
-.ls-link {
-  // Link styles
-  flex: 1;
-  padding: 10px 12px;
-  border-radius: var(--rounded-corner);
-  font-weight: bold;
-  text-align: left;
-  text-decoration: none;
-  background-color: transparent;
-  transition: var(--transition);
-  line-height: 1;
-  color: white;
-  cursor: pointer;
-  font-size: inherit;
-  display: block;
-  width: 100%;
-  box-sizing: border-box; // Ensure padding is included in width calculation
-
-  &:hover {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1); // Subtle hover effect that matches the shape
-    box-shadow: none;
-  }
+  display: none !important;
 }
 
 // Responsive adjustments
-@media (max-width: 430px) {
-  .ls-container:has(.ls-trigger:not(.circle)) .ls-menu {
-    top: 2.75rem;
+@media (max-width: 720px) {
+  .ls-container {
+    position: relative;
+    top: 0;
+    right: auto;
+    margin-bottom: 0.5rem;
   }
 } 
