@@ -2,7 +2,7 @@
 sort_by = "date"
 +++
 
-{% section_title(bg="", title="RECRUIT", subtitle="採用情報", slogan="") %}
+{% section_title(bg="", title="RECRUIT", subtitle="採用情報", slogan="", style_top="採用情報") %}
 <!--display element -->
 {% end %}
 

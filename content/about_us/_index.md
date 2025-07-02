@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="", title="ABOUT US", subtitle="私たちについて", slogan="") %}
+{% section_title(bg="", title="ABOUT US", subtitle="私たちについて", slogan="", style_top="私たちについて") %}
 <!--display element -->
 {% end %}
 

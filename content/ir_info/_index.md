@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="", title="IR INFO", subtitle="投資家情報", slogan="") %}
+{% section_title(bg="", title="IR INFO", subtitle="投資家情報", slogan="", style_top="投資家情報") %}
 <!--display element -->
 {% end %}
 
