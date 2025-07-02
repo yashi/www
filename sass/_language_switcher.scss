@@ -2,20 +2,14 @@
 // Simple toggle button for language switching
 
 .ls-container {
-  // Container styles for grid layout
+  // Container styles for navigation list
   position: relative;
-  top: 0;
-  right: 0;
   z-index: 2;
   margin: 0;
   padding: 0;
   display: block;
   width: auto;
-  text-align: right;
-  /* Position relative to the last nav link */
-  position: center;
-  right: 13rem; /* Adjust this value to align with the last nav link */
-  top: 0;
+  text-align: center;
 }
 
 .ls-trigger {
@@ -57,12 +51,48 @@
 }
 
 // Responsive adjustments
+@media (max-width: 1200px) {
+  .ls-container {
+    position: relative;
+    top: 0;
+    right: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .ls-trigger {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ls-trigger {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ls-trigger {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 850px) {
+  .ls-trigger {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 720px) {
   .ls-container {
     position: relative;
     top: 0;
     right: auto;
     margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .ls-trigger {
+    font-size: 12px;
   }
 }
 

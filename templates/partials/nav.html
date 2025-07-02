@@ -19,66 +19,68 @@
         </button>
       </div>
 
-      <div class="nav-grid">
-        <!-- Top row: Language switcher above rightmost nav link -->
-        <div class="nav-top-row">
+                    <div class="nav-links-container">
+        {%- if config.languages | length > 0 %}
+          <div class="ls-nav-item-desktop">
+            {%- include "partials/language_switcher.html" %}
+          </div>
+        {%- endif %}
+        
+        <div id="main-nav-list" class="main-navbar-list">
           {%- if config.languages | length > 0 %}
-            <div class="ls-top-cell">
+            <div class="ls-nav-item-mobile">
               {%- include "partials/language_switcher.html" %}
             </div>
           {%- endif %}
-        </div>
-
-        <!-- Bottom row: Navigation links -->
-        <ul id="main-nav-list">
-          <li class="divider"></li>
+          
+          <div class="divider"></div>
 
           {%- for link in config.extra.nav.links %}
             {%- if link.menu and link.menu | length > 0 -%}
-              <li>
+              <div class="main-navbar-item">
                 <details>
                   <div class="nav-summary" tabindex="0">
                     {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
                   </div>
-                  <ul>
+                  <div class="dropdown-menu">
                     {%- for sublink in link.menu -%}
-                      <li>
-                        <a
-                          href="{% if sublink.url is matching('https?://') %}{{ sublink.url }}{% else %}{{ get_url(path=sublink.url, lang=lang) }}{% endif %}"
-                          rel="{% if sublink.url is matching('https?://') %}{{ rel_attributes }}{% endif %}"
-                          {% if not sublink.url is matching('https?://') and current_url | default(value='/') | trim_end_matches(pat='/') | safe == get_url(path=sublink.url, lang=lang) | trim_end_matches(pat='/') | safe %}
-                          {% endif %}
+                      <div class="dropdown-item">
+                        <div class="main-navbar-link"
+                          data-href="{% if sublink.url is matching('https?://') %}{{ sublink.url }}{% else %}{{ get_url(path=sublink.url, lang=lang) }}{% endif %}"
+                          data-rel="{% if sublink.url is matching('https?://') %}{{ rel_attributes }}{% endif %}"
+                          role="button"
+                          tabindex="0"
                         >
                           {{- macros_translate::translate(key=sublink.name, default=sublink.name, language_strings=language_strings) -}}
-                        </a>
-                      </li>
+                        </div>
+                      </div>
                     {%- endfor -%}
-                  </ul>
+                  </div>
                 </details>
-              </li>
+              </div>
             {%- elif link.url is matching('https?://') %}
-              <li>
-                <a href="{{ link.url }}" rel="{{ rel_attributes }}" class="external">
+              <div class="main-navbar-item">
+                <div class="main-navbar-link" data-href="{{ link.url }}" data-rel="{{ rel_attributes }}" role="button" tabindex="0">
                   {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
-                </a>
-              </li>
+                </div>
+              </div>
             {%- else %}
-              <li>
-                <a href="{{ get_url(path=link.url, lang=lang) }}">
+              <div class="main-navbar-item">
+                <div class="main-navbar-link" data-href="{{ get_url(path=link.url, lang=lang) }}" role="button" tabindex="0">
                   {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
-                </a>
-              </li>
+                </div>
+              </div>
             {%- endif %}
           {%- endfor %}
 
           {%- if config.extra.default_theme or config.extra.nav.show_theme_switcher %}
-            <li id="contact">
-              <a href="{{ get_url(path='contact', lang=lang) }}">
+            <div id="contact" class="main-navbar-item">
+              <div class="main-navbar-link" data-href="{{ get_url(path='contact', lang=lang) }}" role="button" tabindex="0">
                 {{ macros_translate::translate(key="contact", default="Contact", language_strings=language_strings) }}
-              </a>
-            </li>
+              </div>
+            </div>
           {%- endif %}
-        </ul>
+        </div>
       </div>
     </div>
   </nav>
