@@ -1,7 +1,7 @@
 <li id="language-switcher" class="ls-container">
-	<details class="ls-dropdown closable">
-		<summary class="ls-trigger circle" title="{{ macros_translate::translate(key='language', default='Language', language_strings=language_strings) }}">
-			<i class="ls-icon icon"></i>
+	<details class="ls-dropdown">
+		<summary class="ls-trigger" title="{{ macros_translate::translate(key='language', default='Language', language_strings=language_strings) }}">
+			JP/EN
 		</summary>
 		<ul class="ls-menu">
 			{%- for lcode, ldetails in config.languages -%}

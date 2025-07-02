@@ -56,7 +56,25 @@
   transition: var(--transition);
   mask-image: var(--icon-languages);
   -webkit-mask-image: var(--icon-languages);
-  font-size: 2.25rem !important; // Increased icon size with higher specificity
+  font-size: 3.75rem !important; // Force larger icon size
+}
+
+// More specific selector to override classic-nav styles
+.ls-trigger.circle .ls-icon {
+  font-size: 2.75rem !important;
+}
+
+// Even more specific selector to override nav styles
+#language-switcher .ls-trigger.circle .ls-icon.icon {
+  font-size: 2.75rem !important;
+}
+
+// Most specific selector possible
+#language-switcher.ls-container .ls-dropdown .ls-trigger.circle .ls-icon.icon {
+  font-size: 2.5rem !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  background-size: 2.5rem 2.5rem !important; // Larger mask image
 }
 
 .ls-menu {
@@ -70,10 +88,10 @@
   z-index: 1;
   padding: 0.25rem;
   border-radius: calc(var(--rounded-corner) + 0.25rem);
-  background-color: var(--glass-bg);
-  backdrop-filter: var(--blur);
-  -webkit-backdrop-filter: var(--blur);
-  box-shadow: none;
+  background-color: transparent !important; // Force remove background
+  backdrop-filter: none !important; // Force remove backdrop filter
+  -webkit-backdrop-filter: none !important; // Force remove webkit backdrop filter
+  box-shadow: none !important; // Force remove any box shadow
   margin: 0;
   list-style: none;
 }
@@ -82,6 +100,7 @@
   // Menu item styles
   width: 100%;
   white-space: nowrap;
+  margin: 0.125rem 0; // Add small margin for spacing
 }
 
 .ls-link {
@@ -99,10 +118,12 @@
   cursor: pointer;
   font-size: inherit;
   display: block;
+  width: 100%;
+  box-sizing: border-box; // Ensure padding is included in width calculation
 
   &:hover {
     color: white;
-    background-color: var(--fg-muted-1);
+    background-color: rgba(255, 255, 255, 0.1); // Subtle hover effect that matches the shape
     box-shadow: none;
   }
 }
