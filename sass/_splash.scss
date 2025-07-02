@@ -4,7 +4,7 @@
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   background-color: transparent;
   padding: 0;
   margin: 0;
@@ -127,27 +127,34 @@
   align-items: center;
   padding: 2rem 1rem 2rem 1rem;
   margin-top: 20rem;
+  margin-left: 1rem;
+  overflow: visible;
 
   img {
-    width: 120vw;
+    width: 140vw;
     height: auto;
     object-fit: contain;
     transform: scale(1.8);
+    margin-left: -5rem;
     
     @media only screen and (max-width: 1200px) {
-      width: 110vw;
+      width: 135vw;
+      margin-left: -3rem;
     }
     
     @media only screen and (max-width: 768px) {
-      width: 100vw;
+      width: 130vw;
+      margin-left: -2rem;
     }
     
     @media only screen and (max-width: 480px) {
-      width: 95vw;
+      width: 125vw;
+      margin-left: -1rem;
     }
     
     @media only screen and (max-width: 430px) {
-      width: 110vw;
+      width: 130vw;
+      margin-left: -0.5rem;
       margin-top: 4rem;
     }
   }
@@ -155,21 +162,25 @@
   @media only screen and (max-width: 1200px) {
     margin-top: 15rem;
     padding: 1.5rem 0.8rem 1.5rem 0.8rem;
+    margin-left: -3rem;
   }
   
   @media only screen and (max-width: 768px) {
     margin-top: 12rem;
     padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-left: -2rem;
   }
   
   @media only screen and (max-width: 480px) {
     margin-top: 10rem;
     padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+    margin-left: -1rem;
   }
   
   @media only screen and (max-width: 430px) {
     margin-top: 8rem;
     padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    margin-left: -0.5rem;
   }
 }
 
