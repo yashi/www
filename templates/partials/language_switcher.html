@@ -2,26 +2,27 @@
 	{%- set current_lang = lang -%}
 	{%- if current_lang == "ja" -%}
 		{%- set target_lang = "en" -%}
-		{%- set button_text = "JA/EN" -%}
+		{%- if target_lang == config.default_language -%}
+			{%- set switch_url = current_url | replace(from='/' ~ current_lang ~ '/', to = '/') -%}
+		{%- elif current_lang == config.default_language -%}
+			{%- set switch_url = config.base_url ~ '/' ~ target_lang ~ current_path | default(value='/') | safe -%}
+		{%- else -%}
+			{%- set switch_url = current_url | replace(from='/' ~ current_lang ~ '/', to='/' ~ target_lang ~ '/') -%}
+		{%- endif -%}
+		<a class="ls-trigger current-lang" href="{{ switch_url }}" title="Switch to EN">
+			<span class="active-lang">JA</span>/<span class="inactive-lang">EN</span>
+		</a>
 	{%- else -%}
 		{%- set target_lang = "ja" -%}
-		{%- set button_text = "JA/EN" -%}
-	{%- endif -%}
-	
-	{%- if target_lang == config.default_language -%}
-		{#- If switching to default language, link to root path -#}
-		<a class="ls-trigger current-lang" href="{{ current_url | replace(from='/' ~ current_lang ~ '/', to = '/') }}" title="Switch to {{ target_lang | upper }}">
-			{{ button_text }}
-		</a>
-	{%- elif current_lang == config.default_language -%}
-		{#- If current is default, append target language to base URL -#}
-		<a class="ls-trigger current-lang" href="{{ config.base_url }}/{{ target_lang }}{{ current_path | default(value="/") | safe }}" title="Switch to {{ target_lang | upper }}">
-			{{ button_text }}
-		</a>
-	{%- else -%}
-		{#- Replace current language code with target language -#}
-		<a class="ls-trigger current-lang" href="{{ current_url | replace(from='/' ~ current_lang ~ '/', to='/' ~ target_lang ~ '/') }}" title="Switch to {{ target_lang | upper }}">
-			{{ button_text }}
+		{%- if target_lang == config.default_language -%}
+			{%- set switch_url = current_url | replace(from='/' ~ current_lang ~ '/', to = '/') -%}
+		{%- elif current_lang == config.default_language -%}
+			{%- set switch_url = config.base_url ~ '/' ~ target_lang ~ current_path | default(value='/') | safe -%}
+		{%- else -%}
+			{%- set switch_url = current_url | replace(from='/' ~ current_lang ~ '/', to='/' ~ target_lang ~ '/') -%}
+		{%- endif -%}
+		<a class="ls-trigger current-lang" href="{{ switch_url }}" title="Switch to JA">
+			<span class="inactive-lang">JA</span>/<span class="active-lang">EN</span>
 		</a>
 	{%- endif -%}
 </li>

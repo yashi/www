@@ -55,12 +55,12 @@
       flex: 1;
     }
 
-    .nav-top-row {
+        .nav-top-row {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       height: 2rem;
-      padding-right: 17rem; 
+      position: relative;
     }
 
     .ls-top-cell {

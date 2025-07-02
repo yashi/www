@@ -12,6 +12,10 @@
   display: block;
   width: auto;
   text-align: right;
+  /* Position relative to the last nav link */
+  position: center;
+  right: 13rem; /* Adjust this value to align with the last nav link */
+  top: 0;
 }
 
 .ls-trigger {
@@ -26,7 +30,7 @@
   line-height: 1;
   color: var(--fg-muted-3);
   cursor: pointer;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   border: 1px solid transparent;
   display: block;
 
@@ -39,6 +43,7 @@
   // Current language is highlighted in white
   &.current-lang {
     color: white;
+    font-size: 0.85rem !important;
   }
 
   &::before {
@@ -59,4 +64,12 @@
     right: auto;
     margin-bottom: 0.5rem;
   }
+}
+
+.active-lang {
+  color: white;
+}
+
+.inactive-lang {
+  color: var(--fg-muted-3);
 } 
