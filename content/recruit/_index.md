@@ -72,7 +72,7 @@ FPGAエンジニア |
   right_card_image="earth.png",
 
   left_title="ABOUT US",
-  left_subtitle="採用情報",
+  left_subtitle="私たちについて",
   left_footer_1="一緒に働くメンバーを常に募集しています。",
   left_footer_2="ご興味のある方はご連絡ください。",
   left_link="/about_us",

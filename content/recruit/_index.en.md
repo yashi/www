@@ -2,7 +2,7 @@
 sort_by = "date"
 +++
 
-{% section_title(bg="", title="RECRUIT", subtitle="Employment information", slogan="") %}
+{% section_title(bg="", title="RECRUIT", subtitle="Employment information", slogan="", style_top="Job Details") %}
 <!--display element -->
 {% end %}
 
@@ -21,42 +21,48 @@ sort_by = "date"
 {% end %}
 
 {% recruit_intro(
-  title = "We are always looking for members to work with us.<br><br>  If you are interested in our open positions, please contact us below.",
+  title = "We are always looking for new members to join our team. <br><br> If you are interested, please contact us using the application form.",
   body_text = "
- Space Cubics Inc. is founded by a team of engineers with extensive experience in aerospace and computing. We specialize in designing and developing robust computer systems engineered to operate reliably in the most demanding and extreme environments of space. Our passion for innovative engineering drives us to deliver cutting-edge solutions that meet the highest standards of performance and durability.
+ Space Cubics, Inc. is a company founded by engineers who met through their work in space and computer science. We genuinely enjoy engineering and design and develop computers that can be used in the harsh and extreme environments of space.
+<br><br>
+ Some of us are experts in space, others in computer architecture and logic, and still others in software development—each with absolute confidence in their own field.However, there are countless problems that cannot be solved alone, so we work together with trusted colleagues every day to tackle these challenges. There is no sense of hierarchy or superiority among us; we are all unique individuals who can achieve great things and improve ourselves every day because we are part of this team.
  <br><br>
- Our team consists of experts confident in their fields—whether space, computer architecture, or software development. Recognizing that complex challenges require collaboration, we work closely as trusted colleagues without hierarchy. United by a shared commitment, we continuously improve and achieve together as one team.
- <br><br>
-Space Cubics Inc. is a growing company seeking collaborators passionate about designing, manufacturing, and selling spacecraft components (computers, communications, propulsion, structures, thermal systems, and systems engineering). If you find conventional computing uninspiring or face challenges realizing your vision, we invite you to connect with us. Please note, we value constructive teamwork and do not engage with those who criticize without offering solutions or undermine others, regardless of their expertise."
+Space Cubics is still a small company and does not yet have the capacity to complete large projects on its own.If you are interested in designing, manufacturing, or selling spacecraft, or if you find ordinary computers on the ground too mundane, or if you have various reasons why you cannot create the things you envision, please contact us. However, if you are someone who only criticizes others' work and proposes alternatives without offering solutions, or if you belittle others, even if you are highly skilled, we kindly ask you to refrain from applying."
 ) %}
 <!-- no text -->
 {% end %}
 
 {% jobs_list(
-  title = "Job Openings",
+  title = "Open Positions",
   subtitle = "Current available",
   slogan = "POSITIONS",
-  jobs_note = "Note: Please use the contact form below for questions about positons not listed here.",
+  jobs_note = "Special notes: For positions other than those currently being recruited, please inquire via the inquiry form.",
   jobs = "
-System Engineer |  system-engineer/ | active
-Communication Engineer | 
-Financial Strategist | 
-FPGA Engineer | 
-Hardware Engineer | 
-Propulsion Engineer | 
-Business Development | 
-Structural Engineer | 
-Thermal Systems Engineer | 
+System Engineer | system-engineer/ | active
+Communications Engineer |
+Fundraising Manager |
+FPGA Engineer |
+Hardware Engineer |
+Promotion Engineer |
+Sales |
+Structural Engineer |
+Thermal Engineer |
 ") %}
 <!-- no text -->
 {% end %}
+
+
 
 {% application_form(
   title = "CONTACT FORM",
   subtitle = "Join us",
   slogan = "SPACE CUBICS",
-
-  description = "Please fill out the form to the right.<br><br>Be sure to fill in all the fields so we can get back to you soon."
+  name_field="Name"
+  email_field="Email adress"
+  role_field="Desired position"
+  message_field="Please enter your message here"
+  button_label="Send"
+  description = "Please fill out the form on the right. Please be sure to fill out all fields. We will contact you as soon as possible."
 ) %}
 <!-- no text -->
 {% end %}
@@ -66,23 +72,23 @@ Thermal Systems Engineer |
   right_card_image="earth.png",
 
   left_title="ABOUT US",
-  left_subtitle="Company Details",
-  left_footer_1="We are always looking for people to work with us.",
-  left_footer_2="If you're interested, please contact us.",
-  left_link="/en/about_us",
+  left_subtitle="Company details",
+  left_footer_1="We are always looking for new members to join our team.",
+  left_footer_2="If you are interested, please contact us.",
+  left_link="/about_us",
 
   right_title="CONTACT",
-  right_subtitle="Make an inquiry",
+  right_subtitle="Send us a message",
   right_footer_1="Please feel free to contact us.",
-  right_footer_2="We will try to get back to you promptly.",
-  right_link="/en/contact",
+  right_footer_2="A representative will respond to you.",
+  right_link="/contact",
 
   bottom_card_image = "<!--display element -->",
   bottom_title="PRODUCTS",
-  bottom_subtitle="Our PCBs and Services",
-  bottom_footer_1="We offer affordable and reliable space-grade computers...",
-  bottom_footer_2="making space development more accessible.",
-  bottom_link="/en/products",
+  bottom_subtitle="Board introduction",
+  bottom_footer_1="We provide reliable products and",
+  bottom_footer_2="support space development.",
+  bottom_link="/products",
 
   bg=""
 ) %}
