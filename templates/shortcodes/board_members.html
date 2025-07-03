@@ -52,14 +52,28 @@
           {% if img != "" %}
             <img src="{{ img }}" alt="{{ name }}" class="board-card__image" />
           {% endif %}
-          <h3 class="board-card__name">{{ name }}</h3>
-
-          {% if title != "" %}
-            <div class="board-card__title">{{ title }}</div>
-          {% endif %}
 
           {% if position != "" %}
             <div class="board-card__role">{{ position }}</div>
+          {% endif %}
+
+          {% set name_parts = name | split(pat="(") %}
+          {% set jp_name = name_parts[0] | trim %}
+          {% if name_parts | length > 1 %}
+            {% set en_name = name_parts[1] | replace(from=")", to="") | trim %}
+          {% else %}
+            {% set en_name = "" %}
+          {% endif %}
+
+          <div class="board-card__name-row">
+            <span class="board-card__name">{{ jp_name }}</span>
+            {% if en_name != "" %}
+              <span class="board-card__en-name">{{ en_name }}</span>
+            {% endif %}
+          </div>
+
+          {% if title != "" %}
+            {# Removed: no need to display CEO, CTO, etc. #}
           {% endif %}
 
           {% if bio != "" %}
