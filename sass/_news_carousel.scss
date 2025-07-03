@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 100vw;
     overflow: visible;
+    font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
     
     .carousel-track-wrapper {
       overflow-x: hidden;
@@ -52,6 +53,7 @@
           color: #fff !important;
           letter-spacing: 0.03em;
           font-weight: 400;
+          font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
         }
         .carousel-card-date {
           margin: 0;
@@ -59,6 +61,7 @@
           color: #fff !important;
           font-weight: 700;
           letter-spacing: 0.03em;
+          font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
         }
       }
     }
@@ -118,6 +121,7 @@
   font-weight: 900;
   color: #fff;
   margin-bottom: 0.2em;
+  font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
 }
 
 .carousel-section-subtitle {
@@ -125,6 +129,7 @@
   font-weight: 400;
   color: #fff;
   margin-bottom: 0.2em;
+  font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
 }
 
 .carousel-section-slogan {
@@ -132,6 +137,7 @@
   font-weight: 200;
   color: #ffffff;
   margin-bottom: 0.5em;
+  font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
 }
 
 // Responsive styles for news carousel
