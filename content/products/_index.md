@@ -45,33 +45,6 @@
 <!-- no text -->
 {% end %}
 
-{% product_display(
-  product_id_label="Product 02",
-  bg="",
-  img="sq_sc-obc_module_a1.png",
-  img_link="",
-  alt="",
-  pre_title="衛星用超小型スペース・コンピュータ・モジュール",
-  title="SC-OBC Module A1",
-  subtitle="Built for performance, engineered for durability.",
-  text1_a="Main Processor",
-  text1_b="Xilinx Artix-7",
-  text2_a="CPU",
-  text2_b="Cortex M3 / MicroBlaze-V",
-  text3_a="Operating System",
-  text3_b="Zephyr RTOS",
-  download_1_link="https://github.com/spacecubics/scobc-a1-product-manual",
-  download_1_label="ユーザーマニュアル",
-  download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  download_2_label="FPGAマニュアル",
-  download_3_link="https://github.com/spacecubics",
-  download_3_label="GitHub",
-  details_link="/sc_obc"
-) %}
-<!-- no text -->
-{% end %}
-
-
 {% prefooter(
   left_card_image="about.png", 
   right_card_image="earth.png",
