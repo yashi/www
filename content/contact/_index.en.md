@@ -1,29 +1,35 @@
 +++
 +++
 
-{% hero_element(
-  title="CONTACT",
+{% section_title(bg="", title="CONTACT", subtitle="Be part of something bigger", slogan="") %}
+<!--display element -->
+{% end %}
+
+{% twocol(
+  bg="earth.png",
+  title="",
+  subtitle="",
+  slogan="",
   img="",
   alt="",
   link="",
   link_text="",
-  img_link="",
-  bg="earth.png",
-  subtitle="Be part of something bigger",
-  slogan=""
+  img_link=""
 ) %}
 <!-- no text -->
 {% end %}
 
 
 {% contact_form(
-  title="JOIN OUR TEAM",
-  subtitle="We are always looking for team members to work with us.",
-  name_field="Name",
-  email_field="Email address",
-  role_field="Desired role",
-  message_field="Message",
+  title="Reach out to us.",
+  subtitle="We are always looking for new members to join our team.",
+  name_field="Name"
+  email_field="Email address"
+  role_field="Desired position"
+  message_field="Please write your message here"
   button_label="Send"
 ) %}
 <!--display element -->
 {% end %}
+
+
