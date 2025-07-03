@@ -176,6 +176,16 @@
     min-height: 180px;
   }
 
+  @media (max-width: 768px) {
+    margin-bottom: -8rem;
+    position: relative;
+    z-index: 10;
+  }
+
+  @media (max-width: 479px) {
+    margin-bottom: -6rem;
+  }
+
   // Ensure bottom card divider bar is also shorter
   .card-subheader::after {
     width: 6% !important;
