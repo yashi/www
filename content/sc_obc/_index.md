@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="", title="SC-OBC Module A1", subtitle="", slogan="") %}
+{% section_title(bg="", title="SC-OBC MODULE A1", subtitle="", slogan="") %}
 <!--display element -->
 {% end %}
 
