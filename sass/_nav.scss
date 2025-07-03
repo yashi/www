@@ -496,11 +496,16 @@
   transition: none;
   mix-blend-mode: normal;
 
-  @media (max-width: 1200px) {
-    width: clamp(100px, 20vw, 180px);
+  @media (max-width: 3000px) {
+    padding-right: 40vw;
+  }
+
+  @media (max-width: 1500px) {
+    width: clamp(100px, 20vw, 120px);
+	    padding-right: 2rem;
   }
   @media (max-width: 900px) {
-    width: clamp(80px, 18vw, 140px);
+    width: clamp(80px, 18vw, 120px);
   }
   @media (max-width: 720px) {
     width: clamp(60px, 16vw, 100px);
