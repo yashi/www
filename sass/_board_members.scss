@@ -28,8 +28,8 @@
 
   &__subtitle {
     font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
-    color: white;
-    font-size: 0.9em;
+    color: #888888;
+    font-size: 0.85em;
     font-weight: 400;
     margin-bottom: 0.15rem;
     margin-top: 0.15rem;
@@ -38,7 +38,7 @@
   &__slogan {
     font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 700;
     margin-bottom: 0.4rem;
     margin-top: 0;
@@ -155,7 +155,11 @@
     }
 
     &__subtitle {
-      font-size: 2em;
+      font-size: 0.95em;
+    }
+
+    &__slogan {
+      font-size: 1.1em;
     }
   }
 
@@ -195,7 +199,11 @@
   }
 
   .board-members__subtitle {
-    font-size: 1.75em;
+    font-size: 0.9em;
+  }
+
+  .board-members__slogan {
+    font-size: 1.05em;
   }
 
   .board-card {
@@ -231,7 +239,11 @@
   }
 
   .board-members__subtitle {
-    font-size: 1.5em;
+    font-size: 0.85em;
+  }
+
+  .board-members__slogan {
+    font-size: 1em;
   }
 
   .board-card {
@@ -266,7 +278,11 @@
   }
 
   .board-members__subtitle {
-    font-size: 1.2em;
+    font-size: 0.8em;
+  }
+
+  .board-members__slogan {
+    font-size: 0.95em;
   }
 
   .board-card {
