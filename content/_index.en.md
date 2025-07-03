@@ -67,7 +67,7 @@ Our mission is to support sustainable growth by collaborating with companies tha
   items="
 2025.06.01 | /news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics, Inc. 
 
-2025.04.09 | /news/2025-04-09 | brainchild.png | We hereby notify you that, with the consent of all employees on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., located at 1-2, Minami 3-chome, Chuo-ku, Sapporo, Hokkaido, effective June 1, 2025. If you have any objections to this organizational change, please notify us by May 9, 2025.
+2025.04.09 | /news/2025-04-09 | brainchild.png | With the consent of all board members, on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., effective June 1, 2025.
 
 2022.03.07 | /news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
 
