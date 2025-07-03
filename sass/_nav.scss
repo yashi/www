@@ -2,7 +2,7 @@
   position: sticky;
   top: 1rem;
   grid-area: nav;
-  margin: 1rem auto 0;
+  margin: 3rem auto 0;
   border-radius: 1.625rem;
   inset-inline: 0;
   font-size: 28px;
@@ -38,23 +38,23 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10rem;
+      gap: 15rem;
       flex-wrap: wrap;
 
       @media (max-width: 1400px) {
-        gap: 6rem;
+        gap: 15rem;
       }
 
       @media (max-width: 1200px) {
-        gap: 4rem;
+        gap: 8rem;
       }
 
       @media (max-width: 1000px) {
-        gap: 3rem;
+        gap: 6rem;
       }
 
       @media (max-width: 850px) {
-        gap: 2rem;
+        gap: 4rem;
       }
 
       @media (max-width: 720px) {
