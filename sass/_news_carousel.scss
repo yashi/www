@@ -83,19 +83,23 @@
   .carousel-controls {
     display: flex;
     align-items: center;
-    gap: 0.2em;
+    gap: 2em;
     position: absolute;
-    right: 3em;
-    bottom: 0.5em;
+    right: 12em;
+    bottom: 2.5em;
+    
+    @media (max-width: 90px) {
+      padding-left: 1em;
+    }
   }
   
   .carousel-btn {
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
-    font-size: 3em;
-    width: 75px;
-    height: 75px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
     padding: 0;
     cursor: pointer;
     border-radius: 50%;
@@ -108,6 +112,7 @@
     flex-shrink: 0;
     z-index: 10;
     line-height: 1;
+    margin: 0 0.5em;
     &:hover, &:focus {
       background: rgba(255,255,255,0.08);
       border: 2px solid #fff;
@@ -331,17 +336,22 @@
 
 .carousel-btn.left::before,
 .carousel-btn.right::before {
-  color: #fff;
-  font-size: 2.5rem;
-  line-height: 1;
+  content: '';
+  width: 16px;
+  height: 12px;
+  background-color: #fff;
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   pointer-events: none;
 }
 .carousel-btn.left::before {
-  content: '\203A'; /* Unicode single right-pointing angle quotation mark (›) */
+  clip-path: path('M0 0 L16 6 L0 12 L4 6 Z');
 }
 .carousel-btn.right::before {
-  content: '\2039'; /* Unicode single left-pointing angle quotation mark (‹) */
+  clip-path: path('M16 0 L0 6 L16 12 L12 6 Z');
 }
 .carousel-btn span {
   opacity: 0;
