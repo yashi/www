@@ -108,6 +108,10 @@
       gap: 1rem;
       margin-bottom: 0.5rem;
 
+      @media (max-width: 1400px) {
+        padding-left: 2rem;
+      }
+
       @media (max-width: 720px) {
         gap: 8rem;
       }
