@@ -32,15 +32,4 @@
 <!--display element -->
 {% end %}
 
-{% prefooter(
-  bottom_card_image="white_pcb.png",
-  bottom_title="製品情報",
-  bottom_subtitle="私たちの技術をご覧ください",
-  bottom_footer_1="革新的なソリューションで未来を創造します。",
-  bottom_footer_2="詳細はこちらからご確認ください。",
-  bottom_link="/products",
-  bg=""
-) %}
-<!--display element -->
-{% end %}
 
