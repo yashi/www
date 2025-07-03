@@ -14,8 +14,8 @@ Notice of Organizational Change | /news/2025-04-09/ | brainchild.png | 2025.04.0
 Notice of Organizational Change | /news/2020-08-18/ | jts.png | 2020.08.18
 J-TECH STARTUP SUMMIT 2019 (4th J-TECH STARTUP SUMMIT) | /news/2020-01-14/ | brainchild.png | 2020.01.14
 Space Entrepreneurs Take Flight: JAXA-Spun Startups Emerge | /news/2019-10-31/ | square_cubics.png | 2019.10.31
-JAXA's First Jointly Established Venture, Space Cubics Co., Ltd., is Born | /news/2018-09-25/ | jts.png | 2018.09.25
-Establishment of Space Cubics Co., Ltd. | /news/2018-06-01/ | brainchild.png | 2018.06.01
+JAXA's First Jointly Established Venture, Space Cubics, Inc., is Born | /news/2018-09-25/ | jts.png | 2018.09.25
+Establishment of Space Cubics, Inc. | /news/2018-06-01/ | brainchild.png | 2018.06.01
 Certification as a “JAXA Venture” | /news/2018-05-29/ | square_cubics.png | 2018.05.29
 "
 ) %}

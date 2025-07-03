@@ -28,9 +28,9 @@
   left_card_title="Affordable",
   left_card_subtitle="Compared to equipment for terrestrial use, space equipment has many additional requirements in terms of performance, safety, and reliability verification, resulting in extremely high development costs to ensure compliance.<br><br>Space Cubics is a collaboration between<br>civilian computer designers with extensive experience in space applications<br>and JAXA engineers who have accumulated extensive design verification expertise<br>through space development experience. As a “JAXA Venture,” we provide reliable space-use computers at an affordable price.",
   middle_card_title="Easy",
-  middle_card_subtitle="Even if you have excellent technology, <br>space development is not easy for companies and organizations with no experience in space development.<br><br>Even if you are interested in space development,<br>many cases are seen where projects stall at the planning stage<br>because it is unclear where to begin.<br><br>Space Cubics Co., Ltd. provides comprehensive support for space development<br>to enable companies and organizations interested in space<br>to easily enter the field of space development.",
+  middle_card_subtitle="Even if you have excellent technology, <br>space development is not easy for companies and organizations with no experience in space development.<br><br>Even if you are interested in space development,<br>many cases are seen where projects stall at the planning stage<br>because it is unclear where to begin.<br><br>Space Cubics, Inc. provides comprehensive support for space development<br>to enable companies and organizations interested in space<br>to easily enter the field of space development.",
   right_card_title="To Space",
-  right_card_subtitle="Space Cubics, Inc. provides low-cost space-grade equipment and comprehensive support, making it easier for companies to enter the space industry. We contribute to the development of the private space industry, not only in Japan but also in Asia and beyond.<br><br>By enabling numerous companies, organizations, and even individuals to participate in space development,<br>the demand for space-related technologies will expand exponentially,<br>giving rise to new industries. This is the core mission of Space Cubics Co., Ltd.<br><br> And one day, we aim to realize a future where hotels are built on the moon<br>and anyone can travel to space.",
+  right_card_subtitle="Space Cubics, Inc. provides low-cost space-grade equipment and comprehensive support, making it easier for companies to enter the space industry. We contribute to the development of the private space industry, not only in Japan but also in Asia and beyond.<br><br>By enabling numerous companies, organizations, and even individuals to participate in space development,<br>the demand for space-related technologies will expand exponentially,<br>giving rise to new industries. This is the core mission of Space Cubics, Inc.<br><br> And one day, we aim to realize a future where hotels are built on the moon<br>and anyone can travel to space.",
   bg=""
 ) %}
 <!--display element -->
@@ -75,7 +75,7 @@ Masayuki Goto (後藤 雅享)｜Founding Member｜Space System Engineer｜ Since
   subtitle="Other teams who",
   slogan="WORK WITH US"
 ) %}
-Space One Co., Ltd.
+Space One.
 <br>Jointly selected for the “Fiscal Year 2020 Industrial Technology Practical Application Development Project Subsidy” implemented by the Ministry of Economy, Trade and Industry.
 <br>Toward the establishment of an ultra-small space utilization platform,
 <br>we aim to demonstrate the release of an ultra-small satellite using Space One's small rocket “KAIROS,”

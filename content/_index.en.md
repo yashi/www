@@ -37,7 +37,7 @@ Space computer module
   bottom_title=""
   img_link=""
 ) %}
-Space Cubics Co., Ltd.
+Space Cubics, Inc.
 <br>is a JAXA venture company
 <br>developing affordable and reliable space computers
 <br>with the goal of making it possible for everyone to go to the moon.
@@ -65,13 +65,13 @@ Our mission is to support sustainable growth by collaborating with companies tha
   subtitle="Space Cubics",
   slogan="INFORMATION",
   items="
-2025.06.01 | /news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics Co., Ltd. 
+2025.06.01 | /news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics, Inc. 
 
-2025.04.09 | /news/2025-04-09 | brainchild.png | We hereby notify you that, with the consent of all employees on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics Co., Ltd., located at 1-2, Minami 3-chome, Chuo-ku, Sapporo, Hokkaido, effective June 1, 2025. If you have any objections to this organizational change, please notify us by May 9, 2025.
+2025.04.09 | /news/2025-04-09 | brainchild.png | We hereby notify you that, with the consent of all employees on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., located at 1-2, Minami 3-chome, Chuo-ku, Sapporo, Hokkaido, effective June 1, 2025. If you have any objections to this organizational change, please notify us by May 9, 2025.
 
 2022.03.07 | /news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
 
-2020.08.18 | /news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One Co., Ltd.
+2020.08.18 | /news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One.
 
 2020.01.14 | /news/2020-01-14 | brainchild.png | We have been recognized as a leading technology venture company in Japan and selected for the “J-TECH STARTUP 2019” program. We are scheduled to present at the award ceremony on Wednesday, February 26, 2020.
 
