@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="", title="Use Cases", subtitle="", slogan="") %}
+{% section_title(bg="", title="SC-OBC MODULE A1", subtitle="", slogan="", style_top="product details/SC-OBC Module A1") %}
 <!--display element -->
 {% end %}
 
@@ -17,26 +17,21 @@
 
 <section id="section-summary">
   {% hero_element(
-    title="Product Overview",
+    title="PRODUCT",
     img="sq_sc-obc_module_a1.png",
     alt="",
     link="",
     link_text="",
     img_link="",
     bg="",
-    subtitle="(OBC)",
-    slogan="SC-OBC Module A1"
+    subtitle="",
+    slogan=""
   ) %}
-  This is a space-grade computer optimized for CubeSats, based on the reliability design technologies developed by JAXA for the International Space Station.
-  <br><br>
-  It adopts the Xilinx Artix-7 FPGA, allowing for flexible customization of interface types and quantities to meet user-specific needs. 
-  <br><br>
-  It is also suitable for use in spacecraft beyond CubeSats, as well as in terrestrial industrial applications.
-  {% end %}
-</section>
+  This space computer is optimally designed for CubeSats based on reliability design technology cultivated by JAXA on the International Space Station. It uses Xilinx Artix-7 FPGA, allowing flexible support for various types and numbers of interfaces according to user requirements. It can also be used for other spacecraft and industrial applications on Earth.
+{% end %}
 
 <section id="section-usage">
-  {% section_title(bg="", title="Use cases", subtitle="Current projects", slogan="") %}
+  {% section_title(bg="", title="USES", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -49,10 +44,10 @@
   right_card_image="satellite.jpg",
   
   left_card_title="",
-  left_card_subtitle="For mounting on our satellite, <br><br> the SC-OBC Module A1 is installed on an interface board shaped to fit the PC104 form factor.",
+  left_card_subtitle="For installation in our artificial satellite, <br> <br> the SC-OBC Module A1 is mounted on an interface board designed for the PC104 form factor.",
   
   right_card_title="",
-  right_card_subtitle="A satellite integrating the SC-OBC Module A1 mounted on the interface board. <br><br> (Photo shows a prototype under development)",
+  right_card_subtitle="An artificial satellite equipped with the SC-OBC Module A1 installed on an interface board. <br> <br> (Photo shows a prototype under development)",
   
   bg=""
 ) %}
@@ -60,7 +55,7 @@
 {% end %}
 
 <section id="section-devkit">
-  {% section_title(bg="", title="Dev kits / Product options", subtitle="", slogan="") %}
+  {% section_title(bg="", title="DEV KIT", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -68,16 +63,12 @@
 {% twocard(
   title="",
   subtitle="",
-  
   left_card_image="under_construction.jpeg",
   right_card_image="under_construction.jpeg",
-  
-  left_card_title="Dev kit",
+  left_card_title="development set",
   left_card_subtitle="coming soon",
-  
-  right_card_title="Product options",
+  right_card_title="optional items",
   right_card_subtitle="coming soon",
-  
   bg=""
 ) %}
 <!--display element -->
@@ -86,7 +77,7 @@
 <section id="section-specs">
   {% spec_sheet(
     bg="",
-    title="Specifications",
+    title="SPECS",
     subtitle="",
     slogan=""
   ) %}
@@ -114,41 +105,40 @@
 <section id="section-docs">
   {% docs_resources(
     bg="",
-    title="Docs / Resources",
+    title="DOCS",
     subtitle="",
     slogan=""
   ) %}
-  User Manual | This describes the specifications, communication system, circuit configuration, etc. of SC-OBC Module A1. | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
-  FPGA Hardware Manual | Specifications for FPGA functions and registers necessary for FPGA development and software development are described in this document. | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
-  GitHub | For various other technical information, please click here. | https://github.com/spacecubics
+  User Manual | Contains specifications, communication systems, circuit configurations, etc. for the SC-OBC Module A1. | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
+  FPGA Hardware Manual | This is the specification manual for the FPGA installed in SC-OBC Module A1. It contains specifications related to FPGA functions and registers necessary for FPGA development and software development. | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
+  GitHub | For other technical information, please refer to the following. | https://github.com/spacecubics
+  {% end %}
+
+  {% prefooter(
+    left_card_image="about.png", 
+    right_card_image="earth.png",
+
+    left_title="ABOUT US",
+    left_subtitle="Company details",
+    left_footer_1="Aiming for an era where anyone can go to the moon,",
+    left_footer_2="we are a JAXA venture developing affordable and reliable computers for space use.",
+    left_link="/about_us",
+
+    right_title="RECRUIT",
+    right_subtitle="Employment information",
+    right_footer_1="We are always looking for new members to join our team.",
+    right_footer_2="If you are interested, please contact us.",
+    right_link="/recruit",
+
+    bottom_card_image = "<!--display element -->",
+    bottom_title="CONTACT",
+    bottom_subtitle="Send a message",
+    bottom_footer_1="We welcome inquiries and questions about our business and services.",
+    bottom_footer_2="Please feel free to contact us.",
+    bottom_link="/contact",
+
+    bg=""
+  ) %}
+  <!--display element -->
   {% end %}
 </section>
-
-{% prefooter(
-  left_card_image="about.png", 
-  right_card_image="ide.webp",
-
-  left_title="ABOUT US",
-  left_subtitle="Company Details",
-  left_footer_1="We are always looking for people to work with us.",
-  left_footer_2="If you're interested, please contact us.",
-  left_link="/en/about_us",
-
-  right_title="RECRUIT",
-  right_subtitle="Work With Us",
-  right_footer_1="Feel free to contact us.",
-  right_footer_2="We will get back to you soon.",
-  right_link="/en/recruit",
-
-  bottom_card_image = "<!--display element -->",
-  bottom_title="CONTACT",
-  bottom_subtitle="Send Us a Message",
-  bottom_footer_1="We believe in collaboration, creativity, and community.",
-  bottom_footer_2="Start your journey with us today.",
-  bottom_link="/en/contact",
-
-  bg=""
-) %}
-<!--display element -->
-{% end %}
-

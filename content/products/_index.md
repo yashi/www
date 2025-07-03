@@ -50,7 +50,7 @@
   right_card_image="earth.png",
 
   left_title="ABOUT US",
-  left_subtitle="採用情報",
+  left_subtitle="私たちについて",
   left_footer_1="「誰もが月に行ける時代」を目指し、",
   left_footer_2="安価で信頼性の高い宇宙用コンピュータを開発するJAXAベンチャーです。",
   left_link="/about_us",
