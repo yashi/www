@@ -16,7 +16,7 @@
     }
     .carousel-track {
       display: flex;
-      padding: 1.5em 0;
+      padding: 1.5em 0 0.5em 0;
       margin-left: 8rem;
       min-width: calc(100vw + 8rem);
     }
@@ -165,7 +165,7 @@
       width: 100%;
     }
     .carousel-track {
-      padding: 1em 0;
+      padding: 1em 0 0.3em 0;
     }
     .carousel-card {
       min-width: 280px;
@@ -216,7 +216,7 @@
       -webkit-overflow-scrolling: touch;
     }
     .carousel-track {
-      padding: 0.5em 0;
+      padding: 0.5em 0 0.2em 0;
       flex-wrap: nowrap;
     }
     .carousel-card {
@@ -264,7 +264,7 @@
       overflow-x: auto;
     }
     .carousel-track {
-      padding: 0.3em 0;
+      padding: 0.3em 0 0.1em 0;
     }
     .carousel-card {
       min-width: 65vw;
