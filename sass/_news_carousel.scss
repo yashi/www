@@ -17,6 +17,8 @@
     .carousel-track {
       display: flex;
       padding: 1.5em 0;
+      margin-left: 8rem;
+      min-width: calc(100vw + 8rem);
     }
     .carousel-card {
       background: transparent;
