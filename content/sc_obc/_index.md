@@ -1,7 +1,7 @@
 +++
 +++
 
-{% section_title(bg="", title="SC-OBC MODULE A1", subtitle="", slogan="") %}
+{% section_title(bg="", title="SC-OBC MODULE A1", subtitle="", slogan="", style_top="製品情報/SC-OBC Module A1") %}
 <!--display element -->
 {% end %}
 
