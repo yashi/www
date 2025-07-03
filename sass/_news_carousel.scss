@@ -21,9 +21,9 @@
       background: transparent;
       border-radius: 12px;
       box-shadow: none;
-      min-width: 400px;
+      min-width: 300px;
       max-height: 600px;
-      flex: 0 0 15vw;
+      flex: 0 0 12vw;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -34,29 +34,30 @@
         display: block;
         height: 100%;
       }
-      img {
+      .carousel-card-img {
         width: 100%;
         aspect-ratio: 16/9;
         object-fit: cover;
         display: block;
-        max-height: 320px;
-        min-height: 120px;
+        max-height: 220px;
+        min-height: 100px;
+        border-radius: 12px;
+        object-position: center;
       }
       .carousel-card-content {
         padding: 1em;
         h3 {
           margin: 0 0 0.5em 0;
-          font-size: 1.6em;
-          color: #fff;
+          font-size: 1.2em;
+          color: #fff !important;
+          letter-spacing: 0.03em;
         }
         p {
           margin: 0;
-          font-size: 1.2em;
-          color: #fff;
-          font-weight: 300;
-        }
-        h3, p {
+          font-size: 1em;
           color: #fff !important;
+          font-weight: 400;
+          letter-spacing: 0.03em;
         }
       }
     }
