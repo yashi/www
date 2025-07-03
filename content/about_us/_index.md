@@ -38,7 +38,8 @@
 
 {% about_company (
   title="COMPANY",
-  subtitle="株式会社 Space Cubics Overview",
+  subtitle="Space Cubics",
+  slogan="OVERVIEW",
   link="/space",
   link_text="詳細を見る",
   bg=""
