@@ -80,7 +80,7 @@
     .ls-nav-item-desktop {
       position: absolute;
       top: -0.5rem;
-      left: 20rem;
+      left: 21rem;
       z-index: 2;
       display: flex;
       align-items: center;
@@ -88,19 +88,19 @@
       padding: 0;
 
       @media (max-width: 1400px) {
-        left: 25rem;
+        left: 26rem;
       }
 
       @media (max-width: 1200px) {
-        left: 25rem;
+        left: 26rem;
       }
 
       @media (max-width: 1000px) {
-        left: 22rem;
+        left: 23rem;
       }
 
       @media (max-width: 850px) {
-        left: 19rem;
+        left: 20rem;
       }
 
       @media (max-width: 720px) {
