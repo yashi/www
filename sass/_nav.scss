@@ -2,7 +2,7 @@
   position: sticky;
   top: 1rem;
   grid-area: nav;
-  margin: 3rem auto 0;
+  margin: 2rem auto 0 2rem;
   border-radius: 1.625rem;
   inset-inline: 0;
   font-size: 28px;
@@ -31,7 +31,7 @@
   }
 
   nav {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: inherit;
 
     .nav-content {
@@ -50,11 +50,15 @@
       }
 
       @media (max-width: 1000px) {
-        gap: 6rem;
+        gap: 4rem;
       }
 
       @media (max-width: 850px) {
-        gap: 4rem;
+        gap: 2rem;
+      }
+
+      @media (max-width: 750px) {
+        gap: 1rem;
       }
 
       @media (max-width: 720px) {
@@ -75,13 +79,29 @@
 
     .ls-nav-item-desktop {
       position: absolute;
-      top: -2rem;
-      left: 25rem;
+      top: -0.5rem;
+      left: 20rem;
       z-index: 2;
       display: flex;
       align-items: center;
       margin: 0;
       padding: 0;
+
+      @media (max-width: 1400px) {
+        left: 25rem;
+      }
+
+      @media (max-width: 1200px) {
+        left: 25rem;
+      }
+
+      @media (max-width: 1000px) {
+        left: 22rem;
+      }
+
+      @media (max-width: 850px) {
+        left: 19rem;
+      }
 
       @media (max-width: 720px) {
         display: none;
@@ -107,6 +127,7 @@
       align-items: center;
       gap: 1rem;
       margin-bottom: 0.5rem;
+      padding-left: 4rem;
 
       @media (max-width: 1400px) {
         padding-left: 2rem;
@@ -118,6 +139,7 @@
 
       #home {
         flex: 0 0 auto;
+        margin-left: 2rem;
 
         a {
           display: inline-block;
@@ -160,7 +182,7 @@
       flex-wrap: nowrap;
       justify-content: flex-end;
       align-items: center;
-      gap: 1.2rem;
+      gap: 3rem;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -168,6 +190,26 @@
       white-space: nowrap;
       overflow: hidden;
       position: relative;
+
+      @media (max-width: 1400px) {
+        gap: 2rem;
+      }
+
+      @media (max-width: 1200px) {
+        gap: 1.5rem;
+      }
+
+      @media (max-width: 1000px) {
+        gap: 0.8rem;
+      }
+
+      @media (max-width: 850px) {
+        gap: 0.6rem;
+      }
+
+      @media (max-width: 750px) {
+        gap: 0.4rem;
+      }
 
               @media (max-width: 720px) {
           display: none;
@@ -324,6 +366,29 @@
         margin-left: 0;
         flex-shrink: 0;
       }
+
+      @media (max-width: 1400px) {
+        gap: 15px;
+        padding: 8px 18px;
+      }
+
+      @media (max-width: 1200px) {
+        gap: 10px;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 1000px) {
+        gap: 5px;
+        padding: 6px 10px;
+        font-size: 0.85rem;
+      }
+
+      @media (max-width: 850px) {
+        gap: 2px;
+        padding: 6px 8px;
+        font-size: 0.8rem;
+      }
     }
 
     .divider {
@@ -422,7 +487,7 @@
 .company-logo {
   all: unset;
   display: block;
-  width: clamp(150px, 30vw, 300px);
+  width: clamp(120px, 25vw, 250px);
   height: auto;
   pointer-events: auto;
   box-shadow: none;
