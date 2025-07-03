@@ -39,7 +39,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 15rem;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
 
       @media (max-width: 1400px) {
         gap: 15rem;
@@ -66,6 +66,7 @@
         align-items: stretch;
         position: relative;
         gap: 1rem;
+        flex-wrap: nowrap;
       }
     }
 
@@ -497,6 +498,16 @@
   background: transparent;
   transition: none;
   mix-blend-mode: normal;
+
+  @media (max-width: 1200px) {
+    width: clamp(100px, 20vw, 180px);
+  }
+  @media (max-width: 900px) {
+    width: clamp(80px, 18vw, 140px);
+  }
+  @media (max-width: 720px) {
+    width: clamp(60px, 16vw, 100px);
+  }
 }
 
 #home .company-logo:hover {
