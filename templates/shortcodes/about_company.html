@@ -24,6 +24,12 @@
         {% endif %}
         <div class="about-company-divider-bar"></div>
       </div>
+      
+      {% if image and parts[0] == "住所" %}
+        <div class="about-company-image">
+          <img src="/{{ image }}" alt="Company image" />
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
