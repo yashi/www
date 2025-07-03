@@ -53,7 +53,8 @@ TEL｜050-7112-6213
 
 {% board_members (
   title="BOARD MEMBERS",
-  subtitle="Executives"
+  subtitle="Executive",
+  slogan="PROFILES"
 ) %}
 荘司 靖 (Yasushi Shoji)｜CEO｜Software Engineer｜2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。
 佐々木 大輔 (Daisuke Sasaki)｜CTO｜LSI Logic Engineer｜2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。
