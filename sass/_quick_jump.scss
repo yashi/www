@@ -3,7 +3,8 @@
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: unset;
 
   .quick-jump-item {
     display: flex;
@@ -13,6 +14,7 @@
     padding-bottom: 1rem;
     width: 100%;
     max-width: 320px;
+    transition: max-width 0.2s, font-size 0.2s;
   }
 
   .content-group {
@@ -30,6 +32,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: font-size 0.2s;
   }
 
   .jump-button {
@@ -42,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, width 0.2s, height 0.2s;
     flex-shrink: 0;
   }
 
@@ -71,49 +74,62 @@
     border-radius: 1px;
   }
 
-  @media (max-width: 960px) {
-    gap: 1.5rem;
-
-    .quick-jump-item .title {
-      font-size: 1.1rem;
+  @media (max-width: 1200px) {
+    gap: 1.25rem;
+    .quick-jump-item {
+      max-width: 240px;
     }
-
-    .quick-jump-item::after {
-      width: 25%;
+    .title {
+      font-size: 1rem;
+    }
+    .jump-button {
+      width: 38px;
+      height: 38px;
     }
   }
 
-  @media (max-width: 600px) {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-
+  @media (max-width: 900px) {
+    gap: 1rem;
     .quick-jump-item {
-      width: 100%;
+      max-width: 180px;
+    }
+    .title {
+      font-size: 0.95rem;
+    }
+    .jump-button {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+    overflow-x: unset;
+    .quick-jump-item {
+      max-width: 140px;
+    }
+    .title {
+      font-size: 0.85rem;
+    }
+    .jump-button {
+      width: 28px;
+      height: 28px;
     }
   }
 
   @media (max-width: 400px) {
-    gap: 1.75rem;
-
-    .quick-jump-item .content-group {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.75rem;
+    gap: 0.5rem;
+    .quick-jump-item {
+      max-width: 100px;
     }
-
-    .quick-jump-item .title {
-      font-size: 0.95rem;
+    .title {
+      font-size: 0.75rem;
       white-space: normal;
       width: 100%;
     }
-
-    .quick-jump-item .jump-button {
-      align-self: flex-start;
-    }
-
-    .quick-jump-item::after {
-      width: 15%;
+    .jump-button {
+      width: 22px;
+      height: 22px;
     }
   }
 }
