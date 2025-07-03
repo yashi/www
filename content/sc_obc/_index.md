@@ -6,18 +6,18 @@
 {% end %}
 
 {% quick_jump(
-  title1="商品概要", id1="section-summary",
-  title2="使用実績", id2="section-usage",
-  title3="開発セット", id3="section-devkit",
-  title4="製品スペック", id4="section-specs",
-  title5="ドキュメントとリソース", id5="section-docs"
+  title1="Product overview", id1="section-summary",
+  title2="Use cases", id2="section-usage",
+  title3="Dev kit", id3="section-devkit",
+  title4="Specifications", id4="section-specs",
+  title5="Docs / resources", id5="section-docs"
 ) %}
 <!--display element -->
 {% end %}
 
 <section id="section-summary">
   {% hero_element(
-    title="商品概要",
+    title="Product overview",
     img="sq_sc-obc_module_a1.png",
     alt="",
     link="",
@@ -31,7 +31,7 @@
   {% end %}
 
 <section id="section-usage">
-  {% section_title(bg="", title="使用実績", subtitle="", slogan="") %}
+  {% section_title(bg="", title="Use Cases", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -55,7 +55,7 @@
 {% end %}
 
 <section id="section-devkit">
-  {% section_title(bg="", title="開発セット・オプション製品", subtitle="", slogan="") %}
+  {% section_title(bg="", title="Dev Kits", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -77,7 +77,7 @@
 <section id="section-specs">
   {% spec_sheet(
     bg="",
-    title="製品スペック",
+    title="Specifications",
     subtitle="",
     slogan=""
   ) %}
@@ -105,7 +105,7 @@
 <section id="section-docs">
   {% docs_resources(
     bg="",
-    title="ドキュメントとリソース",
+    title="Docs / resources",
     subtitle="",
     slogan=""
   ) %}
