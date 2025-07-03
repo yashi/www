@@ -34,12 +34,13 @@ title = "Space Cubics Inc."
   alt="",
   link="about_us",
   link_text="About us",
-  bottom_title="JAXAのベンチャーです"
+  bottom_title=""
   img_link=""
 ) %}
 私たち株式会社Space Cubics は
 <br>「誰もが月に行ける時代」を目指し、
 <br>安価で信頼性の高い宇宙用コンピュータを開発する
+<br> JAXAのベンチャーです。
 {% end %}
 
 {% hero_element(
