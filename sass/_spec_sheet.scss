@@ -32,7 +32,7 @@
   flex-shrink: 0;
   margin-right: 0.25rem; 
   width: 45%; 
-  font-size: 1.125rem; 
+  font-size: 0.85rem; 
 }
 
 .spec-right {
@@ -40,7 +40,7 @@
   text-align: left;
   color: #aaa; 
   font-weight: 400;
-  font-size: 1.125rem; 
+  font-size: 0.85rem; 
 }
 
 .spec-divider {
@@ -60,7 +60,7 @@
 @media (max-width: 900px) and (min-width: 601px) {
   .spec-left,
   .spec-right {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   .spec-divider {
@@ -78,14 +78,14 @@
   .spec-left {
     width: 100%;
     margin-right: 0;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-bottom: 0.25rem;
     color: #fff; 
   }
 
   .spec-right {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     text-align: left;
     color: #aaa;
   }
