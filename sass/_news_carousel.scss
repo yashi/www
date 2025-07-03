@@ -205,9 +205,9 @@
       flex-wrap: nowrap;
     }
     .carousel-card {
-      min-width: 70vw;
-      max-width: 80vw;
-      flex: 0 0 70vw;
+      min-width: 50vw;
+      max-width: 60vw;
+      flex: 0 0 50vw;
       img {
         max-height: 120px;
         min-height: 60px;
@@ -252,9 +252,9 @@
       padding: 0.3em 0;
     }
     .carousel-card {
-      min-width: 85vw;
-      max-width: 95vw;
-      flex: 0 0 85vw;
+      min-width: 65vw;
+      max-width: 75vw;
+      flex: 0 0 65vw;
       display: flex;
       flex-direction: column;
       height: auto;
