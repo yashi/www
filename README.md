@@ -56,4 +56,4 @@ zola build && wrangler pages dev public
 ```
 
 ## Credits
-Inspired by Zola and the [Duckquill](https://www.getzola.org/themes/duckquill/) template.
+Built using the Zola framework and inspired by the [Duckquill](https://www.getzola.org/themes/duckquill/) template.

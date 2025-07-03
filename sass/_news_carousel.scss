@@ -46,17 +46,18 @@
       }
       .carousel-card-content {
         padding: 1em;
-        h3 {
-          margin: 0 0 0.5em 0;
-          font-size: 1.2em;
+        .carousel-card-summary   {
+          margin: 0.5em 0 0.5em 0;
+          font-size: 0.79em;
           color: #fff !important;
           letter-spacing: 0.03em;
+          font-weight: 400;
         }
-        p {
+        .carousel-card-date {
           margin: 0;
           font-size: 1em;
           color: #fff !important;
-          font-weight: 400;
+          font-weight: 700;
           letter-spacing: 0.03em;
         }
       }
@@ -112,23 +113,23 @@
   }
 }
 
-.section-title-content h1 {
+.carousel-section-title {
   font-size: 5em;
   font-weight: 900;
   color: #fff;
   margin-bottom: 0.2em;
 }
 
-.section-title-content h3 {
+.carousel-section-subtitle {
   font-size: 1.2em;
   font-weight: 400;
   color: #fff;
   margin-bottom: 0.2em;
 }
 
-.section-title-content p {
+.carousel-section-slogan {
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 200;
   color: #ffffff;
   margin-bottom: 0.5em;
 }
@@ -162,24 +163,24 @@
         aspect-ratio: 16/9;
         height: auto;
       }
-      .carousel-card-content {
-        padding: 0.7em;
-        h3 {
-          font-size: 1.2em;
+              .carousel-card-content {
+          padding: 0.7em;
+          .carousel-card-title {
+            font-size: 1.2em;
+          }
+          .carousel-card-date {
+            font-size: 1em;
+          }
         }
-        p {
-          font-size: 1em;
-        }
-      }
     }
   }
-  .section-title-content h1 {
+  .carousel-section-title {
     font-size: 2.8em;
   }
-  .section-title-content h3 {
+  .carousel-section-subtitle {
     font-size: 1em;
   }
-  .section-title-content p {
+  .carousel-section-slogan {
     font-size: 1.1em;
   }
 }
@@ -215,24 +216,24 @@
         aspect-ratio: 16/9;
         height: auto;
       }
-      .carousel-card-content {
-        padding: 0.5em;
-        h3 {
-          font-size: 1em;
+              .carousel-card-content {
+          padding: 0.5em;
+          .carousel-card-title {
+            font-size: 1em;
+          }
+          .carousel-card-date {
+            font-size: 0.95em;
+          }
         }
-        p {
-          font-size: 0.95em;
-        }
-      }
     }
   }
-  .section-title-content h1 {
+  .carousel-section-title {
     font-size: 1.7em;
   }
-  .section-title-content h3 {
+  .carousel-section-subtitle {
     font-size: 0.95em;
   }
-  .section-title-content p {
+  .carousel-section-slogan {
     font-size: 1em;
   }
 }
@@ -278,13 +279,13 @@
       }
     }
   }
-  .section-title-content h1 {
+  .carousel-section-title {
     font-size: 1.1em;
   }
-  .section-title-content h3 {
+  .carousel-section-subtitle {
     font-size: 0.8em;
   }
-  .section-title-content p {
+  .carousel-section-slogan {
     font-size: 0.9em;
   }
 }

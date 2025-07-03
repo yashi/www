@@ -2,9 +2,9 @@
   <div class="section-title-block">
     <div class="section-title-header">
       <div class="section-title-content">
-        <h1>{{ title }}</h1>
-        <h3>{{ subtitle }}</h3>
-        <p>{{ slogan }}</p>
+        <h1 class="carousel-section-title">{{ title }}</h1>
+        <h3 class="carousel-section-subtitle">{{ subtitle }}</h3>
+        <p class="carousel-section-slogan">{{ slogan }}</p>
         <div class="section-title-divider"></div>
       </div>
       <div class="carousel-controls">
@@ -21,7 +21,7 @@
           {% set line = line | trim %}
           {% if line != "" %}
             {% set parts = line | split(pat="|") %}
-            {% set news_title = parts[0] | trim %}
+            {% set news_date = parts[0] | trim %}
             {% if parts | length > 1 %}
               {% set news_link = parts[1] | trim %}
             {% else %}
@@ -39,10 +39,10 @@
             {% endif %}
             <div class="carousel-card">
               <a href="{{ news_link }}">
-                <img src="{{ news_img }}" alt="{{ news_title }}" class="carousel-card-img">
+                <img src="{{ news_img }}" alt="{{ news_date }}" class="carousel-card-img">
                 <div class="carousel-card-content">
-                  <h3 class="carousel-card-title">{{ news_title }}</h3>
-                  <p class="carousel-card-date">{{ news_summary }}</p>
+                  <p class="carousel-card-date">{{ news_date }}</p>
+                  <h3 class="carousel-card-summary">{{ news_summary }}</h3>
                 </div>
               </a>
             </div>
