@@ -19,9 +19,9 @@
               {% set news_img = "" %}
             {% endif %}
             {% if parts | length > 3 %}
-              {% set news_summary = parts[3] | trim %}
+              {% set news_date = parts[3] | trim %}
             {% else %}
-              {% set news_summary = "" %}
+              {% set news_date = "" %}
             {% endif %}
             <div class="news-card">
               {% if news_img != "" %}
@@ -33,8 +33,8 @@
                 {% if news_link != "" %}
                   <a href="{{ news_link }}" class="news-card-link">
                 {% endif %}
-                  {% if news_summary != "" %}
-                    <p class="news-card-summary">{{ news_summary }}</p>
+                  {% if news_date != "" %}
+                    <p class="news-card-date">{{ news_date }}</p>
                   {% endif %}
                   <h3 class="news-card-title">{{ news_title }}</h3>
                 {% if news_link != "" %}
