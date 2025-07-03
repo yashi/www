@@ -19,9 +19,9 @@ title = "Space Cubics Inc."
   bottom_title="SC-OBC Module A1",
   hero_footer="PRODUCT 01 <br> Space computer module <br> for cubesats"
 ) %}
-衛星用超小型
+Ultra-small for satellites
 <br>
-宇宙用コンピュータモジュール
+Space computer module
 
 {% end %}
 
@@ -37,10 +37,10 @@ title = "Space Cubics Inc."
   bottom_title=""
   img_link=""
 ) %}
-私たち株式会社Space Cubics は
-<br>「誰もが月に行ける時代」を目指し、
-<br>安価で信頼性の高い宇宙用コンピュータを開発する
-<br> JAXAのベンチャーです。
+Space Cubics Co., Ltd.
+<br>is a JAXA venture company
+<br>developing affordable and reliable space computers
+<br>with the goal of making it possible for everyone to go to the moon.
 {% end %}
 
 {% hero_element(
@@ -54,9 +54,9 @@ title = "Space Cubics Inc."
   link_text="",
   img_link=""
 ) %}
-私たちは、これからの未来を切り拓く<br>宇宙事業やテクノロジーといった<br>ベンチャー企業の皆様と共に歩んでいます。
+We are walking alongside venture companies in fields such as space and technology that are pioneering the future.
 <br><br>
-革新的な技術や最先端のアイデアを持つ企業と協力し、<br>持続可能な成長を支援することが 私たちの使命です。
+Our mission is to support sustainable growth by collaborating with companies that possess innovative technologies and cutting-edge ideas.
 {% end %}
 
 {% news_carousel(
@@ -65,23 +65,23 @@ title = "Space Cubics Inc."
   subtitle="Space Cubics",
   slogan="INFORMATION",
   items="
-    2025.6.1 | /news/2025-06-01 | jts.png | 合同会社 Space Cubics は組織形態を変更し、株式会社 Space Cubics として新たにスタートいたしました。
+2025.06.01 | /news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics Co., Ltd. 
 
-    2025.4.9 | /news/2025-04-09 | brainchild.png | 今般当会社は、令和７年３月２６日総社員の同意をもって、その組織を変更して令和７年６月１日より北海道札幌市中央区南３条東２丁目１番地株式会社Space Cubicsとすることといたしましたので、組織変更につき御異議がございましたら令和７年５月９日までにその旨をお申し出下さい。
+2025.04.09 | /news/2025-04-09 | brainchild.png | We hereby notify you that, with the consent of all employees on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics Co., Ltd., located at 1-2, Minami 3-chome, Chuo-ku, Sapporo, Hokkaido, effective June 1, 2025. If you have any objections to this organizational change, please notify us by May 9, 2025.
 
-    2022.3.7 | /news/2022-03-07 | square_cubics.png | 弊社の製品と活動について、日刊工業新聞社の「ニュースイッチ」にディープテック特集記事として掲載されました。
+2022.03.07 | /news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
 
-    2020.8.18 | /news/2020-08-18 | jts.png | 経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に、スペースワン株式会社と共同で採択されました。 
+2020.08.18 | /news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One Co., Ltd.
 
-    2020.1.14 | /news/2020-01-14 | brainchild.png | 日本を代表する技術系ベンチャーとして「J-TECH STARTUP 2019」に認定されました。2020年2月26日（水）に開催される認定式に登壇予定です。
+2020.01.14 | /news/2020-01-14 | brainchild.png | We have been recognized as a leading technology venture company in Japan and selected for the “J-TECH STARTUP 2019” program. We are scheduled to present at the award ceremony on Wednesday, February 26, 2020.
 
-    2019.10.31 | /news/2019-10-31 | square_cubics.png | 日経産業新聞1面に「JAXA起業家宇宙の技 降臨」という見出しで宇宙用コンピューターについての記事が掲載されました。
+2019.10.31 | /news/2019-10-31 | square_cubics.png | An article about space computers was featured on the front page of the Nikkei Industrial Newspaper under the headline “JAXA Entrepreneurs Bring Space Technology to Earth.”
+    
+2018.09.25 | /news/2018-09-25 | jts.png | Our company's Goto gave a presentation at the 26th NEDO Pitch (Regional Venture Special Feature).  
 
-    2018.9.25 | /news/2018-09-25 | jts.png | 第26回NEDOピッチ（地方発ベンチャー特集）にて弊社の後藤が発表を行いました。  
+2018.06.01 | /news/2018-06-01 | brainchild.png | Space Cubics LLC was established.This is the first JAXA venture company jointly established by JAXA staff and members from private companies. 
 
-    2018.6.1 | /news/2018-06-01 | brainchild.png | 合同会社Space Cubicsを設立。JAXA職員と民間企業出身のメンバーで共同設立した初めてのJAXAベンチャー企業となります。 
-
-    2018.5.29 | /news/2018-05-29 | square_cubics.png | 国立研究開発法人 宇宙航空研究開発機構(JAXA) より「JAXAベンチャー」の認定を受けました。
+2018.05.29 | /news/2018-05-29 | square_cubics.png | We have been certified as a “JAXA Venture” by the National Institute of Aerospace and Space Research and Development (JAXA).
 
   "
 ) %}
