@@ -65,7 +65,7 @@ TEL｜050-7112-6213
 
 {% hero_element(
   title="PARTNERS",
-  img="space_one_logo.png",
+  img="spaceone.png",
   alt="",
   link="https://www.space-one.co.jp/",
   link_text="Read More",
@@ -75,10 +75,10 @@ TEL｜050-7112-6213
   slogan="WORK WITH US"
 ) %}
 スペースワン株式会社
-<br><br>経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。
-<br><br>超小型宇宙利用プラットフォーム確立へ向け、
-<br><br>スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、
-<br><br>ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。
+<br>経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。
+<br>超小型宇宙利用プラットフォーム確立へ向け、
+<br>スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、
+<br>ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。
 {% end %}
 
 {% prefooter(
