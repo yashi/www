@@ -2,9 +2,9 @@
   <div class="section-title-block">
     <div class="section-title-header">
       <div class="section-title-content">
-        <h1 class="carousel-section-title">{{ title }}</h1>
-        <h3 class="carousel-section-subtitle">{{ subtitle }}</h3>
-        <p class="carousel-section-slogan">{{ slogan }}</p>
+        <div class="carousel-section-title">{{ title }}</div>
+        <div class="carousel-section-subtitle">{{ subtitle }}</div>
+        <div class="carousel-section-slogan">{{ slogan }}</div>
         <div class="section-title-divider"></div>
       </div>
       <div class="carousel-controls">
@@ -13,7 +13,7 @@
       </div>
     </div>
   </div>
-  <div class="news-carousel">
+  <div class="featured-news-carousel">
     <div class="carousel-track-wrapper">
       <div class="carousel-track">
         {% set lines = items | split(pat="\n") %}
