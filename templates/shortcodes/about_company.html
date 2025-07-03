@@ -16,7 +16,12 @@
     {% set lines = body | split(pat="\n") %}
     {% for line in lines %}
       <div class="about-company-right-line">
-        <p>{{ line }}</p>
+        {% set parts = line | split(pat="｜") %}
+        {% if parts | length > 1 %}
+          <p><span class="about-company-bold">{{ parts[0] }}</span><span class="about-company-gap">{{ parts[1] }}</span></p>
+        {% else %}
+          <p>{{ line }}</p>
+        {% endif %}
         <div class="about-company-divider-bar"></div>
       </div>
     {% endfor %}

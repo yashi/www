@@ -44,9 +44,23 @@
 .about-company-left__title {
   font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
   font-size: 3em;
-  font-weight: 800;
+  font-weight: 900;
   text-align: left;
   margin: 0;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 2px white;
+  letter-spacing: 0.1em;
+  text-shadow: 
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white,
+    0 0 0 white;
 
   /* Tablet */
   @media (max-width: 991px) and (min-width: 768px) {
@@ -135,19 +149,19 @@
 .about-company-right-line {
   width: 100%;
   font-family: 'Montserrat', 'Zen Kaku Gothic New', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1.5;
   margin: 0;
   color: white;
 
   /* Tablet */
   @media (max-width: 991px) and (min-width: 768px) {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   /* Mobile */
   @media (max-width: 767px) {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 
@@ -155,6 +169,31 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.about-company-bold {
+  font-weight: 700;
+}
+
+.about-company-gap {
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.about-company-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f77d06;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #d65a00;
+  }
 }
 
 .about-company-divider-bar {
