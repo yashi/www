@@ -20,8 +20,9 @@
 {% end %}
 
 {% about_company (
-  title="Investment News",
-  subtitle="",
+  title="IR NEWS",
+  subtitle="Space Cubics",
+  slogan="INVESTOR RELATIONS"
   link="/space",
   link_text="詳細を見る",
   bg=""
