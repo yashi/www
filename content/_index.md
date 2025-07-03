@@ -94,7 +94,7 @@ title = "Space Cubics Inc."
 
  left_title="RECRUIT",
   left_subtitle="採用情報",
-  left_footer_1="一緒に働く仲間を常に募集しています。。",
+  left_footer_1="一緒に働く仲間を常に募集しています。",
   left_footer_2="ご興味のある方はご連絡ください。",
   left_link="/recruit",
 

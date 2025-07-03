@@ -93,22 +93,22 @@ Our mission is to support sustainable growth by collaborating with companies tha
   right_card_image="sq_ir.png",
 
  left_title="RECRUIT",
-  left_subtitle="採用情報",
-  left_footer_1="一緒に働く仲間を常に募集しています。。",
-  left_footer_2="ご興味のある方はご連絡ください。",
+  left_subtitle="Job openings",
+  left_footer_1="We are always looking for new people to join our team.",
+  left_footer_2="If you are interested, please contact us.",
   left_link="/recruit",
 
   right_title="IR INFO",
-  right_subtitle="投資家情報",
-  right_footer_1="ステークホルダーの皆様に向けて",
-  right_footer_2="決算や適時開示情報などをご紹介しています。",
+  right_subtitle="Investor details",
+  right_footer_1="For our stakeholders,",
+  right_footer_2="we provide information on financial results and timely disclosures.",
   right_link="/ir_info",
 
   bottom_card_image = "<!--display element -->",
   bottom_title = "CONTACT",
-  bottom_subtitle = "お問い合わせ",
-  bottom_footer_1 = "事業やサービスについてご相談・ご質問承ります。",
-  bottom_footer_2 = "お気軽にお問い合わせください。",
+  bottom_subtitle = "Reach out to us.",
+  bottom_footer_1 = "We welcome inquiries and questions about our business and services.",
+  bottom_footer_2 = "Please feel free to contact us.",
   bottom_link = "/contact", 
 
   bg=""
