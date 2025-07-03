@@ -17,7 +17,7 @@
 
 <section id="section-summary">
   {% hero_element(
-    title="Product overview",
+    title="PRODUCT",
     img="sq_sc-obc_module_a1.png",
     alt="",
     link="",
@@ -31,7 +31,7 @@
   {% end %}
 
 <section id="section-usage">
-  {% section_title(bg="", title="Use Cases", subtitle="", slogan="") %}
+  {% section_title(bg="", title="USES", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -55,7 +55,7 @@
 {% end %}
 
 <section id="section-devkit">
-  {% section_title(bg="", title="Dev Kits", subtitle="", slogan="") %}
+  {% section_title(bg="", title="DEV KITS", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
@@ -77,7 +77,7 @@
 <section id="section-specs">
   {% spec_sheet(
     bg="",
-    title="Specifications",
+    title="SPECS",
     subtitle="",
     slogan=""
   ) %}
@@ -105,7 +105,7 @@
 <section id="section-docs">
   {% docs_resources(
     bg="",
-    title="Docs / resources",
+    title="DOCS",
     subtitle="",
     slogan=""
   ) %}
