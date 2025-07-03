@@ -11,7 +11,7 @@
     </div>
   {% endif %}
 
-  <div class="product-info">
+  <div class="product-info">  
     <div class="product-text-block">
       <div class="product-id-label">
         {{ product_id_label | default(value="Product 01") }}
@@ -30,13 +30,13 @@
       {% endif %}
 
       {% if text1_a and text1_b %}
-        <div class="product-meta">{{ text1_a }} | {{ text1_b }}</div>
+        <div class="product-meta"><span class="meta-a">{{ text1_a }}</span><span class="meta-b">{{ text1_b }}</span></div>
       {% endif %}
       {% if text2_a and text2_b %}
-        <div class="product-meta">{{ text2_a }} | {{ text2_b }}</div>
+        <div class="product-meta"><span class="meta-a">{{ text2_a }}</span><span class="meta-b">{{ text2_b }}</span></div>
       {% endif %}
       {% if text3_a and text3_b %}
-        <div class="product-meta">{{ text3_a }} | {{ text3_b }}</div>
+        <div class="product-meta"><span class="meta-a">{{ text3_a }}</span><span class="meta-b">{{ text3_b }}</span></div>
       {% endif %}
     </div>
 

@@ -35,9 +35,9 @@
   text3_a="Operating System",
   text3_b="Zephyr RTOS",
   download_1_link="https://github.com/spacecubics/scobc-a1-product-manual",
-  download_1_label="ユーザーマニュアル",
+  download_1_label="User Manual",
   download_2_link="https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/",
-  download_2_label="FPGAマニュアル",
+  download_2_label="FPGA Manual",
   download_3_link="https://github.com/spacecubics",
   download_3_label="GitHub",
   details_link="/sc_obc"
