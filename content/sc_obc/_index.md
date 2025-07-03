@@ -55,7 +55,7 @@
 {% end %}
 
 <section id="section-devkit">
-  {% section_title(bg="", title="DEV KITS", subtitle="", slogan="") %}
+  {% section_title(bg="", title="DEV KIT", subtitle="", slogan="") %}
   <!--display element -->
   {% end %}
 </section>
