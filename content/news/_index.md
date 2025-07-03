@@ -1,18 +1,8 @@
 +++
 +++
 
-{% hero_element(
-  bg="empty_image.png",
-  title="NEWS",
-  subtitle="",
-  slogan="お知らせ",
-  img="",
-  alt="",
-  link="news",
-  link_text="",
-  img_link=""
-) %}
-<!-- no text -->
+{% section_title(bg="", title="NEWS", subtitle="お知らせ", slogan="", style_top="お知らせ") %}
+<!--display element -->
 {% end %}
 
 {% news_list(
