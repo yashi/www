@@ -51,10 +51,8 @@ FPGAエンジニア |
 <!-- no text -->
 {% end %}
 
-
-
 {% application_form(
-  title = "CONTACT FORM",
+  title = "APPLICATION FORM",
   subtitle = "Join us",
   slogan = "SPACE CUBICS",
   name_field="お名前"
@@ -62,7 +60,7 @@ FPGAエンジニア |
   role_field="希望する求人"
   message_field="メッセージを入力してください"
   button_label="送信"
-  description = "右のフォームにご記入ください。<br><br>すべての項目を必ずご記入ください。<br><br>そうすれば、できるだけ早くご連絡いたします。"
+  description = ""
 ) %}
 <!-- no text -->
 {% end %}
