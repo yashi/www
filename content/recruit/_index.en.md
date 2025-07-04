@@ -33,7 +33,7 @@ Space Cubics is still a small company and does not yet have the capacity to comp
 {% end %}
 
 {% jobs_list(
-  title = "Open Positions",
+  title = "WANTED",
   subtitle = "Current available",
   slogan = "POSITIONS",
   jobs_note = "Special notes: For positions other than those currently being recruited, please inquire via the inquiry form.",
