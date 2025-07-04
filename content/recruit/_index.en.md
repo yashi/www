@@ -54,7 +54,7 @@ Thermal Engineer |
 
 
 {% application_form(
-  title = "CONTACT FORM",
+  title = "APPLICATION FORM",
   subtitle = "Join us",
   slogan = "SPACE CUBICS",
   name_field="Name"
@@ -62,7 +62,7 @@ Thermal Engineer |
   role_field="Desired position"
   message_field="Please enter your message here"
   button_label="Send"
-  description = "Please fill out the form on the right. Please be sure to fill out all fields. We will contact you as soon as possible."
+  description = ""
 ) %}
 <!-- no text -->
 {% end %}
