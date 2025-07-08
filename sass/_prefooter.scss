@@ -75,13 +75,13 @@
 
   @media (max-width: 768px) {
     min-height: auto;
-    padding: 12px 18px 18px 18px;
+    padding: 12px 18px 25px 18px;
     border-radius: 12px;
     box-sizing: border-box; 
   }
 
   @media (max-width: 479px) {
-    padding: 10px 15px 15px 15px;
+    padding: 10px 15px 20px 15px;
     border-radius: 8px;
   }
 
@@ -155,17 +155,21 @@
     font-size: 1.1rem !important;
     line-height: 1.5;
     font-weight: 500;
+    margin-right: 80px;
 
     @media (max-width: 1024px) {
       font-size: 1rem !important;
+      margin-right: 70px;
     }
 
     @media (max-width: 768px) {
       font-size: 0.95rem !important;
+      margin-right: 60px;
     }
 
     @media (max-width: 479px) {
       font-size: 0.9rem !important;
+      margin-right: 50px;
     }
   }
 }
@@ -208,9 +212,15 @@
   z-index: 10;  
 
   @media (max-width: 768px) {
-    position: static;
-    margin-top: 0.8rem;
-    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-top: 0;
+  }
+
+  @media (max-width: 479px) {
+    bottom: 15px;
+    right: 15px;
   }
 }
 
