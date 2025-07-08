@@ -51,14 +51,34 @@
 }
 
 // Responsive adjustments
+@media (max-width: 1400px) {
+  .ls-container {
+    padding-left: 6rem;
+  }
+}
 @media (max-width: 1200px) {
   .ls-container {
-    position: relative;
-    top: 0;
-    right: auto;
-    margin-bottom: 0.5rem;
+    padding-left: 3rem;
   }
+}
+@media (max-width: 932px) {
+  .ls-container {
+    padding-left: 0;
+    text-align: right;
+  }
+}
+@media (max-width: 850px) {
+  .ls-container {
+    padding-left: 0.5rem;
+  }
+}
+@media (max-width: 720px) {
+  .ls-container {
+    padding-left: 0;
+  }
+}
 
+@media (max-width: 1200px) {
   .ls-trigger {
     font-size: 16px;
   }
