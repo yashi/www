@@ -23,18 +23,18 @@ sort_by = "date"
 {% recruit_intro(
   title = "We are always looking for new members to join our team. <br><br> If you are interested, please contact us using the application form.",
   body_text = "
- Space Cubics, Inc. is a company founded by engineers who met through their work in space and computer science. We genuinely enjoy engineering and design and develop computers that can be used in the harsh and extreme environments of space.
+ Space Cubics, Inc. was founded by engineers who met while working in various space tech fields. We genuinely enjoy engineering computers that can be used in the harsh, extreme environment of space.
 <br><br>
- Some of us are experts in space, others in computer architecture and logic, and still others in software development—each with absolute confidence in their own field.However, there are countless problems that cannot be solved alone, so we work together with trusted colleagues every day to tackle these challenges. There is no sense of hierarchy or superiority among us; we are all unique individuals who can achieve great things and improve ourselves every day because we are part of this team.
+ Some of us are experts in spacecraft, others in computer circuits, and still others in software development — but we are all skilled at what we do. Some engineering problems require teamwork, making every day a group effort. We don't observe a traditional top-down management structure because we are all unique individuals who achieve more when working together.
  <br><br>
-Space Cubics is still a small company and does not yet have the capacity to complete large projects on its own.If you are interested in designing, manufacturing, or selling spacecraft, or if you find ordinary computers on the ground too mundane, or if you have various reasons why you cannot create the things you envision, please contact us. However, if you are someone who only criticizes others' work and proposes alternatives without offering solutions, or if you belittle others, even if you are highly skilled, we kindly ask you to refrain from applying."
+Space Cubics is young and still growing. If you are interested in the astrocomputer industry, please reach out to us. But if you don't work well in a positive, collaborate environment, then this may not be the best place for you."
 ) %}
 <!-- no text -->
 {% end %}
 
 {% jobs_list(
   title = "WANTED",
-  subtitle = "Current available",
+  subtitle = "Currently available",
   slogan = "POSITIONS",
   jobs_note = "Special notes: For positions other than those currently being recruited, please inquire via the inquiry form.",
   jobs = "
