@@ -137,12 +137,17 @@
       }
 
       @media (max-width: 720px) {
-        gap: 8rem;
+        gap: 12rem;
+        padding-left: 0.5rem;
       }
 
       #home {
         flex: 0 0 auto;
         margin-left: 2rem;
+
+        @media (max-width: 720px) {
+          margin-left: 0.25rem;
+        }
 
         a {
           display: inline-block;
