@@ -65,23 +65,23 @@ Our mission is to support sustainable growth by collaborating with companies tha
   subtitle="Space Cubics",
   slogan="INFORMATION",
   items="
-2025.06.01 | /news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics, Inc. 
+2025.06.01 | /en/news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics, Inc. 
 
-2025.04.09 | /news/2025-04-09 | brainchild.png | With the consent of all board members, on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., effective June 1, 2025.
+2025.04.09 | /en/news/2025-04-09 | brainchild.png | With the consent of all board members, on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., effective June 1, 2025.
 
-2022.03.07 | /news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
+2022.03.07 | /en/news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
 
-2020.08.18 | /news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One.
+2020.08.18 | /en/news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One.
 
-2020.01.14 | /news/2020-01-14 | brainchild.png | We have been recognized as a leading technology venture company in Japan and selected for the “J-TECH STARTUP 2019” program. We are scheduled to present at the award ceremony on Wednesday, February 26, 2020.
+2020.01.14 | /en/news/2020-01-14 | brainchild.png | We have been recognized as a leading technology venture company in Japan and selected for the “J-TECH STARTUP 2019” program. We are scheduled to present at the award ceremony on Wednesday, February 26, 2020.
 
-2019.10.31 | /news/2019-10-31 | square_cubics.png | An article about space computers was featured on the front page of the Nikkei Industrial Newspaper under the headline “JAXA Entrepreneurs Bring Space Technology to Earth.”
+2019.10.31 | /en/news/2019-10-31 | square_cubics.png | An article about space computers was featured on the front page of the Nikkei Industrial Newspaper under the headline “JAXA Entrepreneurs Bring Space Technology to Earth.”
     
-2018.09.25 | /news/2018-09-25 | jts.png | Our company's Goto gave a presentation at the 26th NEDO Pitch (Regional Venture Special Feature).  
+2018.09.25 | /en/news/2018-09-25 | jts.png | Our company's Goto gave a presentation at the 26th NEDO Pitch (Regional Venture Special Feature).  
 
-2018.06.01 | /news/2018-06-01 | brainchild.png | Space Cubics LLC was established.This is the first JAXA venture company jointly established by JAXA staff and members from private companies. 
+2018.06.01 | /en/news/2018-06-01 | brainchild.png | Space Cubics LLC was established.This is the first JAXA venture company jointly established by JAXA staff and members from private companies. 
 
-2018.05.29 | /news/2018-05-29 | square_cubics.png | We have been certified as a “JAXA Venture” by the National Institute of Aerospace and Space Research and Development (JAXA).
+2018.05.29 | /en/news/2018-05-29 | square_cubics.png | We have been certified as a “JAXA Venture” by the National Institute of Aerospace and Space Research and Development (JAXA).
 
   "
 ) %}
