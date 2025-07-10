@@ -77,7 +77,7 @@ Masayuki Goto (後藤 雅享)｜Founding Member｜Space System Engineer｜ Mr. G
 ) %}
 Space Cubics and Space One were both selected for an industrial development grant by Japan's Ministry of Economy, Trade and Industry.
 <br><br>
-Now, we deploy our space computers in cubesats using Space One's KAIROS rocket. Every launch provides valuable telemetry data that drives refinement.
+Now, we deploy our space computers in CubeSats using Space One's KAIROS rocket. Every launch provides valuable telemetry data that drives refinement.
 {% end %}
 
 {% prefooter(

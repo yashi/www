@@ -17,7 +17,7 @@ title = "Space Cubics Inc."
   subtitle="Make the impossible",
   slogan="POSSIBLE",
   bottom_title="SC-OBC Module A1",
-  hero_footer="PRODUCT 01 <br> Space computer module <br> for cubesats"
+  hero_footer="PRODUCT 01 <br> Space computer module <br> for CubeSats"
 ) %}
 衛星用超小型
 <br>

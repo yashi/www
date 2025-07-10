@@ -18,7 +18,7 @@ date = 2023-08-31
 ---
 
 ### Job Description  
-- Design and development of the communication system for our Cubesat  
+- Design and development of the communication system for our CubeSat  
 - Design and implementation of the communication protocol stack (from ground station to satellite)  
 - Interface design and firmware development for RF equipment  
 - Construction of communication simulation and real-world testing environments  
