@@ -109,7 +109,7 @@
     subtitle="",
     slogan=""
   ) %}
-  User Manual | Contains specifications, communication systems, circuit configurations, etc. for the SC-OBC Module A1. | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
+  User Manual | Contains specifications, communication systems, circuit configurations, etc. for the SC-OBC Module A1. | https://github.com/spacecubics/scobc-a1-product-manual/tree/main
   FPGA Hardware Manual | This is the specification manual for the FPGA installed in SC-OBC Module A1. It contains specifications related to FPGA functions and registers necessary for FPGA development and software development. | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
   GitHub | For other technical information, please refer to the following. | https://github.com/spacecubics
   {% end %}

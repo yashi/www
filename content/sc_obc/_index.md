@@ -109,8 +109,8 @@
     subtitle="",
     slogan=""
   ) %}
-  ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | https://github.com/spacecubics/scobc-a1-product-manual/blob/main/product_manual.org
-  FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | https://sc-obc-fpga-technical-reference-manual.readthedocs.io/ja/latest/
+  ユーザーマニュアル | SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。 | https://github.com/spacecubics/scobc-a1-product-manual/tree/main
+  FPGA ハードウェアマニュアル | SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。 | https://docs.zephyrproject.org/latest/boards/sc/scobc_a1/doc/index.html
   GitHub | その他、様々な技術情報はこちらを参照ください。 | https://github.com/spacecubics
   {% end %}
 
