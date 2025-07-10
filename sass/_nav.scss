@@ -41,6 +41,10 @@
       gap: 15rem;
       flex-wrap: nowrap;
 
+      @media (min-width: 3840px) {
+        gap: 25rem;
+      }
+
       @media (max-width: 1400px) {
         gap: 15rem;
       }
@@ -79,29 +83,27 @@
     }
 
     .ls-nav-item-desktop {
-      position: absolute;
-      top: -0.5rem;
-      left: 21rem;
-      z-index: 2;
+      position: static;
+      margin-bottom: 0.2rem;
       display: flex;
       align-items: center;
       margin: 0;
       padding: 0;
 
       @media (max-width: 1400px) {
-        left: 26rem;
+        top: -0.8rem;
       }
 
       @media (max-width: 1200px) {
-        left: 26rem;
+        top: -0.6rem;
       }
 
       @media (max-width: 1000px) {
-        left: 23rem;
+        top: -0.4rem;
       }
 
       @media (max-width: 850px) {
-        left: 20rem;
+        top: -0.2rem;
       }
 
       @media (max-width: 720px) {
@@ -212,42 +214,40 @@
         gap: 0.4rem;
       }
 
-              @media (max-width: 720px) {
-          display: none;
-          flex-direction: column;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          right: 0;
-          background-color: var(--glass-bg);
-          backdrop-filter: var(--blur);
-          -webkit-backdrop-filter: var(--blur);
-          border-radius: 1rem;
-          padding: 1rem;
-          margin-top: 0.5rem;
-          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-          z-index: 1000;
-          gap: 0.5rem;
+      @media (max-width: 720px) {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--glass-bg);
+        backdrop-filter: var(--blur);
+        -webkit-backdrop-filter: var(--blur);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        gap: 0.5rem;
 
-          &.open {
-            display: flex;
-          }
+        &.open {
+          display: flex;
+        }
 
+        .main-navbar-item {
+          width: 100%;
+          margin: 0;
+          padding: 0;
 
-
-          .main-navbar-item {
+          .main-navbar-link {
             width: 100%;
-            margin: 0;
-            padding: 0;
-
-            .main-navbar-link {
-              width: 100%;
-              text-align: center;
-              padding: 0.75rem 1rem;
-              border-radius: 0.5rem;
-              font-size: 1rem;
-            }
+            text-align: center;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
           }
+        }
 
         .divider {
           display: none;
@@ -517,4 +517,20 @@
   transform: none;
   transition: none;
   filter: none;
+}
+
+.main-navbar-item.recruit-with-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.recruit-with-switcher .ls-nav-item-desktop {
+  position: static;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

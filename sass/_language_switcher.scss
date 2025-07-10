@@ -6,7 +6,7 @@
   position: relative;
   z-index: 2;
   margin: 0;
-  padding-left: 9rem;
+  padding: 0;
   display: block;
   width: auto;
   text-align: center;
@@ -51,57 +51,6 @@
 }
 
 // Responsive adjustments
-@media (max-width: 1400px) {
-  .ls-container {
-    padding-left: 6rem;
-  }
-}
-@media (max-width: 1200px) {
-  .ls-container {
-    padding-left: 3rem;
-  }
-}
-@media (max-width: 932px) {
-  .ls-container {
-    padding-left: 0;
-    text-align: right;
-  }
-}
-@media (max-width: 850px) {
-  .ls-container {
-    padding-left: 0.5rem;
-  }
-}
-@media (max-width: 720px) {
-  .ls-container {
-    padding-left: 0;
-  }
-}
-
-@media (max-width: 1200px) {
-  .ls-trigger {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .ls-trigger {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 900px) {
-  .ls-trigger {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 850px) {
-  .ls-trigger {
-    font-size: 13px;
-  }
-}
-
 @media (max-width: 720px) {
   .ls-container {
     position: relative;

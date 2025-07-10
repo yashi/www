@@ -20,19 +20,7 @@
       </div>
 
                     <div class="nav-links-container">
-        {%- if config.languages | length > 0 %}
-          <div class="ls-nav-item-desktop">
-            {%- include "partials/language_switcher.html" %}
-          </div>
-        {%- endif %}
-        
         <div id="main-nav-list" class="main-navbar-list">
-          {%- if config.languages | length > 0 %}
-            <div class="ls-nav-item-mobile">
-              {%- include "partials/language_switcher.html" %}
-            </div>
-          {%- endif %}
-          
           {%- for link in config.extra.nav.links %}
             {%- if link.menu and link.menu | length > 0 -%}
               <div class="main-navbar-item">
@@ -62,6 +50,15 @@
                   {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
                 </div>
               </div>
+            {%- elif link.name == "Recruit" and config.languages | length > 0 %}
+              <div class="main-navbar-item recruit-with-switcher">
+                <div class="ls-nav-item-desktop">
+                  {%- include "partials/language_switcher.html" %}
+                </div>
+                <div class="main-navbar-link" data-href="{{ get_url(path=link.url, lang=lang) }}" role="button" tabindex="0">
+                  {{- macros_translate::translate(key=link.name, default=link.name, language_strings=language_strings) -}}
+                </div>
+              </div>
             {%- else %}
               <div class="main-navbar-item">
                 <div class="main-navbar-link" data-href="{{ get_url(path=link.url, lang=lang) }}" role="button" tabindex="0">
@@ -76,6 +73,12 @@
               <div class="main-navbar-link" data-href="{{ get_url(path='contact', lang=lang) }}" role="button" tabindex="0">
                 {{ macros_translate::translate(key="contact", default="Contact", language_strings=language_strings) }}
               </div>
+            </div>
+          {%- endif %}
+
+          {%- if config.languages | length > 0 %}
+            <div class="ls-nav-item-mobile">
+              {%- include "partials/language_switcher.html" %}
             </div>
           {%- endif %}
         </div>
