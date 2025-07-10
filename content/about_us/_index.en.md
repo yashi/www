@@ -90,20 +90,20 @@ Space One.
   left_subtitle = "Board introduction"
   left_footer_1 = "We provide reliable products and"
   left_footer_2 = "support space development."
-  left_link = "/products"
+  left_link = "/en/products"
 
   right_title="RECRUIT",
   right_subtitle="Employment details",
   right_footer_1="We are always looking for new people to join our team.",
   right_footer_2="If you are interested, please contact us.",
-  right_link="/recruit",
+  right_link="/en/recruit",
 
   bottom_card_image = "<!--display element -->",
   bottom_title="CONTACT",
   bottom_subtitle="Reach out to us.",
   bottom_footer_1="We welcome inquiries and questions about our business and services.",
   bottom_footer_2="Please feel free to contact us.",
-  bottom_link="/contact",
+  bottom_link="/en/contact",
 
   bg=""
 ) %}
