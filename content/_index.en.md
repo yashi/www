@@ -96,20 +96,20 @@ Our mission is to support sustainable growth by collaborating with companies tha
   left_subtitle="Job openings",
   left_footer_1="We are always looking for new people to join our team.",
   left_footer_2="If you are interested, please contact us.",
-  left_link="/recruit",
+  left_link="/en/recruit",
 
   right_title="IR INFO",
   right_subtitle="Investor details",
   right_footer_1="For our stakeholders,",
   right_footer_2="we provide information on financial results and timely disclosures.",
-  right_link="/ir_info",
+  right_link="/en/ir_info",
 
   bottom_card_image = "<!--display element -->",
   bottom_title = "CONTACT",
   bottom_subtitle = "Reach out to us.",
   bottom_footer_1 = "We welcome inquiries and questions about our business and services.",
   bottom_footer_2 = "Please feel free to contact us.",
-  bottom_link = "/contact", 
+  bottom_link = "/en/contact", 
 
   bg=""
 ) %}
