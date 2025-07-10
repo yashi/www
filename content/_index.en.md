@@ -19,9 +19,9 @@ title = "Space Cubics Inc."
   bottom_title="SC-OBC Module A1",
   hero_footer="PRODUCT 01 <br> Space computer module <br> for cubesats"
 ) %}
-Ultra-small for satellites
+Ultra-small and made for satellites.
 <br>
-Space computer module
+Space computer modules.
 
 {% end %}
 
@@ -38,9 +38,9 @@ Space computer module
   img_link=""
 ) %}
 Space Cubics, Inc.
-<br>is a JAXA venture company
-<br>developing affordable and reliable space computers
-<br>with the goal of making it possible for everyone to go to the moon.
+<br>is a JAXA venture that makes
+<br>affordable and reliable space computers
+<br>so that anyone can go to the moon.
 {% end %}
 
 {% hero_element(
@@ -54,9 +54,9 @@ Space Cubics, Inc.
   link_text="",
   img_link=""
 ) %}
-We are walking alongside venture companies in fields such as space and technology that are pioneering the future.
+We work alongside pioneering venture companies in the growing space industry.
 <br><br>
-Our mission is to support sustainable growth by collaborating with companies that possess innovative technologies and cutting-edge ideas.
+Our mission is to support sustainable growth through partnership with teams that possess innovative technology and ideas.
 {% end %}
 
 {% news_carousel(
@@ -64,24 +64,25 @@ Our mission is to support sustainable growth by collaborating with companies tha
   title="NEWS",
   subtitle="Space Cubics",
   slogan="INFORMATION",
-  items="
-2025.06.01 | /en/news/2025-06-01 | jts.png | Space Cubics LLC has changed its organizational structure and has been reborn as Space Cubics, Inc. 
+  items=
+  "
+2025.06.01 | /en/news/2025-06-01 | jts.png | Space Cubics, LLC has changed its organizational structure and is now Space Cubics, Inc. 
 
-2025.04.09 | /en/news/2025-04-09 | brainchild.png | With the consent of all board members, on March 26, 2025, our company has changed its organizational structure and will operate as Space Cubics, Inc., effective June 1, 2025.
+2025.04.09 | /en/news/2025-04-09 | brainchild.png | Following a board decision in March, our company has been re-structured as Space Cubics, Inc., as of June 1, 2025.
 
-2022.03.07 | /en/news/2022-03-07 | square_cubics.png | Our products and activities have been featured in a special article on deep tech in the “News Switch” section of the Nikkan Kogyo Shimbun.
+2022.03.07 | /en/news/2022-03-07 | square_cubics.png | Space Cubics was featured in a special edition of the Nikkan Kogyo Shimbun.
 
-2020.08.18 | /en/news/2020-08-18 | jts.png | We have been selected for the “Fiscal Year 2020 Industrial Technology Practical Development Grant Program” implemented by the Ministry of Economy, Trade and Industry, in collaboration with Space One.
+2020.08.18 | /en/news/2020-08-18 | jts.png | Space Cubics was awarded the 2020 Industrial Technology Practical Development Grant by the Ministry of Economy, Trade and Industry.
 
-2020.01.14 | /en/news/2020-01-14 | brainchild.png | We have been recognized as a leading technology venture company in Japan and selected for the “J-TECH STARTUP 2019” program. We are scheduled to present at the award ceremony on Wednesday, February 26, 2020.
+2020.01.14 | /en/news/2020-01-14 | brainchild.png | Space Cubics was selected for the J-TECH STARTUP 2019 program.
 
-2019.10.31 | /en/news/2019-10-31 | square_cubics.png | An article about space computers was featured on the front page of the Nikkei Industrial Newspaper under the headline “JAXA Entrepreneurs Bring Space Technology to Earth.”
+2019.10.31 | /en/news/2019-10-31 | square_cubics.png | Space Cubics was featured in the Nikkei Industrial Newspaper as JAXA Entrepreneurs Bringing Space Technology to Earth.
     
-2018.09.25 | /en/news/2018-09-25 | jts.png | Our company's Goto gave a presentation at the 26th NEDO Pitch (Regional Venture Special Feature).  
+2018.09.25 | /en/news/2018-09-25 | jts.png | Mr. Goto, a founding member, presented at the 26th NEDO Pitch Meeting.  
 
-2018.06.01 | /en/news/2018-06-01 | brainchild.png | Space Cubics LLC was established.This is the first JAXA venture company jointly established by JAXA staff and members from private companies. 
+2018.06.01 | /en/news/2018-06-01 | brainchild.png | Space Cubics, LLC was established as a JAXA venture company.
 
-2018.05.29 | /en/news/2018-05-29 | square_cubics.png | We have been certified as a “JAXA Venture” by the National Institute of Aerospace and Space Research and Development (JAXA).
+2018.05.29 | /en/news/2018-05-29 | square_cubics.png | Space Cubics was certified as a JAXA Venture by the Japan Aerospace Exploration Agency (JAXA).
 
   "
 ) %}
@@ -101,13 +102,13 @@ Our mission is to support sustainable growth by collaborating with companies tha
   right_title="IR INFO",
   right_subtitle="Investor details",
   right_footer_1="For our stakeholders,",
-  right_footer_2="we provide information on financial results and timely disclosures.",
+  right_footer_2="we gladly provide financial data in a timely manner.",
   right_link="/en/ir_info",
 
   bottom_card_image = "<!--display element -->",
   bottom_title = "CONTACT",
   bottom_subtitle = "Reach out to us.",
-  bottom_footer_1 = "We welcome inquiries and questions about our business and services.",
+  bottom_footer_1 = "We welcome inquiries about our business and services.",
   bottom_footer_2 = "Please feel free to contact us.",
   bottom_link = "/en/contact", 
 

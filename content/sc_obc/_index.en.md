@@ -133,7 +133,7 @@
     bottom_card_image = "<!--display element -->",
     bottom_title="CONTACT",
     bottom_subtitle="Send a message",
-    bottom_footer_1="We welcome inquiries and questions about our business and services.",
+    bottom_footer_1="We welcome inquiries about our business and services.",
     bottom_footer_2="Please feel free to contact us.",
     bottom_link="/en/contact",
 

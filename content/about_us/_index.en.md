@@ -101,7 +101,7 @@ Space One.
   bottom_card_image = "<!--display element -->",
   bottom_title="CONTACT",
   bottom_subtitle="Reach out to us.",
-  bottom_footer_1="We welcome inquiries and questions about our business and services.",
+  bottom_footer_1="We welcome inquiries about our business and services.",
   bottom_footer_2="Please feel free to contact us.",
   bottom_link="/en/contact",
 
