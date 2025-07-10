@@ -5,6 +5,6 @@ date = 2018-06-01
 banner = "products_banner2.jpeg"
 +++
 
-### Space Cubics Inc. was established as the first JAXA venture company, founded jointly by JAXA employees and members of the private sector.
+Space Cubics was established as the first JAXA venture company, founded jointly by JAXA employees and members of the private sector.
 
 

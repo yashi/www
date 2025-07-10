@@ -5,8 +5,8 @@ date = 2018-09-25
 banner = "products_banner2.jpeg"
 +++
 
-### Our representative, Goto, gave a presentation at the 26th NEDO Pitch (Regional Startups Special Edition).
+Our representative, Mr. Goto, gave a presentation at the 26th NEDO Pitch (Regional Startups Special Edition).
 
-## [article link](https://www.youtube.com/watch?v=Zt_zESlPNQ4)  
+[article link](https://www.youtube.com/watch?v=Zt_zESlPNQ4)  
 
 
