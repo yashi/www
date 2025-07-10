@@ -27,7 +27,7 @@
     subtitle="",
     slogan=""
   ) %}
-  This space computer is optimally designed for CubeSats based on reliability design technology cultivated by JAXA on the International Space Station. It uses Xilinx Artix-7 FPGA, allowing flexible support for various types and numbers of interfaces according to user requirements. It can also be used for other spacecraft and industrial applications on Earth.
+  The SC-OBC MODULE A1 board is optimized for use in CubeSats. We use technology cultivated by JAXA for reliable, safe use on the International Space Station. These boards use a Xilinx Artix-7 FPGA, allowing flexible configuration and multiple interface options. Not limited to CubeSats, our boards can also benefit other spacecraft and even terrestrial applications here on Earth.
 {% end %}
 
 <section id="section-usage">
@@ -44,10 +44,10 @@
   right_card_image="satellite.jpg",
   
   left_card_title="",
-  left_card_subtitle="For installation in our artificial satellite, <br> <br> the SC-OBC Module A1 is mounted on an interface board designed for the PC104 form factor.",
+  left_card_subtitle="During installation in our own satellite, <br> <br> the SC-OBC Module A1 board was mounted to an interface board with a PC104 form factor.",
   
   right_card_title="",
-  right_card_subtitle="An artificial satellite equipped with the SC-OBC Module A1 installed on an interface board. <br> <br> (Photo shows a prototype under development)",
+  right_card_subtitle="A satellite equipped with the SC-OBC Module A1 installed on an interface board. <br> <br> (Photo shows a prototype under development)",
   
   bg=""
 ) %}
@@ -109,8 +109,8 @@
     subtitle="",
     slogan=""
   ) %}
-  User Manual | Contains specifications, communication systems, circuit configurations, etc. for the SC-OBC Module A1. | https://github.com/spacecubics/scobc-a1-product-manual/tree/main
-  FPGA Hardware Manual | This is the specification manual for the FPGA installed in SC-OBC Module A1. It contains specifications related to FPGA functions and registers necessary for FPGA development and software development. | https://docs.zephyrproject.org/latest/boards/sc/scobc_a1/doc/index.html
+  User Manual | This repository serves as documentation on SC-OBC Module A1 specifications, communication systems, circuit configurations, and more. | https://github.com/spacecubics/scobc-a1-product-manual/tree/main
+  Zephyr Info Page | This is the dedicated SC-OBC Module A1 page on the Zephyr Project site. | https://docs.zephyrproject.org/latest/boards/sc/scobc_a1/doc/index.html
   GitHub | For other technical information, please refer to the following. | https://github.com/spacecubics
   {% end %}
 

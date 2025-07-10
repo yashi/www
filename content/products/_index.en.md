@@ -25,7 +25,7 @@
   img="sq_sc-obc_module_a1.png",
   img_link="",
   alt="",
-  pre_title="Ultra-small space computer module for satellites",
+  pre_title="Ultra-small space computer module for satellites.",
   title="SC-OBC Module A1",
   subtitle="Built for performance, engineered for durability.",
   text1_a="Main Processor",
