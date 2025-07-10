@@ -28,6 +28,11 @@
   border: 1px solid transparent;
   display: block;
 
+  @media (min-width: 3840px) {
+    font-size: 1.3rem;
+    padding: 6px 12px;
+  }
+
   &:hover {
     color: var(--fg-muted-5);
     background-color: var(--fg-muted-1);
@@ -38,6 +43,10 @@
   &.current-lang {
     color: white;
     font-size: 0.85rem !important;
+
+    @media (min-width: 3840px) {
+      font-size: 1.3rem !important;
+    }
   }
 
   &::before {
