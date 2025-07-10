@@ -207,6 +207,13 @@
   }
 }
 
+// Move buttons more to the left on 932px screens
+@media (max-width: 950px) and (min-width: 900px) {
+  .section-title-header .carousel-controls {
+    right: 3em;
+  }
+}
+
 @media (max-width: 600px) {
   .section-title-header {
     flex-direction: column;
