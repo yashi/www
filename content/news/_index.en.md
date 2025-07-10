@@ -28,7 +28,7 @@ Certification as a “JAXA Venture” | /en/news/2018-05-29/ | square_cubics.png
   bottom_subtitle="Reach out to us",
   bottom_footer_1="We are happy to answer any questions or inquiries you may have about our business or services.",
   bottom_footer_2="Please feel free to contact us.",
-  bottom_link="/contact",
+  bottom_link="/en/contact",
   bg=""
 ) %}
 <!--display element -->
