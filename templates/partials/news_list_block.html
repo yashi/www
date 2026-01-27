@@ -1,7 +1,7 @@
 {% for news in all_news %}
 <div class="sc-list__item">
 	<span class="sc-list__label">
-		<time datetime>{{ news.date | date(format=date_format) }}</time>
+		<time datetime="{{ news.date | date(format="%Y-%m-%d") }}">{{ news.date | date(format=date_format) }}</time>
 	</span>
 	<span class="sc-list__value">
 		<a href="{{ news.permalink }}" class="sc-list__link">
