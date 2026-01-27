@@ -101,10 +101,7 @@ SC-OBC Module V1は2026年春の発売を予定しています。詳しくは [�
 ## DOCUMENTS
 
 {% docs_resources() %}
-  Product Manual | This document describes all about SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1-product-manual/latest/index.html
-  Development Board Product Manual | This document is for a carrier board for SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1-dev-product-manual/latest/
-  FPGA Developers Guide | This document provides the technical information required to develop the FPGA design for the SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1-fpga-developers-guide/latest/
-  Software Manual | This document is all about software for SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1-software-manual/latest/
+  Product Manual | This document describes all about SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1/latest/index.html
   Yocto Layer for V1 | This is a yocto layer for SC-OBC Module V1. | https://github.com/spacecubics/meta-scobc
   GitHub | For other technical information, please refer to our GitHub repositories. | https://github.com/spacecubics
 {% end %}
