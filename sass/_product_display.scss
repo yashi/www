@@ -149,32 +149,6 @@
 			}
 		}
 
-		.product-external {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			gap: 3rem;
-			align-items: center;
-			justify-items: center;
-			margin-top: 1rem;
-			width: 100%;
-			font-size: 14px;
-
-			@media (max-width: 768px) {
-				flex-direction: column;
-				gap: 1.25rem;
-				align-items: stretch;
-				.external-pair, .external-item {
-					width: 100%;
-					gap: 0.3rem;
-				}
-			}
-			@media (max-width: 480px) {
-				gap: 0.7rem;
-				font-size: 11px;
-			}
-		}
-
 		.product-details {
 			display: flex;
 			align-items: center;

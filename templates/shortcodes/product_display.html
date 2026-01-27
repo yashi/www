@@ -40,21 +40,6 @@
 			{% endif %}
 		</div>
 
-		<div class="product-external">
-			{% for external_resource in external_resources %}
-				{% if external_resource | length == 2 %}
-					{% set  external_label = external_resource[0] %}
-					{% set  external_link = external_resource[1] %}
-						<a href="{{ external_link }}" class="external-link" aria-label="{{ external_label }}">
-							<span class="external-link__pair">
-								<span class="external-link__label">{{ external_label }}</span>
-								<img src="/cil-external-link.svg" alt="External link" class="external-link__icon" width="16" height="16" />
-							</span>
-						</a>
-				{% endif %}
-			{% endfor %}
-		</div>
-
 		{% if details_link %}
 			<div class="product-details">
 				Details
