@@ -14,7 +14,7 @@
 		<h2 class="job-post__title">{{ page.title }}</h2>
 		{% if page.date %}
 			<p class="job-post__date">
-				<time datetime>{{ page.date | date(format=date_format) }}</time>
+				<time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format=date_format) }}</time>
 			</p>
 		{% endif %}
 	</header>
