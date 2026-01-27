@@ -98,7 +98,7 @@ SC-OBC Module V1 is scheduled for release in spring 2026. Please use our [contac
 ) }}
 
 
-## DOCUMENTS
+## RESOURCES
 
 {% docs_resources() %}
   Product Manual | This document describes all about SC-OBC Module V1. | https://spacecubics.github.io/sc-docs/scobc-v1/latest/index.html
