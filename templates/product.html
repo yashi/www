@@ -10,13 +10,11 @@
 	  <div class="quick-jump-item">
 		  <div class="content-group">
       	<div class="title">{{ h.title }}</div>
-        <a href="#{{ h.id }}">
-        <button
+        <a href="#{{ h.id }}"
 				  class="jump-button"
-				  type="button"
 				  aria-label="Jump to {{ h.title }}">
           <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button></a>
+        </a>
       </div>
     </div>
 		{% endfor %}
