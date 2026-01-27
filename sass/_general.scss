@@ -96,3 +96,7 @@ body {
 html, body {
 	overflow-x: hidden;
 }
+
+html:lang(ja), body:lang(ja) {
+  line-break: strict;
+}
