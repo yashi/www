@@ -93,8 +93,7 @@ SC-OBC Module V1 is scheduled for release in spring 2026. Please use our [contac
 	left_card_title="Development Kit",
 	left_card_subtitle="coming soon",
 	right_card_title="Options",
-	right_card_subtitle="coming soon",
-	bg=""
+	right_card_subtitle="coming soon"
 ) }}
 
 

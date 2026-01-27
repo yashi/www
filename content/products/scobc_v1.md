@@ -93,8 +93,7 @@ SC-OBC Module V1は2026年春の発売を予定しています。詳しくは [�
 	left_card_title="開発キット",
 	left_card_subtitle="coming soon",
 	right_card_title="オプション品",
-	right_card_subtitle="coming soon",
-	bg=""
+	right_card_subtitle="coming soon"
 ) }}
 
 

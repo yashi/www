@@ -31,9 +31,7 @@ Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数を�
 	left_card_subtitle="弊社人工衛星に搭載するため、<br> <br> PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態",
 
 	right_card_title="",
-	right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星<br> <br> （写真は開発中のもの）",
-
-	bg=""
+	right_card_subtitle="インタフェースボードに 搭載したSC-OBC Module A1が 組み込まれた人工衛星<br> <br> （写真は開発中のもの）"
 ) }}
 
 ## SPECS
@@ -86,8 +84,7 @@ SC-OBC Module A1と衛星を接続するための基板開発を受託します�
 	left_card_title="開発キット",
 	left_card_subtitle="coming soon",
 	right_card_title="オプション品",
-	right_card_subtitle="coming soon",
-	bg=""
+	right_card_subtitle="coming soon"
 ) }}
 
 ## DOCUMENTS

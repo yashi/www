@@ -34,9 +34,7 @@ even terrestrial applications here on Earth.
 	left_card_subtitle="During installation in our own satellite, <br> <br> the SC-OBC Module A1 board was mounted to an interface board with a PC104 form factor.",
 
 	right_card_title="",
-	right_card_subtitle="A satellite equipped with the SC-OBC Module A1 installed on an interface board. <br> <br> (Photo shows a prototype under development)",
-
-	bg=""
+	right_card_subtitle="A satellite equipped with the SC-OBC Module A1 installed on an interface board. <br> <br> (Photo shows a prototype under development)"
 ) }}
 
 
@@ -106,8 +104,7 @@ information.
 	left_card_title="Development Kit",
 	left_card_subtitle="coming soon",
 	right_card_title="optional items",
-	right_card_subtitle="coming soon",
-	bg=""
+	right_card_subtitle="coming soon"
 ) }}
 
 
