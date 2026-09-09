@@ -1,0 +1,36 @@
+name: Terminology Check
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  check-terminology:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Check terminology
+        run: |
+          grep_status=0
+          git grep --line-number -f .terminology || grep_status=$?
+
+          case "$grep_status" in
+            0)
+              echo '::error::Incorrect terminology found. '
+              echo '::error::See .terminology for the prohibited patterns.'
+              exit 1
+              ;;
+            1)
+              exit 0
+              ;;
+            *)
+              echo '::error::An error occurred while checking terminology.'
+              exit 1
+              ;;
+          esac
