@@ -174,4 +174,4 @@ Please feel free to submit a pull request and/or post an issue.
 
 ---
 
-**Space Cubics, Inc.**
+**Space Cubics Inc.**

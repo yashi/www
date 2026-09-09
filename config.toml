@@ -16,7 +16,7 @@ smart_punctuation = true
 bottom_footnotes = true
 
 [languages.en]
-title = "Space Cubics, Inc."
+title = "Space Cubics Inc."
 description = "Space Cubics designs and develops high-reliability computers and avionics for spacecraft and satellites in the harsh environment of space."
 
 [slugify]

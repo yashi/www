@@ -16,7 +16,7 @@ If you are interested, please contact us.
 
 {% <recruit_intro title="We are always looking for new members to join our team. <br><br> If you are interested, please contact us using the application form."> %}
 
-Space Cubics, Inc. was founded by engineers who met while working in
+Space Cubics was founded by engineers who met while working in
 various space tech fields. We genuinely enjoy engineering computers
 that can be used in the harsh, extreme environment of space.
 

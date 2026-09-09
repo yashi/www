@@ -41,7 +41,7 @@ prefooter_cards = ["recruit/_index.en.md", "investor-relations/_index.en.md", "c
 
 {% <hero_element bg="about.jpg" title="ABOUT US" subtitle="To drink beer" slogan="ON THE MOON"> %}
 	{% <hero_content lang img="empty_image.png" alt="" link="@/about-us.md" link_text="About Us" bottom_title=""> %}
-	Space Cubics, Inc.
+	Space Cubics Inc.
 	<br>is a JAXA venture that makes
 	<br>affordable and reliable space computers
 	<br>so that anyone can go to the moon.
